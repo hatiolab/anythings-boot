@@ -1,0 +1,297 @@
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Base64;
+import java.text.SimpleDateFormat;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+
+version = '0.0.0.1'
+sourceCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+ext {
+	groupId = "com.hatiolab"
+	artifactId = project.name
+
+	userName = "admin";
+	password = "elidom";
+
+	majorVersion = 0
+	minorVersion = 0
+	patchVersion = 0
+	buildVersion = 0
+	
+//	elingsVersion = isTask("snapshot") ? 'latest.integration' : 'latest.release'
+}
+
+/**
+ * Check Task
+ */
+ext.isTask = { taskNames -> 
+	def checkTaskNames = taskNames.split(",");
+	def exeTasks = project.gradle.startParameter.taskNames;
+
+	for(def checkTask : checkTaskNames) {
+		for(def exeTask : exeTasks) {
+			if(exeTask.equalsIgnoreCase(checkTask.trim())) {
+				return true;
+			}
+		}
+	}
+	return false;
+}
+
+/**
+ * Get Dependency Last Version
+ */
+ext.getLastVersion = { name ->
+	def elingsVersion
+	def info = name.split(":");
+	
+	if(!isTask("fix") && !isTask("build") && isTask("upload")) {
+		elingsVersion = 'latest.release'
+	} else {
+		def lastVersion = getDependencyVersion(info[0]);
+		elingsVersion = info.length == 1 ? lastVersion : lastVersion + "-" + info[1]
+	}
+
+	println( info[0] + " Version : " + elingsVersion);
+	return elingsVersion
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+	classifier = 'sources'
+	from sourceSets.main.allSource
+}
+
+//task javadocJar(type: Jar, dependsOn: javadoc) {
+//    classifier = 'javadoc'
+//    from javadoc.destinationDir
+//}
+
+artifacts {
+	if(isTask("fix"))
+		return;
+	
+    archives sourcesJar
+	//archives javadocJar
+}
+
+task initTask() {
+	version = getCurrentModuleVersion(artifactId);
+}
+
+task major() {
+	if(!isTask("major")) {
+		return;
+	}
+	
+	++majorVersion;
+	minorVersion = 0;
+	patchVersion = 0;
+	buildVersion = 0;
+	
+	updateVersionInfo();
+}
+
+task minor() {
+	if(!isTask("minor")) {
+		return;
+	}
+	
+	++minorVersion;
+	patchVersion = 0;
+	++buildVersion;
+	
+	updateVersionInfo();
+}
+
+task patch() {
+	if(!isTask("patch")) {
+		return;
+	}
+	
+	++patchVersion;
+	++buildVersion;
+	
+	updateVersionInfo();
+}
+
+task release() {
+	if(!isTask("release")) {
+		return;
+	}
+	
+	++buildVersion;
+	
+	updateVersionInfo();
+}
+
+task snapshot() {
+	if(!isTask("snapshot")) {
+		return;
+	}
+
+	buildVersion = buildVersion + "-SNAPSHOT";
+}
+
+task fix() {
+}
+
+uploadArchives {
+	if(!isTask("upload, uploadArchives")) {
+		return;
+	}
+
+	def repositoryURL;
+
+	if(isTask("snapshot")) {
+		repositoryURL = baseUrl + "/repositories/snapshots/";
+	} else if(isTask("build")) {
+		repositoryURL = baseUrl + "/repositories/jar_deployed/";
+	} else {
+		repositoryURL = baseUrl + "/repositories/hatiolab/";
+	}
+
+	repositories {
+		mavenDeployer {
+			repository(url: repositoryURL) {
+				authentication (userName: userName, password: password)
+			}
+			pom.version = generateVersion()
+			pom.groupId = groupId
+			pom.artifactId = artifactId
+			
+			println pom.version;
+		}
+	}
+}
+
+/*********************************************
+ * Function
+ *********************************************/
+
+/**
+ * Get Current Module Version
+ */
+def getCurrentModuleVersion(artifactId) {
+	String currentVersion = getVersion(artifactId);
+	String[] versionInfo = currentVersion != null ? currentVersion.split("\\.") : version.split("\\.");
+
+	majorVersion = Integer.parseInt(versionInfo[0]);
+	minorVersion = Integer.parseInt(versionInfo[1]);
+	patchVersion = Integer.parseInt(versionInfo[2]);
+	
+	if(versionInfo.length == 4)
+		buildVersion = Integer.parseInt(versionInfo[3]);
+
+	return generateVersion();
+}
+
+/**
+ * Gegerate Version
+ */
+def generateVersion() {
+	return majorVersion + "." + minorVersion + "." + patchVersion + "." + buildVersion;
+}
+
+/**
+ * Get Dependency Version
+ */
+def getDependencyVersion(artifactId) {
+	return getVersion(artifactId);
+}
+
+/**
+ * Get Version
+ */
+def getVersion(artifactId) {
+	try {
+		String groupId = this.groupId;
+		String rootPath = baseUrl + "/repositories";
+		String repositoryName = "hatiolab";
+		String metaFileName = "maven-metadata.xml";
+
+		// http://repo.hatiolab.com/nexus/content/repositories/jar_deployed/com/hatiolab/elings-scene/maven-metadata.xml
+		StringJoiner path = new StringJoiner("/");
+		path.add(rootPath).add(repositoryName).add(groupId.replace(".", "/")).add(artifactId).add(metaFileName);
+
+		URL url = new URL(path.toString());
+		URLConnection connection = url.openConnection();
+
+		String userpass = userName + ":" + password;
+		String basicAuth = "Basic " + new String(Base64.getEncoder().encode(userpass.getBytes()));
+
+		connection.setRequestProperty("Authorization", basicAuth);
+		connection.setRequestProperty("X-Requested-With", "Curl");
+
+		Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(connection.getInputStream());
+		NodeList descNodes = doc.getElementsByTagName("versioning");
+
+		for (int i = 0; i < descNodes.getLength(); i++) {
+			// 첫번째 자식을 시작으로 마지막까지 다음 형제를 실행
+			for (Node node = descNodes.item(i).getFirstChild(); node != null; node = node.getNextSibling()) {
+				if (!node.getNodeName().equals("release")) {
+					continue;
+				}
+				return node.getTextContent();
+			}
+		}
+	} catch(Exception e) {
+		e.getMessage();
+	}
+	return null;
+}
+
+/**
+ * Property File에 Version 정보 Update
+ */
+def updateVersionInfo() {
+	def projectName = rootProject.projectDir.getName();
+	def projectPath = rootProject.projectDir.getPath().replaceAll("\\\\", "/");
+	def propertyDirPath = projectPath + '/src/main/resources/properties';
+	def moduleName = projectName.split('-')[1];
+	def fileName = projectName.substring(projectName.indexOf("-") + 1, projectName.length()) + '.properties';
+	def versionPropertyName = 'anythings.' + moduleName + '.version:';
+	def timePropertyName = 'anythings.' + moduleName + '.built.at:';
+	
+	// File 정보 추출
+	File file = new File(propertyDirPath, fileName);
+	if(!file.exists())
+		return;
+	
+	def contents = new String(Files.readAllBytes(Paths.get(file.toString())), 'UTF-8');
+	
+	StringJoiner sj = new StringJoiner('\n');
+	def rows = contents.split('\n');
+	for(def row : rows) {
+		if(row.startsWith(versionPropertyName)) {
+			def thisVersion = generateVersion();
+			if(isTask('snapshot') && !version.endsWith('-SNAPSHOT')) {
+				thisVersion = thisVersion + '-SNAPSHOT';
+			}
+			row = versionPropertyName + " " + thisVersion;
+		} else if (isTask("release, snapshot") && row.startsWith(timePropertyName)) {
+			SimpleDateFormat sdf = new SimpleDateFormat('yyyy-MM-dd HH:mm:ss');
+			row = timePropertyName + " " + sdf.format(new Date());
+		}
+		sj.add(row);
+	}
+	
+	// File 변경 내용 저장
+	try{
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
+        bufferedWriter.write(sj.toString());
+		bufferedWriter.close();
+    } catch(Exception e){
+        e.printStackTrace();
+    }
+}
