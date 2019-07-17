@@ -260,8 +260,8 @@ def updateVersionInfo() {
 	def propertyDirPath = projectPath + '/src/main/resources/properties';
 	def moduleName = projectName.split('-')[1];
 	def fileName = projectName.substring(projectName.indexOf("-") + 1, projectName.length()) + '.properties';
-	def versionPropertyName = 'anythings.' + moduleName + '.version:';
-	def timePropertyName = 'anythings.' + moduleName + '.built.at:';
+	def versionPropertyName = moduleName + '.version:';
+	def timePropertyName = moduleName + '.built.at:';
 	
 	// File 정보 추출
 	File file = new File(propertyDirPath, fileName);
