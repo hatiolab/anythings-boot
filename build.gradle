@@ -32,10 +32,25 @@ repositories {
 }
 
 
+ext {
+	rabbitMQVersion = getLastVersion('elings-rabbitmq')
+	elingsBaseVersion = getLastVersion('elings-base')
+}
+
 dependencies {
-	compile project(':anythings-sys')
-	compile project(':anythings-comm-rabbitmq')
+//	compile("com.lowagie:itext:2.1.7")
+//	compile("net.sf.jasperreports:jasperreports:6.5.1")
+
+//	compile("com.hatiolab:elings-rabbitmq:${rabbitMQVersion}") {changing = true}
+//	compile("com.hatiolab:elings-base:${elingsBaseVersion}") {changing = true}
+
+	
+	
+//	compile project(':anythings-sys')
+//	compile project(':anythings-comm-rabbitmq')
 //	compile project(':anythings-logis-base')
 //	compile project(':anythings-gw')
-//	compile project(':anythings-printing')
+	compile project(':anythings-logis-das')
+	compile project(':anythings-printing')
+	
 }
