@@ -49,11 +49,12 @@ ext {
 dependencies {
 
 // ======= DEVELOP ======
-//	compile project(':anythings-logis-base')
+	compile project(':anythings-logis-base')
 //	compile project(':anythings-sys')	
 
 
 // ======== BUILD ========
+/*
 	compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
 	compile(name:'anythings-sys-0.0.0.1',ext:'jar')
 
@@ -80,8 +81,5 @@ dependencies {
 	compile("net.sourceforge.barbecue:barbecue:1.5-beta1")
 	compile("com.hatiolab:gurobi:1.0.0")
 	compile("org.springframework.ws:spring-ws-core:2.3.1.RELEASE")
-
-
-
-
+*/
 }
