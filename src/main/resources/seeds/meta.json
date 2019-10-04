@@ -1,0 +1,23 @@
+[
+	{"bundle" : "sys", "entity": "xyz.elidom.sys.entity.Setting"},
+	{"bundle" : "sys", "entity": "xyz.elidom.sys.entity.User"},
+	{"bundle" : "sec", "entity": "xyz.elidom.sec.entity.Role"},
+	{"bundle" : "sec", "entity": "xyz.elidom.sec.entity.UsersRole"},
+	{"bundle" : "sec", "entity": "xyz.elidom.sec.entity.PermitUrl"},
+	{"bundle" : "sec", "entity": "xyz.elidom.sec.entity.Permission"},
+	{"bundle" : "msg", "entity": "xyz.elidom.msg.entity.Terminology"},
+	{"bundle" : "msg", "entity": "xyz.elidom.msg.entity.Message"},
+	{"bundle" : "core", "entity": "xyz.elidom.core.entity.DomainApp"},
+	{"bundle" : "core", "entity": "xyz.elidom.core.entity.Code"},
+	{"bundle" : "core", "entity": "xyz.elidom.core.entity.CodeDetail"},
+	{"bundle" : "core", "entity": "xyz.elidom.core.entity.Storage"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.Resource"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.ResourceColumn"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.Menu"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuColumn"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuButton"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuParam"},	
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetail"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailColumn"},
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"}
+]
