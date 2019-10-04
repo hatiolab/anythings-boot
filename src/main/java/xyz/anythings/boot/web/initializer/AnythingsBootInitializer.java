@@ -42,17 +42,21 @@ public class AnythingsBootInitializer {
 	private ModuleConfigSet configSet;
 	
 	@EventListener({ ContextRefreshedEvent.class })
-	public void ready(ContextRefreshedEvent event) {
-		this.logger.info("Anythings Boot module initializing ready...");
-		this.configSet.addConfig(this.module.getName(), this.module);
-		this.configSet.setApplicationModule(this.module.getName());
-		this.scanServices();
+	public void refresh(ContextRefreshedEvent event) {
+		this.logger.info("Anythings Boot module refreshing...");
+		
+		this.logger.info("Anythings Boot module refreshed!");
 	}
 
 	@EventListener({ ApplicationReadyEvent.class })
-	void contextRefreshedEvent(ApplicationReadyEvent event) {
-		this.logger.info("Anythings Boot module initializing started...");
-		this.logger.info("Anythings Boot initializing finished");
+	void ready(ApplicationReadyEvent event) {
+		this.logger.info("Anythings Boot module initializing...");
+		
+		this.configSet.addConfig(this.module.getName(), this.module);
+		this.configSet.setApplicationModule(this.module.getName());
+		this.scanServices();
+		
+		this.logger.info("Anythings Boot module initialized!");
 	}
 
 	/**
