@@ -68,18 +68,18 @@ public class ModuleProperties implements IModuleProperties {
 	private String scanEntityPackage;
 	
 	/**
-	 * 모듈에서 사용할 rabbitmq 큐 명칭 
-	 */
-	@Value("${anythings.boot.rabbitQueue:not_use}")
-	private String rabbitQueue;
-
-	/**
 	 * Project Name
 	 * 
 	 * @return
 	 */
 	@Value("${anythings.boot.projectName}")
 	private String projectName;
+	
+	/**
+	 * 모듈에서 사용할 래빗 큐명칭 
+	 */
+	private String rabbitQueue;
+
 
 	public String getName() {
 		return this.name;
@@ -117,10 +117,16 @@ public class ModuleProperties implements IModuleProperties {
 		return this.projectName;
 	}
 	
-	public String getRabbitQueue() {
+	@Override
+	public String getRabbitmqQueue() {
 		return this.rabbitQueue;
 	}
 
+	@Override
+	public void setRabbitmqQueue(String queueName) {
+		this.rabbitQueue = queueName;
+	}
+	
 	@Override
 	public String toString() {
 		return FormatUtil.toJsonString(this);
