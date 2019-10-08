@@ -36,7 +36,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-logis-base/build/libs', '../anythings-sys/build/libs'
+		dirs '../anythings-logis-base/build/libs', '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs'
 	}
 }
 
@@ -50,17 +50,21 @@ dependencies {
 
 // ======= DEVELOP ======
 	compile project(':anythings-logis-base')
+	compile project(':anythings-comm-rabbitmq')
+	
 //	compile project(':anythings-sys')	
 
 
 // ======== BUILD ========
 /*
 	compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
+	compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
 	compile(name:'anythings-sys-0.0.0.1',ext:'jar')
 
 	compile("com.hatiolab:elings-job:2.1.0.8") {exclude group:'com.hatiolab'}
 	compile("com.hatiolab:elings-dev:2.1.0.4") {exclude group:'com.hatiolab'}
 	compile("com.hatiolab:elings-screen:2.1.0.3") {exclude group:'com.hatiolab'}
+	compile("com.hatiolab:elings-rabbitmq:2.0.0.50") {exclude group:'com.hatiolab'}
 	compile("com.hatiolab:elings-base:2.1.0.38") {exclude group:'com.hatiolab'}
 	compile("com.hatiolab:elings-stomp-cli:2.1.0.6") {exclude group:'com.hatiolab'}
 	compile("com.hatiolab:elings-receiver:2.1.0.3") {exclude group:'com.hatiolab'}
@@ -79,7 +83,6 @@ dependencies {
 	compile("net.sf.jasperreports:jasperreports:6.5.1")
 	compile("com.lowagie:itext:2.1.7")
 	compile("net.sourceforge.barbecue:barbecue:1.5-beta1")
-	compile("com.hatiolab:gurobi:1.0.0")
 	compile("org.springframework.ws:spring-ws-core:2.3.1.RELEASE")
-*/
+	*/
 }
