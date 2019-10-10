@@ -50,7 +50,6 @@ dependencies {
 
 // ======= DEVELOP ======
 	compile project(':anythings-logis-base')
-	compile project(':anythings-comm-rabbitmq')
 	
 //	compile project(':anythings-sys')	
 
