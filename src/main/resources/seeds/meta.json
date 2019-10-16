@@ -19,5 +19,9 @@
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuParam"},	
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetail"},
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailColumn"},
-	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"}
+	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfigSet"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfig"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.IndConfigSet"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.IndConfig"}
 ]
