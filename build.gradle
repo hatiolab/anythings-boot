@@ -24,6 +24,10 @@ configurations {
 }
 
 jar {	
+   from('src/main/java') {
+      include '/**/*.sql'
+   }
+   
 	manifest {
 		attributes 'Implementation-Title': 'anythings-boot',
 				   'Implementation-Version': version,
@@ -83,5 +87,5 @@ dependencies {
 	compile("com.lowagie:itext:2.1.7")
 	compile("net.sourceforge.barbecue:barbecue:1.5-beta1")
 	compile("org.springframework.ws:spring-ws-core:2.3.1.RELEASE")
-	*/
+*/
 }
