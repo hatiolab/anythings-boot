@@ -17,10 +17,11 @@ include 'services:webservice'
 
 rootProject.name = 'anythings-boot'
 
-include ':anythings-sys', ':anythings-logis-base', ':anythings-comm-rabbitmq'
+include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base',':operato-logis-gtp-base'
 
 project(':anythings-sys').projectDir = new File(settingsDir, '../anythings-sys')
-project(':anythings-logis-base').projectDir = new File(settingsDir, '../anythings-logis-base')
 project(':anythings-comm-rabbitmq').projectDir = new File(settingsDir, '../anythings-comm-rabbitmq')
-
+project(':anythings-gw').projectDir = new File(settingsDir, '../anythings-gw')
+project(':anythings-logis-base').projectDir = new File(settingsDir, '../anythings-logis-base')
+project(':operato-logis-gtp-base').projectDir = new File(settingsDir, '../operato-logis-gtp-base')
 
