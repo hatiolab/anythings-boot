@@ -10,11 +10,11 @@ import xyz.elidom.sys.system.config.module.IModuleProperties;
 import xyz.elidom.util.FormatUtil;
 
 /**
- * Anythings Boot 모듈 정보 파일
+ * 샘플 Boot 모듈 정보 파일
  * 
  * @author yang
  */
-@Component("anythingsBoot")
+@Component("anythingsBootModuleProperties")
 @EnableConfigurationProperties
 @PropertySource("classpath:/properties/anythings-boot.properties")
 public class ModuleProperties implements IModuleProperties {

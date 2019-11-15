@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication
 @EnableConfigurationProperties
-@ComponentScan(basePackages = { "xyz.anythings.*", "xyz.elidom.*", "operato.logis.*" })
+@ComponentScan(basePackages = { "xyz.anythings.*", "xyz.elidom.*", "operato.*" })
 @ImportResource({ "classpath:/WEB-INF/application-context.xml", "classpath:/WEB-INF/dataSource-context.xml" })
 public class AnythingsBootApplication {
 	
