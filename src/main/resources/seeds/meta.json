@@ -20,8 +20,10 @@
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetail"},
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailColumn"},
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceProfile"},
+	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceConf"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfigSet"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfig"},
-	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.IndConfigSet"},
-	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.IndConfig"}
+	{"bundle" : "anygw", "entity": "xyz.anythings.gw.entity.IndConfigSet"},
+	{"bundle" : "anygw", "entity": "xyz.anythings.gw.entity.IndConfig"}
 ]
