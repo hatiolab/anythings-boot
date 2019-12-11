@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-logis-base/build/libs', '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs'
+		dirs '../anythings-logis-base/build/libs', '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-logis-b2c/build/libs', '../anythings-gw/build/libs', '../operato-logis-gtp-base/build/libs', '../operato-gw-mqbase/build/libs'
 	}
 }
 
@@ -50,42 +50,66 @@ ext {
 //	elingsBaseVersion = getLastVersion('elings-base')
 }
 
-dependencies {
+springBoot{
+	mainClass 'xyz.anythings.boot.AnythingsBootApplication'
+}
 
-// ======= DEVELOP ======
-	compile project(':anythings-logis-base')
+if (!project.hasProperty('buildDep')) {
+	println 'development...'
 	
-//	compile project(':anythings-sys')	
+	dependencies {
+		compile project(':operato-logis-gtp-base')
+		compile project(':anythings-logis-b2c')
+		//compile project(':operato-gw-mqbase')
+		//compile project(':anythings-logis-base')
+		//compile project(':anythings-gw')
+		//compile project(':anythings-comm-rabbitmq')
+		//compile project(':anythings-sys')	
+	}
+} else {
+	println 'build-deployment'
+	def xxx = project.getProperty('buildDep')
+	println xxx
 
-
-// ======== BUILD ========
-/*
-	compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
-	compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
-	compile(name:'anythings-sys-0.0.0.1',ext:'jar')
-
-	compile("com.hatiolab:elings-job:2.1.0.8") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-dev:2.1.0.4") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-screen:2.1.0.3") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-rabbitmq:2.0.0.50") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-base:2.1.0.38") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-stomp-cli:2.1.0.6") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-receiver:2.1.0.3") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-core:2.1.0.22") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-msg:2.1.0.4") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-admin-cli:2.1.0.6") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-sender:2.1.0.3") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-sec:2.1.0.51") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-sys:2.1.2.26") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-orm:2.2.0.16") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-stomp:2.1.0.2") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-util:2.1.0.4") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-exception:2.1.0.5") {exclude group:'com.hatiolab'}
-	compile("com.hatiolab:elings-dbist:2.2.0.36") {exclude group:'com.hatiolab'}
+	dependencies {
+		implementation project(':operato-logis-gtp-base')
+		implementation project(':anythings-logis-b2c')
+		implementation project(':operato-gw-mqbase')
+		implementation project(':anythings-logis-base')
+		implementation project(':anythings-gw')
+		implementation project(':anythings-comm-rabbitmq')
+		implementation project(':anythings-sys')	
 	
-	compile("net.sf.jasperreports:jasperreports:6.5.1")
-	compile("com.lowagie:itext:2.1.7")
-	compile("net.sourceforge.barbecue:barbecue:1.5-beta1")
-	compile("org.springframework.ws:spring-ws-core:2.3.1.RELEASE")
-*/
+		compile(name:'operato-logis-gtp-base-0.0.0.1',ext:'jar')
+		compile(name:'anythings-logis-b2c-0.0.0.1',ext:'jar')
+		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
+		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
+		compile(name:'anythings-gw-0.0.0.1',ext:'jar')
+		compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
+		compile(name:'anythings-sys-0.0.0.1',ext:'jar')
+	
+		compile("com.hatiolab:elings-job:2.1.0.8") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-dev:2.1.0.4") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-screen:2.1.0.3") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-rabbitmq:2.0.0.50") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-base:2.1.0.38") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-stomp-cli:2.1.0.6") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-receiver:2.1.0.3") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-core:2.1.0.22") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-msg:2.1.0.4") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-admin-cli:2.1.0.6") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-sender:2.1.0.3") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-sec:2.1.0.51") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-sys:2.1.2.26") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-orm:2.2.0.16") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-stomp:2.1.0.2") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-util:2.1.0.4") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-exception:2.1.0.5") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-dbist:2.2.0.36") {exclude group:'com.hatiolab'}
+		
+		compile("net.sf.jasperreports:jasperreports:6.5.1")
+		compile("com.lowagie:itext:2.1.7")
+		compile("net.sourceforge.barbecue:barbecue:1.5-beta1")
+		compile("org.springframework.ws:spring-ws-core:2.3.1.RELEASE")
+	}
 }
