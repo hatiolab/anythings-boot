@@ -59,13 +59,13 @@ if (!project.hasProperty('buildDep')) {
 	
 	dependencies {
 		compile project(':operato-logis-sms')
+		compile project(':anythings-logis-b2c')
 		compile project(':operato-logis-gtp-base')
-		//compile project(':anythings-logis-b2c')
-		//compile project(':operato-gw-mqbase')
-		//compile project(':anythings-logis-base')
-		//compile project(':anythings-gw')
-		//compile project(':anythings-comm-rabbitmq')
-		//compile project(':anythings-sys')	
+		compile project(':operato-gw-mqbase')
+		compile project(':anythings-logis-base')
+		compile project(':anythings-gw')
+		compile project(':anythings-comm-rabbitmq')
+		compile project(':anythings-sys')
 	}
 } else {
 	println 'build-deployment'
@@ -74,8 +74,8 @@ if (!project.hasProperty('buildDep')) {
 
 	dependencies {
 		implementation project(':operato-logis-sms')
+		implementation project(':anythings-logis-b2c')
 		implementation project(':operato-logis-gtp-base')
-		//implementation project(':anythings-logis-b2c')
 		implementation project(':operato-gw-mqbase')
 		implementation project(':anythings-logis-base')
 		implementation project(':anythings-gw')
