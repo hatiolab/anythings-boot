@@ -58,9 +58,10 @@ if (!project.hasProperty('buildDep')) {
 	println 'development...'
 	
 	dependencies {
+		compile project(':operato-logis-wcs')
 		compile project(':operato-logis-sms')
 		compile project(':anythings-logis-b2c')
-		compile project(':operato-logis-gtp-base')
+		compile project(':operato-logis-das')
 		compile project(':operato-gw-mqbase')
 		compile project(':anythings-logis-base')
 		compile project(':anythings-gw')
@@ -75,7 +76,7 @@ if (!project.hasProperty('buildDep')) {
 	dependencies {
 		implementation project(':operato-logis-sms')
 		implementation project(':anythings-logis-b2c')
-		implementation project(':operato-logis-gtp-base')
+		implementation project(':operato-logis-das')
 		implementation project(':operato-gw-mqbase')
 		implementation project(':anythings-logis-base')
 		implementation project(':anythings-gw')
@@ -83,7 +84,7 @@ if (!project.hasProperty('buildDep')) {
 		implementation project(':anythings-sys')	
 	
 		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-gtp-base-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-das-0.0.0.1',ext:'jar')
 		compile(name:'anythings-logis-b2c-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
 		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
