@@ -17,7 +17,7 @@ include 'services:webservice'
 
 rootProject.name = 'anythings-boot'
 
-include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base',':operato-gw-mqbase',':operato-logis-das',':anythings-logis-b2c',':operato-logis-sms',':operato-logis-wcs'
+include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base',':operato-gw-mqbase',':operato-logis-das',':operato-logis-dps',':operato-logis-sms',':operato-logis-wcs'
 
 project(':anythings-sys').projectDir = new File(settingsDir, '../anythings-sys')
 project(':anythings-comm-rabbitmq').projectDir = new File(settingsDir, '../anythings-comm-rabbitmq')
@@ -25,6 +25,6 @@ project(':anythings-gw').projectDir = new File(settingsDir, '../anythings-gw')
 project(':anythings-logis-base').projectDir = new File(settingsDir, '../anythings-logis-base')
 project(':operato-gw-mqbase').projectDir = new File(settingsDir, '../operato-gw-mqbase')
 project(':operato-logis-das').projectDir = new File(settingsDir, '../operato-logis-das')
-project(':anythings-logis-b2c').projectDir = new File(settingsDir, '../anythings-logis-b2c')
+project(':operato-logis-dps').projectDir = new File(settingsDir, '../operato-logis-dps')
 project(':operato-logis-sms').projectDir = new File(settingsDir, '../operato-logis-sms')
 project(':operato-logis-wcs').projectDir = new File(settingsDir, '../operato-logis-wcs')
