@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-logis-base/build/libs', '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-logis-b2c/build/libs', '../anythings-gw/build/libs', '../operato-logis-gtp-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-sms/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs'
 	}
 }
 
