@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs', '../operato-logis-wcs/build/libs'
 	}
 }
 
@@ -74,6 +74,7 @@ if (!project.hasProperty('buildDep')) {
 	println xxx
 
 	dependencies {
+		implementation project(':operato-logis-wcs')
 		implementation project(':operato-logis-sms')
 		implementation project(':operato-logis-dps')
 		implementation project(':operato-logis-das')
@@ -83,6 +84,7 @@ if (!project.hasProperty('buildDep')) {
 		implementation project(':anythings-comm-rabbitmq')
 		implementation project(':anythings-sys')	
 	
+		compile(name:'operato-logis-wcs-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-das-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
