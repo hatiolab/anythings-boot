@@ -97,7 +97,7 @@ if (!project.hasProperty('buildDep')) {
 		compile("com.hatiolab:elings-job:2.1.0.8") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-dev:2.1.0.4") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-screen:2.1.0.3") {exclude group:'com.hatiolab'}
-		compile("com.hatiolab:elings-rabbitmq:2.0.0.50") {exclude group:'com.hatiolab'}
+		compile("com.hatiolab:elings-rabbitmq:2.0.0.55") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-base:2.1.0.38") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-stomp-cli:2.1.0.6") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-receiver:2.1.0.3") {exclude group:'com.hatiolab'}
