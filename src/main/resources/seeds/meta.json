@@ -20,6 +20,8 @@
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetail"},
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailColumn"},
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"},
+	{"bundle" : "dev", "entity": "xyz.elidom.dev.entity.DiyService"},
+	{"bundle" : "dev", "entity": "xyz.elidom.dev.entity.DiyTemplate"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceProfile"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceConf"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfigSet"},
