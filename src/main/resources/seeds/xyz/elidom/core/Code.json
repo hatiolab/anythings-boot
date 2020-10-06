@@ -1,0 +1,596 @@
+[
+        {
+                "id": "7AAB0D8A-26B2-1DC7-E053-8B010A803CD3",
+                "name": "ALARM_CATEGORY",
+                "description": "Alarm Category",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                "name": "ALARM_TYPE",
+                "description": "Alarm Type",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                "name": "ALIGNMENT",
+                "description": "Entity Column Alignment",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-26BE-1DC7-E053-8B010A803CD3",
+                "name": "APPLICATION_THEME",
+                "description": "Application themes",
+                "bundle": "core"
+        },
+        {
+                "id": "7AAB0D8A-26C2-1DC7-E053-8B010A803CD3",
+                "name": "APPROVER_TYPE",
+                "description": "Approver Type (ApprLineStep)",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "name": "APPR_STATUS",
+                "description": "Approval Status (ApprDoc)",
+                "bundle": "base"
+        },
+        {
+                "id": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                "name": "AREA_TYPE",
+                "description": "Area 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26CB-1DC7-E053-8B010A803CD3",
+                "name": "ASSOCIATION",
+                "description": "Accosiation Between Master & Details",
+                "bundle": "base"
+        },
+        {
+                "id": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                "name": "ASSORT_STRATEGY",
+                "description": "분류 전략",
+                "bundle": "logis"
+        },
+        {
+                "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "name": "BATCH_RECEIPT_STATUS",
+                "description": "배치 수신 상태 ",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "name": "BATCH_STATUS",
+                "description": "배치 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                "name": "BOX_ID_MAPPING_POINT",
+                "description": "박스 ID 매핑 시점",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26D7-1DC7-E053-8B010A803CD3",
+                "name": "BOX_RESULT_REPORT_POINT",
+                "description": "박스 실적 보고 시점",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26DA-1DC7-E053-8B010A803CD3",
+                "name": "BOX_TYPE",
+                "description": "박스 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "name": "BRAND_CODE",
+                "description": "브랜드 코드",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "name": "BUNDLE",
+                "description": "All Bundles",
+                "bundle": "sys"
+        },
+        {
+                "id": "7AAB0D8A-278D-1DC7-E053-8B010A803CD3",
+                "name": "CELL_ASSIGN_STRATEGY",
+                "description": "작업 셀 할당 전략",
+                "bundle": "logis"
+        },
+        {
+                "id": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                "name": "CELL_ASSIGN_TYPE",
+                "description": "셀 할당 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26EC-1DC7-E053-8B010A803CD3",
+                "name": "CHANNEL_TYPE",
+                "description": "Channel Type",
+                "bundle": "scene"
+        },
+        {
+                "id": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                "name": "COLOR",
+                "description": "색상 코드",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26EE-1DC7-E053-8B010A803CD3",
+                "name": "COLUMN_REF_TYPE",
+                "description": "Column Reference Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "name": "COMMON_STATUS",
+                "description": "상태 공통",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                "name": "CUSTOM_CATEGORY",
+                "description": "Custom Service Category",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-26F9-1DC7-E053-8B010A803CD3",
+                "name": "DAS_ASSIGN_METHOD",
+                "description": "DAS 셀 할당 방식",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                "name": "DAS_INSPECTION_ACTION",
+                "description": "DAS 출고 검수 완료 후 액션",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2700-1DC7-E053-8B010A803CD3",
+                "name": "DATA_FORMAT",
+                "description": "Data Format",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2703-1DC7-E053-8B010A803CD3",
+                "name": "DATA_SOURCE_TYPE",
+                "description": "Data Source Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                "name": "DELETE_STRATEGY",
+                "description": "Entity Delete Strategy",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "name": "DEPLOYMENT_STATUS",
+                "description": "배포 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2710-1DC7-E053-8B010A803CD3",
+                "name": "DEPLOYMENT_TYPE",
+                "description": "배포 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                "name": "DEVICE_TYPE",
+                "description": "작업 장비 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                "name": "DOMAIN_APPS",
+                "description": "Domain Applications",
+                "bundle": "core"
+        },
+        {
+                "id": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                "name": "DPS_INSPECTION_ACTION",
+                "description": "DPS 출고 검수 완료 후 액션",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "name": "ENTITY_FIELD_TYPE",
+                "description": "Entity Field Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                "name": "ENTITY_ID_TYPE",
+                "description": "Entity ID Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                "name": "ENTITY_REF_TYPE",
+                "description": "Entity Reference Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2733-1DC7-E053-8B010A803CD3",
+                "name": "EQUIP_STATUS",
+                "description": "장비 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2736-1DC7-E053-8B010A803CD3",
+                "name": "EQUIP_TYPE",
+                "description": "설비 타입",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2739-1DC7-E053-8B010A803CD3",
+                "name": "EXCLUSIVE_ROLE",
+                "description": "Exclusive Role",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "name": "FORM_FIELD_EDITOR",
+                "description": "Form Field Editor",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-274F-1DC7-E053-8B010A803CD3",
+                "name": "FULLBOX_ACTION",
+                "description": "풀 박스 시 액션",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "name": "GRID_COLUMN_EDITOR",
+                "description": "Column Editor",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                "name": "GRID_TYPE",
+                "description": "Grid Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "name": "HANDLER_TYPE",
+                "description": "Handler Type",
+                "bundle": "dev"
+        },
+        {
+                "id": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                "name": "INDICATOR_TYPE",
+                "description": "표시기 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "name": "IND_CONFIG_CATEGORY",
+                "description": "표시기 설정 카테고리",
+                "bundle": "logis"
+        },
+        {
+                "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "name": "JOB_CONFIG_CATEGORY",
+                "description": "작업 설정 카테고리",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "name": "JOB_INPUT_STATUS",
+                "description": "투입 정보 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                "name": "JOB_INPUT_TYPE",
+                "description": "작업 투입 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "name": "JOB_STATUS",
+                "description": "작업 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "name": "JOB_TYPE",
+                "description": "작업 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                "name": "LABEL_PRINT_METHOD",
+                "description": "송장 라벨 발행 방법",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                "name": "LOCALE",
+                "description": "Locale code",
+                "bundle": "msg"
+        },
+        {
+                "id": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                "name": "LOC_BOXID_MAPPING_POINT",
+                "description": "로케이션-박스ID 매핑 시점",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "name": "LOG_LEVEL",
+                "description": "로그 레벨",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "name": "MENU_CATEGORY",
+                "description": "STANDARD OR TERMINAL",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                "name": "MENU_REF_TYPE",
+                "description": "Menu Reference Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "name": "MENU_TYPE",
+                "description": "Menu type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-27A7-1DC7-E053-8B010A803CD3",
+                "name": "MODBUS_TYPE",
+                "description": "Modbus protocol type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "name": "MONTH",
+                "description": "1M ~ 12M code",
+                "bundle": "sys"
+        },
+        {
+                "id": "7AAB0D8A-27B7-1DC7-E053-8B010A803CD3",
+                "name": "MPI_BUTTON_MODE",
+                "description": "표시기 버튼 모드",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "name": "MPI_DISPLAY_SEGMENT_ROLE",
+                "description": "표시 상태의 세그먼트들과 매핑되는 역할",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27C6-1DC7-E053-8B010A803CD3",
+                "name": "MPI_NUM_ALIGNMENT",
+                "description": "표시기 숫자 정렬 방식",
+                "bundle": "logis"
+        },
+        {
+                "id": "2a384f6b-289c-4954-9b78-78dfa2c31d6f",
+                "name": "ORDER_TYPE",
+                "description": "주문 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "name": "PACKING_STATUS",
+                "description": "패킹 상태",
+                "bundle": "logis"
+        },
+        {
+                "id": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                "name": "PACK_TYPE",
+                "description": "추가포장 대상 여부",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27D4-1DC7-E053-8B010A803CD3",
+                "name": "PERMIT_URL_TYPE",
+                "description": "인증 URL 타입",
+                "bundle": "sec"
+        },
+        {
+                "id": "5442edff-02ce-46a3-b537-3f9a556ff468",
+                "name": "PRINTER_TYPE",
+                "description": "프린터 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27D7-1DC7-E053-8B010A803CD3",
+                "name": "PUB_HANDLER_TYPE",
+                "description": "Publisher Handler Type",
+                "bundle": "scene"
+        },
+        {
+                "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "name": "QUERY_OPERATOR",
+                "description": "Query Operator",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "name": "QUERY_RETURN_TYPE",
+                "description": "Query Return Type",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-27FD-1DC7-E053-8B010A803CD3",
+                "name": "RACK_SIDE",
+                "description": "랙 사이드",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2800-1DC7-E053-8B010A803CD3",
+                "name": "RACK_TYPE",
+                "description": "랙 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-27F7-1DC7-E053-8B010A803CD3",
+                "name": "RECEIVE_CHANNEL_TYPE",
+                "description": "Receive Channel Type",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-27FA-1DC7-E053-8B010A803CD3",
+                "name": "RECOMMEND_LOCATION_BY",
+                "description": "로케이션 추천 방식",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                "name": "REQUEST_AUTH_TYPE",
+                "description": "User Authorization Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                "name": "REQUEST_STATUS",
+                "description": "Request - Receive - Finish - Cancel Status",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "name": "ROUTING_TYPE",
+                "description": "Menu Routing Type",
+                "bundle": "base"
+        },
+        {
+                "id": "7AAB0D8A-2816-1DC7-E053-8B010A803CD3",
+                "name": "SCENE_CATEGORY",
+                "description": "Scene Category",
+                "bundle": "scene"
+        },
+        {
+                "id": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                "name": "SCENE_STATUS",
+                "description": "Scene Status",
+                "bundle": "scene"
+        },
+        {
+                "id": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                "name": "SCRIPT_ENGINE",
+                "description": "Script Engine",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                "name": "SCRIPT_TYPE",
+                "description": "Script type",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                "name": "SEGMENT_ROLE",
+                "description": "세그먼트 역할",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                "name": "SEND_CHANNEL_TYPE",
+                "description": "Send Channel Type",
+                "bundle": "dev"
+        },
+        {
+                "id": "7AAB0D8A-282D-1DC7-E053-8B010A803CD3",
+                "name": "SORT_TYPE",
+                "description": "Sorting Type",
+                "bundle": "base"
+        },
+        {
+                "id": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                "name": "STAGE_TYPE",
+                "description": "Stage 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                "name": "STATION_TYPE",
+                "description": "스테이션 유형",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "name": "STORAGE_CATEGORY",
+                "description": "Storage Category",
+                "bundle": "core"
+        },
+        {
+                "id": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                "name": "SYSTEM",
+                "description": "System Category",
+                "bundle": "sys"
+        },
+        {
+                "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "name": "TERMS_CATEGORY",
+                "description": "Terminology categories",
+                "bundle": "msg"
+        },
+        {
+                "id": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                "name": "TRACE_TYPE",
+                "description": "트레이스 타입",
+                "bundle": "rabbitmq"
+        },
+        {
+                "id": "bae6ac4b-6942-4462-9750-d164014feecf",
+                "name": "TRUE_OR_FALSE",
+                "description": "true or false",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "name": "UPLOAD_FOLDER_RULE",
+                "description": "Upload Folder Rule",
+                "bundle": "core"
+        },
+        {
+                "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "name": "USER_HISTORY_STATUS",
+                "description": "사용자 이력 상태 코드",
+                "bundle": "sec"
+        },
+        {
+                "id": "7AAB0D8A-285B-1DC7-E053-8B010A803CD3",
+                "name": "USER_ROLE_HISTORY_STATUS",
+                "description": "사용자 권한 이력 상태 코드",
+                "bundle": "sec"
+        },
+        {
+                "id": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                "name": "VARIABLE_CATEGORY",
+                "description": "Variable Category",
+                "bundle": "base"
+        },
+        {
+                "id": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                "name": "WORK_TYPE",
+                "description": "작업 구분",
+                "bundle": "logis"
+        },
+        {
+                "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "name": "YEAR",
+                "description": "Year",
+                "bundle": "sys"
+        },
+        {
+                "id": "7AAB0D8A-286D-1DC7-E053-8B010A803CD3",
+                "name": "ZONE",
+                "description": "존",
+                "bundle": "logis"
+        }
+]

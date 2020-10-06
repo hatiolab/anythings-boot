@@ -1,0 +1,3836 @@
+[
+        {
+                "id": "811B50FC-42B6-495F-A885-3B246F0DD152",
+                "name": "COLLECTION_HAS_NULL_ELEMENT",
+                "locale": "en-US",
+                "display": "Collection contains a null element."
+        },
+        {
+                "id": "377079AE-F18E-405D-A9D0-EF8669907430",
+                "name": "COLLECTION_HAS_NULL_ELEMENT",
+                "locale": "ko-KR",
+                "display": "컬렉션에 빈 값이 포함되어 있습니다."
+        },
+        {
+                "id": "BEC59957-83FD-4373-9B30-D4C1169E2EE9",
+                "name": "COLLECTION_HAS_NULL_ELEMENT",
+                "locale": "zh-CN",
+                "display": "集合包含null元素。"
+        },
+        {
+                "id": "E78C5860-A359-462E-B256-33E7216BA31C",
+                "name": "MQ_TRACE_FILE_NOT_SUPPORT_VIEW",
+                "locale": "en-US",
+                "display": "Trace View 기능은 저장 옵션이 File 일때 지원 하지 않습니다."
+        },
+        {
+                "id": "C9C572E2-2771-471D-93AB-7F38A03073F3",
+                "name": "MQ_TRACE_FILE_NOT_SUPPORT_VIEW",
+                "locale": "zh-CN",
+                "display": "Trace View 在保存配置为File时不支持。"
+        },
+        {
+                "id": "5E09CFCF-A14D-4B3B-AC78-880A1619FB54",
+                "name": "MQ_TRACE_FILE_NOT_SUPPORT_VIEW",
+                "locale": "ko-KR",
+                "display": "Trace View 기능은 저장 옵션이 File 일때 지원 하지 않습니다."
+        },
+        {
+                "id": "A69BFECC-119C-45E8-8F88-8577B815194C",
+                "name": "INTEGRITY_VIOLATION",
+                "locale": "zh-CN",
+                "display": "数据完整性违规。"
+        },
+        {
+                "id": "FE0CCE67-E3DB-4B56-B84D-2E4F015DBE0A",
+                "name": "NETWORK_UNREACHABLE",
+                "locale": "zh-CN",
+                "display": "网络无法连接。"
+        },
+        {
+                "id": "943B99B6-1563-4E88-821C-4167DDAF4A75",
+                "name": "NULL_OBJECT_NOT_ALLOWED",
+                "locale": "zh-CN",
+                "display": "不允许空对象。"
+        },
+        {
+                "id": "0FD9B129-4B69-41D1-81D9-F56A15851267",
+                "name": "TRANSACTION_TIME_OUT",
+                "locale": "zh-CN",
+                "display": "交易超时。"
+        },
+        {
+                "id": "62DA7178-ACA2-4CE8-B584-1642C404F2DE",
+                "name": "IS_NOT_INSTANCE_OF",
+                "locale": "zh-CN",
+                "display": "错误的{0}类， ({1})－类不是{2}的实例。"
+        },
+        {
+                "id": "F9582069-0E89-4C7D-8748-E777958372A8",
+                "name": "IS_NOT_RUNNING",
+                "locale": "zh-CN",
+                "display": "{0}未在执行。"
+        },
+        {
+                "id": "362B84EE-A84B-42F7-8E22-CCA3A2F74F29",
+                "name": "KEY_AND_VALUE_MISMATCH",
+                "locale": "zh-CN",
+                "display": "键与值不匹配。"
+        },
+        {
+                "id": "B8DC77C6-D136-405D-8F09-CA6BE8128D17",
+                "name": "MISMATCH_PARAM_COUNT",
+                "locale": "zh-CN",
+                "display": "错误SQL - 变量数错误。 [{0}:{1}]"
+        },
+        {
+                "id": "AC9FFC51-6FBA-4D2B-872B-A940AED559DA",
+                "name": "MISMATCH_STATUS",
+                "locale": "zh-CN",
+                "display": "{0} ({1})不是[{2}]状态。"
+        },
+        {
+                "id": "DD17C2E6-3A2D-4804-955E-98AC79D5CCF3",
+                "name": "MORE_THAN_ONE_ERROR",
+                "locale": "zh-CN",
+                "display": "存在一个以上的数据。"
+        },
+        {
+                "id": "C9F7064A-F9EF-4684-877F-5880F1C24C66",
+                "name": "NEED_OPTION",
+                "locale": "zh-CN",
+                "display": "此类型必需使用[{0}]选项。"
+        },
+        {
+                "id": "51D7C04B-D1C1-4F45-A963-6006D6917B5B",
+                "name": "NOT_AUTHORIZED_USER",
+                "locale": "zh-CN",
+                "display": "未授权用户。"
+        },
+        {
+                "id": "57CF9C72-4F06-4065-84C7-CCE2DD663658",
+                "name": "NOT_CONNECTED",
+                "locale": "zh-CN",
+                "display": "未连接。"
+        },
+        {
+                "id": "2CAB699D-BC67-4FB6-A7B1-9A47693D4EEB",
+                "name": "NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "{0}({1})无法查找。"
+        },
+        {
+                "id": "021A9517-F1FA-4C8A-8410-334DC29AD050",
+                "name": "NOT_FOUND_CUD_FLAG",
+                "locale": "zh-CN",
+                "display": "实体类[{0}]中不存在'cudFlag'。"
+        },
+        {
+                "id": "BDA16D23-AB86-4101-A20A-39244B635D13",
+                "name": "FAIL_TO_REFLECT_SET",
+                "locale": "en-US",
+                "display": "Failed to assign value to field({1}) of class ({0})"
+        },
+        {
+                "id": "0FCC53C2-8CB1-40BB-97C0-4450DDA5901E",
+                "name": "FAIL_TO_REFLECT_SET",
+                "locale": "zh-CN",
+                "display": "无法为类（{0}）的字段（{1}）赋值。"
+        },
+        {
+                "id": "8F9792CE-7F3F-47D2-A8C9-4B57D08FBF6A",
+                "name": "FAIL_TO_REFLECT_SET",
+                "locale": "ko-KR",
+                "display": "클래스 ({0})의 필드({1})에 값 설정 실패"
+        },
+        {
+                "id": "9B80D541-1699-4BC0-A11D-C4FB017BDD1C",
+                "name": "INVALID_ENTITY_ID_TYPE",
+                "locale": "en-US",
+                "display": "Invalid ID Type ({1}) of entity ({0})"
+        },
+        {
+                "id": "B29EF095-6F29-4802-B3E5-E0C7D8EAB8B6",
+                "name": "INVALID_ENTITY_ID_TYPE",
+                "locale": "ko-KR",
+                "display": "엔티티 ({0})의 ID Type ({1})이 유효하지 않습니다."
+        },
+        {
+                "id": "AD732B4E-E8F8-47C6-9C11-8B12469BB077",
+                "name": "INVALID_ENTITY_ID_TYPE",
+                "locale": "zh-CN",
+                "display": "实体（{0}）的ID类型（{1}）无效。"
+        },
+        {
+                "id": "C48CEDDA-CD73-4E78-9DA6-1C233E21F5CE",
+                "name": "INVALID_DATA_TYPE_OF_ENTITY_ID_TYPE",
+                "locale": "ko-KR",
+                "display": "엔티티 ({0})의 ID Type ({1})의 데이터 타입은 반드시 ({2}) 이어야 합니다."
+        },
+        {
+                "id": "CA77A1DF-80F9-4246-976A-338FF5789BB2",
+                "name": "INVALID_DATA_TYPE_OF_ENTITY_ID_TYPE",
+                "locale": "en-US",
+                "display": "Data type must be ({2}) of ID Type ({1}) of entity ({0})"
+        },
+        {
+                "id": "4C8B0197-921D-4715-8E69-3CEF066C6F6F",
+                "name": "INVALID_DATA_TYPE_OF_ENTITY_ID_TYPE",
+                "locale": "zh-CN",
+                "display": "数据类型必须是（{2}）实体（{0}）的ID类型（{1}）。"
+        },
+        {
+                "id": "412ED87E-35ED-4630-8CD5-0E7246B6AC06",
+                "name": "SYSTEM_DOMAIN_CANNOT_BE_DELETED",
+                "locale": "ko-KR",
+                "display": "도메인 ({0})는 시스템 도메인이므로 삭제할 수 없습니다."
+        },
+        {
+                "id": "F14E6049-BFC5-484B-B04A-88EEB71A6F39",
+                "name": "SYSTEM_DOMAIN_CANNOT_BE_DELETED",
+                "locale": "en-US",
+                "display": "Domain ({0}) is System Domain, so it's not possible to delete!"
+        },
+        {
+                "id": "05E92F9F-D489-491C-A8D3-F0705BD57E8D",
+                "name": "SYSTEM_DOMAIN_CANNOT_BE_DELETED",
+                "locale": "zh-CN",
+                "display": "域（{0}）是系统域，无法删除。"
+        },
+        {
+                "id": "7547319A-24FA-436A-AF0B-A5CE51E88BB3",
+                "name": "DEV_MODE_FUNCTION_NOT_SUPPORTED",
+                "locale": "ko-KR",
+                "display": "개발 모드가 아닌 경우 이 요청은 실행될 수 없습니다. "
+        },
+        {
+                "id": "B8737E0F-18FF-4286-BD92-2C0C3DAEA86F",
+                "name": "DEV_MODE_FUNCTION_NOT_SUPPORTED",
+                "locale": "zh-CN",
+                "display": "只有在开发模式下才可可应答。"
+        },
+        {
+                "id": "35892FC9-0FD5-41DB-947E-17DF7881C8C9",
+                "name": "DEV_MODE_FUNCTION_NOT_SUPPORTED",
+                "locale": "en-US",
+                "display": "This request is allowed only Development Mode."
+        },
+        {
+                "id": "6b4f8c59-688d-4135-805d-d3c8c456538b",
+                "name": "NOT_FOUND_CRUD_FLAG",
+                "locale": "ko-KR",
+                "display": "Entity[{0}] 중 'cudFlag가 존재하지 않습니다."
+        },
+        {
+                "id": "864004b2-ebaf-42a9-add5-77e06a5137f6",
+                "name": "ASSORTING_NOT_FINISHED_IN_RACKS",
+                "locale": "zh-CN",
+                "display": "{0}等批次未{1}个机组中关闭。"
+        },
+        {
+                "id": "0c549f01-e66e-47f9-9fcf-ecb386b889fb",
+                "name": "ASSORTING_NOT_FINISHED_IN_RACKS",
+                "locale": "ko-KR",
+                "display": "{0} 등 {1}개의 랙에서 작업이 끝나지 않았습니다."
+        },
+        {
+                "id": "a82fca33-991e-4f9d-b960-01545eadf009",
+                "name": "ASSORTING_NOT_FINISHED_IN_RACKS",
+                "locale": "en-US",
+                "display": "Job was not finished on the {1} racks such as {0}. "
+        },
+        {
+                "id": "77EA7F37-8E13-429B-AB0A-7C00C6204C97",
+                "name": "USER_REQUEST_ADD_AUTH",
+                "locale": "zh-CN",
+                "display": "系统访问授权请求。"
+        },
+        {
+                "id": "694bbc1b-6e4f-4ada-80f1-ee09860ea3a0",
+                "name": "MPS_ALLOW_ONLY_SINGULAR_WRAP",
+                "locale": "en-US",
+                "display": "Only Singular wrap allowed."
+        },
+        {
+                "id": "a54a2945-da97-43bf-b4eb-91bb09ebad3a",
+                "name": "MPS_ALLOW_ONLY_SINGULAR_WRAP",
+                "locale": "ko-KR",
+                "display": "단포 호기인 경우만 가능합니다."
+        },
+        {
+                "id": "ba23b86a-f63a-42eb-9213-179706af9ed5",
+                "name": "MPS_ALLOW_ONLY_SINGULAR_WRAP",
+                "locale": "zh-CN",
+                "display": "只允许在单品装箱机组中使用。"
+        },
+        {
+                "id": "12b34503-b768-4a14-ac40-89ff11de6263",
+                "name": "INCOMPLETED_JOB_EXIST",
+                "locale": "ko-KR",
+                "display": "미완료 상태의 작업이 있습니다."
+        },
+        {
+                "id": "e60441c3-9fd1-4d44-8e21-1eecc1c5de21",
+                "name": "INCOMPLETED_JOB_EXIST",
+                "locale": "en-US",
+                "display": "There is an job that is incomplete."
+        },
+        {
+                "id": "9A5C905E-5C87-408F-8CF2-B4612B03F8C7",
+                "name": "DATA_DUPLICATED",
+                "locale": "zh-CN",
+                "display": "({0}) 数据({1})已村子。"
+        },
+        {
+                "id": "C165958A-1243-4061-A343-C71B9E4557BF",
+                "name": "DATA_DUPLICATED",
+                "locale": "ko-KR",
+                "display": "({0}) 데이터 ({1})은 이미 존재 합니다."
+        },
+        {
+                "id": "AEF0D646-B6E3-4C4C-BA5A-B44EA564E073",
+                "name": "INVALID_DATA",
+                "locale": "ko-KR",
+                "display": "{0}의 데이터({1})가 유효하지 않습니다."
+        },
+        {
+                "id": "5af7838f-b04b-46a3-8f40-a5f75d5d0cb4",
+                "name": "A_IS_NOT_POSSIBLE_TO",
+                "locale": "ko-KR",
+                "display": "{0}은(는) {1}이(가) 불가능합니다."
+        },
+        {
+                "id": "4101acee-ca75-46cf-9987-9f5485e146f9",
+                "name": "A_IS_NOT_EQUAL_B",
+                "locale": "zh-CN",
+                "display": "{0}与{1}不同。"
+        },
+        {
+                "id": "c058f13f-23cf-4d3c-9658-c4fe047d41bc",
+                "name": "A_IS_NOT_EQUAL_B",
+                "locale": "ko-KR",
+                "display": "{0}와(과) {1}이(가) 같지 않습니다."
+        },
+        {
+                "id": "3b31ff77-1c95-43d4-b846-c05db7016ed2",
+                "name": "A_IS_NOT_EQUAL_B",
+                "locale": "en-US",
+                "display": "{0} is not equal {1}."
+        },
+        {
+                "id": "c1843afc-890d-487c-8883-f837df27e7fd",
+                "name": "A_STATUS_IS_B",
+                "locale": "ko-KR",
+                "display": "{0} 상태가 {1} 입니다."
+        },
+        {
+                "id": "f272a48d-0fe3-427c-b1c5-6ef47b3c8a6b",
+                "name": "A_STATUS_IS_B",
+                "locale": "zh-CN",
+                "display": "{0}的状态是 {1}。"
+        },
+        {
+                "id": "1bc1f7cb-c7c8-47dd-a01d-b402f7172dfc",
+                "name": "A_STATUS_IS_B",
+                "locale": "en-US",
+                "display": "Status of {0} is {1}."
+        },
+        {
+                "id": "608b2340-fd7c-4f55-b3aa-1556ece35903",
+                "name": "A_IS_NOT_SUFFICIENT",
+                "locale": "zh-CN",
+                "display": "{0}不够。"
+        },
+        {
+                "id": "c2772949-6c98-4e06-97c4-994f4784b025",
+                "name": "A_IS_NOT_SUFFICIENT",
+                "locale": "en-US",
+                "display": "{0} is not sufficient"
+        },
+        {
+                "id": "25c09629-6177-4de8-bb7e-26928192763e",
+                "name": "A_IS_NOT_SUFFICIENT",
+                "locale": "ko-KR",
+                "display": "{0}(이)가 충분치 않습니다."
+        },
+        {
+                "id": "38e453e8-ceae-4666-a3e5-648dc88845a6",
+                "name": "A_IS_NOT_ACTIVE",
+                "locale": "zh-CN",
+                "display": "{0}未激活。"
+        },
+        {
+                "id": "e681de38-ecaa-43b9-bb08-a8023985a74a",
+                "name": "A_IS_NOT_ACTIVE",
+                "locale": "en-US",
+                "display": "{0} is not active."
+        },
+        {
+                "id": "31f15082-8f42-4540-92b7-2f5f30989954",
+                "name": "A_IS_NOT_ACTIVE",
+                "locale": "ko-KR",
+                "display": "{0}이(가) 비활성화 상태입니다."
+        },
+        {
+                "id": "d04cd713-8f35-43f7-9342-7b6edeabf9e6",
+                "name": "NO_ORDER_OR_STOCK_INSUFFICIENT",
+                "locale": "ko-KR",
+                "display": "스캔한 상품에 맵핑 할 수 있는 주문이 없거나 타 SKU재고가 부족합니다"
+        },
+        {
+                "id": "07eff24a-91a5-4683-bfec-5692275f5fdd",
+                "name": "NO_ORDER_OR_STOCK_INSUFFICIENT",
+                "locale": "en-US",
+                "display": "Cannot find Order by SKU Barcode or Other Stock Of SKU is insufficient."
+        },
+        {
+                "id": "6159ebfb-3cd1-4ed1-8a9e-755e593ff1d7",
+                "name": "NO_ORDER_OR_STOCK_INSUFFICIENT",
+                "locale": "zh-CN",
+                "display": "扫描的商品中无可匹配的订单或其他SKU库存不足。"
+        },
+        {
+                "id": "e2598fe4-f0c3-4f3b-9ded-f1e8c614accb",
+                "name": "IS_NOT_LOCATION_OF_CURRENT_REGION",
+                "locale": "zh-CN",
+                "display": "机组不属于当前机组。"
+        },
+        {
+                "id": "52855296-b24c-4729-a461-0f2621d9e993",
+                "name": "IS_NOT_LOCATION_OF_CURRENT_REGION",
+                "locale": "en-US",
+                "display": "Location does not belongs to current region."
+        },
+        {
+                "id": "daf88d50-4d71-48ae-b2d6-f1800770c895",
+                "name": "IS_NOT_LOCATION_OF_CURRENT_REGION",
+                "locale": "ko-KR",
+                "display": "현재 호기의 로케이션이 아닙니다."
+        },
+        {
+                "id": "bbb55e3f-b662-4de7-bc3d-6519ffb2dac5",
+                "name": "A_IS_NOT_POSSIBLE_TO",
+                "locale": "zh-CN",
+                "display": "{0}无法进行{1}。"
+        },
+        {
+                "id": "98ec18ab-9e12-448b-b6e3-e0502c4dabe1",
+                "name": "A_IS_NOT_POSSIBLE_TO",
+                "locale": "en-US",
+                "display": "{0} is not possible to {1}"
+        },
+        {
+                "id": "682e4625-2027-45ca-9ec6-1293bd58a26e",
+                "name": "FAIL_TO_PROCESS_TEMPLATE",
+                "locale": "en-US",
+                "display": "Failed to Process {0} Template"
+        },
+        {
+                "id": "cf720204-4d8b-476b-b340-f65a4733017d",
+                "name": "NOT_FOUND_BY_SCAN_BARCD",
+                "locale": "ko-KR",
+                "display": "스캔한 {0}로 {1}(을)를 찾을 수 없습니다"
+        },
+        {
+                "id": "8f9194bd-72bc-4767-b285-56551edb3333",
+                "name": "NOT_FOUND_BY_SCAN_BARCD",
+                "locale": "zh-CN",
+                "display": "无法使用扫描的{0}查询{1}。"
+        },
+        {
+                "id": "f64a3a7d-64eb-4ef3-a844-6352faa3570f",
+                "name": "NOT_FOUND_CRUD_FLAG",
+                "locale": "en-US",
+                "display": "There is no 'cudFlag' in the entity class [{0}]"
+        },
+        {
+                "id": "D7029A57-AD57-44A8-BF55-557CE67ED2B3",
+                "name": "A_ALREADY_B_STATUS",
+                "locale": "zh-CN",
+                "display": "{0}已经为{1}状态。"
+        },
+        {
+                "id": "7F6F566B-0BBA-4D98-989F-BB32C7C42771",
+                "name": "A_ALREADY_B_STATUS",
+                "locale": "en-US",
+                "display": "The {0} is already {1} status."
+        },
+        {
+                "id": "DF512EF7-19F9-4B8B-BCD8-391790DD20A5",
+                "name": "OVER_QUANTITY",
+                "locale": "en-US",
+                "display": "{1} quantity has exceeded the {2} quantity of {0}."
+        },
+        {
+                "id": "40C4524D-6490-4544-AAA9-18E3C5C8B311",
+                "name": "OVER_QUANTITY",
+                "locale": "zh-CN",
+                "display": "{1}的数量超过{2}数量。"
+        },
+        {
+                "id": "4DC224B4-2839-4F0D-8745-6AB339C5BE55",
+                "name": "OVER_QUANTITY",
+                "locale": "ko-KR",
+                "display": "{0}의 {1} 수량이 {2} 수량을 초과하였습니다."
+        },
+        {
+                "id": "59ED53B0-CBBC-47F0-9583-EAF83A07C6B1",
+                "name": "WORK_ORDER_OVER_QTY",
+                "locale": "en-US",
+                "display": "Work Order Over Quantity!"
+        },
+        {
+                "id": "ce9d26bb-85a0-43cd-af17-82237c3d1f21",
+                "name": "MPS_NO_CLOSING_BATCH",
+                "locale": "en-US",
+                "display": "Not found Batch to close in Batch Group [{0]]"
+        },
+        {
+                "id": "b6698ef3-05a0-4900-9de2-8dca411ae334",
+                "name": "MPS_NO_CLOSING_BATCH",
+                "locale": "ko-KR",
+                "display": "배치 그룹 [{0}]내에 마감 처리할 배치가 없습니다"
+        },
+        {
+                "id": "d7fe15fb-b9e2-4361-9f8d-8cea9966ddb4",
+                "name": "MPS_NO_CLOSING_BATCH",
+                "locale": "zh-CN",
+                "display": "批次组[{0}]中无可关闭的批次。"
+        },
+        {
+                "id": "3FA00889-EA99-41F8-B89C-910985AA9AED",
+                "name": "INCORRECT_AUTHENTICATION",
+                "locale": "ko-KR",
+                "display": "인증 정보가 올바르지 않습니다."
+        },
+        {
+                "id": "BCD8026A-86F2-4064-A7F2-C3EF3985F1FC",
+                "name": "BAD_SQL_GRAMMAR",
+                "locale": "ko-KR",
+                "display": "SQL이 올바르지 않습니다."
+        },
+        {
+                "id": "529C69E2-6E1F-478F-88D9-A5CD87740CB5",
+                "name": "NETWORK_UNREACHABLE",
+                "locale": "ko-KR",
+                "display": "네트워크에서 해당 호스트를 찾을 수 없습니다."
+        },
+        {
+                "id": "1AE12AB7-EC74-4844-A7CC-8878033F8305",
+                "name": "DATABASE_UNREACHABLE",
+                "locale": "ko-KR",
+                "display": "데이터베이스 호스트를 찾을 수 없습니다."
+        },
+        {
+                "id": "0DABE288-F091-4C92-821C-FDACA9484F86",
+                "name": "TRANSACTION_TIME_OUT",
+                "locale": "ko-KR",
+                "display": "트랜잭션 처리시간이 종료되었습니다."
+        },
+        {
+                "id": "656FA15F-FD99-4008-A963-AC2BC1FDCA51",
+                "name": "NULL_OBJECT_NOT_ALLOWED",
+                "locale": "en-US",
+                "display": "Null Object is not allowed."
+        },
+        {
+                "id": "2E7826A5-0AD3-43E0-BBD5-07DAA4C6A647",
+                "name": "INTEGRITY_VIOLATION",
+                "locale": "ko-KR",
+                "display": "데이터 정합성이 맞지 않습니다."
+        },
+        {
+                "id": "F73F95CF-65D6-4799-98EF-62BA16C87900",
+                "name": "TRANSACTION_TIME_OUT",
+                "locale": "en-US",
+                "display": "Transaction timed out."
+        },
+        {
+                "id": "934F087F-134F-45F4-8232-CEDC9397ED40",
+                "name": "DATABASE_UNREACHABLE",
+                "locale": "en-US",
+                "display": "Database is unreachable."
+        },
+        {
+                "id": "F82336F3-F2E5-4090-AC92-E72D3FF5FDED",
+                "name": "NETWORK_UNREACHABLE",
+                "locale": "en-US",
+                "display": "Network is unreachable."
+        },
+        {
+                "id": "FA361BC6-E87C-4672-8D2B-6E12E6A13199",
+                "name": "INTEGRITY_VIOLATION",
+                "locale": "en-US",
+                "display": "Data Integrity Violation"
+        },
+        {
+                "id": "DFD96D7F-2804-44B1-834C-279ACEEC0BBF",
+                "name": "BAD_SQL_GRAMMAR",
+                "locale": "en-US",
+                "display": "Bad SQL Grammar"
+        },
+        {
+                "id": "A5B9B4BE-421B-4BC2-A753-29F0C79F559F",
+                "name": "INCORRECT_AUTHENTICATION",
+                "locale": "en-US",
+                "display": "Authentication is incorrect."
+        },
+        {
+                "id": "4439669A-B82F-4792-80D7-2A38B50C23E4",
+                "name": "A_IS_NOT_SET_TO_B",
+                "locale": "en-US",
+                "display": "{1} is not set to {0}."
+        },
+        {
+                "id": "05978371-DE6E-46A4-ACA2-1A0C2D8D29E8",
+                "name": "A_IS_NOT_SET_TO_B",
+                "locale": "ko-KR",
+                "display": "{0}에 {1}이 설정되지 않았습니다."
+        },
+        {
+                "id": "E237DE41-67C0-4D3E-8FCB-B74CECBE75F8",
+                "name": "A_IS_NOT_SET_TO_B",
+                "locale": "zh-CN",
+                "display": "{0}中未配置{1}。"
+        },
+        {
+                "id": "018ed4af-2e75-4c06-97c2-7f1a5cbe967b",
+                "name": "DOES_NOT_EXECUTED",
+                "locale": "ko-KR",
+                "display": "{0} 작업이(가) 처리되지 않았습니다."
+        },
+        {
+                "id": "a98e7adc-d0e3-4bc2-931f-3392c4b8cddf",
+                "name": "DOES_NOT_EXECUTED",
+                "locale": "en-US",
+                "display": "{0} was not executed."
+        },
+        {
+                "id": "20f25f0c-9f55-4ba3-81ca-6b6ffb48004f",
+                "name": "DOES_NOT_EXECUTED",
+                "locale": "zh-CN",
+                "display": "{0}作业未完成。"
+        },
+        {
+                "id": "cb6de087-5033-4005-85d1-a59534035fff",
+                "name": "NOT_SUPPORTED_A",
+                "locale": "ko-KR",
+                "display": "지원하지 않는 {0}입니다."
+        },
+        {
+                "id": "46a4a273-4175-4363-b11f-c6ee317ddf51",
+                "name": "NOT_SUPPORTED_A",
+                "locale": "en-US",
+                "display": "Not Supported {0}"
+        },
+        {
+                "id": "94e0fe62-40fa-4bb6-8bcf-575cb70c3de1",
+                "name": "NOT_SUPPORTED_A",
+                "locale": "zh-CN",
+                "display": "不支持的{0}。"
+        },
+        {
+                "id": "89F9C5FE-7236-4095-8077-3CB1A2786870",
+                "name": "RESOURCE_SHOULD_NOT_BE_DELETED",
+                "locale": "en-US",
+                "display": "{0} ({1}) can't be deleted because it is referenced by {2}"
+        },
+        {
+                "id": "A0937B64-71D6-4FBC-A063-2C6C4199BBCA",
+                "name": "RESOURCE_SHOULD_NOT_BE_DELETED",
+                "locale": "zh-CN",
+                "display": "无法删除{0}（{1}），因为它在{2}中被引用。"
+        },
+        {
+                "id": "EE49B4C2-B987-4DD4-8131-1B524F7A18BB",
+                "name": "RESOURCE_SHOULD_NOT_BE_DELETED",
+                "locale": "ko-KR",
+                "display": "{0} ({1})는 {2}에 참조되어 있기 때문에 삭제될 수 없습니다."
+        },
+        {
+                "id": "ecbfd0af-17d5-49d6-82b0-f00bb3ec7112",
+                "name": "MPS_A_NOT_ASSIGNED_TO",
+                "locale": "zh-CN",
+                "display": "{0}上未分配{1}。"
+        },
+        {
+                "id": "46022352-1e87-4a2b-81a2-5fa162d4582f",
+                "name": "MPS_A_NOT_ASSIGNED_TO",
+                "locale": "en-US",
+                "display": "No {1} is assigned to the {0}."
+        },
+        {
+                "id": "899ab6b4-9125-456f-b73c-c575fa972a75",
+                "name": "MPS_A_NOT_ASSIGNED_TO",
+                "locale": "ko-KR",
+                "display": "{0}에 {1}이(가) 할당되어 있지 않습니다."
+        },
+        {
+                "id": "0c2feb6f-d8d5-4807-af36-3038de5c2dde",
+                "name": "MPS_ALREADY_ASSIGNED_TO",
+                "locale": "ko-KR",
+                "display": "{0}에 {1}이(가) 이미 할당되어 있습니다."
+        },
+        {
+                "id": "a2dba710-ede4-4233-be16-8b9a4098148a",
+                "name": "MPS_ALREADY_ASSIGNED_TO",
+                "locale": "en-US",
+                "display": "{1} is assigned to the {0}."
+        },
+        {
+                "id": "3fb1db54-fdf1-47d1-9cc5-07cc6fc1fb2b",
+                "name": "MPS_ALREADY_ASSIGNED_TO",
+                "locale": "zh-CN",
+                "display": "{0}上已分配{1}。"
+        },
+        {
+                "id": "3483E262-BA29-42EB-9B24-ADCFABA3E259",
+                "name": "HAS_NO_AUTHORITY",
+                "locale": "zh-CN",
+                "display": "无权限访问 {0} ({1})"
+        },
+        {
+                "id": "9A1D361D-950F-455A-A341-39501AF45181",
+                "name": "HAS_NO_AUTHORITY",
+                "locale": "en-US",
+                "display": "You have no authroity to access {0} ({1})"
+        },
+        {
+                "id": "D379662D-3AE2-44ED-85A9-ADD7FA964ECC",
+                "name": "HAS_NO_AUTHORITY",
+                "locale": "ko-KR",
+                "display": "사용자께서는 {0} ({1})에 대한 접근 권한이 없습니다. [관리자 메뉴] / [그룹 권한] 메뉴에서 그룹에 대한 권한을 추가하세요."
+        },
+        {
+                "id": "755AAFCB-4570-4625-8C4E-C78F9A1B3A10",
+                "name": "BAD_SQL_GRAMMAR",
+                "locale": "zh-CN",
+                "display": "语法错误。"
+        },
+        {
+                "id": "61432EA9-7BD5-45BC-A3F2-27A98B75D22B",
+                "name": "DATABASE_UNREACHABLE",
+                "locale": "zh-CN",
+                "display": "数据库无法访问。"
+        },
+        {
+                "id": "3C73BE71-01B5-492C-98FC-72D5B1F9B5C0",
+                "name": "INCORRECT_AUTHENTICATION",
+                "locale": "zh-CN",
+                "display": "认证错误。"
+        },
+        {
+                "id": "E80FE952-210E-4387-BCF2-0169B68D4F2D",
+                "name": "DATA_DUPLICATED",
+                "locale": "en-US",
+                "display": "({0}) Data ({1}) aleady exist."
+        },
+        {
+                "id": "A6803774-7BD6-4458-B5CA-0EAAD0B438DE",
+                "name": "FILE_ROOT_PATH_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "Root path가 올바르지 않습니다."
+        },
+        {
+                "id": "9A3AD371-6A95-4A04-AE3D-52C0643A0864",
+                "name": "UPLOAD_FILE_SIZE_LIMIT_ERROR",
+                "locale": "ko-KR",
+                "display": "업로드 가능한 파일 용량을 초과하였습니다."
+        },
+        {
+                "id": "40B005B4-CB5B-4BBC-B73A-C4BE2921E6EE",
+                "name": "TABLE_DOES_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "Table이 존재하지 않습니다."
+        },
+        {
+                "id": "A82E072C-593C-4725-861D-A4067D8FCA7A",
+                "name": "USER_REJECT",
+                "locale": "ko-KR",
+                "display": "계정 신청이 반려되었습니다."
+        },
+        {
+                "id": "c48e56a3-6685-4fbb-adda-65b486a0d443",
+                "name": "INCOMPLETED_JOB_EXIST",
+                "locale": "zh-CN",
+                "display": "存在未完成的作业。"
+        },
+        {
+                "id": "58F0668A-778B-4251-B7D0-6E908ECED541",
+                "name": "NOT_AUTHORIZED_USER",
+                "locale": "ko-KR",
+                "display": "인증되지 않은 사용자 입니다."
+        },
+        {
+                "id": "78ABFD5A-CB2F-43F1-A829-B8678804E699",
+                "name": "USER_APPROVAL",
+                "locale": "ko-KR",
+                "display": "계정 신청이 승인되었습니다."
+        },
+        {
+                "id": "732090D9-AE03-444C-A02F-41253C34FA95",
+                "name": "USER_COMPLETE_INIT_PASS",
+                "locale": "ko-KR",
+                "display": "비밀번호 초기화가 완료되었습니다."
+        },
+        {
+                "id": "1EAD52FD-A9B0-45CB-8B76-EE349348FC42",
+                "name": "USER_REQUEST_INIT_PASS",
+                "locale": "ko-KR",
+                "display": "비밀번호 초기화 요청드립니다."
+        },
+        {
+                "id": "DF147104-4F36-4343-A4D1-284DFFD52760",
+                "name": "FILE_DOWNLOAD_ERROR",
+                "locale": "ko-KR",
+                "display": "File Download 실행 중, 에러가 발생하였습니다."
+        },
+        {
+                "id": "6F109D9D-7CDC-4E41-BCD6-789482BA55DF",
+                "name": "NOT_SUPPORTED_TYPE",
+                "locale": "ko-KR",
+                "display": "지원하지 않는 {0} Type입니다. [{1}]"
+        },
+        {
+                "id": "3FBFCD7A-A897-4D10-8AB2-74D9E0BC6283",
+                "name": "UNKNOWN_TYPE",
+                "locale": "ko-KR",
+                "display": "알 수 없는 타입 형식입니다. [{0}]"
+        },
+        {
+                "id": "13740B18-B170-43C9-B17F-02023F96C60C",
+                "name": "IS_NOT_ENTITY",
+                "locale": "ko-KR",
+                "display": "엔티티 이름이 올바르지 않습니다. [{0}]"
+        },
+        {
+                "id": "43270AC8-A38E-4554-9C2B-AC2F989E235E",
+                "name": "USER_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "사용자가 존재하지 않습니다."
+        },
+        {
+                "id": "76942633-C829-45DC-8E39-6A36B64985F1",
+                "name": "USER_INVALID_ID_OR_PASS",
+                "locale": "ko-KR",
+                "display": "ID 또는 비밀번호가 올바르지 않습니다."
+        },
+        {
+                "id": "490E697D-6F59-442B-9DFB-03C58B497C97",
+                "name": "DOMAIN_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "요청한 서버 정보 ({0})로 Domain 정보를 찾을 수 없습니다."
+        },
+        {
+                "id": "440899F4-C153-46E6-BFB1-854CF3607013",
+                "name": "FILE_DEFAULT_PATH_IS_EMPTY",
+                "locale": "en-US",
+                "display": "Default Path is empty."
+        },
+        {
+                "id": "A3AB601D-8C2B-4AFC-9831-CF11F6675CAA",
+                "name": "NOT_SUPPORTED_YET",
+                "locale": "en-US",
+                "display": "Not Supported Yet!"
+        },
+        {
+                "id": "AE1EE85F-EF45-4024-8191-3E4DB474ABC3",
+                "name": "HAS_ONE_OR_MORE_DATA",
+                "locale": "en-US",
+                "display": "Can not delete it, It Has one or more data."
+        },
+        {
+                "id": "219AD014-8F47-475A-B964-5D2EA9CBCC28",
+                "name": "FILE_NOT_FOUND",
+                "locale": "en-US",
+                "display": "File({0}) Not Found."
+        },
+        {
+                "id": "62A07696-D667-4BD5-B1CC-2BBEAF680A19",
+                "name": "USER_NOT_EXIST",
+                "locale": "en-US",
+                "display": "User does not exist"
+        },
+        {
+                "id": "CF0CC722-1178-4C4C-8E6E-FA59AC67884B",
+                "name": "NEED_OPTION",
+                "locale": "ko-KR",
+                "display": "이 타입은 반드시 [{0}] 옵션이 필요합니다."
+        },
+        {
+                "id": "3C482CF1-950E-4E6A-BF03-720F1E50BE9A",
+                "name": "FILE_NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "파일({0})을 찾을수가 없습니다."
+        },
+        {
+                "id": "8D27C57B-C7E0-47DF-9BFA-CB56D51D9F74",
+                "name": "NOT_SUPPORTED_YET",
+                "locale": "ko-KR",
+                "display": "아직 지원되지 않는 기능입니다."
+        },
+        {
+                "id": "74a400a5-23f9-4d2c-9e52-95b79d81a570",
+                "name": "NOT_FOUND_BY",
+                "locale": "ko-KR",
+                "display": "{0}(으)로 {1}을 찾을 수 없습니다."
+        },
+        {
+                "id": "60ff6249-3933-4afd-b220-60b445442d24",
+                "name": "NOT_FOUND_BY",
+                "locale": "en-US",
+                "display": "Can not be found {1} with the {0}."
+        },
+        {
+                "id": "b8c65ca9-2419-4bcd-bf20-41f553260c6a",
+                "name": "MPS_NOT_ALLOW_INPUT_CLONE_GROUP",
+                "locale": "ko-KR",
+                "display": "스캔한 상품은 다른 복제 그룹에서 처리 중이어서 투입이 불가능합니다"
+        },
+        {
+                "id": "a79d3deb-0e17-4ee3-9189-bfa70e11ce26",
+                "name": "MPS_NOT_ALLOW_INPUT_CLONE_GROUP",
+                "locale": "en-US",
+                "display": "The scanned item is being processed by another replication group and can not be input."
+        },
+        {
+                "id": "bcf26713-f32d-46af-aec5-f2b421ff7bf7",
+                "name": "MPS_NOT_ALLOW_INPUT_CLONE_GROUP",
+                "locale": "zh-CN",
+                "display": "因扫描的商品正在其他克隆组中处理，当前无法投箱。"
+        },
+        {
+                "id": "8590a32a-58ba-481f-9caf-0a4d0fd4c159",
+                "name": "MPS_NO_SKU_JOBS",
+                "locale": "ko-KR",
+                "display": "스캔한 상품은 처리할 작업이 남아 있지 않습니다"
+        },
+        {
+                "id": "245281c8-6d8f-49f2-9c40-70dcce079f0f",
+                "name": "MPS_NO_SKU_JOBS",
+                "locale": "en-US",
+                "display": "The scanned item has no work to process"
+        },
+        {
+                "id": "9A50518C-ACCB-42EA-A909-11AE0309D695",
+                "name": "BAD_REQUEST",
+                "locale": "en-US",
+                "display": "Bad Request."
+        },
+        {
+                "id": "34EE28F1-18CF-46DE-A92A-C829A1433C66",
+                "name": "BAD_REQUEST",
+                "locale": "ko-KR",
+                "display": "잘못된 요청입니다."
+        },
+        {
+                "id": "1EAE63B3-4BDA-426E-BF9A-195125047710",
+                "name": "TITLE_INVALID_PARAM",
+                "locale": "en-US",
+                "display": "Invalid Parameter Error"
+        },
+        {
+                "id": "20624415-6303-4481-896A-86613DE995A1",
+                "name": "TITLE_DATA_BASE_ERROR",
+                "locale": "en-US",
+                "display": "Database Error"
+        },
+        {
+                "id": "E4BAFC5F-D84C-41D7-955A-ED0FA9D73D8C",
+                "name": "RECORD_NOT_FOUND",
+                "locale": "en-US",
+                "display": "Record not found."
+        },
+        {
+                "id": "E864BC48-6948-4F7C-A754-2119461C47A2",
+                "name": "PARSE_INPUT_ERROR",
+                "locale": "en-US",
+                "display": "Error occured at converting input Data."
+        },
+        {
+                "id": "F9AF05EA-2FEA-4944-A7C1-5275E527D418",
+                "name": "INVALID_PARAM",
+                "locale": "en-US",
+                "display": "Parameter (name : {0}, value : {1}) is not valid."
+        },
+        {
+                "id": "575B94FF-BDC7-4BD9-8B45-DE8018F1DC9C",
+                "name": "EMPTY_PARAM",
+                "locale": "en-US",
+                "display": "Empty {0} is not allowed!"
+        },
+        {
+                "id": "4553F1C7-2E87-4A3C-ABB8-DD99E5453827",
+                "name": "TITLE_VALIDATION_ERROR",
+                "locale": "en-US",
+                "display": "Validation Error"
+        },
+        {
+                "id": "CC5B0741-360F-459D-89FA-1B51626631CD",
+                "name": "TITLE_SERVICE_ERROR",
+                "locale": "en-US",
+                "display": "Service Error"
+        },
+        {
+                "id": "D0156A71-83A4-41C7-9F70-DFA6BFAFA888",
+                "name": "TITLE_SCRIPT_RUNTIME_ERROR",
+                "locale": "en-US",
+                "display": "Script Error"
+        },
+        {
+                "id": "EBBC9AC0-51FF-47E0-BE25-3179398F7828",
+                "name": "TITLE_RUNTIME_ERROR",
+                "locale": "en-US",
+                "display": "Runtime Error"
+        },
+        {
+                "id": "0301239F-494E-4F2F-A3CC-8631B75BD446",
+                "name": "TITLE_INVALID_STATUS",
+                "locale": "en-US",
+                "display": "Service Invalid Status Error"
+        },
+        {
+                "id": "8B7D9B65-4CC1-41BA-B779-01DB9B273483",
+                "name": "TITLE_ALREADY_EXIST",
+                "locale": "en-US",
+                "display": "Record Already Exist Error"
+        },
+        {
+                "id": "53FE6B07-3F4B-4BD4-AE30-921DA63169AF",
+                "name": "TITLE_SERVICE_NOT_FOUND",
+                "locale": "en-US",
+                "display": "Service Not Found Error"
+        },
+        {
+                "id": "B3C64B61-EBE4-4C4B-BB3D-5BA82DCBCED1",
+                "name": "TITLE_RECORD_NOT_FOUND",
+                "locale": "en-US",
+                "display": "Record Not Found Error"
+        },
+        {
+                "id": "FDB8BA05-73B8-46D0-8BCB-4F12B0BFEAC6",
+                "name": "TITLE_PARSE_INPUT_ERROR",
+                "locale": "en-US",
+                "display": "Converting (Input Parameters) Error"
+        },
+        {
+                "id": "BF7C433E-191C-4343-AB3F-F867E0646AED",
+                "name": "TITLE_BAD_REQUEST",
+                "locale": "en-US",
+                "display": "Bad Request"
+        },
+        {
+                "id": "B1FFDBB3-7711-4782-8BA7-91847B81F8BC",
+                "name": "TITLE_PARSE_OUTPUT_ERROR",
+                "locale": "en-US",
+                "display": "Parse Output Error"
+        },
+        {
+                "id": "B1EA6A99-02CC-4C2B-AF2C-20DA121BD22D",
+                "name": "PARSE_OUTPUT_ERROR",
+                "locale": "en-US",
+                "display": "Error occured while Output Data converting."
+        },
+        {
+                "id": "A4A8FC0F-E72F-4D9E-9711-826070DE53D1",
+                "name": "RUNTIME_ERROR",
+                "locale": "en-US",
+                "display": "Unexpected error occured during at runtime."
+        },
+        {
+                "id": "C2BEF5F5-9577-455F-B7FC-AE344A567BB3",
+                "name": "SCRIPT_RUNTIME_ERROR",
+                "locale": "en-US",
+                "display": "Error occured while run script."
+        },
+        {
+                "id": "0C7AF3CA-82B9-4F00-9C80-64F80764BA60",
+                "name": "INVALID_STATUS",
+                "locale": "en-US",
+                "display": "Invalid status."
+        },
+        {
+                "id": "C4A20FEE-7291-4F24-9A20-732CD4BE7D51",
+                "name": "VALIDATION_ERROR",
+                "locale": "en-US",
+                "display": "Error occured during validation."
+        },
+        {
+                "id": "E02E5129-0AA7-4AE4-996C-672C83482001",
+                "name": "ALREADY_EXIST",
+                "locale": "en-US",
+                "display": "Data aleady exist."
+        },
+        {
+                "id": "eedd29a6-c170-491c-b945-4c98bf945a4c",
+                "name": "NOT_FOUND_BY",
+                "locale": "zh-CN",
+                "display": "无法使用{0}检索{1}。"
+        },
+        {
+                "id": "9C59469C-44D7-45F6-8223-3ED6CC951B7D",
+                "name": "SERVICE_ERROR",
+                "locale": "en-US",
+                "display": "Error occured while run service."
+        },
+        {
+                "id": "797F1C25-1BB7-4FBF-94A6-D8FA1493FC4A",
+                "name": "SERVICE_NOT_FOUND",
+                "locale": "en-US",
+                "display": "Service does not exist."
+        },
+        {
+                "id": "11C027C9-4DD5-47A9-8F02-56CAA931A1FB",
+                "name": "DATA_BASE_ERROR",
+                "locale": "en-US",
+                "display": "Error occured during query excuting."
+        },
+        {
+                "id": "BE3F6517-B7BD-44BD-92F4-1C7FF2F3AD31",
+                "name": "COULD_NOT_INSTANTIATE",
+                "locale": "en-US",
+                "display": "{0} Could not instantiate Class. ({1})"
+        },
+        {
+                "id": "A375C154-11A8-4192-88BA-79C45CE0D7AD",
+                "name": "FAILED_TO_PROCESS_TEMPLATE",
+                "locale": "en-US",
+                "display": "Failed to Process {0} Template."
+        },
+        {
+                "id": "0747BBFB-A443-4A13-9FAE-F5BA488551E3",
+                "name": "KEY_AND_VALUE_MISMATCH",
+                "locale": "en-US",
+                "display": "keys count and values count mismatch."
+        },
+        {
+                "id": "DAEA68C8-9B0A-4B93-98B2-076ABA5E9DFB",
+                "name": "MISMATCH_STATUS",
+                "locale": "en-US",
+                "display": "The {0} ({1}) is not [{2}] Status."
+        },
+        {
+                "id": "930D17EE-F70A-4326-8563-16A567A99BAC",
+                "name": "IS_NOT_INSTANCE_OF",
+                "locale": "en-US",
+                "display": "Invalid {0} Class ({1}) - Class is not instance of {2}."
+        },
+        {
+                "id": "56A04E98-D04C-4487-817D-94DEFE3612F1",
+                "name": "FIELD_NOT_EXIST",
+                "locale": "en-US",
+                "display": "[{0}] Field does not exist."
+        },
+        {
+                "id": "73BDD1B9-6597-4AC3-8A21-E7D9A7DCA082",
+                "name": "NOT_FOUND_KEY",
+                "locale": "en-US",
+                "display": "Empty key found at key parameters."
+        },
+        {
+                "id": "510F3B72-4364-4CA2-A944-142140E7EFFA",
+                "name": "INVALID_KEYS",
+                "locale": "en-US",
+                "display": "Invalid keys of entity!"
+        },
+        {
+                "id": "29045803-3B23-40DE-9B5B-620DBE397EA5",
+                "name": "HAS_DETAIL_DATA",
+                "locale": "en-US",
+                "display": "There are detail data in entity ({0}), Please re-try after deleting detail data."
+        },
+        {
+                "id": "48E0C804-BA42-44AE-9903-663913BE3980",
+                "name": "NOT_FOUND_UNIQUE_FIELDS",
+                "locale": "en-US",
+                "display": "Not found uniqueFields in entity ({0})"
+        },
+        {
+                "id": "D4EDE50E-C6F0-4F33-B39B-7717C71E0C99",
+                "name": "EMPTY_CUD_FLAG_VALUE",
+                "locale": "en-US",
+                "display": "Failed to get cudFlag value."
+        },
+        {
+                "id": "608888CC-CE4F-4490-B0E1-F94EBDD84439",
+                "name": "FAILED_META_SETUP",
+                "locale": "en-US",
+                "display": "Failed to setup detail meta."
+        },
+        {
+                "id": "CA845227-6C80-4F38-A099-6D62E86F8E96",
+                "name": "INVALID_DATA_TYPE",
+                "locale": "en-US",
+                "display": "Data Type[{0}] is not valid."
+        },
+        {
+                "id": "47DEAA6F-BAB0-4856-807C-2C28D1236177",
+                "name": "INVALID_FILE",
+                "locale": "en-US",
+                "display": "Invalid file [{0}]."
+        },
+        {
+                "id": "8799C808-C4BF-4D9E-A8DE-AADFBCAC647D",
+                "name": "NOT_CONNECTED",
+                "locale": "en-US",
+                "display": "Not Connected."
+        },
+        {
+                "id": "B6402F7C-3B9E-48DD-8850-C881B9BB073A",
+                "name": "NOT_FOUND_CUD_FLAG",
+                "locale": "en-US",
+                "display": "There is no 'cudFlag' in the entity class [{0}]"
+        },
+        {
+                "id": "D1284C37-F2CF-4893-BF09-7AD08EF3DE76",
+                "name": "HAS_NO_CONSTRUCTOR",
+                "locale": "en-US",
+                "display": "Entity class has no default constructor."
+        },
+        {
+                "id": "AD3AD2AF-69A7-4245-B875-5F4C1888F924",
+                "name": "STREAMING_ERROR",
+                "locale": "en-US",
+                "display": "Streaming error"
+        },
+        {
+                "id": "894A5D5E-5A8E-442E-9636-EC04C6AD39B4",
+                "name": "FILE_COPY_FAILED",
+                "locale": "en-US",
+                "display": "Failed to copy file!"
+        },
+        {
+                "id": "3A4720F2-3C6B-4E62-8CCC-7FF8F3872206",
+                "name": "MISMATCH_PARAM_COUNT",
+                "locale": "en-US",
+                "display": "Invalid query - Parameter count mismatch. [{0}:{1}]"
+        },
+        {
+                "id": "6A39683C-4C45-405B-A6E0-B85C75FA7466",
+                "name": "GENERATE_FAIL",
+                "locale": "en-US",
+                "display": "Failed to generate service!"
+        },
+        {
+                "id": "907EFA28-1430-44C1-98CA-91E2492E491C",
+                "name": "NOT_SUPPORTED_METHOD",
+                "locale": "en-US",
+                "display": "Not supported method."
+        },
+        {
+                "id": "C3CC311E-F1B2-4ACF-A389-5D041F0ED420",
+                "name": "MORE_THAN_ONE_ERROR",
+                "locale": "en-US",
+                "display": "There are data more than one."
+        },
+        {
+                "id": "65DC39BC-F43F-4476-A852-B1BDF5E6B447",
+                "name": "NOT_FOUND",
+                "locale": "en-US",
+                "display": "{0}({1}) not found."
+        },
+        {
+                "id": "EFE1E700-8F12-4A11-A2B9-D3C48996D00F",
+                "name": "IS_NOT_IN_USE_LISTENER",
+                "locale": "en-US",
+                "display": "It's not running listener."
+        },
+        {
+                "id": "44CAEB9F-10DB-4C1A-9259-1AAA067D88D1",
+                "name": "DOES_NOT_PROCEED",
+                "locale": "en-US",
+                "display": "{0} is not on the process."
+        },
+        {
+                "id": "BAA675E1-1B65-4D88-8AF5-1D30B5276995",
+                "name": "IS_NOT_RUNNING",
+                "locale": "en-US",
+                "display": "{0} is not Running."
+        },
+        {
+                "id": "64DCF26B-76D9-4F4B-A6AC-A07ED62B7D51",
+                "name": "ALREADY_PROCEED",
+                "locale": "en-US",
+                "display": "{0} is alread on process."
+        },
+        {
+                "id": "A9926178-371A-4D11-A85A-01965B077DC2",
+                "name": "INVALID_DATA",
+                "locale": "zh-CN",
+                "display": "{0}的数据（{1}）无效。"
+        },
+        {
+                "id": "AF221AA0-6B2E-4169-83E2-0B32E371B4B9",
+                "name": "INVALID_SERVICE_URL",
+                "locale": "en-US",
+                "display": "Invalid Restful Service URL({0})."
+        },
+        {
+                "id": "7F90F103-090D-4EEF-9E70-A540FEDCE7F3",
+                "name": "NOT_FOUND_URL",
+                "locale": "en-US",
+                "display": "Not found service at URL ({0})."
+        },
+        {
+                "id": "BC6E8213-4751-4235-A78E-2944644DE198",
+                "name": "DATA_BASE_ERROR",
+                "locale": "ko-KR",
+                "display": "Query 실행 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "F52FD9BF-B0EA-4E63-8395-E673CC740907",
+                "name": "ALREADY_EXIST",
+                "locale": "ko-KR",
+                "display": "데이터가 이미 존재 합니다."
+        },
+        {
+                "id": "23C59C22-38EA-4A82-9205-BFA915BBC7D0",
+                "name": "MISMATCH_STATUS",
+                "locale": "ko-KR",
+                "display": "{0} ({1})은(는) [{2}] 상태가 아닙니다."
+        },
+        {
+                "id": "873F797A-7DAD-4949-AE53-2BD239422A6C",
+                "name": "EMPTY_CUD_FLAG_VALUE",
+                "locale": "ko-KR",
+                "display": "cudFlag의 값을 가져오는데 실패하였습니다."
+        },
+        {
+                "id": "A706CEA8-DEFE-47A6-ADB2-52BDAA8AE486",
+                "name": "EMPTY_PARAM",
+                "locale": "ko-KR",
+                "display": "{0}의 빈값을 허용할 수 없습니다."
+        },
+        {
+                "id": "37D5C2B6-8FC3-476F-9EB9-4B72662F5A84",
+                "name": "DOES_NOT_PROCEED",
+                "locale": "ko-KR",
+                "display": "진행 중인 {0}(이)가 아닙니다."
+        },
+        {
+                "id": "3195C351-8614-4105-A165-3D5F6F250BD6",
+                "name": "HAS_DETAIL_DATA",
+                "locale": "ko-KR",
+                "display": "엔티티 ({0})에 Detail Data가 존재합니다. Detail 데이터 삭제 후 다시 시도해주세요."
+        },
+        {
+                "id": "2DA599DF-8ACD-42CA-91B8-9ED8A08BA493",
+                "name": "FAILED_TO_PROCESS_TEMPLATE",
+                "locale": "ko-KR",
+                "display": "{0} 템플릿 프로세스를 실패하였습니다."
+        },
+        {
+                "id": "FA4FA63C-D16A-4CA4-9EEA-EAB2D6A9E593",
+                "name": "FIELD_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "[{0}] 필드가 존재하지 않습니다."
+        },
+        {
+                "id": "9495C116-A645-4EBF-B979-CE7C0C0199E5",
+                "name": "FILE_COPY_FAILED",
+                "locale": "ko-KR",
+                "display": "파일 복사에 실패하였습니다."
+        },
+        {
+                "id": "45740ACF-EDE4-4544-8704-703FFAAD1127",
+                "name": "INVALID_DATA_TYPE",
+                "locale": "ko-KR",
+                "display": "Data Type[{0}]이 올바르지 않습니다."
+        },
+        {
+                "id": "C8F562AD-ED7D-4267-9418-11BBC028192E",
+                "name": "FAIL_TO_COMPILE",
+                "locale": "ko-KR",
+                "display": "{0} 코드 컴파일 중 에러가 발생했습니다."
+        },
+        {
+                "id": "FD37FA75-6BA7-4FD5-A957-2E2715672A1B",
+                "name": "FAIL_TO_COMPILE",
+                "locale": "zh-CN",
+                "display": "编译{0}失败。"
+        },
+        {
+                "id": "A49AB733-671F-4AC4-BB60-7083F818A645",
+                "name": "FAIL_TO_PARSE",
+                "locale": "en-US",
+                "display": "Failed to parse {0} data."
+        },
+        {
+                "id": "D3C7173C-37B6-442C-BFC7-FF16912F5A97",
+                "name": "FAIL_TO_PARSE",
+                "locale": "ko-KR",
+                "display": "{0} 데이터 파싱 중 에러가 발생했습니다."
+        },
+        {
+                "id": "E33379A0-ED9D-4B83-89D1-F97F3EEBDE5C",
+                "name": "USER_ALREADY_EXIST",
+                "locale": "zh-CN",
+                "display": "用户已存在。"
+        },
+        {
+                "id": "5780A5D6-402C-487C-9120-063E3822EF20",
+                "name": "USER_ALREADY_EXIST",
+                "locale": "en-US",
+                "display": "User already exists."
+        },
+        {
+                "id": "2B4282F8-8EF0-4A01-B3C3-806108E15796",
+                "name": "USER_ALREADY_EXIST",
+                "locale": "ko-KR",
+                "display": "사용자가 이미 존재합니다."
+        },
+        {
+                "id": "8AE90FF0-5881-4B1E-AE76-C1DEE1F492EF",
+                "name": "DOMAIN_ADMIN_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "管理员不存在，您无法向管理员发送邮件。"
+        },
+        {
+                "id": "C9CB741A-4EB4-4DCF-A980-F8A4D2E313EB",
+                "name": "USER_REJECT_INIT_PASS",
+                "locale": "en-US",
+                "display": "Rejected to reset password."
+        },
+        {
+                "id": "B572E8C8-7977-4FCA-85EB-2BCE6D8EAB52",
+                "name": "USER_REJECT_INIT_PASS",
+                "locale": "ko-KR",
+                "display": "비밀번호 초기화 요청이 반려되었습니다."
+        },
+        {
+                "id": "99900339-692C-4165-B120-540A39D421E9",
+                "name": "USER_REJECT_INIT_PASS",
+                "locale": "zh-CN",
+                "display": "重置密码申请已拒绝。"
+        },
+        {
+                "id": "73A32F1E-FE1C-4D0B-B8BA-1D8A4152B0B1",
+                "name": "USER_REQUEST_ADD_AUTH",
+                "locale": "en-US",
+                "display": "System access authorization request."
+        },
+        {
+                "id": "E9530F4E-8A66-47D8-B7A6-1F943CD84420",
+                "name": "USER_COMPLETE_ADD_AUTH",
+                "locale": "en-US",
+                "display": "Approved system access authorization request."
+        },
+        {
+                "id": "1567B265-E9F2-473E-9EA9-D4E21459B9A0",
+                "name": "USER_COMPLETE_ADD_AUTH",
+                "locale": "ko-KR",
+                "display": "사용자 권한 추가 요청이 승인되었습니다."
+        },
+        {
+                "id": "F57066D6-CCE1-4B17-816D-BBEF6CB593D9",
+                "name": "USER_COMPLETE_ADD_AUTH",
+                "locale": "zh-CN",
+                "display": "系统访问授权已批准。"
+        },
+        {
+                "id": "394EE903-5636-410A-BDCA-0AF7804E07F3",
+                "name": "USER_REJECT_ADD_AUTH",
+                "locale": "ko-KR",
+                "display": "사용자 권한 추가 요청이 반려되었습니다."
+        },
+        {
+                "id": "87261083-FD60-4141-A020-C989B972CC94",
+                "name": "USER_REJECT_ADD_AUTH",
+                "locale": "en-US",
+                "display": "Rejected system access authorization request."
+        },
+        {
+                "id": "3ABF49DC-9DBA-40F4-8286-2DBD662B1AA5",
+                "name": "USER_REJECT_ADD_AUTH",
+                "locale": "zh-CN",
+                "display": "系统访问授权申请已拒绝。"
+        },
+        {
+                "id": "5908FAC8-A68F-432C-9EC8-90B81B29985F",
+                "name": "A_CONTAINS_B",
+                "locale": "en-US",
+                "display": "Text '{0}' contains the string '{1}'."
+        },
+        {
+                "id": "E342A9EC-3251-44C5-A356-F6CC7EC9297C",
+                "name": "A_CONTAINS_B",
+                "locale": "ko-KR",
+                "display": "문자열 '{0}'은 '{1}'을 포함하고 있습니다."
+        },
+        {
+                "id": "B684F5D2-1166-4520-A7B2-7F0B8BCBC27B",
+                "name": "A_CONTAINS_B",
+                "locale": "zh-CN",
+                "display": "文字'{0}'中包含'{1}'."
+        },
+        {
+                "id": "34D210F8-2F22-4D19-854C-1AAAF3DAF200",
+                "name": "A_DOES_NOT_CONTAINS_B",
+                "locale": "zh-CN",
+                "display": "文字'{0}'未包含'{1}'."
+        },
+        {
+                "id": "13B8D123-F370-4371-B9E3-054A1D4DD7F9",
+                "name": "A_DOES_NOT_CONTAINS_B",
+                "locale": "en-US",
+                "display": "Text '{0}' does not contains the string '{1}'."
+        },
+        {
+                "id": "F00EDD82-7CB0-4056-A646-AFDB65B64573",
+                "name": "A_DOES_NOT_CONTAINS_B",
+                "locale": "ko-KR",
+                "display": "문자열 '{0}'은 '{1}'을 포함하지 않았습니다."
+        },
+        {
+                "id": "10768D7F-1BA5-4F9C-83A9-AC19917AD757",
+                "name": "VALUE_IS_EMPTY",
+                "locale": "en-US",
+                "display": "Value of '{0}' is empty."
+        },
+        {
+                "id": "6B05B2D9-70E7-49FD-9CFD-7852255832C5",
+                "name": "VALUE_IS_EMPTY",
+                "locale": "ko-KR",
+                "display": "값 '{0}'이 빈 값 입니다."
+        },
+        {
+                "id": "78AE837A-549B-4887-A0AD-FEC0CCD3201E",
+                "name": "VALUE_IS_EMPTY",
+                "locale": "zh-CN",
+                "display": "“{0}”的值为空。"
+        },
+        {
+                "id": "D1CEC090-6959-4FDF-9DD5-6178C2AFD1AC",
+                "name": "VALUE_IS_NOT_EMPTY",
+                "locale": "en-US",
+                "display": "Value of '{0}' is not empty."
+        },
+        {
+                "id": "B1841CA1-6E56-4F3A-8FF7-D2CFFDF3FAC5",
+                "name": "VALUE_IS_NOT_EMPTY",
+                "locale": "ko-KR",
+                "display": "값 '{0}'은 빈 값이 아닙니다."
+        },
+        {
+                "id": "E87E1C85-AC23-4AA2-A932-330C4BA9DC47",
+                "name": "VALUE_IS_NOT_EMPTY",
+                "locale": "zh-CN",
+                "display": "“{0}”的值不为空。"
+        },
+        {
+                "id": "140B682C-7944-46AF-B01A-FBC15B31F481",
+                "name": "TYPEA_IS_NOT_ASSIGNABLE_OF_TYPEB",
+                "locale": "en-US",
+                "display": "Class '{0}' is not assignable to Class '{1}'."
+        },
+        {
+                "id": "85405EFA-CA8F-426D-99D8-E331ACEF7BFE",
+                "name": "TYPEA_IS_NOT_ASSIGNABLE_OF_TYPEB",
+                "locale": "ko-KR",
+                "display": "Class '{0}' 은 Class '{1}'의 파생 클래스가 아닙니다."
+        },
+        {
+                "id": "0419DFC1-AEDA-4C7F-BE89-9278F7D422A7",
+                "name": "TYPEA_IS_NOT_ASSIGNABLE_OF_TYPEB",
+                "locale": "zh-CN",
+                "display": "类“{0}”无法分配给“{1}”类。"
+        },
+        {
+                "id": "1DEA6221-1878-4250-9598-3D74F7CB2E93",
+                "name": "OBJECT_IS_NOT_INSTANCEOF_CLASS",
+                "locale": "en-US",
+                "display": "Object '{0}' is not instance of Class '{1}'."
+        },
+        {
+                "id": "4A3A0032-794A-49E2-BE8C-892D0D5552DF",
+                "name": "OBJECT_IS_NOT_INSTANCEOF_CLASS",
+                "locale": "ko-KR",
+                "display": "Object '{0}' 은 Class '{1}' 타입이 아닙니다."
+        },
+        {
+                "id": "20FEDA9B-E013-4933-80A3-8FD51474519F",
+                "name": "OBJECT_IS_NOT_INSTANCEOF_CLASS",
+                "locale": "zh-CN",
+                "display": "对象“{0}”不是类“{1}”的实例。"
+        },
+        {
+                "id": "B3E32A35-3CD9-4719-8698-CD1984688BB2",
+                "name": "BOOLEAN_IS_FALSE",
+                "locale": "en-US",
+                "display": "Value '{0}' is not true."
+        },
+        {
+                "id": "4A865A50-96E2-4B23-B652-D493EA2591C6",
+                "name": "BOOLEAN_IS_FALSE",
+                "locale": "ko-KR",
+                "display": "값'{0}'이 참이 아닙니다."
+        },
+        {
+                "id": "B595A75F-E3A9-4510-BB81-18D9B7FFB64B",
+                "name": "BOOLEAN_IS_FALSE",
+                "locale": "zh-CN",
+                "display": "值'{0}'非TRUE。"
+        },
+        {
+                "id": "0581C5E6-A17C-486B-AB4E-848EE791DBAA",
+                "name": "INVALID_DATA",
+                "locale": "en-US",
+                "display": "Data ({1}) of {0} is invalid."
+        },
+        {
+                "id": "5AC8B0BC-0AD8-4110-B2B1-E98D2EFFD0BA",
+                "name": "FAIL_TO_CLONE_DATA",
+                "locale": "en-US",
+                "display": "Failed to clone data."
+        },
+        {
+                "id": "4F7CD9D8-E499-451F-AB2A-DE9FA6D19FD7",
+                "name": "FAIL_TO_CLONE_DATA",
+                "locale": "zh-CN",
+                "display": "在数据复制过程中发生错误。"
+        },
+        {
+                "id": "429A0D8F-BCA2-449D-8A96-9152ECA63FF4",
+                "name": "FAIL_TO_CLONE_DATA",
+                "locale": "ko-KR",
+                "display": "Data 복사 하는 중 에러가 발생했습니다."
+        },
+        {
+                "id": "76CEFC34-66AE-4B3A-8DF1-A28A04F6E95E",
+                "name": "FAIL_TO_REFLECT_GET",
+                "locale": "ko-KR",
+                "display": "클래스 ({0})의 필드({1})에 값 추출 실패"
+        },
+        {
+                "id": "1E1E2D2B-CC92-42A2-A8BF-D4F503106909",
+                "name": "FAIL_TO_REFLECT_GET",
+                "locale": "zh-CN",
+                "display": "为({0})类的列({1})取值时失败。"
+        },
+        {
+                "id": "A0027363-BDF1-4339-9DDC-64364EBFAF9A",
+                "name": "FAIL_TO_REFLECT_GET",
+                "locale": "en-US",
+                "display": "Failed to get value from field({1}) of class ({0})"
+        },
+        {
+                "id": "A3D0DC1C-420D-4E58-AD6E-3FD0B7F00F93",
+                "name": "FAIL_TO_COMPILE",
+                "locale": "en-US",
+                "display": "Failed to Compile {0} Code"
+        },
+        {
+                "id": "7EE30F6C-C28F-4A2C-BE57-0F8FD0B33CB9",
+                "name": "HAS_NO_CONSTRUCTOR",
+                "locale": "ko-KR",
+                "display": "엔티티 클래스에 기본 생성자가 없습니다."
+        },
+        {
+                "id": "A6E66AD0-5073-4AC4-ABCA-03393E96DE86",
+                "name": "INVALID_KEYS",
+                "locale": "ko-KR",
+                "display": "엔티티의 키가 올바르지 않습니다."
+        },
+        {
+                "id": "5AD8B347-F43E-4A1B-8A84-F023B3E82EC9",
+                "name": "INVALID_SERVICE_URL",
+                "locale": "ko-KR",
+                "display": "Restful Service URL({0}) 이 올바르지 않습니다."
+        },
+        {
+                "id": "E61AF872-7EF2-40B3-BA7A-E89E726D37B7",
+                "name": "HAS_ONE_OR_MORE_DATA",
+                "locale": "ko-KR",
+                "display": "한개 이상의 데이터가 포함되어 삭제할 수 없습니다."
+        },
+        {
+                "id": "02C67A42-B051-4E6F-9DD1-29DD3D81473B",
+                "name": "NOT_FOUND_URL",
+                "locale": "ko-KR",
+                "display": "URL({0})에서 서비스를 찾을 수 없습니다."
+        },
+        {
+                "id": "5FC2D5C5-B304-4361-AC57-BDA3BB4B2556",
+                "name": "IS_NOT_INSTANCE_OF",
+                "locale": "ko-KR",
+                "display": "유효하지 않은 {0} 클래스 ({1}) - 클래스가 {2}의 구현체가 아닙니다."
+        },
+        {
+                "id": "5C921739-85C4-48D1-A876-50F0BEDC5F2E",
+                "name": "COULD_NOT_INSTANTIATE",
+                "locale": "ko-KR",
+                "display": "{0}은(는) 인스턴스화 할수 없습니다. ({1})"
+        },
+        {
+                "id": "60142786-07D4-43E6-8CD6-20BB7DFB16C5",
+                "name": "ALREADY_PROCEED",
+                "locale": "ko-KR",
+                "display": "이미 실행 중인 {0}입니다."
+        },
+        {
+                "id": "FCAB66DF-527D-4526-A1F3-2800D996ABC8",
+                "name": "FAILED_META_SETUP",
+                "locale": "ko-KR",
+                "display": "detail meta를 설정에 실패하였습니다."
+        },
+        {
+                "id": "ABFC9291-E3EE-488C-B98C-F2B9F499AD1F",
+                "name": "IS_NOT_RUNNING",
+                "locale": "ko-KR",
+                "display": "{0} 이(가) 실행중이지 않습니다."
+        },
+        {
+                "id": "AD942B6B-E02B-44D8-B002-B7502CEF0EEB",
+                "name": "NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "{0}({1}) 을(를) 찾을수 없습니다."
+        },
+        {
+                "id": "F42172DE-5E1F-49F3-915D-3F2932E60A6D",
+                "name": "IS_NOT_IN_USE_LISTENER",
+                "locale": "ko-KR",
+                "display": "실행 중인 Listener가 아닙니다."
+        },
+        {
+                "id": "46C88366-7A31-4809-AAFD-AD3B1E527D86",
+                "name": "MORE_THAN_ONE_ERROR",
+                "locale": "ko-KR",
+                "display": "하나 이상의 데이터가 존재합니다."
+        },
+        {
+                "id": "891120EB-133E-407F-A01C-B7F4DD42376A",
+                "name": "ALREADY_BEEN_PROCEEDED",
+                "locale": "ko-KR",
+                "display": "이미 처리된 항목입니다."
+        },
+        {
+                "id": "E0DBDE6B-23CC-4193-9A9D-FBE08E79DFA0",
+                "name": "RUNTIME_ERROR",
+                "locale": "ko-KR",
+                "display": "예상치 못한 에러가 발생하였습니다."
+        },
+        {
+                "id": "8A86FCF3-377D-46F9-8C0A-8FEFE4D1F587",
+                "name": "PARSE_OUTPUT_ERROR",
+                "locale": "ko-KR",
+                "display": "Output Data 변환 시, 에러가 발생하였습니다."
+        },
+        {
+                "id": "B3651BA4-BC5C-4A10-80DD-F50148B9EECC",
+                "name": "SERVICE_NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "서비스가 존재하지 않습니다."
+        },
+        {
+                "id": "4CFA3EC3-D5E2-4197-972A-56865A7B0EC9",
+                "name": "TITLE_ALREADY_EXIST",
+                "locale": "ko-KR",
+                "display": "중복된 레코드 에러"
+        },
+        {
+                "id": "472EE11E-FC4A-40B8-B8D6-49A6E20D7A10",
+                "name": "STREAMING_ERROR",
+                "locale": "ko-KR",
+                "display": "스트리밍 에러"
+        },
+        {
+                "id": "B0A923ED-3B88-46CE-A99C-625B2C374378",
+                "name": "MISMATCH_PARAM_COUNT",
+                "locale": "ko-KR",
+                "display": "잘못된 쿼리 - 파라미터 카운트가 일치하지 않습니다. [{0}:{1}]"
+        },
+        {
+                "id": "713C9935-5CED-4EEE-A10C-031F35A7A901",
+                "name": "INVALID_PARAM",
+                "locale": "ko-KR",
+                "display": "파라미터 (이름: {0}, 값: {1})가 올바르지 않습니다."
+        },
+        {
+                "id": "A9007677-D727-423A-A90C-94FC70F852CB",
+                "name": "KEY_AND_VALUE_MISMATCH",
+                "locale": "ko-KR",
+                "display": "키 개수와 값 개수가 일치하지 않습니다."
+        },
+        {
+                "id": "DBCB7DA5-5F70-46A9-8894-CFFACD9677E2",
+                "name": "FAIL_TO_SEND_MAIL",
+                "locale": "en-US",
+                "display": "Failed to send mail!"
+        },
+        {
+                "id": "8DD00EB8-B083-4BB8-AC1A-B7D86152324A",
+                "name": "NOT_FOUND_KEY",
+                "locale": "ko-KR",
+                "display": "키 파라미터에서 빈 키를 발견했습니다."
+        },
+        {
+                "id": "F4D108B0-A420-40EC-876C-52CF9EA36F51",
+                "name": "INVALID_STATUS",
+                "locale": "ko-KR",
+                "display": "상태가 유효하지 않습니다."
+        },
+        {
+                "id": "65DEAE69-D2A9-400D-B68E-EE80BBA9237E",
+                "name": "NOT_SUPPORTED_METHOD",
+                "locale": "ko-KR",
+                "display": "지원하지 않는 기능입니다."
+        },
+        {
+                "id": "6A758695-CFFE-4265-9A5F-974723DA7C14",
+                "name": "NOT_CONNECTED",
+                "locale": "ko-KR",
+                "display": "연결되지 않았습니다."
+        },
+        {
+                "id": "033F831A-2BF2-4443-8002-40D04547141D",
+                "name": "RECORD_NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "레코드를 찾을 수 없습니다."
+        },
+        {
+                "id": "8A72FF15-E16B-4E4C-85AE-D6ECE855AEAD",
+                "name": "NOT_FOUND_UNIQUE_FIELDS",
+                "locale": "ko-KR",
+                "display": "엔티티 ({0})에 uniqueFields 정보가 존재하지 않습니다."
+        },
+        {
+                "id": "1223591B-306D-447D-85E7-75639513DEDC",
+                "name": "NOT_FOUND_CUD_FLAG",
+                "locale": "ko-KR",
+                "display": "Entity[{0}] 중 'cudFlag가 존재하지 않습니다."
+        },
+        {
+                "id": "9176E3E0-1420-4F76-A926-E5914767F272",
+                "name": "SERVICE_ERROR",
+                "locale": "ko-KR",
+                "display": "기능 실행 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "1B006088-E8F2-4641-9EC0-E01EAFEE7D9F",
+                "name": "SCRIPT_RUNTIME_ERROR",
+                "locale": "ko-KR",
+                "display": "Script 실행 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "E732D697-4123-46F9-8942-D217D73C6BC8",
+                "name": "PARSE_INPUT_ERROR",
+                "locale": "ko-KR",
+                "display": "Input Data 변환 시, 에러가 발생하였습니다."
+        },
+        {
+                "id": "CB17E7DC-35E6-4B0D-A59A-4C143B8A5820",
+                "name": "TITLE_RECORD_NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "존재하지 않는 레코드 에러"
+        },
+        {
+                "id": "0303081A-65EE-47D4-8B9D-AF818F729B59",
+                "name": "TITLE_PARSE_INPUT_ERROR",
+                "locale": "ko-KR",
+                "display": "(Input Parameters) 변환 에러"
+        },
+        {
+                "id": "3B41CD8E-7400-43E9-B16E-92918ED37908",
+                "name": "TITLE_DATA_BASE_ERROR",
+                "locale": "ko-KR",
+                "display": "데이터 베이스 에러"
+        },
+        {
+                "id": "8029C248-1538-4E6C-983A-71CECEDDA5DA",
+                "name": "TITLE_BAD_REQUEST",
+                "locale": "ko-KR",
+                "display": "잘못된 요청입니다."
+        },
+        {
+                "id": "6DCC7C3D-112A-4E95-970D-EC6DE897ED43",
+                "name": "TITLE_INVALID_STATUS",
+                "locale": "ko-KR",
+                "display": "유효하지 않은 상태 에러"
+        },
+        {
+                "id": "DFD36CEA-8AD0-4FF2-9209-71F086D3856A",
+                "name": "TITLE_VALIDATION_ERROR",
+                "locale": "ko-KR",
+                "display": "유효성 에러"
+        },
+        {
+                "id": "087B06B6-AEE5-48D6-BB14-7F391ACAB2B4",
+                "name": "TITLE_INVALID_PARAM",
+                "locale": "ko-KR",
+                "display": "유효하지 않은 파라미터 에러"
+        },
+        {
+                "id": "ADEF24AE-2308-4785-99BA-D2B40DC0344B",
+                "name": "TITLE_SERVICE_ERROR",
+                "locale": "ko-KR",
+                "display": "서비스 에러"
+        },
+        {
+                "id": "2142F5CA-3AF8-4C5F-B046-2891AFAFA9AA",
+                "name": "TITLE_SCRIPT_RUNTIME_ERROR",
+                "locale": "ko-KR",
+                "display": "스크립트 에러"
+        },
+        {
+                "id": "112CAE64-9CEE-4ED6-8470-0096C0F2E689",
+                "name": "TITLE_RUNTIME_ERROR",
+                "locale": "ko-KR",
+                "display": "런타임 에러"
+        },
+        {
+                "id": "362EA82A-2C41-4E4D-AEAB-7CC37889E2D4",
+                "name": "VALIDATION_ERROR",
+                "locale": "ko-KR",
+                "display": "유효성 검사 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "DA9A0191-323F-47BE-B466-71A76876E77B",
+                "name": "TITLE_SERVICE_NOT_FOUND",
+                "locale": "ko-KR",
+                "display": "서비스를 찾을 수 없는 에러"
+        },
+        {
+                "id": "a3a6419c-06db-4ea6-9d79-d70f99adecae",
+                "name": "MPS_MISMATCH_LOCATIONS_OF_REGION",
+                "locale": "en-US",
+                "display": "Mismatch locations between source and target location of region."
+        },
+        {
+                "id": "bc4cf1f7-9ca1-4b56-9004-82b49e05573e",
+                "name": "MPS_MISMATCH_REGION_TYPE",
+                "locale": "ko-KR",
+                "display": "복사 대상 호기의 타입(직렬, 병렬)이 일치하지 않습니다"
+        },
+        {
+                "id": "7395fa33-3d0e-4502-9b75-9e3aa822246d",
+                "name": "MPS_MISMATCH_REGION_TYPE",
+                "locale": "zh-CN",
+                "display": "对象机组的类型（串行，并行）不同，无法合并。"
+        },
+        {
+                "id": "5cc9d852-27f5-4d6f-84be-63f3affb5832",
+                "name": "MPS_MISMATCH_REGION_TYPE",
+                "locale": "en-US",
+                "display": "The type of copy destination (serial, parallel) does not match."
+        },
+        {
+                "id": "b1b7e63c-c041-48a6-8879-1dce0dd01a2c",
+                "name": "NOT_ALLOWED_MERGE_MAIN_BATCH_IND_ON",
+                "locale": "ko-KR",
+                "display": "현재 작업 중인 배치 내에 표시기 점등된 작업이 있는 상태에서는 병합이 불가능합니다"
+        },
+        {
+                "id": "f6dff9da-50cd-4bd5-a272-a8b891251c69",
+                "name": "NOT_ALLOWED_MERGE_MAIN_BATCH_IND_ON",
+                "locale": "zh-CN",
+                "display": "在当前批次中存在已开灯的作业时无法合并。"
+        },
+        {
+                "id": "ced1d43b-5a98-435c-bac0-e921d77f65a2",
+                "name": "NOT_ALLOWED_MERGE_MAIN_BATCH_IND_ON",
+                "locale": "en-US",
+                "display": "Merge is not allowed while there is an indicator on task in the main batch."
+        },
+        {
+                "id": "3350c828-0510-4a65-b1b1-c7123f34789e",
+                "name": "NOT_ALLOWED_MERGE_TARGET_BATCH_CLONED",
+                "locale": "ko-KR",
+                "display": "호기 복사된 작업배치에 병합할 수 없습니다"
+        },
+        {
+                "id": "01dd6a7c-ed22-40fe-8f00-5ae1b4773d77",
+                "name": "NOT_ALLOWED_MERGE_TARGET_BATCH_CLONED",
+                "locale": "zh-CN",
+                "display": "不可合并到被克隆的机组的批次上。"
+        },
+        {
+                "id": "51f560c5-a2ed-4891-9b93-6a9ed0808603",
+                "name": "NOT_ALLOWED_MERGE_TARGET_BATCH_CLONED",
+                "locale": "en-US",
+                "display": "You can not merge to a job batch that has been copied"
+        },
+        {
+                "id": "d467d4e2-aed8-4e94-9c6c-6e1093d55903",
+                "name": "ALLOWED_MERGE_WHEN_TARGET_BATCH_WAIT",
+                "locale": "ko-KR",
+                "display": "병합 대상 작업배치가 주문가공대기 상태에서만 가능합니다"
+        },
+        {
+                "id": "23d8d1c7-35a3-4a7e-ac5e-cb19671ecc50",
+                "name": "ALLOWED_MERGE_WHEN_TARGET_BATCH_WAIT",
+                "locale": "zh-CN",
+                "display": "只有合并对象批次是订单加工状态时才可执行。"
+        },
+        {
+                "id": "da53564b-87e2-46c3-bbde-80e2303e1d9f",
+                "name": "ALLOWED_MERGE_WHEN_TARGET_BATCH_WAIT",
+                "locale": "en-US",
+                "display": "Merge target job batch is available only in order processing status"
+        },
+        {
+                "id": "56626f86-8625-473c-ac33-2de6f1dad19d",
+                "name": "ALLOWED_MERGE_WHEN_MAIN_BATCH_RUN",
+                "locale": "en-US",
+                "display": "Can merge only while the main job batch is in progress"
+        },
+        {
+                "id": "b76103fc-4007-4eff-85d2-3c28dd2c6a12",
+                "name": "ALLOWED_MERGE_WHEN_MAIN_BATCH_RUN",
+                "locale": "zh-CN",
+                "display": "只有在主批次运行中时才可以合并。"
+        },
+        {
+                "id": "f213a74a-86fc-46ba-a3fc-33f90ee03e42",
+                "name": "ALLOWED_MERGE_WHEN_MAIN_BATCH_RUN",
+                "locale": "ko-KR",
+                "display": "메인 작업배치가 진행 중인 상태에서만 병합 가능합니다"
+        },
+        {
+                "id": "f16a1c69-1f4f-4307-bfc2-35babbdbcb8d",
+                "name": "MPS_MISMATCH_SKU_AND_EMPTY_LOCATION",
+                "locale": "ko-KR",
+                "display": "호기의 빈 로케이션보다 할당해야 하는 상품 수가 많습니다"
+        },
+        {
+                "id": "d3cf2d48-78c7-4d3b-8b1c-a9e1b8afab39",
+                "name": "MPS_MISMATCH_SKU_AND_EMPTY_LOCATION",
+                "locale": "zh-CN",
+                "display": "机组的空库位比需分配的商品数量少。"
+        },
+        {
+                "id": "f63f69dd-3f02-4262-92cc-c7c08c19f48e",
+                "name": "MPS_MISMATCH_SKU_AND_EMPTY_LOCATION",
+                "locale": "en-US",
+                "display": "Empty location count less than SKU count."
+        },
+        {
+                "id": "3d9e7d43-be90-4bf7-ad1d-2179b7e4b94d",
+                "name": "MISMATCH_ORDER_AND_EMPTY_CELL",
+                "locale": "ko-KR",
+                "display": "호기의 빈 셀보다 할당해야 하는 주문 수가 많습니다"
+        },
+        {
+                "id": "738c61d8-99a0-4c43-af33-31b9440e219e",
+                "name": "MISMATCH_ORDER_AND_EMPTY_CELL",
+                "locale": "zh-CN",
+                "display": "호기의 빈 셀보다 할당해야 하는 주문 수가 많습니다"
+        },
+        {
+                "id": "cae67d2f-fa8f-4825-92c7-097e73d6bef9",
+                "name": "MISMATCH_ORDER_AND_EMPTY_CELL",
+                "locale": "en-US",
+                "display": "Empty cell count less than order count."
+        },
+        {
+                "id": "a44ec2ae-5098-4142-971a-f99b4dda838a",
+                "name": "MPS_ORDERS_OF_CHUTE_GT_LOCATION_COUNT",
+                "locale": "ko-KR",
+                "display": "{0}번 슈트의 주문 수가 로케이션 수보다 많습니다"
+        },
+        {
+                "id": "4876c0b6-9df5-4869-a1e3-deac05a33865",
+                "name": "MPS_ORDERS_OF_CHUTE_GT_LOCATION_COUNT",
+                "locale": "zh-CN",
+                "display": "{0}的滑道号上的订单数比库位数多。"
+        },
+        {
+                "id": "2fcb048c-86d7-4240-8fd8-29ef79eb8bbf",
+                "name": "MPS_ORDERS_OF_CHUTE_GT_LOCATION_COUNT",
+                "locale": "en-US",
+                "display": "Number of orders in {0} is greater than number of locations."
+        },
+        {
+                "id": "97678ae0-afcd-43ac-b085-8e120dee6f8f",
+                "name": "MPS_NO_ORDER_TO_ASSIGN_BOX",
+                "locale": "ko-KR",
+                "display": "박스에 할당할 주문 정보가 존재하지 않습니다"
+        },
+        {
+                "id": "4be040dd-fbd7-4577-b290-ee1f79236133",
+                "name": "MPS_NO_ORDER_TO_ASSIGN_BOX",
+                "locale": "zh-CN",
+                "display": "没有可以与箱号绑定的订单。"
+        },
+        {
+                "id": "5c0e1d34-fdf7-4f13-8f02-0ba7046fd2b3",
+                "name": "MPS_NO_ORDER_TO_ASSIGN_BOX",
+                "locale": "en-US",
+                "display": "There is no order to assign to the box."
+        },
+        {
+                "id": "278b29dd-bc5c-472f-b39f-1dea7aeb8150",
+                "name": "MPS_NOT_ALLOWED_PROCESS_HELD_JOB",
+                "locale": "ko-KR",
+                "display": "작업이 홀드 상태여서 처리할 수 없습니다"
+        },
+        {
+                "id": "1e42782c-611b-4e38-8fe5-07870194bd58",
+                "name": "MPS_NOT_ALLOWED_PROCESS_HELD_JOB",
+                "locale": "zh-CN",
+                "display": "作业已被锁定，无法处理。"
+        },
+        {
+                "id": "b22bfc8c-857c-4d38-af57-228baff07072",
+                "name": "MPS_NOT_ALLOWED_PROCESS_HELD_JOB",
+                "locale": "en-US",
+                "display": "The job can not be processed because it is held."
+        },
+        {
+                "id": "d99b1630-22cc-4581-a3a5-3926f3093d18",
+                "name": "NO_AVAILABLE_OJBECT",
+                "locale": "ko-KR",
+                "display": "사용가능한 {0}이(가) 존재하지 않습니다"
+        },
+        {
+                "id": "a04f8f13-c9ad-419d-a0e4-a5213ae45dad",
+                "name": "NO_AVAILABLE_OJBECT",
+                "locale": "zh-CN",
+                "display": "没有可以使用的{0}。"
+        },
+        {
+                "id": "37c0968c-0281-4a4f-85e5-3e5f06b814e3",
+                "name": "NO_AVAILABLE_OJBECT",
+                "locale": "en-US",
+                "display": "Available {0} does not exist."
+        },
+        {
+                "id": "30564d5e-4684-49a2-b51b-ec2aae2c6864",
+                "name": "MPS_LOCATION_MAPPED_OTHER_SKU",
+                "locale": "ko-KR",
+                "display": "로케이션에 다른 상품이 맵핑되어 있습니다"
+        },
+        {
+                "id": "0c00fb9b-f0d8-4e24-8d47-0d479bb1dea8",
+                "name": "MPS_LOCATION_MAPPED_OTHER_SKU",
+                "locale": "zh-CN",
+                "display": "库位中存在其他商品。"
+        },
+        {
+                "id": "26f242ed-18f0-43ee-b94c-338595c74763",
+                "name": "MPS_LOCATION_MAPPED_OTHER_SKU",
+                "locale": "en-US",
+                "display": "Different products are assigned to the location"
+        },
+        {
+                "id": "34a24fe5-bc3a-49e4-a7a9-fc5b0812e46e",
+                "name": "MPS_STOCK_TAKING_IN_THE_REGION",
+                "locale": "ko-KR",
+                "display": "해당 호기에서 실사가 진행중입니다"
+        },
+        {
+                "id": "d56a2c0e-1034-4679-ad62-fec9ba3ef45f",
+                "name": "MPS_STOCK_TAKING_IN_THE_REGION",
+                "locale": "zh-CN",
+                "display": "对应机组正在盘点。"
+        },
+        {
+                "id": "d35de5b6-d257-49db-8e88-4a2ebc4eefaf",
+                "name": "MPS_STOCK_TAKING_IN_THE_REGION",
+                "locale": "en-US",
+                "display": "Stock taking is progressing in the region."
+        },
+        {
+                "id": "fb03ce2d-33a7-4355-b78a-61cf60148134",
+                "name": "MPS_IMPOSSIBLE_STOCK_TAKING",
+                "locale": "ko-KR",
+                "display": "호기에 재고가 없어서 실사가 불가능합니다"
+        },
+        {
+                "id": "4d86c9b1-acfc-45be-8102-3e92a4608bd8",
+                "name": "MPS_IMPOSSIBLE_STOCK_TAKING",
+                "locale": "zh-CN",
+                "display": "机组无库存，无法盘点。"
+        },
+        {
+                "id": "5d8a6b30-7313-457a-bc9b-75aeefb11771",
+                "name": "MPS_IMPOSSIBLE_STOCK_TAKING",
+                "locale": "en-US",
+                "display": "Stock taking is not available due to stock is not enough."
+        },
+        {
+                "id": "6b4866e2-65e8-4799-a105-f62cb650def0",
+                "name": "EXIST_NOT_ASSIGNED_ORDERS",
+                "locale": "en-US",
+                "display": "There are {0} unassigned Orders."
+        },
+        {
+                "id": "2d49e34c-d0ad-4955-8a2a-ba0189f1b95f",
+                "name": "EXIST_NOT_ASSIGNED_ORDERS",
+                "locale": "zh-CN",
+                "display": "有{0}个未指定机组的订单。"
+        },
+        {
+                "id": "4102e11d-a0a5-4c3e-b68d-6f5d00ce2ebe",
+                "name": "EXIST_NOT_ASSIGNED_ORDERS",
+                "locale": "ko-KR",
+                "display": "랙 지정이 안된 주문이 {0}개 있습니다"
+        },
+        {
+                "id": "59aa4521-1471-4c68-8848-cb6ab9d2142d",
+                "name": "CANNOT_USE_RACK",
+                "locale": "ko-KR",
+                "display": "랙{0}를 사용할 수 없습니다"
+        },
+        {
+                "id": "7d07aedf-dce6-4086-8f74-856ddf6c3cb4",
+                "name": "CANNOT_USE_RACK",
+                "locale": "zh-CN",
+                "display": "{0}号机组无法使用。"
+        },
+        {
+                "id": "33ad52cd-c799-4a4f-94fa-725da33441f1",
+                "name": "CANNOT_USE_RACK",
+                "locale": "en-US",
+                "display": "Can not use rack {0}."
+        },
+        {
+                "id": "df5feff2-dacf-438b-a6e1-8a688ea3175d",
+                "name": "MPS_NOT_ALLOWED_CANCEL_INVOICE_IN_INSPECTION",
+                "locale": "ko-KR",
+                "display": "송장 (번호 {0})는 WCS 검수 중이므로 취소할 수 없습니다"
+        },
+        {
+                "id": "c8c96096-2084-48d3-bd8c-57a1b7cd2e02",
+                "name": "MPS_NOT_ALLOWED_CANCEL_INVOICE_IN_INSPECTION",
+                "locale": "zh-CN",
+                "display": "配送单号 {0}当前正在检验中，无法取消。"
+        },
+        {
+                "id": "f96b052b-3f31-4599-835d-e15af7f4eed7",
+                "name": "MPS_NOT_ALLOWED_CANCEL_INVOICE_IN_INSPECTION",
+                "locale": "en-US",
+                "display": "Invoice {0} can not be canceled because it is under WCS check"
+        },
+        {
+                "id": "a47f12aa-4a75-446b-ad47-b8c447e578e1",
+                "name": "MPS_LAST_BOX_ALLOWED_CANCEL_IN_LOCATION",
+                "locale": "ko-KR",
+                "display": "현재 배치내 로케이션의 마지막 박스만 취소 가능합니다"
+        },
+        {
+                "id": "b14c1c61-3782-4cc0-b6f3-41519815c7cf",
+                "name": "MPS_LAST_BOX_ALLOWED_CANCEL_IN_LOCATION",
+                "locale": "zh-CN",
+                "display": "只能取消当前库位上最后一个箱号。"
+        },
+        {
+                "id": "9eabdd77-6374-4d37-bb16-52cc9e8151c0",
+                "name": "MPS_LAST_BOX_ALLOWED_CANCEL_IN_LOCATION",
+                "locale": "en-US",
+                "display": "Only the last box of the current location in the batch can be canceled."
+        },
+        {
+                "id": "34d61cde-46c6-45e8-b106-30c4c7442411",
+                "name": "MPS_NO_SKU_QTY_IN_BOX",
+                "locale": "ko-KR",
+                "display": "박스에 들어있는 상품 개수가 없습니다. 잠시 후에 다시 스캔해 보세요"
+        },
+        {
+                "id": "4a3da604-b3d0-4af1-901a-6a649f306066",
+                "name": "MPS_NO_SKU_QTY_IN_BOX",
+                "locale": "zh-CN",
+                "display": "无装箱数，请稍后重试。"
+        },
+        {
+                "id": "dae1ac41-d88c-4e28-8f0a-fbcfc0e6b73c",
+                "name": "MPS_NO_SKU_QTY_IN_BOX",
+                "locale": "en-US",
+                "display": "There are no item count information in the box. Try scanning again in a minute."
+        },
+        {
+                "id": "a39bb205-187a-457d-ad63-d95618473283",
+                "name": "MPS_NOT_FOUND_LED_ON_OFF_SETTING",
+                "locale": "ko-KR",
+                "display": "LED 점등/소등 설정이 존재하지 않습니다"
+        },
+        {
+                "id": "518346eb-6076-4e4a-b943-fcde17183720",
+                "name": "MPS_NOT_FOUND_LED_ON_OFF_SETTING",
+                "locale": "zh-CN",
+                "display": "没有LED开灯、关灯设置。"
+        },
+        {
+                "id": "0fed9991-e1d0-43f4-a8fd-6b0479249649",
+                "name": "MPS_NOT_FOUND_LED_ON_OFF_SETTING",
+                "locale": "en-US",
+                "display": "LED on / off setting does not exist"
+        },
+        {
+                "id": "11d95e65-2d9b-4df8-a8c6-3538cd85c40e",
+                "name": "SKU_IS_MAPPING",
+                "locale": "en-US",
+                "display": "SKU is mapping."
+        },
+        {
+                "id": "892a8c46-c8ed-47a4-828e-bd67103156bd",
+                "name": "SKU_IS_MAPPING",
+                "locale": "zh-CN",
+                "display": "商品匹配中。"
+        },
+        {
+                "id": "f80d7b05-6b79-464d-96af-f4e3650dcddc",
+                "name": "SKU_IS_MAPPING",
+                "locale": "ko-KR",
+                "display": "스캔한 상품에 맵핑 진행 중입니다."
+        },
+        {
+                "id": "cd8931f0-b99d-4eeb-9afe-91ede007c9d8",
+                "name": "SKU_IS_MAPPED",
+                "locale": "en-US",
+                "display": "SKU is mapped."
+        },
+        {
+                "id": "44f37948-e2f5-447f-b0ed-01bc2b06c59e",
+                "name": "SKU_IS_MAPPED",
+                "locale": "ko-KR",
+                "display": "스캔한 상품에 맵핑 완료 되었습니다."
+        },
+        {
+                "id": "29b78d87-e8a7-4c03-9ff0-c309ae24d024",
+                "name": "SKU_IS_MAPPED",
+                "locale": "zh-CN",
+                "display": "商品已完成匹配。"
+        },
+        {
+                "id": "44d26d59-c5cd-43a7-8ba7-cd93d6a7841c",
+                "name": "SKU_AREADY_CHANGED_TO_NORMAL_LINE",
+                "locale": "en-US",
+                "display": "SKU already changed to normal line."
+        },
+        {
+                "id": "6707b4b2-2b2c-4c86-837a-df98d1d3b7be",
+                "name": "SKU_AREADY_CHANGED_TO_NORMAL_LINE",
+                "locale": "zh-CN",
+                "display": "已转成一般作业。"
+        },
+        {
+                "id": "a7559776-55e8-43db-8787-e4b2a8d315e1",
+                "name": "SKU_AREADY_CHANGED_TO_NORMAL_LINE",
+                "locale": "ko-KR",
+                "display": "QPS OTP라인으로 이동된 상품입니다."
+        },
+        {
+                "id": "b2f203fa-cf2a-410e-a0a5-69495be6caa2",
+                "name": "ONE_SKU_MAPPING_ERROR",
+                "locale": "ko-KR",
+                "display": "SKU: {1} ORDER: {2} 맵핑 중 서비스 실행중 에러가 발생했습니다."
+        },
+        {
+                "id": "19562c9a-9b08-4f81-822a-e738b39937cb",
+                "name": "ONE_SKU_MAPPING_ERROR",
+                "locale": "zh-CN",
+                "display": "SKU: {1} ORDER: {2} 匹配过程中发生错误。"
+        },
+        {
+                "id": "2617a86b-7578-4509-8a55-dee259d31436",
+                "name": "ONE_SKU_MAPPING_ERROR",
+                "locale": "en-US",
+                "display": "SKU: {1} ORDER: {2} Eror occurred on mapping process. "
+        },
+        {
+                "id": "cacc7cbd-d878-4656-bf62-0c1622a30bed",
+                "name": "RESERVED_EARLIER_THAN_CURRENT",
+                "locale": "zh-CN",
+                "display": "发布预定时间小于当前时间。"
+        },
+        {
+                "id": "34d5fa54-12c9-44dd-b103-9ef423e25b65",
+                "name": "NO_SITE_PERMISSION",
+                "locale": "ko-KR",
+                "display": "로그인 한 사용자는 접근할 수 있는 사이트가 없습니다. 관리자에게 권한을 요청하세요"
+        },
+        {
+                "id": "97a6c1eb-9421-44ea-8a70-3b3d757b4578",
+                "name": "NO_SITE_PERMISSION",
+                "locale": "zh-CN",
+                "display": "账户无可访问的站点，请向管理员申请权限。"
+        },
+        {
+                "id": "1f6e3f1c-5e05-46a5-b722-694803e34bbe",
+                "name": "NO_SITE_PERMISSION",
+                "locale": "en-US",
+                "display": "The logged in user has no access to the site. Ask your administrator for permission."
+        },
+        {
+                "id": "90a89c4b-d569-42da-9a95-780b2fe42847",
+                "name": "ACCOUNT_TEMPORARY_LOCKED",
+                "locale": "en-US",
+                "display": "Your account is temporarily locked. Please try in {0} minutes."
+        },
+        {
+                "id": "8b832fd8-6109-4f3a-9f36-8c379b9f6e39",
+                "name": "ACCOUNT_TEMPORARY_LOCKED",
+                "locale": "ko-KR",
+                "display": "계정이 일시 잠금 상태입니다. {0}분 후에 시도해주세요"
+        },
+        {
+                "id": "2b5084a6-4c36-4d3f-8654-a5aefa6ca651",
+                "name": "ACCOUNT_TEMPORARY_LOCKED",
+                "locale": "zh-CN",
+                "display": "账户暂时被锁定，请等待{0}分后再申请。"
+        },
+        {
+                "id": "733d023e-2906-46d2-a8c1-7b68aeadd2e1",
+                "name": "RESERVED_EARLIER_THAN_CURRENT",
+                "locale": "en-US",
+                "display": "Distribution schedule time is earlier than current time."
+        },
+        {
+                "id": "c435dfd8-3d74-4ee0-825f-d77ed6d24b20",
+                "name": "RESERVED_EARLIER_THAN_CURRENT",
+                "locale": "ko-KR",
+                "display": "배포예약시간이 현재 시간보다 이전 시간입니다."
+        },
+        {
+                "id": "e1356d7c-0c93-4d8f-a998-17025170edd8",
+                "name": "JOB_CONFIG_IS_NOT_SET",
+                "locale": "ko-KR",
+                "display": "작업 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "79a9a37c-e025-4f59-a328-37e6ebf8690b",
+                "name": "JOB_CONFIG_IS_NOT_SET",
+                "locale": "en-US",
+                "display": "The setting [{1}] is not set in the job config set [{0}]."
+        },
+        {
+                "id": "4701048d-1d3b-4c10-89e0-9fa40a5d0903",
+                "name": "JOB_CONFIG_IS_NOT_SET",
+                "locale": "zh-CN",
+                "display": "작업 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "8b5fda50-b52e-4ebf-a38f-9a7f6c1c5af6",
+                "name": "IND_CONFIG_IS_NOT_SET",
+                "locale": "ko-KR",
+                "display": "표시기 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "f661189a-9865-4015-b3d6-f0d51605c452",
+                "name": "IND_CONFIG_IS_NOT_SET",
+                "locale": "en-US",
+                "display": "The setting [{1}] is not set in the indicator config set [{0}]."
+        },
+        {
+                "id": "a2d5628f-e19e-425d-ad1c-e28bbde6f560",
+                "name": "IND_CONFIG_IS_NOT_SET",
+                "locale": "zh-CN",
+                "display": "표시기 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "153b1bbe-d1c9-4ad3-97c3-1a61c0b9ab87",
+                "name": "DEVICE_CONFIG_IS_NOT_SET",
+                "locale": "zh-CN",
+                "display": "장비 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "ccd91f32-4fcc-48cd-8342-3a0fb092df93",
+                "name": "DEVICE_CONFIG_IS_NOT_SET",
+                "locale": "en-US",
+                "display": "The setting [{1}] is not set in the device config set [{0}]."
+        },
+        {
+                "id": "9587fb58-ad68-43c6-a877-c0fe9b65736f",
+                "name": "DEVICE_CONFIG_IS_NOT_SET",
+                "locale": "ko-KR",
+                "display": "장비 설정 셋 [{0}]에 설정 [{1}]이 설정되지 않았습니다."
+        },
+        {
+                "id": "bf627ac3-ba34-402b-bb3a-ede44162463e",
+                "name": "ONLY_ALLOWED_RESET_ASSIGN_ONLY",
+                "locale": "en-US",
+                "display": "주문가공 시점에서만 할당정보 리셋이 가능합니다."
+        },
+        {
+                "id": "4f222e35-619e-4696-89df-f8e040123bb8",
+                "name": "ONLY_ALLOWED_RESET_ASSIGN_ONLY",
+                "locale": "ko-KR",
+                "display": "주문가공 시점에서만 할당정보 리셋이 가능합니다."
+        },
+        {
+                "id": "5c422334-88c1-4a88-b20c-5abc0db10d84",
+                "name": "ONLY_ALLOWED_RESET_ASSIGN_ONLY",
+                "locale": "zh-CN",
+                "display": "주문가공 시점에서만 할당정보 리셋이 가능합니다."
+        },
+        {
+                "id": "A96E9A4B-E396-43DA-B308-8C101F2CB655",
+                "name": "TITLE_PARSE_OUTPUT_ERROR",
+                "locale": "ko-KR",
+                "display": "Output 변환 에러"
+        },
+        {
+                "id": "02C4BD09-128C-47F8-B718-4E45C717C9BC",
+                "name": "NOT_SUPPORTED_TYPE",
+                "locale": "en-US",
+                "display": "Not supported {0} Type. [{1}]"
+        },
+        {
+                "id": "FB3A3000-199C-41A0-9742-2FA364F87B65",
+                "name": "USER_APPROVAL",
+                "locale": "en-US",
+                "display": "Account approval request has been accepted."
+        },
+        {
+                "id": "09245885-BC79-4FC7-B1C9-02BF91417421",
+                "name": "NEED_OPTION",
+                "locale": "en-US",
+                "display": "The type should be [{0}] option."
+        },
+        {
+                "id": "AE364DB1-D32F-4130-A917-8474B13FD9A8",
+                "name": "USER_REJECT",
+                "locale": "en-US",
+                "display": "Account approval request has been rejected."
+        },
+        {
+                "id": "4E955B0C-5AB1-4BE3-93CE-ED0592CA78DE",
+                "name": "USER_COMPLETE_INIT_PASS",
+                "locale": "en-US",
+                "display": "Completed to reset password."
+        },
+        {
+                "id": "76584BC0-9FD4-417C-BF4D-4763F1424394",
+                "name": "USER_REQUEST_INIT_PASS",
+                "locale": "en-US",
+                "display": "Please reset my password."
+        },
+        {
+                "id": "C20E7164-A82C-4BD5-9E3B-4CB65F1595D2",
+                "name": "USER_INVALID_ID_OR_PASS",
+                "locale": "en-US",
+                "display": "ID or Password is not correct."
+        },
+        {
+                "id": "D8991FE2-271F-4E88-AFDA-4B067F9B7769",
+                "name": "USER_REQUEST",
+                "locale": "en-US",
+                "display": "System account registering request."
+        },
+        {
+                "id": "C547A1BE-A4C8-442A-A346-CFD8C3D11EDD",
+                "name": "CREATE_FILE_ERROR",
+                "locale": "en-US",
+                "display": "Error occured during file creating."
+        },
+        {
+                "id": "4C44587C-2432-4113-B102-5510909E7374",
+                "name": "IS_NOT_ENTITY",
+                "locale": "en-US",
+                "display": "Invalid entity name. [{0}]"
+        },
+        {
+                "id": "0EAD3289-D6F0-450B-9CB7-810E28D37DEB",
+                "name": "NOT_AUTHORIZED_USER",
+                "locale": "en-US",
+                "display": "Unauthorized user."
+        },
+        {
+                "id": "953FEAE9-239A-4FE2-9B24-1EDC019B74A5",
+                "name": "UPLOAD_FILE_SIZE_LIMIT_ERROR",
+                "locale": "en-US",
+                "display": "Excess limit file size."
+        },
+        {
+                "id": "7FD84CB0-A450-4EDE-81BE-E591B654B126",
+                "name": "UNKNOWN_TYPE",
+                "locale": "en-US",
+                "display": "Unknown type. [{0}]"
+        },
+        {
+                "id": "A79111FF-1CD6-4DA6-88D8-45267F233529",
+                "name": "FILE_DOWNLOAD_ERROR",
+                "locale": "en-US",
+                "display": "Error occured during file download."
+        },
+        {
+                "id": "8B848FF7-226A-448A-9EBD-41351EFC6034",
+                "name": "TABLE_DOES_NOT_EXIST",
+                "locale": "en-US",
+                "display": "Table does not exist."
+        },
+        {
+                "id": "4DE31239-C996-4385-8F90-EDE9CED5F52F",
+                "name": "FILE_ROOT_PATH_NOT_EXIST",
+                "locale": "en-US",
+                "display": "Root path is not valid."
+        },
+        {
+                "id": "DEBA9303-3577-49D1-BE43-8410D213430C",
+                "name": "DOMAIN_NOT_EXIST",
+                "locale": "en-US",
+                "display": "Cannot find Domain information by request server ({0})"
+        },
+        {
+                "id": "2884A41F-C32D-438D-A552-883CDD9E2CAE",
+                "name": "FAIL_TO_SEND_MAIL",
+                "locale": "ko-KR",
+                "display": "Mail 발송에 실패하였습니다."
+        },
+        {
+                "id": "E36AB557-9B76-4131-8B2B-F835019E4E49",
+                "name": "USER_ALREADY_ACTIVATED",
+                "locale": "ko-KR",
+                "display": "이미 활성화되어 있는 사용자입니다."
+        },
+        {
+                "id": "0F6C268C-40B6-497E-96CA-C3F57608C58A",
+                "name": "USER_ALREADY_ACTIVATED",
+                "locale": "en-US",
+                "display": "Already activated account."
+        },
+        {
+                "id": "0CED5323-5643-4527-B063-5F14615F9138",
+                "name": "USER_REQUEST_ACTIVE_ACCOUNT",
+                "locale": "en-US",
+                "display": "Request account activation."
+        },
+        {
+                "id": "B133D37C-4A0D-4DE8-8EFD-BDDE29DA07CB",
+                "name": "USER_REQUEST_ACTIVE_ACCOUNT",
+                "locale": "ko-KR",
+                "display": "계정 활성화 요청드립니다."
+        },
+        {
+                "id": "110875C5-D6F8-487D-949E-B8FC3875DFAC",
+                "name": "USER_COMPLETE_ACTIVE_ACCOUNT",
+                "locale": "en-US",
+                "display": "Activation request is completed."
+        },
+        {
+                "id": "F0B6C45B-82A4-4A2D-AA19-7F91586F9C16",
+                "name": "USER_COMPLETE_ACTIVE_ACCOUNT",
+                "locale": "ko-KR",
+                "display": "계정 활성화 요청이 완료되었습니다."
+        },
+        {
+                "id": "099892E5-FE6B-41EC-A742-9EA793F91B1E",
+                "name": "USER_INACTIVE_ACCOUNT",
+                "locale": "en-US",
+                "display": "Inactivation user account."
+        },
+        {
+                "id": "FCFBF0DE-D50F-43F7-A06B-258DFECF7766",
+                "name": "USER_INACTIVE_ACCOUNT",
+                "locale": "ko-KR",
+                "display": "사용자 비활성화."
+        },
+        {
+                "id": "2DD28E60-2023-4591-A93D-F94289D65712",
+                "name": "USER_INACTIVATED_ACCOUNT",
+                "locale": "en-US",
+                "display": "Deactivated account."
+        },
+        {
+                "id": "B145F140-2747-46F3-81F8-B42E06862E10",
+                "name": "USER_INACTIVATED_ACCOUNT",
+                "locale": "ko-KR",
+                "display": "비활성화된 계정입니다."
+        },
+        {
+                "id": "5647A804-9E60-4BF5-A55D-41E6E73438B6",
+                "name": "ALREADY_BEEN_PROCEEDED",
+                "locale": "en-US",
+                "display": "Already been proceeded."
+        },
+        {
+                "id": "B48E7038-C2EE-4F79-A78A-DE140CF0C877",
+                "name": "ALREADY_BEEN_PROCEEDED",
+                "locale": "zh-CN",
+                "display": "数据已经处理。"
+        },
+        {
+                "id": "588240E1-B873-41C7-837F-17C079305C0B",
+                "name": "ALREADY_EXIST",
+                "locale": "zh-CN",
+                "display": "此数据已存在。"
+        },
+        {
+                "id": "D69587E4-C16B-400E-941F-931367E2F6F6",
+                "name": "ALREADY_PROCEED",
+                "locale": "zh-CN",
+                "display": "{0}正在处理。"
+        },
+        {
+                "id": "B68EE6E8-34B3-4306-9071-D45237607F5F",
+                "name": "BAD_REQUEST",
+                "locale": "zh-CN",
+                "display": "非法请求。"
+        },
+        {
+                "id": "BB868E1C-7934-4FC1-8C84-2D22CD919DF1",
+                "name": "COULD_NOT_INSTANTIATE",
+                "locale": "zh-CN",
+                "display": "无法实例化{0}， ({1})"
+        },
+        {
+                "id": "E91AAB3A-0C22-4237-889A-1D8111AE2E2E",
+                "name": "CREATE_FILE_ERROR",
+                "locale": "zh-CN",
+                "display": "处理文件时发生错误。"
+        },
+        {
+                "id": "E2B4485C-B278-49E3-94E0-0315838A6A55",
+                "name": "DATA_BASE_ERROR",
+                "locale": "zh-CN",
+                "display": "数据库请求发生错误。"
+        },
+        {
+                "id": "9CC3DEEB-0EE1-4065-9DBC-ACBC4185D121",
+                "name": "DOES_NOT_PROCEED",
+                "locale": "zh-CN",
+                "display": "{0}未在执行"
+        },
+        {
+                "id": "07C3E855-5B2E-42D1-BDA4-72E263EDD00C",
+                "name": "DOMAIN_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "无法使用({0})查询到Domain信息。"
+        },
+        {
+                "id": "4756EC28-E0CA-4FAE-9335-E9B0E4ECC58B",
+                "name": "EMPTY_CUD_FLAG_VALUE",
+                "locale": "zh-CN",
+                "display": "无法获取cudFlag。"
+        },
+        {
+                "id": "ECADE68E-8012-4245-A81C-05DE35EA5506",
+                "name": "EMPTY_PARAM",
+                "locale": "zh-CN",
+                "display": "{0}不能为空。"
+        },
+        {
+                "id": "CFBA2328-CAC3-45A6-B9B0-D831F1553121",
+                "name": "FAIL_TO_SEND_MAIL",
+                "locale": "zh-CN",
+                "display": "邮件发送失败。"
+        },
+        {
+                "id": "31ABEEB2-1C8F-44A0-91AF-F8E08609406E",
+                "name": "FAILED_META_SETUP",
+                "locale": "zh-CN",
+                "display": "配置detail meta失败。"
+        },
+        {
+                "id": "B540351F-1CD6-4BBD-9531-4BA894F8A4A3",
+                "name": "FAILED_TO_PROCESS_TEMPLATE",
+                "locale": "zh-CN",
+                "display": "无法处理{0}模板。"
+        },
+        {
+                "id": "A8686005-9518-43BA-84FE-736060FDC2D5",
+                "name": "FIELD_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "[{0}] 列不存在。"
+        },
+        {
+                "id": "67730F0D-9EDE-45B9-993F-25CF7D359C82",
+                "name": "FILE_COPY_FAILED",
+                "locale": "zh-CN",
+                "display": "文件复制失败。"
+        },
+        {
+                "id": "E49548CD-C1A8-4FAC-A474-2BC333596262",
+                "name": "FILE_DEFAULT_PATH_IS_EMPTY",
+                "locale": "zh-CN",
+                "display": "默认路径为空。"
+        },
+        {
+                "id": "DF13410D-5040-4829-9838-32DE930FEAEC",
+                "name": "FILE_DOWNLOAD_ERROR",
+                "locale": "zh-CN",
+                "display": "文件下载过程中发生错误。"
+        },
+        {
+                "id": "369FBABE-8162-43A3-BE4E-31F5ACEBCE31",
+                "name": "FILE_NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "无法找到文件({0})。"
+        },
+        {
+                "id": "6978DEAF-AE04-4D17-AE9F-BEA127AE87B8",
+                "name": "FILE_ROOT_PATH_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "根目录地址错误。"
+        },
+        {
+                "id": "48BCD677-80F0-44E1-B503-513269A9A531",
+                "name": "GENERATE_FAIL",
+                "locale": "zh-CN",
+                "display": "创建服务失败。"
+        },
+        {
+                "id": "2CF7B6D5-E221-494E-BBF0-F3613C6BEF6B",
+                "name": "HAS_DETAIL_DATA",
+                "locale": "zh-CN",
+                "display": "实体({0})中存在明细数据，请删除后执行。"
+        },
+        {
+                "id": "E7FD0FAD-A13C-4166-90A6-C015884E69A0",
+                "name": "HAS_NO_CONSTRUCTOR",
+                "locale": "zh-CN",
+                "display": "实体类没有默认构造函数。"
+        },
+        {
+                "id": "52785D56-00F7-42E5-B5B4-F641B7DB11BF",
+                "name": "HAS_ONE_OR_MORE_DATA",
+                "locale": "zh-CN",
+                "display": "含一个或多个数据无法删除。"
+        },
+        {
+                "id": "E69103E7-617C-455E-938C-D4215F6EA9BD",
+                "name": "INVALID_DATA_TYPE",
+                "locale": "zh-CN",
+                "display": "Data Type[{0}]类型错误。"
+        },
+        {
+                "id": "02BD5CF2-5003-4217-A04C-6861F065F8DD",
+                "name": "INVALID_FILE",
+                "locale": "zh-CN",
+                "display": "[{0}]是无效的文件。"
+        },
+        {
+                "id": "2BE8CD8E-691C-4DA7-806D-5C99C02DAF55",
+                "name": "INVALID_KEYS",
+                "locale": "zh-CN",
+                "display": "包含不存在于实体的无效键值。"
+        },
+        {
+                "id": "154F7684-A651-4847-AA7B-66AB4103D45A",
+                "name": "INVALID_PARAM",
+                "locale": "zh-CN",
+                "display": "变量(名称：{0}, 值：{1})错误。"
+        },
+        {
+                "id": "25207FDF-7C9F-487C-8FFD-EEFDEE78D306",
+                "name": "INVALID_SERVICE_URL",
+                "locale": "zh-CN",
+                "display": "RESTful服务的URL({0})错误。"
+        },
+        {
+                "id": "8DF4DEFE-8EE3-4849-B724-608EFE3F0268",
+                "name": "INVALID_STATUS",
+                "locale": "zh-CN",
+                "display": "无效的状态。"
+        },
+        {
+                "id": "D4B339CE-513C-4F22-B514-AB694A51488C",
+                "name": "IS_NOT_ENTITY",
+                "locale": "zh-CN",
+                "display": "实体名称错误。 [{0}]"
+        },
+        {
+                "id": "E22263FC-ECA3-4FC0-872E-1EF5718BFF55",
+                "name": "NOT_FOUND_KEY",
+                "locale": "zh-CN",
+                "display": "在关键参数中发现的空键。"
+        },
+        {
+                "id": "CA7F8111-8ADD-431A-9534-829789F1572B",
+                "name": "NOT_FOUND_UNIQUE_FIELDS",
+                "locale": "zh-CN",
+                "display": "未找到唯一的索引。"
+        },
+        {
+                "id": "5D520D29-DDF6-4144-95A0-085FE2A982D5",
+                "name": "NOT_FOUND_URL",
+                "locale": "zh-CN",
+                "display": "无法在URL({0})中找到服务。"
+        },
+        {
+                "id": "1D086038-3622-4BA5-9BB6-478B15DAC3F1",
+                "name": "NOT_SUPPORTED_METHOD",
+                "locale": "zh-CN",
+                "display": "不支持的方法。"
+        },
+        {
+                "id": "ACD7E5D0-75B6-434E-AB3D-D21951C08BBD",
+                "name": "NOT_SUPPORTED_TYPE",
+                "locale": "zh-CN",
+                "display": "类型{0}不支持。[{1}]"
+        },
+        {
+                "id": "927AAC85-363F-429D-BA9B-7105B8EB1D70",
+                "name": "NOT_SUPPORTED_YET",
+                "locale": "zh-CN",
+                "display": "当前尚未支持的功能！"
+        },
+        {
+                "id": "38A25D1E-3E23-4F81-939D-2FF6C1C0526C",
+                "name": "PARSE_INPUT_ERROR",
+                "locale": "zh-CN",
+                "display": "转换Input Data时, 发生错误。"
+        },
+        {
+                "id": "3DF05A2C-DE4A-4C6A-BCC3-6B915FD623E5",
+                "name": "PARSE_OUTPUT_ERROR",
+                "locale": "zh-CN",
+                "display": "Output Data转换时发生错误。"
+        },
+        {
+                "id": "59FD5CEF-8D33-4807-A299-24BAD6C2D46F",
+                "name": "RECORD_NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "无法找到记录。"
+        },
+        {
+                "id": "1C44B8AB-9219-4BB8-BF83-6C4D68D4A7F7",
+                "name": "RUNTIME_ERROR",
+                "locale": "zh-CN",
+                "display": "运行过程中发生意外错误。"
+        },
+        {
+                "id": "C586150D-0919-4DE6-A220-7EE6373E3088",
+                "name": "SCRIPT_RUNTIME_ERROR",
+                "locale": "zh-CN",
+                "display": "运行脚本时发生错误。"
+        },
+        {
+                "id": "B2DFD120-05EA-40A2-A6B7-B2B5AD6B24FC",
+                "name": "SERVICE_ERROR",
+                "locale": "zh-CN",
+                "display": "服务运行中发生错误。"
+        },
+        {
+                "id": "E57C5B19-87A5-4FDD-8FCB-3D9425E2572A",
+                "name": "SERVICE_NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "服务不存在。"
+        },
+        {
+                "id": "E4372D61-D868-46C6-8BE4-8F9D8D709B1B",
+                "name": "STREAMING_ERROR",
+                "locale": "zh-CN",
+                "display": "流错误。"
+        },
+        {
+                "id": "EFB1AB71-163F-4BB1-9E3E-4F1296E68951",
+                "name": "TABLE_DOES_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "表不存在。"
+        },
+        {
+                "id": "FC607018-73F8-41DD-9B76-128B78627871",
+                "name": "TITLE_ALREADY_EXIST",
+                "locale": "zh-CN",
+                "display": "重复记录。"
+        },
+        {
+                "id": "2F030922-D4B5-488D-BD5D-9381E5C06F63",
+                "name": "TITLE_BAD_REQUEST",
+                "locale": "zh-CN",
+                "display": "错误申请。"
+        },
+        {
+                "id": "34F6AEA2-AC8A-46BA-AC5B-61626F7EF3C8",
+                "name": "TITLE_DATA_BASE_ERROR",
+                "locale": "zh-CN",
+                "display": "数据库错误。"
+        },
+        {
+                "id": "9A864497-CDDB-444A-8E7D-1FF8C140A137",
+                "name": "TITLE_INVALID_PARAM",
+                "locale": "zh-CN",
+                "display": "非法变量。"
+        },
+        {
+                "id": "FDF66EA4-AAE3-44D3-8435-9B4476852445",
+                "name": "TITLE_INVALID_STATUS",
+                "locale": "zh-CN",
+                "display": "无效状态错误。"
+        },
+        {
+                "id": "D43A6795-C085-4E71-98A6-462AA164578B",
+                "name": "TITLE_PARSE_INPUT_ERROR",
+                "locale": "zh-CN",
+                "display": "(Input Parameters)转换错误。"
+        },
+        {
+                "id": "21C3F6F8-ECCD-4793-A179-8FEC6F2D9EA9",
+                "name": "TITLE_PARSE_OUTPUT_ERROR",
+                "locale": "zh-CN",
+                "display": "Output转换错误。"
+        },
+        {
+                "id": "724BFA00-B84C-4AF4-AA97-3D226E8888D3",
+                "name": "TITLE_RECORD_NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "记录不存在。"
+        },
+        {
+                "id": "E40D3FEC-6538-4664-A765-FFE7B2DD40CA",
+                "name": "TITLE_RUNTIME_ERROR",
+                "locale": "zh-CN",
+                "display": "运行错误。"
+        },
+        {
+                "id": "294B7FA6-59E4-45EF-ABE6-C57DDD7F3116",
+                "name": "TITLE_SCRIPT_RUNTIME_ERROR",
+                "locale": "zh-CN",
+                "display": "脚本错误。"
+        },
+        {
+                "id": "113711D4-7816-4B99-A605-E3B2F150C1BC",
+                "name": "TITLE_SERVICE_ERROR",
+                "locale": "zh-CN",
+                "display": "服务错误。"
+        },
+        {
+                "id": "423B012B-9FCE-4C9E-A04A-5390D7576899",
+                "name": "TITLE_SERVICE_NOT_FOUND",
+                "locale": "zh-CN",
+                "display": "服务无法查询。"
+        },
+        {
+                "id": "F171091A-98F4-443B-97C6-863124A8ACF6",
+                "name": "TITLE_VALIDATION_ERROR",
+                "locale": "zh-CN",
+                "display": "有效性错误。"
+        },
+        {
+                "id": "6729C35B-8E04-46D7-92FE-8D041B201048",
+                "name": "UNKNOWN_TYPE",
+                "locale": "zh-CN",
+                "display": "[{0}]类型无法识别。"
+        },
+        {
+                "id": "DCB6FC68-B8FF-4828-BE25-8A797D9451BC",
+                "name": "UPLOAD_FILE_SIZE_LIMIT_ERROR",
+                "locale": "zh-CN",
+                "display": "文件大小，超出上传上限。"
+        },
+        {
+                "id": "B8D2A49F-3700-4E03-B190-D77CC6207B19",
+                "name": "USER_ALREADY_ACTIVATED",
+                "locale": "zh-CN",
+                "display": "用户为已激活用户。"
+        },
+        {
+                "id": "6DA40CC7-5917-459B-AB52-B45998F1ACDC",
+                "name": "USER_APPROVAL",
+                "locale": "zh-CN",
+                "display": "激活请求已接受。"
+        },
+        {
+                "id": "1002DD0C-670F-432C-AA04-0C8226601079",
+                "name": "USER_COMPLETE_ACTIVE_ACCOUNT",
+                "locale": "zh-CN",
+                "display": "激活请求完成。"
+        },
+        {
+                "id": "6A179F6B-0052-45BA-B3A3-D2BA4BA215B8",
+                "name": "USER_COMPLETE_INIT_PASS",
+                "locale": "zh-CN",
+                "display": "密码重置完毕。"
+        },
+        {
+                "id": "82983B2D-9500-4693-B772-B6347CB43A1B",
+                "name": "USER_INACTIVATED_ACCOUNT",
+                "locale": "zh-CN",
+                "display": "未激活用户。"
+        },
+        {
+                "id": "83CD81C0-19A1-4993-908D-67BBC6449CC2",
+                "name": "USER_INACTIVE_ACCOUNT",
+                "locale": "zh-CN",
+                "display": "屏蔽用户。"
+        },
+        {
+                "id": "58A2BB76-B68D-495A-88BA-CD8ABD83B358",
+                "name": "USER_INVALID_ID_OR_PASS",
+                "locale": "zh-CN",
+                "display": "ID或密码错误。"
+        },
+        {
+                "id": "0E5B112C-EAD1-4354-8F78-C2EEAEE9B2C8",
+                "name": "USER_NOT_EXIST",
+                "locale": "zh-CN",
+                "display": "用户不存在。"
+        },
+        {
+                "id": "E74AE17C-A0D2-4E7A-A0FE-A856A2942AF3",
+                "name": "USER_REJECT",
+                "locale": "zh-CN",
+                "display": "账户申请被拒绝。"
+        },
+        {
+                "id": "6DEEC15B-7C3B-412F-9AD6-208F9BC973EA",
+                "name": "USER_REQUEST",
+                "locale": "zh-CN",
+                "display": "账户申请。"
+        },
+        {
+                "id": "47C812D0-90BE-4582-AFC7-4D40B1969B87",
+                "name": "USER_REQUEST_ACTIVE_ACCOUNT",
+                "locale": "zh-CN",
+                "display": "请激活用户。"
+        },
+        {
+                "id": "AA619821-FC42-4BB7-BEED-26454C69D67A",
+                "name": "USER_REQUEST_INIT_PASS",
+                "locale": "zh-CN",
+                "display": "请冲密码。"
+        },
+        {
+                "id": "98CF21C1-9B0E-4919-BA5D-A1693A602AA0",
+                "name": "VALIDATION_ERROR",
+                "locale": "zh-CN",
+                "display": "未通过有效性检查。"
+        },
+        {
+                "id": "63BA16C4-D6CA-4EFC-9DED-3D99A40FE37B",
+                "name": "SPC_SPEC_OUT",
+                "locale": "en-US",
+                "display": "{1} Value Spec Out Occurred at SPC Item {0}"
+        },
+        {
+                "id": "CC9E7EED-6450-4F70-8781-5381208278E0",
+                "name": "SPC_SPEC_OUT",
+                "locale": "zh-CN",
+                "display": "{1}超出SPC项{0}规范值。"
+        },
+        {
+                "id": "9F5EBB16-67AD-471B-8C24-5A195DB8669F",
+                "name": "IS_NOT_IN_USE_LISTENER",
+                "locale": "zh-CN",
+                "display": "监听器当前未运行。"
+        },
+        {
+                "id": "EC525F95-0E76-42E9-8A81-E63D728B6D8B",
+                "name": "SPC_SPEC_OUT",
+                "locale": "ko-KR",
+                "display": "SPC 항목 {0}에서 {1} 값 Spec Out이 발생했습니다."
+        },
+        {
+                "id": "3DB9ACFA-C98B-4265-A143-859D718FF870",
+                "name": "USER_REQUEST_ADD_AUTH",
+                "locale": "ko-KR",
+                "display": "사용자 권한 추가 요청"
+        },
+        {
+                "id": "626D8322-A536-4DFF-884B-D4915E2BFB98",
+                "name": "NULL_OBJECT_NOT_ALLOWED",
+                "locale": "ko-KR",
+                "display": "Null 객체는 허용되는 않습니다."
+        },
+        {
+                "id": "5AEA0ABC-B1EA-4CF4-A1FE-F6EC2B4A32C3",
+                "name": "USER_REQUEST",
+                "locale": "ko-KR",
+                "display": "시스템 계정 등록 요청."
+        },
+        {
+                "id": "41545CCC-6B22-474B-8EBB-F9719C41DCD0",
+                "name": "CREATE_FILE_ERROR",
+                "locale": "ko-KR",
+                "display": "File 생성 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "88D655DC-1E9B-40EF-A709-4091B6D7B512",
+                "name": "ERROR_WHEN_DO_SOMETHING",
+                "locale": "zh-CN",
+                "display": "{0}中{1}发生错误。"
+        },
+        {
+                "id": "898C8655-A1C7-456F-A6A4-2D9B9649B80A",
+                "name": "ERROR_WHEN_DO_SOMETHING",
+                "locale": "ko-KR",
+                "display": "{0} 도중에 {1} 에러가 발생했습니다."
+        },
+        {
+                "id": "D6913148-5F4E-4ACD-AF70-3EF029F10F4A",
+                "name": "ERROR_WHEN_DO_SOMETHING",
+                "locale": "en-US",
+                "display": "{1} Error occurred when doing {0}"
+        },
+        {
+                "id": "271F9F1E-9A54-4E1F-9629-32758C8DC5C1",
+                "name": "REQUEST_SENT_TO_ADMIN",
+                "locale": "en-US",
+                "display": "Your request has been sent to administrator."
+        },
+        {
+                "id": "057A8027-C7A3-47CB-9273-2F7F1D8792CC",
+                "name": "REQUEST_ALREADY_RECEIVED",
+                "locale": "ko-KR",
+                "display": "이미 접수된 요청입니다."
+        },
+        {
+                "id": "D42E0EC3-8D5B-4E28-8476-806B3F98876E",
+                "name": "REQUEST_ALREADY_RECEIVED",
+                "locale": "zh-CN",
+                "display": "已接收过的请求。"
+        },
+        {
+                "id": "42965ADE-A16A-4A2A-8DEF-93ACD79AEC21",
+                "name": "ALREADY_HAVE_AUTHROIZATION",
+                "locale": "en-US",
+                "display": "You already have the authorization."
+        },
+        {
+                "id": "CF4B9C99-56C7-4C7C-AB9B-8DF6A032FBCD",
+                "name": "ALREADY_HAVE_AUTHROIZATION",
+                "locale": "ko-KR",
+                "display": "요청하신 권한은 이미 신청자님께서 가지고 있습니다."
+        },
+        {
+                "id": "01814236-4E97-4506-BA5E-8A7965EE6A74",
+                "name": "ALREADY_HAVE_AUTHROIZATION",
+                "locale": "zh-CN",
+                "display": "申请人已持有当前权限。"
+        },
+        {
+                "id": "7334252F-29E0-46D7-948A-AE1AF2DB5B8F",
+                "name": "ALREADY_FINISHED",
+                "locale": "ko-KR",
+                "display": "{0}은 이미 처리되었습니다."
+        },
+        {
+                "id": "C686F3E9-F7E7-4B3A-819D-6EF9B4E48CB9",
+                "name": "ALREADY_FINISHED",
+                "locale": "zh-CN",
+                "display": "{0}已处理。"
+        },
+        {
+                "id": "50C2DBD2-06EC-4600-9EBD-EF5F4835F8F5",
+                "name": "REQUEST_PROCESSED_APPROVED",
+                "locale": "en-US",
+                "display": "Your request has been processed 'approved'. "
+        },
+        {
+                "id": "15559B1D-6BEE-4242-8164-333A1563CEBB",
+                "name": "REQUEST_PROCESSED_APPROVED",
+                "locale": "ko-KR",
+                "display": "요청하신 내용이 '승인' 처리되었습니다."
+        },
+        {
+                "id": "0AF9DCD3-7039-4956-9959-72F4A2B8933A",
+                "name": "REQUEST_PROCESSED_APPROVED",
+                "locale": "zh-CN",
+                "display": "请求已被“批准”。"
+        },
+        {
+                "id": "48DE1E2F-5BBD-4AF5-B970-8AF232B0F715",
+                "name": "REQUEST_PROCESSED_REJECTED",
+                "locale": "en-US",
+                "display": "Your request has been processed 'reject'."
+        },
+        {
+                "id": "4366AE4C-ADA7-4491-8732-8EC71F8683C8",
+                "name": "REQUEST_PROCESSED_REJECTED",
+                "locale": "ko-KR",
+                "display": "요청하신 내용이 '반려' 처리되었습니다."
+        },
+        {
+                "id": "85131F01-9965-44F4-BB57-1B6980F1580A",
+                "name": "REQUEST_PROCESSED_REJECTED",
+                "locale": "zh-CN",
+                "display": "请求已被“取消”。"
+        },
+        {
+                "id": "7EF01EDD-286E-47A9-AD55-D329D689BBE3",
+                "name": "REQUEST_SENT_TO_ADMIN",
+                "locale": "ko-KR",
+                "display": "요청하신 내용이 관리자에게 접수되었습니다."
+        },
+        {
+                "id": "9AAA2161-672F-49D7-8F5A-07CBC0084192",
+                "name": "REQUEST_SENT_TO_ADMIN",
+                "locale": "zh-CN",
+                "display": "管理员已收到您的请求。"
+        },
+        {
+                "id": "C0B379BE-86D1-434F-8C48-18AAB87FD24B",
+                "name": "ALREADY_FINISHED",
+                "locale": "en-US",
+                "display": "{0} has been already finished."
+        },
+        {
+                "id": "EF4CC5BD-0709-4FDF-AD46-9722FF92C0E3",
+                "name": "REQUEST_PROCESSED",
+                "locale": "en-US",
+                "display": "Your request has been processed '{0}'."
+        },
+        {
+                "id": "C2A89C19-3485-4383-9BD1-C094757E73FD",
+                "name": "REQUEST_PROCESSED",
+                "locale": "ko-KR",
+                "display": "요청하신 내용이 '{0}' 처리되었습니다."
+        },
+        {
+                "id": "350748D4-7C2D-4555-A5A2-D2D19F179344",
+                "name": "REQUEST_PROCESSED",
+                "locale": "zh-CN",
+                "display": "请求'{0}'已处理完毕。"
+        },
+        {
+                "id": "31224158-EC89-4C40-86D9-2D3488D59F47",
+                "name": "RESULT_SENT_TO_REQUESTER",
+                "locale": "en-US",
+                "display": "Results of processing your request has been sent."
+        },
+        {
+                "id": "EA950E7B-265F-4032-9C6E-47FCAAEC77C3",
+                "name": "RESULT_SENT_TO_REQUESTER",
+                "locale": "ko-KR",
+                "display": "요청하신 내용의 처리 결과 메일이 신청자에게 전송되었습니다."
+        },
+        {
+                "id": "CED5782E-B499-427B-8ACA-1BC688343776",
+                "name": "RESULT_SENT_TO_REQUESTER",
+                "locale": "zh-CN",
+                "display": "处理您的请求后，电子邮件已发送给申请人。"
+        },
+        {
+                "id": "1EB0E82C-811A-46C7-A7E1-0C58B7FDD934",
+                "name": "REQUEST_ALREADY_RECEIVED",
+                "locale": "en-US",
+                "display": "This request already has been received."
+        },
+        {
+                "id": "1F4B0A25-8FC9-4163-8A30-98B68417E6FB",
+                "name": "NOT_A_PASSWORD_INIT_REQUEST",
+                "locale": "zh-CN",
+                "display": "此申请不是密码重置申请。"
+        },
+        {
+                "id": "F111CA75-4D5D-4926-89E4-0591DEFBD272",
+                "name": "NOT_A_PASSWORD_INIT_REQUEST",
+                "locale": "ko-KR",
+                "display": "이 요청은 계정 패스워드 초기화 요청이 아닙니다."
+        },
+        {
+                "id": "FCF134EE-12E5-432C-BFA1-62BEB3639039",
+                "name": "NOT_A_ACCOUNT_APPR_REQUEST",
+                "locale": "en-US",
+                "display": "This request is not for a account approval."
+        },
+        {
+                "id": "4011D2D0-A5D0-4020-8EA0-576EAA88F107",
+                "name": "NOT_A_ACCOUNT_APPR_REQUEST",
+                "locale": "zh-CN",
+                "display": "此申请不是账户允入申请。"
+        },
+        {
+                "id": "FACAE065-5810-4279-AA78-8D93A7DC4875",
+                "name": "NOT_A_AUTHORIZATION_REQUEST",
+                "locale": "ko-KR",
+                "display": "이 요청은 권한 추가 요청이 아닙니다."
+        },
+        {
+                "id": "A8536C41-ACD1-41AB-B88E-F8FEBCCC7AD6",
+                "name": "NOT_A_AUTHORIZATION_REQUEST",
+                "locale": "zh-CN",
+                "display": "此申请不是权限申请。"
+        },
+        {
+                "id": "32400E23-F351-4A82-A383-EA3B459437E7",
+                "name": "NOT_A_AUTHORIZATION_REQUEST",
+                "locale": "en-US",
+                "display": "This request is not for a authorization."
+        },
+        {
+                "id": "DFEDD807-991E-48F7-9A72-E12F91118E5B",
+                "name": "NOT_A_ACCOUNT_APPR_REQUEST",
+                "locale": "ko-KR",
+                "display": "이 요청은 계정 승인 요청이 아닙니다."
+        },
+        {
+                "id": "E14E637D-634A-438F-91DF-446683193807",
+                "name": "NOT_A_ACCOUNT_ACTIVATION_REQUEST",
+                "locale": "zh-CN",
+                "display": "此申请不是账户激活申请。"
+        },
+        {
+                "id": "140ED8B6-1D2B-4198-9F2C-88AE48EBD99D",
+                "name": "NOT_A_ACCOUNT_ACTIVATION_REQUEST",
+                "locale": "en-US",
+                "display": "This request is not for a account activation."
+        },
+        {
+                "id": "B8270883-2911-432F-9F34-7B840E074EEE",
+                "name": "NOT_A_ACCOUNT_ACTIVATION_REQUEST",
+                "locale": "ko-KR",
+                "display": "이 요청은 계정 활성화 요청이 아닙니다."
+        },
+        {
+                "id": "2349C656-5285-4FAC-8163-380249705D4A",
+                "name": "NOT_A_PASSWORD_INIT_REQUEST",
+                "locale": "en-US",
+                "display": "This request is not for a password initialization."
+        },
+        {
+                "id": "F16670F7-2FB2-401D-A9B7-ACE486576915",
+                "name": "READ_FILE_ERROR",
+                "locale": "ko-KR",
+                "display": "File {0} 읽기 중 에러가 발생하였습니다."
+        },
+        {
+                "id": "7C505462-A4EF-463A-B3DA-04243A214602",
+                "name": "READ_FILE_ERROR",
+                "locale": "en-US",
+                "display": "Failed to read file {0}."
+        },
+        {
+                "id": "8ED7178F-B0EF-4BDB-9F98-C68DA4672A1B",
+                "name": "READ_FILE_ERROR",
+                "locale": "zh-CN",
+                "display": "读取文件{0}时发生错误。"
+        },
+        {
+                "id": "93AD4AC5-DE0F-4984-82A8-42499501272E",
+                "name": "A_ALREADY_B_STATUS",
+                "locale": "ko-KR",
+                "display": "{0} 은(는) 이미 {1} 상태입니다."
+        },
+        {
+                "id": "D8D00DB6-C9C2-4C73-B199-262EC8BF5584",
+                "name": "INVALID_FILE",
+                "locale": "ko-KR",
+                "display": "[{0}] (은)는 유효한 파일이 아닙니다."
+        },
+        {
+                "id": "A1C94AC7-AF75-4E1D-A599-EDFB86E3D666",
+                "name": "FILE_DEFAULT_PATH_IS_EMPTY",
+                "locale": "ko-KR",
+                "display": "기본 Path가 비어 있습니다."
+        },
+        {
+                "id": "64940F26-F782-453E-8AFA-E8B1E7012C66",
+                "name": "GENERATE_FAIL",
+                "locale": "ko-KR",
+                "display": "서비스 생성에 실패하였습니다."
+        },
+        {
+                "id": "CD026B4C-B685-4CA0-A3CE-B1154AE3F5E0",
+                "name": "FAIL_TO_PARSE",
+                "locale": "zh-CN",
+                "display": "{0} 数据解析失败。"
+        },
+        {
+                "id": "A8F9A218-07A6-4E87-AF3E-6B0BDA5AA3B9",
+                "name": "DOMAIN_ADMIN_NOT_EXIST",
+                "locale": "en-US",
+                "display": "Administrators of the domain does not exist, so you can not send mail to the administrator."
+        },
+        {
+                "id": "F82BA8EF-58B7-41FB-9382-0ED4F4FCFF02",
+                "name": "DOMAIN_ADMIN_NOT_EXIST",
+                "locale": "ko-KR",
+                "display": "해당 도메인에 관리자로 지정된 사용자가 없어서 관리자에게 메일을 보낼 수 없습니다."
+        },
+        {
+                "id": "415B932D-4B46-4885-8F5E-E829240ADF01",
+                "name": "WORK_ORDER_OVER_QTY",
+                "locale": "ko-KR",
+                "display": "작업 오더의 계획 수량을 초과했습니다."
+        },
+        {
+                "id": "2E357AAE-2A97-4B97-BDF1-CA05DA7CF22E",
+                "name": "WORK_ORDER_OVER_QTY",
+                "locale": "zh-CN",
+                "display": "超出工单数量！"
+        },
+        {
+                "id": "8c443e08-4f1e-4478-a145-1cecdd70dcf9",
+                "name": "NOT_FOUND_CRUD_FLAG",
+                "locale": "zh-CN",
+                "display": "实体[{0}]中无'cudFlag'。"
+        },
+        {
+                "id": "aab78b48-7013-4b3f-bd11-0ebc4c831683",
+                "name": "NOT_FOUND_BY_SCAN_BARCD",
+                "locale": "en-US",
+                "display": "Cannot find {1} by scanned {0}"
+        },
+        {
+                "id": "1c3574d6-75ea-4151-ba66-335a0be6ef1f",
+                "name": "FAIL_TO_PROCESS_TEMPLATE",
+                "locale": "zh-CN",
+                "display": "无法处理{0}模板。"
+        },
+        {
+                "id": "f2aa03bd-3f43-4f98-9a0b-1e7539647fb8",
+                "name": "FAIL_TO_PROCESS_TEMPLATE",
+                "locale": "ko-KR",
+                "display": "{0} 템플릿 프로세스를 실패하였습니다."
+        },
+        {
+                "id": "6f989c45-396a-4ff4-b1ba-07f7a05d623a",
+                "name": "A_IS_INVALID",
+                "locale": "zh-CN",
+                "display": "{0}无效。"
+        },
+        {
+                "id": "bd39ce0a-db5d-4ad9-92d0-f17b9a475731",
+                "name": "A_IS_INVALID",
+                "locale": "ko-KR",
+                "display": "{0}이(가) 유효하지 않습니다."
+        },
+        {
+                "id": "0d922a4b-e0c7-4dfd-9437-5913ae2cee07",
+                "name": "A_IS_INVALID",
+                "locale": "en-US",
+                "display": "{0} is invalid."
+        },
+        {
+                "id": "a100816e-4556-48d9-9f38-3a2ddecfa72b",
+                "name": "A_IS_POSSIBLE_ONLY_B_STATUS",
+                "locale": "zh-CN",
+                "display": "{0}状态才可以{1}。"
+        },
+        {
+                "id": "1caa1ac3-1bd4-4e52-b5c8-2b05c547d937",
+                "name": "A_IS_POSSIBLE_ONLY_B_STATUS",
+                "locale": "en-US",
+                "display": "Only {1} is possible in {0} state."
+        },
+        {
+                "id": "b2d1fc1e-9807-4fe7-bb4b-7bd095ffeb28",
+                "name": "A_IS_POSSIBLE_ONLY_B_STATUS",
+                "locale": "ko-KR",
+                "display": "{0}상태인 경우에만 {1}이 가능합니다."
+        },
+        {
+                "id": "9221ff06-5de7-49ef-84f8-fbb8d64aff39",
+                "name": "ALREADY_USED",
+                "locale": "zh-CN",
+                "display": "{0}已被使用。"
+        },
+        {
+                "id": "6cc4280e-48bc-4538-adda-04a4d32b4e04",
+                "name": "ALREADY_USED",
+                "locale": "en-US",
+                "display": "{0} is already used."
+        },
+        {
+                "id": "8ada0473-cabb-4030-ac7f-84e7b7eeb0db",
+                "name": "ALREADY_USED",
+                "locale": "ko-KR",
+                "display": "{0}이(가) 이미 사용되었습니다."
+        },
+        {
+                "id": "886e32e9-6949-4926-94ac-8961c5a5e226",
+                "name": "NO_JOBS_TO_PROCESS_BY_INPUT",
+                "locale": "zh-CN",
+                "display": "投入的商品没有可处理的作业。"
+        },
+        {
+                "id": "f27d22df-9eed-428e-92f3-88360301f503",
+                "name": "NO_JOBS_TO_PROCESS_BY_INPUT",
+                "locale": "en-US",
+                "display": "No jobs to process with input sku."
+        },
+        {
+                "id": "8e52e96c-4a14-4769-8724-6d4f94ed6c11",
+                "name": "NO_JOBS_TO_PROCESS_BY_INPUT",
+                "locale": "ko-KR",
+                "display": "투입한 상품으로 처리할 작업이 없습니다"
+        },
+        {
+                "id": "3e1449b3-c0a6-431c-91e2-24e3fcffe144",
+                "name": "NO_SKU_FOUND_IN_SCOPE",
+                "locale": "ko-KR",
+                "display": "스캔한 상품은 현재 {0}에 존재하지 않습니다"
+        },
+        {
+                "id": "7b707975-c046-4f4b-8024-45ed59230148",
+                "name": "NO_SKU_FOUND_IN_SCOPE",
+                "locale": "en-US",
+                "display": "The scanned item does not exist in the current {0}."
+        },
+        {
+                "id": "4776efc3-c26c-467d-a0a6-78e64219fa7b",
+                "name": "NO_SKU_FOUND_IN_SCOPE",
+                "locale": "zh-CN",
+                "display": "扫描的商品号{0}当前不存在。"
+        },
+        {
+                "id": "de4ecd37-5b82-4add-9151-ebe5162adbeb",
+                "name": "NOT_ALLOWED_INPUT_BY_UNIT",
+                "locale": "ko-KR",
+                "display": "{0} 단위 상품 투입이 불가능합니다"
+        },
+        {
+                "id": "ea83f579-f0e6-4e23-a4a9-bac32b73a7ea",
+                "name": "NOT_ALLOWED_INPUT_BY_UNIT",
+                "locale": "en-US",
+                "display": "Can not input items by {0} unit."
+        },
+        {
+                "id": "2049db61-8fea-4bbe-bc3a-42b8c7b39885",
+                "name": "NOT_ALLOWED_INPUT_BY_UNIT",
+                "locale": "zh-CN",
+                "display": "无法按{0}投入商品。"
+        },
+        {
+                "id": "fd001071-8374-4e89-8eeb-2b1e75e585a4",
+                "name": "MPS_NO_SKU_JOBS",
+                "locale": "zh-CN",
+                "display": "扫描的商品无剩余作业。"
+        },
+        {
+                "id": "afddcdb2-5487-4b99-be3d-813df04a6a2d",
+                "name": "MPS_LOCATION_NO_MAPPED_BOX",
+                "locale": "ko-KR",
+                "display": "스캔한 로케이션에 매핑된 박스가 없습니다."
+        },
+        {
+                "id": "c062965e-7646-4f4c-96ff-7a4e6bce4f8f",
+                "name": "MPS_LOCATION_NO_MAPPED_BOX",
+                "locale": "en-US",
+                "display": "There are no mapped boxes in the scanned location."
+        },
+        {
+                "id": "b7ac074d-d061-4a17-82f6-4d0f1e7753b8",
+                "name": "MPS_LOCATION_NO_MAPPED_BOX",
+                "locale": "zh-CN",
+                "display": "扫描的库位上无箱号可匹配。"
+        },
+        {
+                "id": "ae466dc9-0a4b-4668-af25-64ac8ae9572f",
+                "name": "MPS_NOT_ENOUGH_AVAILABLE_LOCATIONS",
+                "locale": "ko-KR",
+                "display": "사용 가능한 로케이션이 충분치 않습니다."
+        },
+        {
+                "id": "0004324d-87eb-47df-b372-ddc1363a84b9",
+                "name": "MPS_NOT_ENOUGH_AVAILABLE_LOCATIONS",
+                "locale": "en-US",
+                "display": "There are not enough available locations."
+        },
+        {
+                "id": "116c5c34-7f81-4cc7-afb5-5e3425e0ba14",
+                "name": "MPS_NOT_ENOUGH_AVAILABLE_LOCATIONS",
+                "locale": "zh-CN",
+                "display": "可使用的库位不充足。"
+        },
+        {
+                "id": "f1374c43-76ce-4256-ba89-58ab64dd023e",
+                "name": "NO_JOBS_FOR_BOXING",
+                "locale": "zh-CN",
+                "display": "库位无可处理的作业。"
+        },
+        {
+                "id": "cec91746-4cba-49c5-955d-4f6abcd49b6c",
+                "name": "NO_JOBS_FOR_BOXING",
+                "locale": "en-US",
+                "display": "There are no boxing jobs in the cell"
+        },
+        {
+                "id": "f06084b2-0f18-40cf-b5c7-67a45d1017fd",
+                "name": "NO_JOBS_FOR_BOXING",
+                "locale": "ko-KR",
+                "display": "셀에 박싱 처리할 작업이 없습니다"
+        },
+        {
+                "id": "6266de59-9c0e-4119-95aa-2060e5ac8689",
+                "name": "MPS_SKU_FOR_CHUTE_LOC",
+                "locale": "zh-CN",
+                "display": "扫描的商品需分配到滑道号{0}，库位{1}中。"
+        },
+        {
+                "id": "1c431f74-59a1-475a-9039-29d631e3f9af",
+                "name": "MPS_SKU_FOR_CHUTE_LOC",
+                "locale": "en-US",
+                "display": "The scanned item is the item to enter the chute {0}, location {1}."
+        },
+        {
+                "id": "129ca159-41cf-4dbe-a353-8966537374c6",
+                "name": "MPS_SKU_FOR_CHUTE_LOC",
+                "locale": "ko-KR",
+                "display": "스캔한 상품은 슈트 {0}, 로케이션 {1}에 들어갈 상품입니다"
+        },
+        {
+                "id": "9794ba70-8133-46d6-b2f0-a18001237182",
+                "name": "MPS_LOC_SKU_MAP_END",
+                "locale": "ko-KR",
+                "display": "해당 호기의 로케이션에 상품 매핑이 완료되었습니다"
+        },
+        {
+                "id": "d41dc606-0159-4f22-8e2c-9d9d405b9af7",
+                "name": "MPS_LOC_SKU_MAP_END",
+                "locale": "en-US",
+                "display": "SKU mapping is completed at the location of the region."
+        },
+        {
+                "id": "19edcc46-0a12-47d2-8a20-e8b3a2e3eb3f",
+                "name": "MPS_LOC_SKU_MAP_END",
+                "locale": "zh-CN",
+                "display": "相应机组的库位已完成商品匹配。"
+        },
+        {
+                "id": "5a2d0587-dae6-44fe-a529-259d689be35b",
+                "name": "MPS_NO_ORDER_TO_INPUT",
+                "locale": "ko-KR",
+                "display": "투입 가능한 주문이 없습니다."
+        },
+        {
+                "id": "1821e6a6-9cf3-4a8b-8945-a9db8048b138",
+                "name": "MPS_NO_ORDER_TO_INPUT",
+                "locale": "en-US",
+                "display": "No orders to input."
+        },
+        {
+                "id": "f8028017-9a92-4749-ac4e-c6213b3f08ca",
+                "name": "MPS_NO_ORDER_TO_INPUT",
+                "locale": "zh-CN",
+                "display": "没有可以使用的订单。"
+        },
+        {
+                "id": "7053a2d9-d354-4bf9-8dee-ee97f41838c6",
+                "name": "ASSIGNED_ANOTHER_BATCH_AT_RACK",
+                "locale": "ko-KR",
+                "display": "{0}에 다른 작업배치가 할당되어 있습니다."
+        },
+        {
+                "id": "d2e55ba4-fbce-4b37-9eeb-10845669b571",
+                "name": "ASSIGNED_ANOTHER_BATCH_AT_RACK",
+                "locale": "en-US",
+                "display": "Another job batch is assigned to {0}."
+        },
+        {
+                "id": "e6edb12e-b6fd-4f24-a15b-5fdac4560cbc",
+                "name": "ASSIGNED_ANOTHER_BATCH_AT_RACK",
+                "locale": "zh-CN",
+                "display": "{0}上已经分配了其他批次。"
+        },
+        {
+                "id": "7cd7b289-5046-4568-8067-4f7f16e51f90",
+                "name": "NOT_ALLOWED_CANCEL_AFTER_START_JOB",
+                "locale": "zh-CN",
+                "display": "已开始分类无法取消。"
+        },
+        {
+                "id": "54b9af53-bb7a-4450-8943-784001ef4488",
+                "name": "NOT_ALLOWED_CANCEL_AFTER_START_JOB",
+                "locale": "en-US",
+                "display": "Not allowed be canceled since job started."
+        },
+        {
+                "id": "04090691-04a1-4ac4-b7d8-02864455a44d",
+                "name": "NOT_ALLOWED_CANCEL_AFTER_START_JOB",
+                "locale": "ko-KR",
+                "display": "분류 작업시작 이후여서 취소가 불가능합니다"
+        },
+        {
+                "id": "86888dc7-71f4-40a7-838a-4c8a4d82b5d0",
+                "name": "MPS_MISMATCH_LOCATIONS_OF_REGION",
+                "locale": "ko-KR",
+                "display": "복사 대상 호기의 로케이션 개수가 일치하지 않습니다"
+        },
+        {
+                "id": "3281d089-8f33-4d94-869b-81c400940fa6",
+                "name": "MPS_MISMATCH_LOCATIONS_OF_REGION",
+                "locale": "zh-CN",
+                "display": "对象机组的库位个数不符，无法合并。"
+        },
+        {
+                "id": "0c9c2eab-40bb-48d7-b13b-c99378e476b9",
+                "name": "NOT_ALLOWED_RESET_ASSIGN_AFTER_START_JOB",
+                "locale": "ko-KR",
+                "display": "분류 작업시작 이후여서 할당정보 리셋 불가능합니다."
+        },
+        {
+                "id": "4d863866-b5d5-4134-9173-b49f93940fd7",
+                "name": "NOT_ALLOWED_RESET_ASSIGN_AFTER_START_JOB",
+                "locale": "zh-CN",
+                "display": "분류 작업시작 이후여서 할당정보 리셋 불가능합니다."
+        },
+        {
+                "id": "4b4a5154-ee02-4dbc-a518-71236240b4d1",
+                "name": "NOT_ALLOWED_RESET_ASSIGN_AFTER_START_JOB",
+                "locale": "en-US",
+                "display": "분류 작업시작 이후여서 할당정보 리셋 불가능합니다."
+        },
+        {
+                "id": "60ddfbed-7c3a-42b0-9f35-dbcc4b10f13b",
+                "name": "MISMATCH_RECEIVED_AND_PREPROCESSED",
+                "locale": "en-US",
+                "display": "수신한 주문 개수와 주문가공 개수가 다릅니다"
+        },
+        {
+                "id": "83167217-0bec-4ff9-87c9-de9b3ac0878a",
+                "name": "MISMATCH_RECEIVED_AND_PREPROCESSED",
+                "locale": "ko-KR",
+                "display": "수신한 주문 개수와 주문가공 개수가 다릅니다"
+        },
+        {
+                "id": "f858757b-87fb-4f75-840f-9cf2a1775cef",
+                "name": "MISMATCH_RECEIVED_AND_PREPROCESSED",
+                "locale": "zh-CN",
+                "display": "수신한 주문 개수와 주문가공 개수가 다릅니다"
+        },
+        {
+                "id": "9a4091be-2671-41b3-a9a3-65a55136caad",
+                "name": "NOT_ALLOWED_MERGE_MANY_SKU",
+                "locale": "en-US",
+                "display": "병합하려는 배치의 상품 수량이 기존 배치의 빈 셀 보다 많아서 병합이 불가합니다."
+        },
+        {
+                "id": "5f51dfc6-f7ca-4c7d-83b5-3dbb2fa4bb32",
+                "name": "NOT_ALLOWED_MERGE_MANY_SKU",
+                "locale": "zh-CN",
+                "display": "병합하려는 배치의 상품 수량이 기존 배치의 빈 셀 보다 많아서 병합이 불가합니다."
+        },
+        {
+                "id": "3f8d6c1f-4b56-4920-803d-0c1ef6ff0b88",
+                "name": "NOT_ALLOWED_MERGE_MANY_SKU",
+                "locale": "ko-KR",
+                "display": "병합하려는 배치의 상품 수량이 기존 배치의 빈 셀 보다 많아서 병합이 불가합니다."
+        },
+        {
+                "id": "1a7a03be-4296-437d-ba01-212a308d7756",
+                "name": "CANT_DISTINGUISH_WHAT_INPUT_TYPE",
+                "locale": "en-US",
+                "display": "Can't distinguish what type of input the scanned information is"
+        },
+        {
+                "id": "f530967c-2782-4ce8-bd5f-231ab02eaae5",
+                "name": "CANT_DISTINGUISH_WHAT_INPUT_TYPE",
+                "locale": "ko-KR",
+                "display": "스캔한 정보가 어떤 투입 유형인지 구분할 수 없습니다."
+        },
+        {
+                "id": "b4a8c218-1945-4a0c-864a-54dd50644633",
+                "name": "CANT_DISTINGUISH_WHAT_INPUT_TYPE",
+                "locale": "zh-CN",
+                "display": "스캔한 정보가 어떤 투입 유형인지 구분할 수 없습니다."
+        },
+        {
+                "id": "f1b4990a-bba8-4557-bcb5-46ba0e672e8e",
+                "name": "NOT_BEEN_COMPLETED_AFTER_INPUT",
+                "locale": "ko-KR",
+                "display": "투입한 후 완료 처리를 안 한 작업이 있습니다"
+        },
+        {
+                "id": "3ca948a6-d04b-40b3-8511-37c6b5663b92",
+                "name": "NOT_BEEN_COMPLETED_AFTER_INPUT",
+                "locale": "zh-CN",
+                "display": "투입한 후 완료 처리를 안 한 작업이 있습니다"
+        },
+        {
+                "id": "e627b883-0ba2-4fbe-b42c-d5154d8dcb11",
+                "name": "NOT_BEEN_COMPLETED_AFTER_INPUT",
+                "locale": "en-US",
+                "display": "There is a work that has not been completed after input."
+        },
+        {
+                "id": "1ec8ace1-cf05-4997-a909-d4a9d5cbfd96",
+                "name": "SPLIT_QTY_LARGER_THAN_PLANNED_QTY",
+                "locale": "ko-KR",
+                "display": "예정수량보다 분할수량이 커서 작업분할 처리를 할 수 없습니다."
+        },
+        {
+                "id": "0365dbf5-3806-4bfc-9710-932454b205a8",
+                "name": "SPLIT_QTY_LARGER_THAN_PLANNED_QTY",
+                "locale": "zh-CN",
+                "display": "예정수량보다 분할수량이 커서 작업분할 처리를 할 수 없습니다."
+        },
+        {
+                "id": "672536ae-597a-4366-b7fd-dae6b29976d2",
+                "name": "SPLIT_QTY_LARGER_THAN_PLANNED_QTY",
+                "locale": "en-US",
+                "display": "Since the quantity of divisions is larger than the planned quantity, split job processing cannot be performed."
+        }
+]

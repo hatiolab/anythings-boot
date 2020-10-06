@@ -1,0 +1,364 @@
+[
+        {
+                "id": "7AAB0D8A-125F-1DC7-E053-8B010A803CD3",
+                "name": "server.contrext.path",
+                "description": "서버 기본 컨텍스트 패스",
+                "value": "http://60.196.69.234:25009",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-125E-1DC7-E053-8B010A803CD3",
+                "name": "seed.source.domain.name",
+                "description": "Seed 소스 Domain ID 혹은 Domain 명",
+                "value": "MANJAE",
+                "category": "logis"
+        },
+        {
+                "id": "cd51d654-8cd5-46a5-98cd-5c57af2ebfd3",
+                "name": "security.init.pass",
+                "description": "초기 패스워드 정보",
+                "value": "manjae@123!",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-122F-1DC7-E053-8B010A803CD3",
+                "name": "mw.rabbitmq.site.code",
+                "description": "Rabbitmq 사이트 별 구분자",
+                "value": "manjae",
+                "category": "device"
+        },
+        {
+                "id": "7AAB0D8A-1230-1DC7-E053-8B010A803CD3",
+                "name": "firmware.deployment.download.context.path",
+                "description": "펌웨어 배포 다운로드 컨텍스트 패스 -> 서버 컨텍스트 패스 정보로 대체, 삭제 필요",
+                "value": "http://60.196.69.234:9600",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-121F-1DC7-E053-8B010A803CD3",
+                "name": "client.context.path",
+                "description": "메일 전송시 화면에 접속하기 위한 URL Link를 위한 화면 접속 정보",
+                "value": "http://60.196.69.234:25009",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126A-1DC7-E053-8B010A803CD3",
+                "name": "user.password.change.period.day",
+                "description": "비밀번호 변경 주기",
+                "value": "360000",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1269-1DC7-E053-8B010A803CD3",
+                "name": "user.password.change.later.day",
+                "description": "비밀번호 연장 일수",
+                "value": "360000",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1267-1DC7-E053-8B010A803CD3",
+                "name": "user.pass.modify.count",
+                "description": "비밀번호 변경 횟 수 제한에 대한 카운트 설정",
+                "value": "10",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1266-1DC7-E053-8B010A803CD3",
+                "name": "user.pass.lock.minute",
+                "description": "비밀번호 잠금 시간(분) 설정",
+                "value": "1",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1226-1DC7-E053-8B010A803CD3",
+                "name": "file.context.path",
+                "description": "파일 업로드 컨텍스트 패스",
+                "value": "http://60.196.69.234:25009/uploads/",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1227-1DC7-E053-8B010A803CD3",
+                "name": "file.root.path",
+                "description": "파일 스토리지 루트 패스",
+                "value": "/storage",
+                "category": "common"
+        },
+        {
+                "id": "81748069-49d3-4ae1-bc28-8a58ec5d7abc",
+                "name": "mw.rabbitmq.amqp.port",
+                "description": "Rabbitmq에 AMQP 프로토콜로 접속하기 위한 포트 - For App",
+                "value": "25004",
+                "category": "logis"
+        },
+        {
+                "id": "f2db5341-e63f-4102-bfe9-f1d3260b3e1d",
+                "name": "mw.rabbitmq.mqtt.port",
+                "description": "Rabbitmq에 MQTT 프로토콜로 접속하기 위한 포트 - For Gateway",
+                "value": "25005",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-125D-1DC7-E053-8B010A803CD3",
+                "name": "seed.source",
+                "description": "Seed 모드. 다음 중 하나 (seed-file / seed-server / seed-procedure)",
+                "value": "seed-procedure",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-125C-1DC7-E053-8B010A803CD3",
+                "name": "seed.server.base.url",
+                "description": "Seed 데이터를 관리하는 서버 URL",
+                "value": "http://admin.hatiolab.com/rest",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-125B-1DC7-E053-8B010A803CD3",
+                "name": "seed.export.repo.id",
+                "description": "Seed 데이터 Export시 데이터 관리용 Repository ID.",
+                "value": "6610cb65-e317-4e55-9be6-baa5a3a53482",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-1250-1DC7-E053-8B010A803CD3",
+                "name": "mq.manager.system.addresses",
+                "description": "Rabbitmq 브로커 IP Address 리스트 (RabbitMQ 서버 모듈용, 클러스터링시 IP 모두 기록)",
+                "value": "localhost",
+                "category": "logis"
+        },
+        {
+                "id": "7AAB0D8A-122E-1DC7-E053-8B010A803CD3",
+                "name": "mw.rabbitmq.web.mqtt.port",
+                "description": "Rabbitmq Web MQTT 프로토콜로 접속하기 위한 포트 - For Mobile Device",
+                "value": "25006",
+                "category": "device"
+        },
+        {
+                "id": "7AAB0D8A-122D-1DC7-E053-8B010A803CD3",
+                "name": "mw.rabbitmq.broker.address",
+                "description": "Rabbitmq 브로커 IP Address - For Gateway",
+                "value": "60.196.69.234",
+                "category": "device"
+        },
+        {
+                "id": "7AAB0D8A-122C-1DC7-E053-8B010A803CD3",
+                "name": "module.not.modifiable.list",
+                "description": "개발시 변경 되어서는 안되는 모듈 리스트",
+                "value": "base",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-122B-1DC7-E053-8B010A803CD3",
+                "name": "login.fail.lock.count",
+                "description": "계정 잠금 설정을 위한 로그인 실패 횟 수 설정.",
+                "value": "3",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-122A-1DC7-E053-8B010A803CD3",
+                "name": "log.file.keep.dates",
+                "description": "로그 파일 유지 일수",
+                "value": "32",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1229-1DC7-E053-8B010A803CD3",
+                "name": "locale.default",
+                "description": "기본 로케일",
+                "value": "ko-KR",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1228-1DC7-E053-8B010A803CD3",
+                "name": "grid.codecombo.data.search.at.server",
+                "description": "메뉴 컬럼 정보 중에 그리드의 코드 콤보 편집기의 코드 데이터를 서버에서 조회해서 채워줄 지 클라이언트가 서비스 호출해서 받아 올 지 결정하는 설정",
+                "value": "true",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1225-1DC7-E053-8B010A803CD3",
+                "name": "error.unwritable.exception.types",
+                "description": "Error Log를 저장하지 않을 Exception 설정",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1224-1DC7-E053-8B010A803CD3",
+                "name": "error.save.status.list",
+                "description": "DB에 저장하고자 하는 Error Status 목록.(ex : 500,401,403...) 값이 지정되어 있지 않으면, 모든 Status에 대하여 Log를 저장.",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1223-1DC7-E053-8B010A803CD3",
+                "name": "error.save.enable",
+                "description": "에러 로그를 DB에 저장할 지 여부",
+                "value": "true",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1222-1DC7-E053-8B010A803CD3",
+                "name": "error.print.stack.trace",
+                "description": "에러 발생시 Stack Trace를 프린트할 것인지 여부",
+                "value": "true",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1221-1DC7-E053-8B010A803CD3",
+                "name": "error.mail.send.mailing.list",
+                "description": "에러 메일링 리스트",
+                "value": "shortstop@hatiolab.com",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1220-1DC7-E053-8B010A803CD3",
+                "name": "error.mail.send.enable",
+                "description": "에러 발생시 메일 전송 여부 ",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-121E-1DC7-E053-8B010A803CD3",
+                "name": "attach.file.delete",
+                "description": "Attachment 삭제시 물리적 파일도 삭제 여부",
+                "value": "true",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126F-1DC7-E053-8B010A803CD3",
+                "name": "user.register.password.field.enable",
+                "description": "회원가입 시 비밀번호 입력 필드를 활성화 여부 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126E-1DC7-E053-8B010A803CD3",
+                "name": "user.register.email.field.enable",
+                "description": "회원가입 시 이메일 입력 필드를 활성화여부 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126D-1DC7-E053-8B010A803CD3",
+                "name": "user.recent.used.pass.count",
+                "description": "최근 사용한 비밀번호 이력에 대한 저장 갯수",
+                "value": "3",
+                "category": "common"
+        },
+        {
+                "id": "f6129e83-50a6-4f2a-baa0-b4b05e19e28f",
+                "name": "login.info.message",
+                "description": "로그인 화면에 출력되는 메시지",
+                "value": "로그인 화면에 출력되는 메시지 입니다. 시스템 > 설정 화면의 [login.info.message]를 수정하세요",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126C-1DC7-E053-8B010A803CD3",
+                "name": "user.password.validation.enable",
+                "description": "비밀번호 validation 사용 여부",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-126B-1DC7-E053-8B010A803CD3",
+                "name": "user.password.expire.enable",
+                "description": "비밀번호 만료 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1268-1DC7-E053-8B010A803CD3",
+                "name": "user.password.change.email.field.enable",
+                "description": "사용자 비밀번호 변경시 이메일 필드 표시 여부 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1265-1DC7-E053-8B010A803CD3",
+                "name": "user.mail.request.auth.enable",
+                "description": "계정 활성화, 비밀번호 초기화등의 요청 및 승인 메일 발송 여부.",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1264-1DC7-E053-8B010A803CD3",
+                "name": "user.login.signup.button.enable",
+                "description": "로그인 화면의 회원가입 버튼 활성화 여부",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1263-1DC7-E053-8B010A803CD3",
+                "name": "user.add.password.field.enable",
+                "description": "사용자 추가 시 비밀번호 입력 필드를 활성화 여부 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1262-1DC7-E053-8B010A803CD3",
+                "name": "user.add.email.field.enable",
+                "description": "사용자 추가 시 이메일 입력 필드를 활성화여부 설정",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1261-1DC7-E053-8B010A803CD3",
+                "name": "user.account.lock.unused.day",
+                "description": "미사용 계정 잠금을 위한 미사용 일수 설정",
+                "value": "3600",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1260-1DC7-E053-8B010A803CD3",
+                "name": "upload.file.limit.size",
+                "description": "업로드 최대 사이즈 (MB)",
+                "value": "500",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-125A-1DC7-E053-8B010A803CD3",
+                "name": "security.use.random.init.pass",
+                "description": "패스워드 초기화시 랜덤 사용",
+                "value": "false",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1259-1DC7-E053-8B010A803CD3",
+                "name": "security.read.only.uri",
+                "description": "읽기 전용 URI 설정 (GET Method)",
+                "value": "/rest/fonts,/rest/download/public,/rest/publishers",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1257-1DC7-E053-8B010A803CD3",
+                "name": "security.all.permit.uri",
+                "description": "권한 체크를 하지 않을 URL 리스트",
+                "value": "/rest/login,/rest/kiosk_login,/rest/logout,/rest/log_management,/rest/terminologies/resource,/rest/users/register,/rest/users/request_init_pass,/rest/users/approval,/rest/users/reject,/rest/users/init_pass,/rest/users/active,/rest/users/request_active,/rest/domains/list,/rest/request_roles/reject,/rest/request_roles/approval,/rest/users/inactive,/rest/common_codes/show_by_name,/rest/seeds,/rest/download/public,/rest/request_auths/account/register/request,/rest/request_auths/password/reset/request,/rest/request_auths/account/activate/request,/rest/domains/current_domain,/rest/domain_apps",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1256-1DC7-E053-8B010A803CD3",
+                "name": "screen.pagination.page.limit",
+                "description": "그리드 페이지네이션을 위한 페이지 당 표시할 레코드 수 ",
+                "value": "50",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1255-1DC7-E053-8B010A803CD3",
+                "name": "page.route.history.save.period.month",
+                "description": "Page 전환 이력을 저장 할 기간",
+                "value": "1",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1254-1DC7-E053-8B010A803CD3",
+                "name": "page.route.history.enable",
+                "description": "Page 전환 이력 활성화 여부.",
+                "value": "true",
+                "category": "common"
+        },
+        {
+                "id": "7AAB0D8A-1253-1DC7-E053-8B010A803CD3",
+                "name": "notice.default.subject",
+                "description": "알림에서 Publish할 기본 채널 (사용하는 지 체크필요)",
+                "value": "/elidom/stomp/topic/notice",
+                "category": "common"
+        }
+]

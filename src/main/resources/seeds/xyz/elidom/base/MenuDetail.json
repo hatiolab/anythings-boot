@@ -1,0 +1,286 @@
+[
+        {
+                "id": "7AAB0D8A-3561-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                        "name": "RackCell"
+                },
+                "name": "cell",
+                "viewSection": "content",
+                "entityId": "7AAB0D8A-29C3-1DC7-E053-8B010A803CD3",
+                "entity": {
+                        "id": "7AAB0D8A-29C3-1DC7-E053-8B010A803CD3",
+                        "name": "Cell"
+                },
+                "dataProp": "cell",
+                "association": "one-to-many",
+                "searchUrl": "rack/:id/cell",
+                "saveUrl": "rack/:id/cell/update_multiple",
+                "masterField": "rack_cd"
+        },
+        {
+                "id": "7AAB0D8A-362C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-361E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-361E-1DC7-E053-8B010A803CD3",
+                        "name": "RackGwInd"
+                },
+                "name": "Gateway",
+                "viewSection": "content",
+                "entityId": "7AAB0D8A-2AD8-1DC7-E053-8B010A803CD3",
+                "entity": {
+                        "id": "7AAB0D8A-2AD8-1DC7-E053-8B010A803CD3",
+                        "name": "Gateway"
+                },
+                "dataProp": "gw_cd",
+                "association": "one-to-many",
+                "searchUrl": "region/:id/gateway",
+                "saveUrl": "region/:id/gateway/update_multiple",
+                "masterField": "region_cd"
+        },
+        {
+                "id": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                "menuId": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                "menu": {
+                        "id": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                        "name": "Station"
+                },
+                "name": "스테이션 작업자",
+                "viewSection": "content",
+                "entityId": "a9ff853e-1341-4972-80ac-3f44073b4f59",
+                "entity": {
+                        "id": "a9ff853e-1341-4972-80ac-3f44073b4f59",
+                        "name": "StationWorker"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "stations/:id/items",
+                "saveUrl": "stations/:id/items/update_multiple",
+                "masterField": "station_id"
+        },
+        {
+                "id": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                "menuId": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                "menu": {
+                        "id": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                        "name": "JobConfigSet"
+                },
+                "name": "작업 설정 상세",
+                "viewSection": "content",
+                "entityId": "12a32de9-8829-4f84-b85c-48cc718bffa3",
+                "entity": {
+                        "id": "12a32de9-8829-4f84-b85c-48cc718bffa3",
+                        "name": "JobConfig"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "job_config_set/:id/items",
+                "saveUrl": "job_config_set/:id/items/update_multiple",
+                "masterField": "job_config_set_id"
+        },
+        {
+                "id": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                "menuId": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                "menu": {
+                        "id": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                        "name": "DeviceProfile"
+                },
+                "name": "장비 설정 항목",
+                "viewSection": "content",
+                "entityId": "9820ba47-9948-472c-aabb-7bfd1e664570",
+                "entity": {
+                        "id": "9820ba47-9948-472c-aabb-7bfd1e664570",
+                        "name": "DeviceConf"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "device_profiles/:id/items",
+                "saveUrl": "device_profiles/:id/items/update_multiple",
+                "masterField": "device_profile_id"
+        },
+        {
+                "id": "a5e58d59-7257-4183-82d1-1b2a45772f5f",
+                "menuId": "48608f23-b88c-4b45-a578-f4caed43d664",
+                "menu": {
+                        "id": "48608f23-b88c-4b45-a578-f4caed43d664",
+                        "name": "B2BBoxPack"
+                },
+                "name": "B2B 박스 내품",
+                "viewSection": "content",
+                "entityId": "7AAB0D8A-2FEA-1DC7-E053-8B010A803CD3",
+                "entity": {
+                        "id": "7AAB0D8A-2FEA-1DC7-E053-8B010A803CD3",
+                        "name": "BoxItem"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "box_packs/:id/items",
+                "saveUrl": "box_packs/:id/items/update_multiple",
+                "masterField": "box_pack_id"
+        },
+        {
+                "id": "7AAB0D8A-32AC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3274-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3274-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBoxPack"
+                },
+                "name": "B2C 박스 내품",
+                "viewSection": "content",
+                "entityId": "7AAB0D8A-2FEA-1DC7-E053-8B010A803CD3",
+                "entity": {
+                        "id": "7AAB0D8A-2FEA-1DC7-E053-8B010A803CD3",
+                        "name": "BoxItem"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "box_packs/:id/items",
+                "saveUrl": "box_packs/:id/items/update_multiple",
+                "masterField": "box_pack_id"
+        },
+        {
+                "id": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                        "name": "StockTaking"
+                },
+                "name": "재고 실사 상세",
+                "viewSection": "content",
+                "entityId": "7AAB0D8A-2FDB-1DC7-E053-8B010A803CD3",
+                "entity": {
+                        "id": "7AAB0D8A-2FDB-1DC7-E053-8B010A803CD3",
+                        "name": "StockAdjust"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "stocktakings/:id/items",
+                "saveUrl": "stocktakings/:id/items/update_multiple",
+                "masterField": "stocktaking_id"
+        },
+        {
+                "id": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                "menuId": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                "menu": {
+                        "id": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                        "name": "IndConfigSet"
+                },
+                "name": "지시기 설정 상세",
+                "viewSection": "content",
+                "entityId": "a3a8f6f5-701f-4ed0-981f-68b747ec4c13",
+                "entity": {
+                        "id": "a3a8f6f5-701f-4ed0-981f-68b747ec4c13",
+                        "name": "IndConfig"
+                },
+                "dataProp": "items",
+                "association": "one-to-many",
+                "searchUrl": "ind_config_set/:id/items",
+                "saveUrl": "ind_config_set/:id/items/update_multiple",
+                "masterField": "ind_config_set_id"
+        },
+        {
+                "id": "7AAB0D8A-32D8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "name": "dasResultBySkuCust",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "das-sku-result-cust",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-32E2-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "name": "dasResultBySkuSum",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "das-sku-result-summary",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-31FF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31F1-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31F1-1DC7-E053-8B010A803CD3",
+                        "name": "JobResult"
+                },
+                "name": "jobResultSku",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "Job-result-sku-detail",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-317F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3172-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3172-1DC7-E053-8B010A803CD3",
+                        "name": "DPSOutResult"
+                },
+                "name": "dpsOutResultSku",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "dps-out-result-sku",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-3187-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3172-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3172-1DC7-E053-8B010A803CD3",
+                        "name": "DPSOutResult"
+                },
+                "name": "dpsOutResultSum",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "dps-out-result-summary",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-3156-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                        "name": "DASOutResult"
+                },
+                "name": "dasOutResultBox",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "das-out-result-box",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-3160-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                        "name": "DASOutResult"
+                },
+                "name": "dasOutResultSku",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "das-out-result-sku",
+                "masterField": "aaa"
+        },
+        {
+                "id": "7AAB0D8A-3169-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3148-1DC7-E053-8B010A803CD3",
+                        "name": "DASOutResult"
+                },
+                "name": "dasOutResultSum",
+                "viewSection": "content",
+                "association": "one-to-many",
+                "searchUrl": "das-out-result-summary",
+                "masterField": "aaa"
+        }
+]

@@ -1,0 +1,4864 @@
+[
+        {
+                "id": "3a6dcb0e-7d61-41a7-8748-b8dc142f9edc",
+                "parentId": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                "parent": {
+                        "id": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                        "name": "JOB_INPUT_TYPE"
+                },
+                "name": "BOX",
+                "description": "완박스",
+                "rank": 20
+        },
+        {
+                "id": "eae7c93f-5181-4e38-b006-ceb1c8742c3b",
+                "parentId": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                "parent": {
+                        "id": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                        "name": "JOB_INPUT_TYPE"
+                },
+                "name": "BUNDLE",
+                "description": "묶음",
+                "rank": 30
+        },
+        {
+                "id": "f9e5dedd-9762-4ca2-8afa-b5a09a16b6ea",
+                "parentId": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                "parent": {
+                        "id": "0270947f-1dfb-46b2-8462-f0d54fe9c489",
+                        "name": "JOB_INPUT_TYPE"
+                },
+                "name": "PCS",
+                "description": "낱개",
+                "rank": 10
+        },
+        {
+                "id": "fc91ac25-a8cb-499b-be4e-79e3b086327a",
+                "parentId": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                "parent": {
+                        "id": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                        "name": "CELL_ASSIGN_TYPE"
+                },
+                "name": "ORDER_NO",
+                "description": "주문",
+                "rank": 30
+        },
+        {
+                "id": "76cad067-bd3a-4e5d-9bbc-190589ba6c10",
+                "parentId": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                "parent": {
+                        "id": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                        "name": "CELL_ASSIGN_TYPE"
+                },
+                "name": "SHOP_CD",
+                "description": "매장",
+                "rank": 10
+        },
+        {
+                "id": "f51c057c-e779-44c5-bad8-ad09111d7602",
+                "parentId": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                "parent": {
+                        "id": "0afece52-87dc-4c1b-9f37-a86714b052ef",
+                        "name": "CELL_ASSIGN_TYPE"
+                },
+                "name": "SKU_CD",
+                "description": "상품",
+                "rank": 20
+        },
+        {
+                "id": "a3907f24-d514-4900-a833-96589a84c892",
+                "parentId": "2a384f6b-289c-4954-9b78-78dfa2c31d6f",
+                "parent": {
+                        "id": "2a384f6b-289c-4954-9b78-78dfa2c31d6f",
+                        "name": "ORDER_TYPE"
+                },
+                "name": "MT",
+                "description": "합포(Multi Touch)",
+                "rank": 20
+        },
+        {
+                "id": "b9b0baac-b351-4975-9d9b-1d69ed48e9dc",
+                "parentId": "2a384f6b-289c-4954-9b78-78dfa2c31d6f",
+                "parent": {
+                        "id": "2a384f6b-289c-4954-9b78-78dfa2c31d6f",
+                        "name": "ORDER_TYPE"
+                },
+                "name": "OT",
+                "description": "단수/단포(One Touch)",
+                "rank": 10
+        },
+        {
+                "id": "d316b098-355d-4dba-898a-254e6a20c107",
+                "parentId": "5442edff-02ce-46a3-b537-3f9a556ff468",
+                "parent": {
+                        "id": "5442edff-02ce-46a3-b537-3f9a556ff468",
+                        "name": "PRINTER_TYPE"
+                },
+                "name": "BARCODE",
+                "description": "바코드",
+                "rank": 20
+        },
+        {
+                "id": "cc4f6703-6c2a-402a-b7de-37666ad0f957",
+                "parentId": "5442edff-02ce-46a3-b537-3f9a556ff468",
+                "parent": {
+                        "id": "5442edff-02ce-46a3-b537-3f9a556ff468",
+                        "name": "PRINTER_TYPE"
+                },
+                "name": "NORMAL",
+                "description": "일반",
+                "rank": 10
+        },
+        {
+                "id": "7ac822db-cc36-4624-9ad8-89c23e51f900",
+                "parentId": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                "parent": {
+                        "id": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                        "name": "PACK_TYPE"
+                },
+                "name": "0",
+                "description": "포장없음",
+                "rank": 1
+        },
+        {
+                "id": "7124768e-b653-4369-bade-42990c8c116b",
+                "parentId": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                "parent": {
+                        "id": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                        "name": "PACK_TYPE"
+                },
+                "name": "1",
+                "description": "개별포장(출고시)",
+                "rank": 2
+        },
+        {
+                "id": "28fbdf49-dfef-4f94-9563-c255dc799e05",
+                "parentId": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                "parent": {
+                        "id": "588b4e4f-caa0-44a8-8c2c-28e170bdb9e3",
+                        "name": "PACK_TYPE"
+                },
+                "name": "2",
+                "description": "사전포장(입고시)",
+                "rank": 3
+        },
+        {
+                "id": "f3abfb73-f465-4f9f-a099-97d19acd1df2",
+                "parentId": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                "parent": {
+                        "id": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                        "name": "STAGE_TYPE"
+                },
+                "name": "B2B",
+                "description": "B2B",
+                "rank": 20
+        },
+        {
+                "id": "af7fc28e-788f-480f-a77b-08f219802a91",
+                "parentId": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                "parent": {
+                        "id": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                        "name": "STAGE_TYPE"
+                },
+                "name": "B2C",
+                "description": "B2C",
+                "rank": 10
+        },
+        {
+                "id": "0a80c17c-c40f-4727-b5ae-d8e97781a833",
+                "parentId": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                "parent": {
+                        "id": "5cad7345-918a-41b1-91cd-a526dcb7376f",
+                        "name": "STAGE_TYPE"
+                },
+                "name": "SORTER",
+                "description": "Sorter",
+                "rank": 30
+        },
+        {
+                "id": "4b919e93-8e58-4092-a0a3-945e6a198c2a",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "box",
+                "description": "박스 설정",
+                "rank": 150
+        },
+        {
+                "id": "7b1f9960-2a6f-40de-9078-f9a5a63dfd5b",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "device",
+                "description": "장비 설정",
+                "rank": 50
+        },
+        {
+                "id": "56043b3c-0b82-426b-9d39-4782f077d55e",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "etc",
+                "description": "기타",
+                "rank": 200
+        },
+        {
+                "id": "5f13ed48-23c7-4e86-ae19-0537daeff8e6",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "if",
+                "description": "인터페이스",
+                "rank": 10
+        },
+        {
+                "id": "b491fe50-2720-43a1-aa0d-6856f26c89d9",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "ind",
+                "description": "표시기 설정",
+                "rank": 170
+        },
+        {
+                "id": "738346c3-ea25-4b12-9423-0ebec2cf93c7",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "input",
+                "description": "투입 설정",
+                "rank": 110
+        },
+        {
+                "id": "8c068a0d-473e-4f71-9901-09e405884638",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "inspection",
+                "description": "검수 설정",
+                "rank": 160
+        },
+        {
+                "id": "7e55ee21-217a-4aa7-a7d0-1146b01e177d",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "instruction",
+                "description": "작업 지시",
+                "rank": 70
+        },
+        {
+                "id": "710e317e-9c40-4270-a57d-eb4da0c66716",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "job",
+                "description": "작업 설정",
+                "rank": 130
+        },
+        {
+                "id": "72e001b8-55fe-4e6c-b731-ce53b4d321a2",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "label",
+                "description": "라벨 설정",
+                "rank": 140
+        },
+        {
+                "id": "f7a48e96-7a96-4b83-8a7d-4a93ffdb512f",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "log",
+                "description": "로그 설정",
+                "rank": 20
+        },
+        {
+                "id": "f9b1262b-b472-4a77-ba32-f184e9ee571e",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "mid-assort",
+                "description": "중분류 설정",
+                "rank": 100
+        },
+        {
+                "id": "300e0f64-0480-496f-86ec-1bb41c83e297",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "mw",
+                "description": "미들웨어",
+                "rank": 30
+        },
+        {
+                "id": "a1057a71-dbf7-4fa8-9325-0ede0f1784e9",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "order",
+                "description": "주문",
+                "rank": 40
+        },
+        {
+                "id": "7bb5a955-14c5-47a0-a2bf-838c92f091cb",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "pick",
+                "description": "피킹 설정",
+                "rank": 120
+        },
+        {
+                "id": "cb1d6642-b9a2-4952-882d-6743cdf32eb0",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "preprocess",
+                "description": "주문 가공 설정",
+                "rank": 60
+        },
+        {
+                "id": "309819ef-e0bc-4a22-af8e-8c646e63155f",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "sku",
+                "description": "SKU 설정",
+                "rank": 80
+        },
+        {
+                "id": "bd5db4ea-5833-4216-8827-b1ff1629712f",
+                "parentId": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                "parent": {
+                        "id": "744e1e2e-bfdc-4ed6-b92b-f49cb971b113",
+                        "name": "JOB_CONFIG_CATEGORY"
+                },
+                "name": "validation",
+                "description": "코드 Validation 설정",
+                "rank": 90
+        },
+        {
+                "id": "f300c5dc-fc49-42c4-b210-09301e7a77bb",
+                "parentId": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                "parent": {
+                        "id": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                        "name": "WORK_TYPE"
+                },
+                "name": "A",
+                "description": "분류",
+                "rank": 10
+        },
+        {
+                "id": "c00eaa8c-de86-4c3f-8ba7-bfee1c506bf3",
+                "parentId": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                "parent": {
+                        "id": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                        "name": "WORK_TYPE"
+                },
+                "name": "I",
+                "description": "투입",
+                "rank": 20
+        },
+        {
+                "id": "472e63a4-0f84-4c5c-9145-be53c14d2fef",
+                "parentId": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                "parent": {
+                        "id": "75f9f810-5f32-466b-9687-c80e6bf41706",
+                        "name": "WORK_TYPE"
+                },
+                "name": "S",
+                "description": "재고 보충",
+                "rank": 30
+        },
+        {
+                "id": "d895795d-1a5e-4f3a-a3d3-9e27b172211d",
+                "parentId": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                "parent": {
+                        "id": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                        "name": "STATION_TYPE"
+                },
+                "name": "CHUTE",
+                "description": "슈트",
+                "rank": 40
+        },
+        {
+                "id": "6edb8cf1-84b2-491e-8257-42ef575db7e8",
+                "parentId": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                "parent": {
+                        "id": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                        "name": "STATION_TYPE"
+                },
+                "name": "EQUIP_STATION",
+                "description": "장비 스테이션",
+                "rank": 20
+        },
+        {
+                "id": "1ed91557-1bb5-4f41-b42c-29898c40468d",
+                "parentId": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                "parent": {
+                        "id": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                        "name": "STATION_TYPE"
+                },
+                "name": "INDUCTION",
+                "description": "투입구",
+                "rank": 30
+        },
+        {
+                "id": "343acf6c-4881-4b17-8418-42ea204de534",
+                "parentId": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                "parent": {
+                        "id": "77a7c707-1757-43fd-b264-2dbc9e2a5f2b",
+                        "name": "STATION_TYPE"
+                },
+                "name": "JOB_STATION",
+                "description": "작업 스테이션",
+                "rank": 10
+        },
+        {
+                "id": "D61B7F27-D0E9-4CDC-8634-39A7B5258B42",
+                "parentId": "7AAB0D8A-26B2-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B2-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_CATEGORY"
+                },
+                "name": "SAMPLE",
+                "description": "Sample",
+                "rank": 20
+        },
+        {
+                "id": "8B1FD351-7FF2-48C3-8680-ADE10BDFFD82",
+                "parentId": "7AAB0D8A-26B2-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B2-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_CATEGORY"
+                },
+                "name": "SYSTEM",
+                "description": "System",
+                "rank": 10
+        },
+        {
+                "id": "C10C9C0A-9BD8-4B61-9DBB-72A23A415F8D",
+                "parentId": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_TYPE"
+                },
+                "name": "HTTP",
+                "description": "Http Invocation",
+                "rank": 10
+        },
+        {
+                "id": "E788431A-A444-4581-9C06-4A7889729024",
+                "parentId": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_TYPE"
+                },
+                "name": "MAIL",
+                "description": "E-Mail",
+                "rank": 20
+        },
+        {
+                "id": "6DF124B8-AABF-44AF-B109-611DEF279778",
+                "parentId": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_TYPE"
+                },
+                "name": "MOBILE",
+                "description": "Mobile Push",
+                "rank": 30
+        },
+        {
+                "id": "B32897A9-15E4-42AF-B0FA-D522B2925AF8",
+                "parentId": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26B5-1DC7-E053-8B010A803CD3",
+                        "name": "ALARM_TYPE"
+                },
+                "name": "WEBSOCKET",
+                "description": "Websocket Push",
+                "rank": 40
+        },
+        {
+                "id": "DE1E2E0A-3605-4200-92CA-B61333A4308F",
+                "parentId": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                        "name": "ALIGNMENT"
+                },
+                "name": "center",
+                "description": "Center",
+                "rank": 10
+        },
+        {
+                "id": "9D07F3EF-2B47-40E1-97A3-8331B837A912",
+                "parentId": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                        "name": "ALIGNMENT"
+                },
+                "name": "far",
+                "description": "Far",
+                "rank": 20
+        },
+        {
+                "id": "7035430E-6007-4D27-9AFC-8ED0292422FF",
+                "parentId": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26BA-1DC7-E053-8B010A803CD3",
+                        "name": "ALIGNMENT"
+                },
+                "name": "right",
+                "description": "Right",
+                "rank": 30
+        },
+        {
+                "id": "D091A8F4-44D8-4A93-AA9F-B24A2EEF1558",
+                "parentId": "7AAB0D8A-26BE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26BE-1DC7-E053-8B010A803CD3",
+                        "name": "APPLICATION_THEME"
+                },
+                "name": "anythings-theme",
+                "description": "Operato Theme",
+                "rank": 2
+        },
+        {
+                "id": "F519BFA7-D029-4D8B-83A8-BED647039C9D",
+                "parentId": "7AAB0D8A-26BE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26BE-1DC7-E053-8B010A803CD3",
+                        "name": "APPLICATION_THEME"
+                },
+                "name": "wcs-theme",
+                "description": "WCS Theme",
+                "rank": 1
+        },
+        {
+                "id": "D2F774E2-0099-49AA-891C-8F6F6356722C",
+                "parentId": "7AAB0D8A-26C2-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C2-1DC7-E053-8B010A803CD3",
+                        "name": "APPROVER_TYPE"
+                },
+                "name": "Role",
+                "description": "Role",
+                "rank": 20
+        },
+        {
+                "id": "E163E6E6-2E16-4E25-8D63-9851F6BBBD36",
+                "parentId": "7AAB0D8A-26C2-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C2-1DC7-E053-8B010A803CD3",
+                        "name": "APPROVER_TYPE"
+                },
+                "name": "User",
+                "description": "User",
+                "rank": 10
+        },
+        {
+                "id": "E5546A4D-7D17-47D3-9F8A-36C5D61AD9A7",
+                "parentId": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                        "name": "APPR_STATUS"
+                },
+                "name": "CANCELED",
+                "description": "Canceled",
+                "rank": 40
+        },
+        {
+                "id": "2A7ACEAA-5B73-4855-98E1-A3E43B4BBBC6",
+                "parentId": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                        "name": "APPR_STATUS"
+                },
+                "name": "COMPLETED",
+                "description": "Completed",
+                "rank": 20
+        },
+        {
+                "id": "0CE1E3C4-0B01-43C6-B2E1-90A1DDAC11E0",
+                "parentId": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                        "name": "APPR_STATUS"
+                },
+                "name": "ING",
+                "description": "On Going",
+                "rank": 10
+        },
+        {
+                "id": "6014B55C-5308-40F5-B1E2-C18B8F987F88",
+                "parentId": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                        "name": "APPR_STATUS"
+                },
+                "name": "RETURNED",
+                "description": "Returned",
+                "rank": 30
+        },
+        {
+                "id": "A740946B-0D95-483A-8342-4E71ED28BFFF",
+                "parentId": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26C5-1DC7-E053-8B010A803CD3",
+                        "name": "APPR_STATUS"
+                },
+                "name": "WAIT",
+                "description": "Wait",
+                "rank": 50
+        },
+        {
+                "id": "F899745C-CBF8-46AC-8B11-FC8946313F5E",
+                "parentId": "7AAB0D8A-26CB-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CB-1DC7-E053-8B010A803CD3",
+                        "name": "ASSOCIATION"
+                },
+                "name": "one-to-many",
+                "description": "1 : N",
+                "rank": 10
+        },
+        {
+                "id": "325CAD42-6256-43FA-B293-8942BBDC480B",
+                "parentId": "7AAB0D8A-26CB-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CB-1DC7-E053-8B010A803CD3",
+                        "name": "ASSOCIATION"
+                },
+                "name": "one-to-one",
+                "description": "1 : 1",
+                "rank": 20
+        },
+        {
+                "id": "3d1d8792-62ad-4950-9374-637fee31aabb",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "CANCEL",
+                "description": "작업 취소",
+                "rank": 70
+        },
+        {
+                "id": "eec51b4b-d988-4910-ad3e-90cdb7a484bc",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "END",
+                "description": "작업 완료",
+                "rank": 50
+        },
+        {
+                "id": "068f0fcf-55a8-47de-b58d-e6b1bae32923",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "MERGED",
+                "description": "작업 병합",
+                "rank": 60
+        },
+        {
+                "id": "ba290c65-74d5-4de1-99d4-2e68b5bfb133",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "READY",
+                "description": "작업지시대기",
+                "rank": 30
+        },
+        {
+                "id": "4f251a42-cfc0-430d-a8a4-b1f628a926ce",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "RECEIVING",
+                "description": "주문 수신 중",
+                "rank": 10
+        },
+        {
+                "id": "fa0be526-09f1-4e8c-8dc5-fae712c506c1",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "RUN",
+                "description": "작업 진행중",
+                "rank": 40
+        },
+        {
+                "id": "78b11fa7-7638-4126-9b0a-b1af8d27c789",
+                "parentId": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26CE-1DC7-E053-8B010A803CD3",
+                        "name": "BATCH_STATUS"
+                },
+                "name": "WAIT",
+                "description": "주문가공대기",
+                "rank": 20
+        },
+        {
+                "id": "CEDEB429-51BE-42F7-A88B-8841AE34BED9",
+                "parentId": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_ID_MAPPING_POINT"
+                },
+                "name": "F",
+                "description": "풀 박스 시",
+                "rank": 20
+        },
+        {
+                "id": "21a76a13-53e5-449d-9ee4-b934449f101d",
+                "parentId": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_ID_MAPPING_POINT"
+                },
+                "name": "L",
+                "description": "라벨 출력시",
+                "rank": 30
+        },
+        {
+                "id": "F5E39EAA-8517-4469-962C-4B9CC80A461E",
+                "parentId": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26D4-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_ID_MAPPING_POINT"
+                },
+                "name": "S",
+                "description": "작업 시작 전",
+                "rank": 10
+        },
+        {
+                "id": "F4088665-C4AB-44EC-82CA-5B2A11537DCC",
+                "parentId": "7AAB0D8A-26D7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26D7-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_RESULT_REPORT_POINT"
+                },
+                "name": "F",
+                "description": "풀 박스 시",
+                "rank": 10
+        },
+        {
+                "id": "903D22B3-5799-46A1-90B9-6E7B0D536CF7",
+                "parentId": "7AAB0D8A-26D7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26D7-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_RESULT_REPORT_POINT"
+                },
+                "name": "I",
+                "description": "출고 검수 완료 시",
+                "rank": 20
+        },
+        {
+                "id": "04810F07-5941-48C2-BA73-E36538794C25",
+                "parentId": "7AAB0D8A-26DA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DA-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_TYPE"
+                },
+                "name": "BOX",
+                "description": "박스",
+                "rank": 20
+        },
+        {
+                "id": "25B90C4D-2032-4E10-A8E3-EF5A02E021BF",
+                "parentId": "7AAB0D8A-26DA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DA-1DC7-E053-8B010A803CD3",
+                        "name": "BOX_TYPE"
+                },
+                "name": "TRAY",
+                "description": "트레이",
+                "rank": 10
+        },
+        {
+                "id": "ba53c402-9293-42d3-88e1-9757debec7da",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "any",
+                "description": "Anythings",
+                "rank": 1500
+        },
+        {
+                "id": "95a6ac7e-e6cc-4cbf-8ff3-0c6859d19ea9",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "anygw",
+                "description": "Gateway",
+                "rank": 1100
+        },
+        {
+                "id": "9E7CDF79-FAB1-4552-9729-C971538B2AFF",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "base",
+                "description": "Base",
+                "rank": 500
+        },
+        {
+                "id": "EF28BDAB-0894-4650-A9B1-2C96BC4D5AEE",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "core",
+                "description": "Core",
+                "rank": 400
+        },
+        {
+                "id": "83C243BC-1740-4A57-AAE4-AE9AD1F0B79D",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "dev",
+                "description": "Develop",
+                "rank": 700
+        },
+        {
+                "id": "67551db8-e347-49e2-a7ee-378caf81c52e",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "fnf",
+                "description": "FnF",
+                "rank": 1600
+        },
+        {
+                "id": "F2C983FE-4352-465E-B889-D626ADC9BC2F",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "job",
+                "description": "Job",
+                "rank": 800
+        },
+        {
+                "id": "3fac2e77-2d70-4e32-90f4-a07bcd48a0d0",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "logis",
+                "description": "Logistics",
+                "rank": 1200
+        },
+        {
+                "id": "9C51CA2E-F9C4-45F6-AC03-2E740CAB7106",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "msg",
+                "description": "Message",
+                "rank": 200
+        },
+        {
+                "id": "7F8992B3-223E-4A52-BDF2-32C1F01E5827",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "rabbitmq",
+                "description": "MQ",
+                "rank": 1000
+        },
+        {
+                "id": "1c46f105-6cc0-4b40-a5f7-6ac52ae2d887",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "scene",
+                "description": "Scene",
+                "rank": 900
+        },
+        {
+                "id": "D301B725-0F89-469E-81D1-90C35329CAF0",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "sec",
+                "description": "Security",
+                "rank": 300
+        },
+        {
+                "id": "02ddc523-6262-49b3-ad18-255a208a7e03",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "sms",
+                "description": "SMS",
+                "rank": 1300
+        },
+        {
+                "id": "DF29AD3A-A809-42F6-90C7-2E8B0D761A39",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "sys",
+                "description": "System",
+                "rank": 100
+        },
+        {
+                "id": "8e6622cd-f94a-412c-a0dc-908f9bc7e79b",
+                "parentId": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26DD-1DC7-E053-8B010A803CD3",
+                        "name": "BUNDLE"
+                },
+                "name": "wcs",
+                "description": "WCS",
+                "rank": 1400
+        },
+        {
+                "id": "5E14DB2E-197B-4AD2-9F62-CF6E7E268BB4",
+                "parentId": "7AAB0D8A-26EC-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26EC-1DC7-E053-8B010A803CD3",
+                        "name": "CHANNEL_TYPE"
+                },
+                "name": "stomp",
+                "description": "Stomp",
+                "rank": 10
+        },
+        {
+                "id": "0D8990DF-3D47-4243-8015-91D291B6CE69",
+                "parentId": "7AAB0D8A-26EE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26EE-1DC7-E053-8B010A803CD3",
+                        "name": "COLUMN_REF_TYPE"
+                },
+                "name": "CommonCode",
+                "description": "Code Reference",
+                "rank": 10
+        },
+        {
+                "id": "B6A8E87C-0F67-450D-8125-DEC0F576DBE4",
+                "parentId": "7AAB0D8A-26EE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26EE-1DC7-E053-8B010A803CD3",
+                        "name": "COLUMN_REF_TYPE"
+                },
+                "name": "Menu",
+                "description": "Menu Reference",
+                "rank": 20
+        },
+        {
+                "id": "e85cb357-d5a5-482d-a165-2313a8ec19eb",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "A",
+                "description": "할당 (Assigned)",
+                "rank": 20
+        },
+        {
+                "id": "7a8c5b3e-ac4f-4622-bad6-d8a00ee577ff",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "C",
+                "description": "취소 (Cancel)",
+                "rank": 70
+        },
+        {
+                "id": "C61F4465-8E17-46E0-AF1C-777B847FA10F",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "E",
+                "description": "에러 (Error)",
+                "rank": 60
+        },
+        {
+                "id": "0D2F78A4-68F1-4E16-83E6-F50E8069F659",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "F",
+                "description": "완료 (Finished)",
+                "rank": 50
+        },
+        {
+                "id": "c3fabd7b-a28b-4f5b-b551-5f8bf6e1eaff",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "I",
+                "description": "투입 (Input)",
+                "rank": 30
+        },
+        {
+                "id": "F3543322-B4D3-4A20-ABE5-81A849B54B56",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "R",
+                "description": "진행 (Running)",
+                "rank": 40
+        },
+        {
+                "id": "7F757B46-5F09-4427-943D-3C0504D910DE",
+                "parentId": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F1-1DC7-E053-8B010A803CD3",
+                        "name": "COMMON_STATUS"
+                },
+                "name": "W",
+                "description": "대기 (Waiting)",
+                "rank": 10
+        },
+        {
+                "id": "54f671e4-311a-4549-ad4f-2be380740663",
+                "parentId": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                        "name": "CUSTOM_CATEGORY"
+                },
+                "name": "EVENT",
+                "description": "Event Action",
+                "rank": 40
+        },
+        {
+                "id": "d2d1f228-622a-4dc3-80d5-508df7e51140",
+                "parentId": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                        "name": "CUSTOM_CATEGORY"
+                },
+                "name": "SCREEN",
+                "description": "Screen",
+                "rank": 20
+        },
+        {
+                "id": "2df27c78-e61d-47a0-92d9-0709aac5e859",
+                "parentId": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                        "name": "CUSTOM_CATEGORY"
+                },
+                "name": "SERVICE",
+                "description": "Service",
+                "rank": 30
+        },
+        {
+                "id": "057375e3-fedd-4b5b-afad-0b516ae8d267",
+                "parentId": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F6-1DC7-E053-8B010A803CD3",
+                        "name": "CUSTOM_CATEGORY"
+                },
+                "name": "SYSTEM",
+                "description": "System",
+                "rank": 10
+        },
+        {
+                "id": "8D155EB8-86C8-40C1-A186-0D8FBD14A50D",
+                "parentId": "7AAB0D8A-26F9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F9-1DC7-E053-8B010A803CD3",
+                        "name": "DAS_ASSIGN_METHOD"
+                },
+                "name": "by_loc",
+                "description": "로케이션 기반 분배",
+                "rank": 10
+        },
+        {
+                "id": "D1FACEB8-E5E2-45AD-A756-E6CC575F59B0",
+                "parentId": "7AAB0D8A-26F9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26F9-1DC7-E053-8B010A803CD3",
+                        "name": "DAS_ASSIGN_METHOD"
+                },
+                "name": "by_zone",
+                "description": "작업 존 기반 분배",
+                "rank": 20
+        },
+        {
+                "id": "4B064CAB-75D1-4C94-B144-A56591E93F84",
+                "parentId": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                        "name": "DAS_INSPECTION_ACTION"
+                },
+                "name": "N",
+                "description": "후처리 없음",
+                "rank": 30
+        },
+        {
+                "id": "80BE6B98-0852-4561-AF9D-4449BF3F58C8",
+                "parentId": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                        "name": "DAS_INSPECTION_ACTION"
+                },
+                "name": "P",
+                "description": "송장 라벨 자체 발행",
+                "rank": 20
+        },
+        {
+                "id": "E7B166E0-2F14-449A-B3FF-6E72AAF70E7F",
+                "parentId": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-26FC-1DC7-E053-8B010A803CD3",
+                        "name": "DAS_INSPECTION_ACTION"
+                },
+                "name": "T",
+                "description": "거래명세서 인쇄",
+                "rank": 10
+        },
+        {
+                "id": "C4A80DEC-D8C3-432D-9C1B-8655E68AD916",
+                "parentId": "7AAB0D8A-2700-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2700-1DC7-E053-8B010A803CD3",
+                        "name": "DATA_FORMAT"
+                },
+                "name": "json",
+                "description": "JSON",
+                "rank": 10
+        },
+        {
+                "id": "82E5EEBB-E3C6-4443-BDE1-CC554ADCCF17",
+                "parentId": "7AAB0D8A-2700-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2700-1DC7-E053-8B010A803CD3",
+                        "name": "DATA_FORMAT"
+                },
+                "name": "xml",
+                "description": "XML",
+                "rank": 20
+        },
+        {
+                "id": "8707EF19-0519-41D9-97AF-B66617361423",
+                "parentId": "7AAB0D8A-2703-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2703-1DC7-E053-8B010A803CD3",
+                        "name": "DATA_SOURCE_TYPE"
+                },
+                "name": "DB",
+                "description": "Database",
+                "rank": 10
+        },
+        {
+                "id": "F8ECDB28-EADD-4D61-A145-A975BCF71E92",
+                "parentId": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                        "name": "DELETE_STRATEGY"
+                },
+                "name": "delete",
+                "description": "Details are also deleted when master deleted",
+                "rank": 10
+        },
+        {
+                "id": "1360297F-BD06-4772-8B66-4949DE761A1F",
+                "parentId": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                        "name": "DELETE_STRATEGY"
+                },
+                "name": "destroy",
+                "description": "Details are also deleted and executed callback when master deleted",
+                "rank": 20
+        },
+        {
+                "id": "CAF5CAB2-05B8-4682-92E6-5233E42C376D",
+                "parentId": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                        "name": "DELETE_STRATEGY"
+                },
+                "name": "nullify",
+                "description": "Update master id of details to null",
+                "rank": 30
+        },
+        {
+                "id": "8CFDEEF7-13BE-4C64-B26B-528EDDD09162",
+                "parentId": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2705-1DC7-E053-8B010A803CD3",
+                        "name": "DELETE_STRATEGY"
+                },
+                "name": "restrict_with_error",
+                "description": "Raise exception if details exist",
+                "rank": 40
+        },
+        {
+                "id": "DDE43DEE-8EE2-45CA-B304-A73BDFD6CBBD",
+                "parentId": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_STATUS"
+                },
+                "name": "END",
+                "description": "배포 완료",
+                "rank": 40
+        },
+        {
+                "id": "203D6560-9D50-4C97-937F-576F3CD4434C",
+                "parentId": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_STATUS"
+                },
+                "name": "ERROR",
+                "description": "에러",
+                "rank": 50
+        },
+        {
+                "id": "04D371F8-293A-4DD8-8562-B2FC0BB21188",
+                "parentId": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_STATUS"
+                },
+                "name": "RESERVED",
+                "description": "예약됨",
+                "rank": 20
+        },
+        {
+                "id": "C5500799-8FA1-4795-8D31-7B7C4EDAF95B",
+                "parentId": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_STATUS"
+                },
+                "name": "RUN",
+                "description": "진행 중",
+                "rank": 30
+        },
+        {
+                "id": "99F508D8-8BDE-4A2E-BC36-712562A5FA88",
+                "parentId": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-270A-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_STATUS"
+                },
+                "name": "WAIT",
+                "description": "예약 대기",
+                "rank": 10
+        },
+        {
+                "id": "5ECD810E-0DF6-4E80-A82E-396400EEA5A8",
+                "parentId": "7AAB0D8A-2710-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2710-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_TYPE"
+                },
+                "name": "GW",
+                "description": "Gateway",
+                "rank": 10
+        },
+        {
+                "id": "DDC96C80-A70A-4C85-8662-5542C91D8E2A",
+                "parentId": "7AAB0D8A-2710-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2710-1DC7-E053-8B010A803CD3",
+                        "name": "DEPLOYMENT_TYPE"
+                },
+                "name": "IND",
+                "description": "Indicator",
+                "rank": 20
+        },
+        {
+                "id": "90EBE3D5-EE70-402E-82E0-6EDF992E3F5E",
+                "parentId": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                        "name": "DOMAIN_APPS"
+                },
+                "name": "LABEL",
+                "description": "Things Label",
+                "rank": 20
+        },
+        {
+                "id": "80765A4A-7D96-4B7E-AFB2-15268B5F47C1",
+                "parentId": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                        "name": "DOMAIN_APPS"
+                },
+                "name": "MES",
+                "description": "Things Suite",
+                "rank": 10
+        },
+        {
+                "id": "93B65F39-603F-473D-8871-61345C0BDBA2",
+                "parentId": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2713-1DC7-E053-8B010A803CD3",
+                        "name": "DOMAIN_APPS"
+                },
+                "name": "UNREAL",
+                "description": "Things Board",
+                "rank": 30
+        },
+        {
+                "id": "4C83E56E-5CD1-4590-80D9-E0096933C387",
+                "parentId": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                        "name": "DPS_INSPECTION_ACTION"
+                },
+                "name": "I",
+                "description": "택배 송장 인터페이스",
+                "rank": 20
+        },
+        {
+                "id": "911C069D-2D5D-449F-A575-D5BF0B4A8211",
+                "parentId": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                        "name": "DPS_INSPECTION_ACTION"
+                },
+                "name": "N",
+                "description": "후처리 없음",
+                "rank": 40
+        },
+        {
+                "id": "06F6CE7C-E499-4AA2-B182-D4B242506D05",
+                "parentId": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                        "name": "DPS_INSPECTION_ACTION"
+                },
+                "name": "P",
+                "description": "택배 송장 인쇄",
+                "rank": 10
+        },
+        {
+                "id": "0469F261-DFF0-4207-8096-F8093C650E72",
+                "parentId": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2717-1DC7-E053-8B010A803CD3",
+                        "name": "DPS_INSPECTION_ACTION"
+                },
+                "name": "R",
+                "description": "실적 보고",
+                "rank": 30
+        },
+        {
+                "id": "904A012A-4541-4E95-99F2-5172E0E765C6",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "binary",
+                "description": "binary",
+                "rank": 10
+        },
+        {
+                "id": "FD9D16CD-B762-426F-9332-0394E1FD9A5C",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "boolean",
+                "description": "boolean",
+                "rank": 20
+        },
+        {
+                "id": "63498DC4-9DCD-4E95-9D2E-A92F933BEEE2",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "date",
+                "description": "date",
+                "rank": 30
+        },
+        {
+                "id": "FE606369-9A25-4A17-8D9E-5B31061071F3",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "datetime",
+                "description": "datetime",
+                "rank": 40
+        },
+        {
+                "id": "FA3ED052-D7CE-49D2-8570-A1F43D60B7CD",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "decimal",
+                "description": "decimal",
+                "rank": 50
+        },
+        {
+                "id": "00EC96DE-0BEF-4D2D-A945-CBFBFE2AF863",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "double",
+                "description": "double",
+                "rank": 60
+        },
+        {
+                "id": "2CDC8E19-239A-4ADD-B6AB-A42D2D252007",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "float",
+                "description": "float",
+                "rank": 70
+        },
+        {
+                "id": "7DD555D2-84F6-44C4-B96C-A4E2C162ABEC",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "integer",
+                "description": "integer",
+                "rank": 80
+        },
+        {
+                "id": "80ECD3D7-6937-4058-BE97-E795CA41DD8C",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "long",
+                "description": "long",
+                "rank": 90
+        },
+        {
+                "id": "4BA1BC76-AB69-44A0-9695-BAA787719E72",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "string",
+                "description": "string",
+                "rank": 100
+        },
+        {
+                "id": "4CDB4879-943E-4CFA-8FB9-122DD2662E0E",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "text",
+                "description": "text",
+                "rank": 110
+        },
+        {
+                "id": "97A805D1-520B-4D0C-B24B-023250E44A2B",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "time",
+                "description": "time",
+                "rank": 120
+        },
+        {
+                "id": "6C270B42-1F08-4C9F-9930-79C8A6829B71",
+                "parentId": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-271C-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_FIELD_TYPE"
+                },
+                "name": "timestamp",
+                "description": "timestamp",
+                "rank": 130
+        },
+        {
+                "id": "FB619B34-8BE6-4BF7-A443-839B51BCE85C",
+                "parentId": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_ID_TYPE"
+                },
+                "name": "auto-increment",
+                "description": "Auto Increment",
+                "rank": 10
+        },
+        {
+                "id": "9D138E64-A2E9-4DAD-ACEF-102F7DBAE1F1",
+                "parentId": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_ID_TYPE"
+                },
+                "name": "meaningful",
+                "description": "Meaningful ID",
+                "rank": 30
+        },
+        {
+                "id": "46056A4C-D999-4262-BDBB-E42071D8575E",
+                "parentId": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272A-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_ID_TYPE"
+                },
+                "name": "uuid",
+                "description": "UUID",
+                "rank": 20
+        },
+        {
+                "id": "FF004F9B-3C35-4FCE-9B3A-A5EC4F1F0D70",
+                "parentId": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_REF_TYPE"
+                },
+                "name": "CommonCode",
+                "description": "CommonCode",
+                "rank": 10
+        },
+        {
+                "id": "74EDD58C-AA77-466E-A270-349911A108B2",
+                "parentId": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_REF_TYPE"
+                },
+                "name": "Entity",
+                "description": "Entity",
+                "rank": 20
+        },
+        {
+                "id": "697BABB4-1F80-432E-9B3C-C4009BD7B1E4",
+                "parentId": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_REF_TYPE"
+                },
+                "name": "Menu",
+                "description": "Menu",
+                "rank": 30
+        },
+        {
+                "id": "518F4E9C-900A-4942-82B9-932C686C905D",
+                "parentId": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-272E-1DC7-E053-8B010A803CD3",
+                        "name": "ENTITY_REF_TYPE"
+                },
+                "name": "Url",
+                "description": "URL",
+                "rank": 40
+        },
+        {
+                "id": "BB6D5B76-89CC-42D0-AFDA-4A045CE46DFA",
+                "parentId": "7AAB0D8A-2733-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2733-1DC7-E053-8B010A803CD3",
+                        "name": "EQUIP_STATUS"
+                },
+                "name": "1",
+                "description": "정상 작동",
+                "rank": 10
+        },
+        {
+                "id": "43F41241-D7E5-4430-AF3C-24AA4172E9EB",
+                "parentId": "7AAB0D8A-2733-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2733-1DC7-E053-8B010A803CD3",
+                        "name": "EQUIP_STATUS"
+                },
+                "name": "2",
+                "description": "고장",
+                "rank": 20
+        },
+        {
+                "id": "A9F9F028-F043-4123-8268-6FFF1EC9D2DC",
+                "parentId": "7AAB0D8A-2736-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2736-1DC7-E053-8B010A803CD3",
+                        "name": "EQUIP_TYPE"
+                },
+                "name": "Rack",
+                "description": "랙",
+                "rank": 20
+        },
+        {
+                "id": "5D86A741-CBB7-49BE-8AFD-59DB8770AFD1",
+                "parentId": "7AAB0D8A-2736-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2736-1DC7-E053-8B010A803CD3",
+                        "name": "EQUIP_TYPE"
+                },
+                "name": "Sorter",
+                "description": "소터",
+                "rank": 10
+        },
+        {
+                "id": "0204A523-651D-4455-A70C-99D7F8B9F33E",
+                "parentId": "7AAB0D8A-2739-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2739-1DC7-E053-8B010A803CD3",
+                        "name": "EXCLUSIVE_ROLE"
+                },
+                "name": "modeler",
+                "description": "Modeler",
+                "rank": 10
+        },
+        {
+                "id": "0922BD90-3FFC-4D0B-BE0E-817B72ACB8A8",
+                "parentId": "7AAB0D8A-2739-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2739-1DC7-E053-8B010A803CD3",
+                        "name": "EXCLUSIVE_ROLE"
+                },
+                "name": "monitor",
+                "description": "Monitor",
+                "rank": 20
+        },
+        {
+                "id": "0D397099-7E6C-499D-ADC2-90D55567BD53",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "checkbox",
+                "description": "Checkbox",
+                "rank": 50
+        },
+        {
+                "id": "3ADD83BF-3EB4-4393-A964-9590AD68B7B5",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "code-combo",
+                "description": "Code Combo",
+                "rank": 80
+        },
+        {
+                "id": "7CEE4742-08DC-405B-931E-D4A106DA2E90",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "date-from-to-picker",
+                "description": "Date From To",
+                "rank": 150
+        },
+        {
+                "id": "A012B977-0F3C-4C23-A821-9ABFDB6AFFE9",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "date-picker",
+                "description": "Date Picker",
+                "rank": 140
+        },
+        {
+                "id": "89185514-B257-4395-8CA8-D332EB5BE3BD",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "hidden",
+                "description": "Hidden",
+                "rank": 10
+        },
+        {
+                "id": "9D0563D7-BC6F-402F-859A-E90C985BD020",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "negative-number",
+                "description": "Negative Number",
+                "rank": 170
+        },
+        {
+                "id": "A5B3532E-F8DB-4F35-B1B3-837EFA0653F9",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "number",
+                "description": "Number",
+                "rank": 40
+        },
+        {
+                "id": "A3C5FEED-C986-4C2D-A5AD-BFD312C9B950",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "password",
+                "description": "Password",
+                "rank": 70
+        },
+        {
+                "id": "616BE575-BC13-405D-9743-D5399B65D0A8",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "positive-number",
+                "description": "Positive Number",
+                "rank": 160
+        },
+        {
+                "id": "26A61612-8220-45CA-AB63-C107A48AC22A",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "ranged-date-picker",
+                "description": "Ranged Date Picker",
+                "rank": 180
+        },
+        {
+                "id": "19FD45E1-5124-4939-8EA9-EAA49985081E",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "readonly",
+                "description": "Read Only",
+                "rank": 20
+        },
+        {
+                "id": "A0BB631F-0732-4C0C-8A89-DA291AA884A7",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "resource-combo",
+                "description": "Resource Combo",
+                "rank": 120
+        },
+        {
+                "id": "9041B7C1-FEC0-4C72-B6B3-BCA66FD4198E",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "resource-field",
+                "description": "Resource Field",
+                "rank": 100
+        },
+        {
+                "id": "E4A86D26-0BA4-450A-BEB1-01E4BFD97F0C",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "resource-format-selector",
+                "description": "Named Resource Selector",
+                "rank": 130
+        },
+        {
+                "id": "8235C67E-7671-4938-BF7B-98765919EA18",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "resource-selector",
+                "description": "Resource Selector",
+                "rank": 110
+        },
+        {
+                "id": "1A163EFC-3E6A-4E42-A338-C1C769665387",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "text",
+                "description": "Text",
+                "rank": 30
+        },
+        {
+                "id": "D9111B50-CBA5-48A9-97F7-9729776C9356",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "textarea",
+                "description": "Textarea",
+                "rank": 90
+        },
+        {
+                "id": "B79EB88D-3953-427E-8326-7008C0D3F2B2",
+                "parentId": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-273C-1DC7-E053-8B010A803CD3",
+                        "name": "FORM_FIELD_EDITOR"
+                },
+                "name": "tristate-radio",
+                "description": "Tristate Radio",
+                "rank": 60
+        },
+        {
+                "id": "F8EFE210-7B6D-4D81-BB4C-46694DA2EC53",
+                "parentId": "7AAB0D8A-274F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-274F-1DC7-E053-8B010A803CD3",
+                        "name": "FULLBOX_ACTION"
+                },
+                "name": "N",
+                "description": "후처리 없음",
+                "rank": 40
+        },
+        {
+                "id": "E312FC7B-51BE-441A-80ED-A5494C6CA4FB",
+                "parentId": "7AAB0D8A-274F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-274F-1DC7-E053-8B010A803CD3",
+                        "name": "FULLBOX_ACTION"
+                },
+                "name": "P",
+                "description": "라벨 인쇄",
+                "rank": 10
+        },
+        {
+                "id": "179A88FE-F9BB-4B88-92FA-230D7A48E2B4",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "checkbox",
+                "description": "Checkbox",
+                "rank": 60
+        },
+        {
+                "id": "993898AE-EA82-458C-8F4C-8A03624AF5F6",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "code-column",
+                "description": "Code Column",
+                "rank": 25
+        },
+        {
+                "id": "6C0290DC-0ED9-4DBA-BBAB-37570DE92C49",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "code-combo",
+                "description": "Code Combo",
+                "rank": 20
+        },
+        {
+                "id": "035E2FEB-827F-4C6F-8825-B3D480B38EA5",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "hidden",
+                "description": "Hidden",
+                "rank": 10
+        },
+        {
+                "id": "20F2C462-3A0E-431F-8D35-D44559004DC9",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "image-renderer",
+                "description": "Image Renderer",
+                "rank": 120
+        },
+        {
+                "id": "4B1F6EA5-CB02-44FA-B581-E9DE49764542",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "image-selector",
+                "description": "Image Selector",
+                "rank": 110
+        },
+        {
+                "id": "77250984-D601-4FA2-ACE0-FE9BD42AFF76",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "negative-number",
+                "description": "Negative Number",
+                "rank": 140
+        },
+        {
+                "id": "34C33F09-3FCB-4734-A84E-DB760214AF65",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "number",
+                "description": "Number",
+                "rank": 50
+        },
+        {
+                "id": "F648E5D2-8576-4639-8832-433A195E670D",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "positive-number",
+                "description": "Positive Number",
+                "rank": 130
+        },
+        {
+                "id": "1E1884D8-81AA-41C7-BA8F-86379F2F3F5F",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "ranged-date-picker",
+                "description": "Ranged Date Picker",
+                "rank": 150
+        },
+        {
+                "id": "70BA8F91-4232-4F96-A261-AB9D299812EB",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "rank",
+                "description": "Rank",
+                "rank": 160
+        },
+        {
+                "id": "FD819E55-4940-444B-8005-52F1CEC40F7B",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "readonly",
+                "description": "Read Only",
+                "rank": 30
+        },
+        {
+                "id": "FD94F9C4-519A-47D2-A539-DEFF2A97D10A",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "resource-column",
+                "description": "Resource Column",
+                "rank": 80
+        },
+        {
+                "id": "80D813BC-84AE-44F6-B21F-999ECD6C63C1",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "resource-format-selector",
+                "description": "Named Resource Selector",
+                "rank": 100
+        },
+        {
+                "id": "D704DD70-485F-4679-ABF1-C6E09123B852",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "resource-selector",
+                "description": "Resource Selector",
+                "rank": 90
+        },
+        {
+                "id": "01FB4471-0650-4C5C-A692-C68AB05C2FF7",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "text",
+                "description": "Text",
+                "rank": 40
+        },
+        {
+                "id": "212AAA98-DE48-4C14-BA54-E9087D992451",
+                "parentId": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2752-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_COLUMN_EDITOR"
+                },
+                "name": "textarea",
+                "description": "Text Area",
+                "rank": 70
+        },
+        {
+                "id": "DAF54CF8-89B9-42C4-8C37-A295B9DFE433",
+                "parentId": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_TYPE"
+                },
+                "name": "chart",
+                "description": "Chart",
+                "rank": 10
+        },
+        {
+                "id": "D64B2F50-02A1-42D4-888B-7B7F751D7D73",
+                "parentId": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_TYPE"
+                },
+                "name": "grid",
+                "description": "Grid",
+                "rank": 20
+        },
+        {
+                "id": "868F3500-D885-4233-85AE-54C7EBB5BA9F",
+                "parentId": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_TYPE"
+                },
+                "name": "summary",
+                "description": "Summary",
+                "rank": 30
+        },
+        {
+                "id": "7D83760A-DF16-4383-9503-19A33BA5BBD6",
+                "parentId": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2764-1DC7-E053-8B010A803CD3",
+                        "name": "GRID_TYPE"
+                },
+                "name": "tree",
+                "description": "Tree",
+                "rank": 40
+        },
+        {
+                "id": "06E28D60-5678-4D6C-B67E-389505E13AD6",
+                "parentId": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                        "name": "HANDLER_TYPE"
+                },
+                "name": "alarm",
+                "description": "Alarm",
+                "rank": 50
+        },
+        {
+                "id": "5326BD9D-0091-43FC-9465-03F9D78DA9AB",
+                "parentId": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                        "name": "HANDLER_TYPE"
+                },
+                "name": "diy_service",
+                "description": "Custom Service",
+                "rank": 40
+        },
+        {
+                "id": "6D51730D-2BC6-4DDE-86E2-57AA691965CE",
+                "parentId": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                        "name": "HANDLER_TYPE"
+                },
+                "name": "dynamic",
+                "description": "Dynamic",
+                "rank": 30
+        },
+        {
+                "id": "B2CB4CBF-EE13-4A7A-A969-1A01AECF1084",
+                "parentId": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                        "name": "HANDLER_TYPE"
+                },
+                "name": "query",
+                "description": "Query",
+                "rank": 20
+        },
+        {
+                "id": "70505C1E-F9EF-46E1-98F2-0B343A4959A0",
+                "parentId": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2769-1DC7-E053-8B010A803CD3",
+                        "name": "HANDLER_TYPE"
+                },
+                "name": "static",
+                "description": "Static",
+                "rank": 10
+        },
+        {
+                "id": "24837B1F-B818-4D6D-B511-3CA884BB5DAC",
+                "parentId": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_INPUT_STATUS"
+                },
+                "name": "E",
+                "description": "검수완료 (Examed)",
+                "rank": 50
+        },
+        {
+                "id": "E60E8554-2498-463E-B119-0EA5FB18AF39",
+                "parentId": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_INPUT_STATUS"
+                },
+                "name": "F",
+                "description": "완료 (Finished)",
+                "rank": 30
+        },
+        {
+                "id": "14D23825-5085-4E40-B465-8DCAC63DF852",
+                "parentId": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_INPUT_STATUS"
+                },
+                "name": "R",
+                "description": "진행 (Running)",
+                "rank": 20
+        },
+        {
+                "id": "E11AF0A3-D2A7-47F2-9C62-DB9A55BF6F45",
+                "parentId": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_INPUT_STATUS"
+                },
+                "name": "U",
+                "description": "미처리 (Unfinished)",
+                "rank": 40
+        },
+        {
+                "id": "38D7A493-5553-44A6-951C-E83FFDDB945D",
+                "parentId": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-276F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_INPUT_STATUS"
+                },
+                "name": "W",
+                "description": "대기 (Waiting)",
+                "rank": 10
+        },
+        {
+                "id": "A4259304-CE49-4951-923D-2099B217F160",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "B",
+                "description": "박싱 완료",
+                "rank": 60
+        },
+        {
+                "id": "64600253-0D2A-4736-9AA9-013166FC16C0",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "BW",
+                "description": "박스 요청 대기",
+                "rank": 10
+        },
+        {
+                "id": "2905BF05-F589-4A3B-87C2-D05C7A191387",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "C",
+                "description": "작업 취소",
+                "rank": 90
+        },
+        {
+                "id": "89C2E454-B18D-4E4F-A501-919F91A6B117",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "D",
+                "description": "주문 취소",
+                "rank": 100
+        },
+        {
+                "id": "AA7EE9E0-D880-4B12-9286-A1ED47F439C7",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "E",
+                "description": "검수 완료",
+                "rank": 70
+        },
+        {
+                "id": "A7C58A09-06ED-4433-B66A-4F7C929E3C77",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "F",
+                "description": "피킹 완료",
+                "rank": 50
+        },
+        {
+                "id": "FA4B2F3C-AA9A-41D4-87F4-A1BFFEB45DD5",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "I",
+                "description": "투입",
+                "rank": 30
+        },
+        {
+                "id": "A297A176-3A42-4F12-9684-20763F468F40",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "P",
+                "description": "피킹 시작",
+                "rank": 40
+        },
+        {
+                "id": "371002F5-968B-4AD0-A830-F3C6FD99EB1A",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "R",
+                "description": "전송 완료",
+                "rank": 80
+        },
+        {
+                "id": "327CC9D9-FA50-40D5-890F-EC9CF7E1137E",
+                "parentId": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2775-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_STATUS"
+                },
+                "name": "W",
+                "description": "작업 대기",
+                "rank": 20
+        },
+        {
+                "id": "6BA05961-EA7C-431A-A559-AD5F9A34EC5A",
+                "parentId": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_TYPE"
+                },
+                "name": "DAS",
+                "description": "DAS",
+                "rank": 10
+        },
+        {
+                "id": "CD3201A9-8AB7-4213-894B-1F7B5CCD4B50",
+                "parentId": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_TYPE"
+                },
+                "name": "DPS",
+                "description": "DPS",
+                "rank": 20
+        },
+        {
+                "id": "37154F47-21F3-41D2-9697-D83A3D1CDF26",
+                "parentId": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_TYPE"
+                },
+                "name": "RTN",
+                "description": "반품",
+                "rank": 30
+        },
+        {
+                "id": "11337207-6e88-4ac6-afde-2ddd3d3e66eb",
+                "parentId": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_TYPE"
+                },
+                "name": "SDAS",
+                "description": "Sorter 출고",
+                "rank": 40
+        },
+        {
+                "id": "e965c990-c39f-428c-ba18-ad07abb8eea1",
+                "parentId": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-277F-1DC7-E053-8B010A803CD3",
+                        "name": "JOB_TYPE"
+                },
+                "name": "SRTN",
+                "description": "Sorter 반품",
+                "rank": 50
+        },
+        {
+                "id": "F0499DAD-5376-4085-985E-137EC360B2D4",
+                "parentId": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                        "name": "LABEL_PRINT_METHOD"
+                },
+                "name": "I",
+                "description": "인터페이스로 발행",
+                "rank": 20
+        },
+        {
+                "id": "056CA2FB-B719-4E7E-91CB-1E17722A1511",
+                "parentId": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                        "name": "LABEL_PRINT_METHOD"
+                },
+                "name": "N",
+                "description": "발행 안 함",
+                "rank": 30
+        },
+        {
+                "id": "723CEDB0-51DB-4D4E-A131-4934CAFB656E",
+                "parentId": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2785-1DC7-E053-8B010A803CD3",
+                        "name": "LABEL_PRINT_METHOD"
+                },
+                "name": "S",
+                "description": "송장 라벨 자체 발행",
+                "rank": 10
+        },
+        {
+                "id": "12B24074-46BA-494F-9787-D64F4F918BE3",
+                "parentId": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                        "name": "LOCALE"
+                },
+                "name": "en-US",
+                "description": "English",
+                "rank": 10
+        },
+        {
+                "id": "99B01FDA-3F10-4EEB-B12D-FEAB94E29006",
+                "parentId": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                        "name": "LOCALE"
+                },
+                "name": "ko-KR",
+                "description": "한글",
+                "rank": 20
+        },
+        {
+                "id": "99EE5F65-D50D-4DD9-87B3-B9D6313DB38E",
+                "parentId": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2789-1DC7-E053-8B010A803CD3",
+                        "name": "LOCALE"
+                },
+                "name": "zh-CN",
+                "description": "中文",
+                "rank": 30
+        },
+        {
+                "id": "342DFD80-29B1-4640-8D43-47E1620A3401",
+                "parentId": "7AAB0D8A-278D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-278D-1DC7-E053-8B010A803CD3",
+                        "name": "CELL_ASSIGN_STRATEGY"
+                },
+                "name": "D",
+                "description": "Dynamic (자유식)",
+                "rank": 20
+        },
+        {
+                "id": "9A408BF7-F1D2-4E64-9135-DF04F0316696",
+                "parentId": "7AAB0D8A-278D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-278D-1DC7-E053-8B010A803CD3",
+                        "name": "CELL_ASSIGN_STRATEGY"
+                },
+                "name": "S",
+                "description": "Static (지정식)",
+                "rank": 10
+        },
+        {
+                "id": "F33EEB14-6841-4BF3-847E-082CA21BF43B",
+                "parentId": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                        "name": "LOC_BOXID_MAPPING_POINT"
+                },
+                "name": "F",
+                "description": "풀 박스 시점",
+                "rank": 20
+        },
+        {
+                "id": "b9acfc89-724e-4d11-ab13-df0f420777e6",
+                "parentId": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                        "name": "LOC_BOXID_MAPPING_POINT"
+                },
+                "name": "L",
+                "description": "라벨 출력시",
+                "rank": 30
+        },
+        {
+                "id": "60B5ED8C-3DE1-4EC7-8690-9126BAA148AC",
+                "parentId": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2790-1DC7-E053-8B010A803CD3",
+                        "name": "LOC_BOXID_MAPPING_POINT"
+                },
+                "name": "S",
+                "description": "작업 시작 전",
+                "rank": 10
+        },
+        {
+                "id": "27DF69A6-EE2B-4B71-9009-67FDC1796CD5",
+                "parentId": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                        "name": "LOG_LEVEL"
+                },
+                "name": "D",
+                "description": "DEBUG",
+                "rank": 10
+        },
+        {
+                "id": "713619F0-B2B0-46DF-B0B1-61D538067109",
+                "parentId": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                        "name": "LOG_LEVEL"
+                },
+                "name": "E",
+                "description": "ERROR",
+                "rank": 40
+        },
+        {
+                "id": "4E777F2A-003F-44A1-8529-DB2D0AD7CEF9",
+                "parentId": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                        "name": "LOG_LEVEL"
+                },
+                "name": "F",
+                "description": "FATAL",
+                "rank": 50
+        },
+        {
+                "id": "BB4002FE-D5C4-4C0D-9097-FB85651A07C6",
+                "parentId": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                        "name": "LOG_LEVEL"
+                },
+                "name": "I",
+                "description": "INFO",
+                "rank": 20
+        },
+        {
+                "id": "3F54C14F-C7DB-4027-ADCD-D4EF1F485BF2",
+                "parentId": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2793-1DC7-E053-8B010A803CD3",
+                        "name": "LOG_LEVEL"
+                },
+                "name": "W",
+                "description": "WARN",
+                "rank": 30
+        },
+        {
+                "id": "EFBEC7EC-1FFD-48D3-BEA3-D9661A9D201F",
+                "parentId": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_CATEGORY"
+                },
+                "name": "KIOSK",
+                "description": "KIOSK",
+                "rank": 30
+        },
+        {
+                "id": "0b9c999c-239e-48af-929b-061c623ca1b5",
+                "parentId": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_CATEGORY"
+                },
+                "name": "PDA",
+                "description": "PDA",
+                "rank": 50
+        },
+        {
+                "id": "47D8F433-673D-4C94-92B8-0948ECD1FF7D",
+                "parentId": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_CATEGORY"
+                },
+                "name": "STANDARD",
+                "description": "STANDARD",
+                "rank": 10
+        },
+        {
+                "id": "b85d16ce-13fe-4ab2-b9d1-8bbab8aa9811",
+                "parentId": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_CATEGORY"
+                },
+                "name": "TABLET",
+                "description": "TABLET",
+                "rank": 40
+        },
+        {
+                "id": "E372F974-6538-4BD7-AB81-78DF73381E54",
+                "parentId": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2799-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_CATEGORY"
+                },
+                "name": "TERMINAL",
+                "description": "TERMINAL",
+                "rank": 20
+        },
+        {
+                "id": "4A8E73A7-96A9-41BF-9443-1728869A7BCB",
+                "parentId": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_REF_TYPE"
+                },
+                "name": "DIY_GRID",
+                "description": "Custom Grid",
+                "rank": 30
+        },
+        {
+                "id": "E2ACDE94-061C-4585-9A6E-7C39F0D4370D",
+                "parentId": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_REF_TYPE"
+                },
+                "name": "DIY_SERVICE",
+                "description": "Custom Service",
+                "rank": 20
+        },
+        {
+                "id": "5CACE7E5-6B58-4150-988F-838A1E53BB57",
+                "parentId": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-279D-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_REF_TYPE"
+                },
+                "name": "ENTITY",
+                "description": "Entity",
+                "rank": 10
+        },
+        {
+                "id": "BFFFD3FB-834B-4985-A1CD-B4184CDDBF5E",
+                "parentId": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_TYPE"
+                },
+                "name": "HIDDEN",
+                "description": "Hidden",
+                "rank": 50
+        },
+        {
+                "id": "E95C4388-ED44-428C-A1F3-090C463E9C21",
+                "parentId": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_TYPE"
+                },
+                "name": "MENU",
+                "description": "Menu",
+                "rank": 10
+        },
+        {
+                "id": "AB2A03FD-2A49-4C8B-87DA-E6E401F3E98B",
+                "parentId": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_TYPE"
+                },
+                "name": "SCREEN",
+                "description": "Screen",
+                "rank": 20
+        },
+        {
+                "id": "2FE04E7A-8DFE-45F0-AB99-350041B9F8D2",
+                "parentId": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_TYPE"
+                },
+                "name": "SEPARATOR",
+                "description": "Separator",
+                "rank": 30
+        },
+        {
+                "id": "78E548AD-85C1-4596-80F7-ED07A0D3FBA0",
+                "parentId": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A1-1DC7-E053-8B010A803CD3",
+                        "name": "MENU_TYPE"
+                },
+                "name": "TEMPLATE",
+                "description": "Template",
+                "rank": 40
+        },
+        {
+                "id": "51015906-6D8B-4B53-812E-A174DD45EF7B",
+                "parentId": "7AAB0D8A-27A7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A7-1DC7-E053-8B010A803CD3",
+                        "name": "MODBUS_TYPE"
+                },
+                "name": "RTU",
+                "description": "RTU Protocol",
+                "rank": 20
+        },
+        {
+                "id": "1B87808C-BFBF-4B38-9E15-D842B845935B",
+                "parentId": "7AAB0D8A-27A7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27A7-1DC7-E053-8B010A803CD3",
+                        "name": "MODBUS_TYPE"
+                },
+                "name": "TCP/IP",
+                "description": "TCP/IP Protocol",
+                "rank": 10
+        },
+        {
+                "id": "76440AF0-5FB0-4092-8257-719C69E33963",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "1",
+                "description": "Jan",
+                "rank": 10
+        },
+        {
+                "id": "D60EE7DF-5FFB-47C6-9596-A2EEA000250C",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "10",
+                "description": "Oct",
+                "rank": 100
+        },
+        {
+                "id": "BE501A1A-24FB-4A4E-85BA-FAEB2565FDED",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "11",
+                "description": "Nov",
+                "rank": 110
+        },
+        {
+                "id": "45CC4633-1412-4D0B-B074-408A23607492",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "12",
+                "description": "Dec",
+                "rank": 120
+        },
+        {
+                "id": "D06F9625-0438-43D1-80AA-21D2D16339B8",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "2",
+                "description": "Feb",
+                "rank": 20
+        },
+        {
+                "id": "3ECED2BD-3E06-4222-B56C-F5DFEF28E645",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "3",
+                "description": "Mar",
+                "rank": 30
+        },
+        {
+                "id": "0B64261E-B360-4993-8C91-D76E4CDA437A",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "4",
+                "description": "Apr",
+                "rank": 40
+        },
+        {
+                "id": "A6274C0A-E7BA-4ED7-A63D-A12174EE5D77",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "5",
+                "description": "May",
+                "rank": 50
+        },
+        {
+                "id": "20B0BC55-C737-4EA2-8E39-C3712A9BB9FD",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "6",
+                "description": "Jun",
+                "rank": 60
+        },
+        {
+                "id": "A16D4775-94DC-43F7-82E1-932C1E7A8215",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "7",
+                "description": "Jul",
+                "rank": 70
+        },
+        {
+                "id": "9F62389B-CF96-4907-8916-937B1B938410",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "8",
+                "description": "Agu",
+                "rank": 80
+        },
+        {
+                "id": "A514D66D-7F70-499D-BE1D-95D96C3C1915",
+                "parentId": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27AA-1DC7-E053-8B010A803CD3",
+                        "name": "MONTH"
+                },
+                "name": "9",
+                "description": "Sep",
+                "rank": 90
+        },
+        {
+                "id": "961D7C9F-A02F-4B25-AFDE-2893858B4D4E",
+                "parentId": "7AAB0D8A-27B7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27B7-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_BUTTON_MODE"
+                },
+                "name": "B",
+                "description": "Blink",
+                "rank": 20
+        },
+        {
+                "id": "4FCF529F-4CAD-4383-B3A6-4DF399E9502D",
+                "parentId": "7AAB0D8A-27B7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27B7-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_BUTTON_MODE"
+                },
+                "name": "S",
+                "description": "Always On",
+                "rank": 10
+        },
+        {
+                "id": "8BDCA1EE-1024-4F4C-9E8A-5C41425E598A",
+                "parentId": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                        "name": "COLOR"
+                },
+                "name": "B",
+                "description": "Blue",
+                "rank": 30
+        },
+        {
+                "id": "3492875B-CCC6-4670-8676-D5F7F1EE53EC",
+                "parentId": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                        "name": "COLOR"
+                },
+                "name": "G",
+                "description": "Green",
+                "rank": 20
+        },
+        {
+                "id": "F82B5C72-ADB5-44AE-B65F-48C9B566CBF2",
+                "parentId": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                        "name": "COLOR"
+                },
+                "name": "R",
+                "description": "Red",
+                "rank": 10
+        },
+        {
+                "id": "94314422-5586-4CA9-A32E-2ADDA6506418",
+                "parentId": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BA-1DC7-E053-8B010A803CD3",
+                        "name": "COLOR"
+                },
+                "name": "Y",
+                "description": "Yellow",
+                "rank": 40
+        },
+        {
+                "id": "0D9B26A1-A99E-46B3-8F9C-E032D0D58837",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "B",
+                "description": "방금 전 처리한 박스 수량",
+                "rank": 50
+        },
+        {
+                "id": "FF615D77-F11C-4500-89EF-E9F5983B9BCC",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "F",
+                "description": "총 처리한 수량",
+                "rank": 30
+        },
+        {
+                "id": "4AC1E39E-C8FE-483D-8EF2-70092121AAF9",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "N",
+                "description": "사용 안 함",
+                "rank": 60
+        },
+        {
+                "id": "426652BC-2ADA-4B0A-B870-D4CA6B3C5A19",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "P",
+                "description": "방금 전 처리한 낱개 수량",
+                "rank": 40
+        },
+        {
+                "id": "F728EBE3-9CD7-4E8F-801C-942685E3E4D7",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "R",
+                "description": "총 남은 수량",
+                "rank": 20
+        },
+        {
+                "id": "FEB54A61-059E-4DF1-913A-D7074EFD10C6",
+                "parentId": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27BF-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_DISPLAY_SEGMENT_ROLE"
+                },
+                "name": "T",
+                "description": "총 수량",
+                "rank": 10
+        },
+        {
+                "id": "1595F905-427E-41B3-8C15-4BF3372A6DC1",
+                "parentId": "7AAB0D8A-27C6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27C6-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_NUM_ALIGNMENT"
+                },
+                "name": "L",
+                "description": "Left",
+                "rank": 20
+        },
+        {
+                "id": "F848C4DE-325C-4233-BE7C-DAD7575002C1",
+                "parentId": "7AAB0D8A-27C6-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27C6-1DC7-E053-8B010A803CD3",
+                        "name": "MPI_NUM_ALIGNMENT"
+                },
+                "name": "R",
+                "description": "Right",
+                "rank": 10
+        },
+        {
+                "id": "9eb4ca60-ec31-4193-b07a-2f5a9b46e6c8",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "A",
+                "description": "분류 중",
+                "rank": 20
+        },
+        {
+                "id": "E9081CAD-C040-4BA9-AF35-CC622EF37B0D",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "B",
+                "description": "박싱완료",
+                "rank": 30
+        },
+        {
+                "id": "14B5971D-EA00-4C61-8A56-86F1C40A06CA",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "E",
+                "description": "검수완료",
+                "rank": 40
+        },
+        {
+                "id": "FC6F78DC-AF30-4148-9161-32E6CBF8F2C9",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "P",
+                "description": "포장완료",
+                "rank": 50
+        },
+        {
+                "id": "014896E8-25AF-4877-A453-66298AD34999",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "R",
+                "description": "전송완료",
+                "rank": 60
+        },
+        {
+                "id": "4C822AC3-E38E-44DF-9D89-3A6B7EF2C1F6",
+                "parentId": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27CE-1DC7-E053-8B010A803CD3",
+                        "name": "PACKING_STATUS"
+                },
+                "name": "W",
+                "description": "박싱대기",
+                "rank": 10
+        },
+        {
+                "id": "C21A5C4F-4EC7-44D5-9C5F-384884BBC750",
+                "parentId": "7AAB0D8A-27D4-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D4-1DC7-E053-8B010A803CD3",
+                        "name": "PERMIT_URL_TYPE"
+                },
+                "name": "ALL",
+                "description": "All Permit",
+                "rank": 10
+        },
+        {
+                "id": "974ADA2D-6EEA-4572-A4D2-0720CC417343",
+                "parentId": "7AAB0D8A-27D4-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D4-1DC7-E053-8B010A803CD3",
+                        "name": "PERMIT_URL_TYPE"
+                },
+                "name": "READ_ONLY",
+                "description": "Read Only",
+                "rank": 20
+        },
+        {
+                "id": "D331F910-9236-4E11-9993-6802E31FC28C",
+                "parentId": "7AAB0D8A-27D7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D7-1DC7-E053-8B010A803CD3",
+                        "name": "PUB_HANDLER_TYPE"
+                },
+                "name": "query",
+                "description": "Query",
+                "rank": 10
+        },
+        {
+                "id": "9951A76B-41AB-443C-BBE8-57DFEA22389E",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "contains",
+                "description": "contains",
+                "rank": 10
+        },
+        {
+                "id": "758772C3-6ACD-4A4F-9525-B6E6F435162F",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "dnew",
+                "description": "does not ends with",
+                "rank": 20
+        },
+        {
+                "id": "4D097A3B-12A6-4B8D-B92B-1E86A1359A71",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "dnsw",
+                "description": "does not starts with",
+                "rank": 30
+        },
+        {
+                "id": "622ED25F-3E54-48A3-B4ED-18D78EB7415F",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "eq",
+                "description": "equal",
+                "rank": 40
+        },
+        {
+                "id": "BB976741-AB88-4979-B8E0-7C958A8268C8",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "ew",
+                "description": "ends with",
+                "rank": 50
+        },
+        {
+                "id": "9820B699-693B-4A16-A961-BCA9DF65EE22",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "gt",
+                "description": "greater than",
+                "rank": 60
+        },
+        {
+                "id": "8D47CF5C-14C8-4BAE-BCE4-4FBF528AECE6",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "gte",
+                "description": "greater than equal",
+                "rank": 70
+        },
+        {
+                "id": "16CB1137-3FBC-4E0C-AB82-35841A7627C2",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "in",
+                "description": "in",
+                "rank": 80
+        },
+        {
+                "id": "11812240-427D-4C71-A98B-C45A2B9DEAB0",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_blank",
+                "description": "is blank",
+                "rank": 90
+        },
+        {
+                "id": "75BCD9BF-1171-4268-BBEE-53B697F524FB",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_false",
+                "description": "is false",
+                "rank": 100
+        },
+        {
+                "id": "168F0B5B-0E1D-407E-98E8-7E30C914DCDC",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_not_false",
+                "description": "is not false",
+                "rank": 110
+        },
+        {
+                "id": "2C548260-AD1F-4CA1-AE55-3B491B641261",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_not_null",
+                "description": "is not null",
+                "rank": 120
+        },
+        {
+                "id": "B2077418-F8BC-4E33-9092-5E132F5D4302",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_not_true",
+                "description": "is not true",
+                "rank": 130
+        },
+        {
+                "id": "23521CF1-7C26-4F82-8AA1-76F149DB5C93",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_null",
+                "description": "is null",
+                "rank": 140
+        },
+        {
+                "id": "5347A785-4E4D-47F5-86AF-76ACB8C1E010",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_present",
+                "description": "is present",
+                "rank": 150
+        },
+        {
+                "id": "E728D9AD-7DD8-4EBC-BACC-F04BCF1AF399",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "is_true",
+                "description": "is true",
+                "rank": 160
+        },
+        {
+                "id": "4C8EB3EB-65A4-4FC5-B0D4-D22649042122",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "like",
+                "description": "like",
+                "rank": 170
+        },
+        {
+                "id": "8A546701-1B4D-4907-84DD-30867D7B2361",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "lt",
+                "description": "less than",
+                "rank": 180
+        },
+        {
+                "id": "5513D796-F0AA-420E-8C68-DBFAC3CF4120",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "lte",
+                "description": "less than equal",
+                "rank": 190
+        },
+        {
+                "id": "B5C98C2F-CF21-493C-AE9A-2053C4E1AB9D",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "nlike",
+                "description": "not like",
+                "rank": 200
+        },
+        {
+                "id": "A4145AD1-E12A-4B75-B7FC-A93D127CB69D",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "noteq",
+                "description": "not equal",
+                "rank": 210
+        },
+        {
+                "id": "94D16424-38F5-4C4A-B93C-CA051F55F730",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "notin",
+                "description": "not in",
+                "rank": 220
+        },
+        {
+                "id": "BCF005DD-D78B-4905-B938-B3C5B7513AA3",
+                "parentId": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27D9-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_OPERATOR"
+                },
+                "name": "sw",
+                "description": "starts with",
+                "rank": 230
+        },
+        {
+                "id": "F306211C-7185-40EF-8AAF-BD6D4EA1F3F9",
+                "parentId": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_RETURN_TYPE"
+                },
+                "name": "CUSTOM",
+                "description": "Custom",
+                "rank": 50
+        },
+        {
+                "id": "89ADA84E-0228-4462-B132-EFD821C2E93B",
+                "parentId": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_RETURN_TYPE"
+                },
+                "name": "K_OBJ_OBJ",
+                "description": "Key-Object Object",
+                "rank": 30
+        },
+        {
+                "id": "CAA5C535-F228-4D44-AABB-1869D20B7DEE",
+                "parentId": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_RETURN_TYPE"
+                },
+                "name": "K_V_ARR",
+                "description": "Key-Value Array",
+                "rank": 10
+        },
+        {
+                "id": "276FDD80-3794-4734-B045-FAE751499C07",
+                "parentId": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_RETURN_TYPE"
+                },
+                "name": "K_V_OBJ",
+                "description": "Key-Value Object",
+                "rank": 20
+        },
+        {
+                "id": "668A4E88-0BDE-4640-B945-8EA02B97550F",
+                "parentId": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F1-1DC7-E053-8B010A803CD3",
+                        "name": "QUERY_RETURN_TYPE"
+                },
+                "name": "SINGLE_VAR",
+                "description": "Single Variable",
+                "rank": 40
+        },
+        {
+                "id": "8F6C5003-9736-48DB-BA04-6A3EC1216C68",
+                "parentId": "7AAB0D8A-27F7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F7-1DC7-E053-8B010A803CD3",
+                        "name": "RECEIVE_CHANNEL_TYPE"
+                },
+                "name": "redis",
+                "description": "Redis",
+                "rank": 20
+        },
+        {
+                "id": "28834DB1-CB4E-4C1E-A485-25BF07E29982",
+                "parentId": "7AAB0D8A-27F7-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27F7-1DC7-E053-8B010A803CD3",
+                        "name": "RECEIVE_CHANNEL_TYPE"
+                },
+                "name": "stomp",
+                "description": "Stomp",
+                "rank": 10
+        },
+        {
+                "id": "50FE4891-169A-4474-89A1-639D3E0D5E59",
+                "parentId": "7AAB0D8A-27FA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27FA-1DC7-E053-8B010A803CD3",
+                        "name": "RECOMMEND_LOCATION_BY"
+                },
+                "name": "O",
+                "description": "주문 수",
+                "rank": 10
+        },
+        {
+                "id": "123AC65E-03E0-4BA8-BDCB-EAB7F11621A1",
+                "parentId": "7AAB0D8A-27FA-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27FA-1DC7-E053-8B010A803CD3",
+                        "name": "RECOMMEND_LOCATION_BY"
+                },
+                "name": "P",
+                "description": "낱개 수량",
+                "rank": 20
+        },
+        {
+                "id": "087FB3BD-2CFA-4553-BE6D-7D4DF1F116E0",
+                "parentId": "7AAB0D8A-27FD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27FD-1DC7-E053-8B010A803CD3",
+                        "name": "RACK_SIDE"
+                },
+                "name": "F",
+                "description": "앞",
+                "rank": 10
+        },
+        {
+                "id": "8629261B-D3D4-42BF-89D4-FD5886B4AF11",
+                "parentId": "7AAB0D8A-27FD-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-27FD-1DC7-E053-8B010A803CD3",
+                        "name": "RACK_SIDE"
+                },
+                "name": "R",
+                "description": "뒤",
+                "rank": 20
+        },
+        {
+                "id": "DE75640B-C2C7-426C-8DB4-BFEBF3B9E5D1",
+                "parentId": "7AAB0D8A-2800-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2800-1DC7-E053-8B010A803CD3",
+                        "name": "RACK_TYPE"
+                },
+                "name": "O",
+                "description": "단수,단포",
+                "rank": 40
+        },
+        {
+                "id": "86A31C4C-88BB-43D5-AFDA-D6CE922ACE1A",
+                "parentId": "7AAB0D8A-2800-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2800-1DC7-E053-8B010A803CD3",
+                        "name": "RACK_TYPE"
+                },
+                "name": "S",
+                "description": "분류",
+                "rank": 10
+        },
+        {
+                "id": "16BA6CB3-5606-4F7B-ABF2-17375C55546B",
+                "parentId": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_AUTH_TYPE"
+                },
+                "name": "ACCOUNT",
+                "description": "Register Account",
+                "rank": 10
+        },
+        {
+                "id": "9435FD08-E906-41FA-B281-3EADD9D3732D",
+                "parentId": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_AUTH_TYPE"
+                },
+                "name": "ACTIVATION",
+                "description": "Account Activation",
+                "rank": 40
+        },
+        {
+                "id": "18B47A25-0F8F-4716-AFEB-E60EAAE58960",
+                "parentId": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_AUTH_TYPE"
+                },
+                "name": "PASSWORD",
+                "description": "Reset Password",
+                "rank": 30
+        },
+        {
+                "id": "0F942FE6-0EFE-4B67-9E3F-546ED2CFAC6A",
+                "parentId": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2805-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_AUTH_TYPE"
+                },
+                "name": "ROLE",
+                "description": "Request Role",
+                "rank": 20
+        },
+        {
+                "id": "ABD047BD-42CC-494F-AD4D-10EDC2E3FB4D",
+                "parentId": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_STATUS"
+                },
+                "name": "CANCEL",
+                "description": "Canceled",
+                "rank": 40
+        },
+        {
+                "id": "7E373A81-2AF5-4599-9FCD-B0F804A578BB",
+                "parentId": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_STATUS"
+                },
+                "name": "END",
+                "description": "Finished",
+                "rank": 30
+        },
+        {
+                "id": "17A2E3D6-DCFD-40BE-A5AC-5EAD3D584DF0",
+                "parentId": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_STATUS"
+                },
+                "name": "RCV",
+                "description": "Received",
+                "rank": 20
+        },
+        {
+                "id": "B1ED3421-1CD1-4AEB-B408-D6077CFC6E53",
+                "parentId": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280A-1DC7-E053-8B010A803CD3",
+                        "name": "REQUEST_STATUS"
+                },
+                "name": "REQ",
+                "description": "Requested",
+                "rank": 10
+        },
+        {
+                "id": "E9167932-F68D-4A78-BCD4-68F234F3896F",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "CHART",
+                "description": "Dynamic Chart",
+                "rank": 50
+        },
+        {
+                "id": "56cce640-cab2-4175-adf1-09e363c74eda",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "GRID-CHART",
+                "description": "Dynamic Grid&Chart",
+                "rank": 60
+        },
+        {
+                "id": "FEE05B49-E157-496C-BFF9-8C2A934EF4C2",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "MASTER-DETAIL",
+                "description": "Master Detail",
+                "rank": 30
+        },
+        {
+                "id": "84F22CFC-7E8B-4C8E-A604-D34390CEB1EB",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "PLAIN",
+                "description": "Dynamic Screen",
+                "rank": 40
+        },
+        {
+                "id": "A50EF4C8-B3C6-4FA0-9489-B5FC91532ADA",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "RESOURCE",
+                "description": "Dynamic Resource (popup)",
+                "rank": 10
+        },
+        {
+                "id": "BCEB5DD1-A007-45BA-BB98-A9874BCC8100",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "RESOURCE-VIEW",
+                "description": "Dynamic Resource (View)",
+                "rank": 20
+        },
+        {
+                "id": "B49988F1-D8FD-4CB0-A69B-257739DE0E6F",
+                "parentId": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-280F-1DC7-E053-8B010A803CD3",
+                        "name": "ROUTING_TYPE"
+                },
+                "name": "STATIC",
+                "description": "Static Routing",
+                "rank": 70
+        },
+        {
+                "id": "C382EECE-99A0-4A61-8FD4-719FA51953A6",
+                "parentId": "7AAB0D8A-2816-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2816-1DC7-E053-8B010A803CD3",
+                        "name": "SCENE_CATEGORY"
+                },
+                "name": "PLAY",
+                "description": "Play Group",
+                "rank": 20
+        },
+        {
+                "id": "ED6BF060-5669-4E7C-AF75-E2DE2F320874",
+                "parentId": "7AAB0D8A-2816-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2816-1DC7-E053-8B010A803CD3",
+                        "name": "SCENE_CATEGORY"
+                },
+                "name": "SCENE",
+                "description": "Board Group",
+                "rank": 10
+        },
+        {
+                "id": "B2739E6F-CE3D-41A6-8EED-CAE951ACE6AE",
+                "parentId": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                        "name": "SCENE_STATUS"
+                },
+                "name": "EDIT",
+                "description": "Editing",
+                "rank": 10
+        },
+        {
+                "id": "EB344982-97AF-467F-95ED-3F2A6022ECDE",
+                "parentId": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                        "name": "SCENE_STATUS"
+                },
+                "name": "NEW",
+                "description": "New",
+                "rank": 20
+        },
+        {
+                "id": "70D790C9-8EE6-4E15-A1A8-75C55E94E14C",
+                "parentId": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2819-1DC7-E053-8B010A803CD3",
+                        "name": "SCENE_STATUS"
+                },
+                "name": "RELEASE",
+                "description": "Released",
+                "rank": 30
+        },
+        {
+                "id": "61302E8C-05FE-4351-945E-3A4664C7267A",
+                "parentId": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_ENGINE"
+                },
+                "name": "JavaScript",
+                "description": "JavaScript",
+                "rank": 10
+        },
+        {
+                "id": "40D1223C-ACB8-4F0C-8978-88712F8B3EB9",
+                "parentId": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_ENGINE"
+                },
+                "name": "groovy",
+                "description": "Groovy",
+                "rank": 20
+        },
+        {
+                "id": "7525D1AC-1D16-4079-8DF6-CEF51F0FBFCA",
+                "parentId": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-281D-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_ENGINE"
+                },
+                "name": "ruby",
+                "description": "Ruby",
+                "rank": 30
+        },
+        {
+                "id": "8481D281-B4E1-42D6-9244-ED00A0AE7B2B",
+                "parentId": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_TYPE"
+                },
+                "name": "DSL",
+                "description": "Business Logic",
+                "rank": 10
+        },
+        {
+                "id": "61BF6C4C-F8F2-4590-8CC0-0C4B724D0968",
+                "parentId": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_TYPE"
+                },
+                "name": "DSL-SQL",
+                "description": "Query Made by Logic",
+                "rank": 20
+        },
+        {
+                "id": "CE3386C9-0C3D-490B-AAEF-E4594FA18BC5",
+                "parentId": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2821-1DC7-E053-8B010A803CD3",
+                        "name": "SCRIPT_TYPE"
+                },
+                "name": "SQL",
+                "description": "Database Query",
+                "rank": 30
+        },
+        {
+                "id": "379ffd1c-478c-47e3-a0e0-5c718b2d3c4c",
+                "parentId": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                        "name": "SEGMENT_ROLE"
+                },
+                "name": "B",
+                "description": "박스 수량",
+                "rank": 20
+        },
+        {
+                "id": "a2b84982-9041-4a8c-94d6-29ab01266143",
+                "parentId": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                        "name": "SEGMENT_ROLE"
+                },
+                "name": "P",
+                "description": "낱개 수량",
+                "rank": 30
+        },
+        {
+                "id": "4fb016a5-7523-4f05-8cbc-a97304da136d",
+                "parentId": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                        "name": "SEGMENT_ROLE"
+                },
+                "name": "R",
+                "description": "릴레이 번호",
+                "rank": 10
+        },
+        {
+                "id": "6ce6f4e0-a3c7-4006-a471-e0b80cf2f473",
+                "parentId": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2825-1DC7-E053-8B010A803CD3",
+                        "name": "SEGMENT_ROLE"
+                },
+                "name": "S",
+                "description": "문자열",
+                "rank": 40
+        },
+        {
+                "id": "5DCA9162-6ED3-42E5-8495-DCC259EF101C",
+                "parentId": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                        "name": "SEND_CHANNEL_TYPE"
+                },
+                "name": "email",
+                "description": "Email",
+                "rank": 30
+        },
+        {
+                "id": "E8BDF277-674C-4E9C-95AB-78E2F616DCF2",
+                "parentId": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                        "name": "SEND_CHANNEL_TYPE"
+                },
+                "name": "redis",
+                "description": "Redis",
+                "rank": 20
+        },
+        {
+                "id": "415A502D-FA79-43D2-9223-42A08A6D2A2E",
+                "parentId": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2829-1DC7-E053-8B010A803CD3",
+                        "name": "SEND_CHANNEL_TYPE"
+                },
+                "name": "stomp",
+                "description": "Stomp",
+                "rank": 10
+        },
+        {
+                "id": "8A6DAEAE-32A5-4095-86BB-533C0049E118",
+                "parentId": "7AAB0D8A-282D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-282D-1DC7-E053-8B010A803CD3",
+                        "name": "SORT_TYPE"
+                },
+                "name": "ASC",
+                "description": "Ascending",
+                "rank": 10
+        },
+        {
+                "id": "D559EC6A-716D-4D49-BF98-AE2876DF5C0B",
+                "parentId": "7AAB0D8A-282D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-282D-1DC7-E053-8B010A803CD3",
+                        "name": "SORT_TYPE"
+                },
+                "name": "DESC",
+                "description": "Descending",
+                "rank": 20
+        },
+        {
+                "id": "0E4DBDC7-FE54-4353-98D9-AE8A1BFAAC4D",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "backup",
+                "description": "Back Up",
+                "rank": 10
+        },
+        {
+                "id": "420ED4FA-FFA9-4765-AF39-01425727D997",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "binary",
+                "description": "Binary",
+                "rank": 20
+        },
+        {
+                "id": "F6B2CA1A-8E65-4AD4-ACB4-F7363E491C49",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "default",
+                "description": "Default",
+                "rank": 30
+        },
+        {
+                "id": "6741DF5F-3604-489C-9B49-C16D6B67AF1F",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "document",
+                "description": "Document",
+                "rank": 40
+        },
+        {
+                "id": "22258515-4893-4F5F-8FBC-E407F1EC4FEF",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "font",
+                "description": "Font",
+                "rank": 100
+        },
+        {
+                "id": "F2E87A01-8F7F-482A-8A20-29ABDA7E0E74",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "image",
+                "description": "Image",
+                "rank": 50
+        },
+        {
+                "id": "EE43F2C1-6627-403C-86AF-CC052D5FE956",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "resource",
+                "description": "Resource",
+                "rank": 60
+        },
+        {
+                "id": "B8051687-7807-4107-90AE-236F304BAA57",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "sample",
+                "description": "Sample",
+                "rank": 70
+        },
+        {
+                "id": "AFBEA11D-A781-47F5-AE53-EE59BFF0BFE7",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "template",
+                "description": "Template",
+                "rank": 80
+        },
+        {
+                "id": "5C77A0C5-A1DF-473A-A6D4-865291E7D664",
+                "parentId": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2830-1DC7-E053-8B010A803CD3",
+                        "name": "STORAGE_CATEGORY"
+                },
+                "name": "video",
+                "description": "Video",
+                "rank": 90
+        },
+        {
+                "id": "F6CE97E4-F159-4CB0-8869-42989C0A2A3D",
+                "parentId": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                        "name": "SYSTEM"
+                },
+                "name": "common",
+                "description": "Common",
+                "rank": 10
+        },
+        {
+                "id": "4df41b09-ef59-4988-b9f4-4491c976723b",
+                "parentId": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                        "name": "SYSTEM"
+                },
+                "name": "device",
+                "description": "Device",
+                "rank": 40
+        },
+        {
+                "id": "878A2729-AEA7-4372-8893-9C06CB893536",
+                "parentId": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                        "name": "SYSTEM"
+                },
+                "name": "logis",
+                "description": "Logistics",
+                "rank": 20
+        },
+        {
+                "id": "2fe2a7b5-b663-4c49-acb1-b8bcb0ca287d",
+                "parentId": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-283B-1DC7-E053-8B010A803CD3",
+                        "name": "SYSTEM"
+                },
+                "name": "stage",
+                "description": "Stage",
+                "rank": 30
+        },
+        {
+                "id": "E7DAE8A1-BF18-4AE9-9FF1-5616C36BEAB6",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "button",
+                "description": "Button",
+                "rank": 10
+        },
+        {
+                "id": "D78FB18C-E1C7-4AA4-9F0F-3B7CA76EC9D3",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "error",
+                "description": "Error",
+                "rank": 20
+        },
+        {
+                "id": "3769F1E5-7476-4AF8-A06A-5E58673E90E6",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "format",
+                "description": "Format",
+                "rank": 30
+        },
+        {
+                "id": "3F90F907-4962-434F-9C68-DAD727929EE1",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "label",
+                "description": "Label",
+                "rank": 40
+        },
+        {
+                "id": "5F2905DA-A766-4F91-B231-FE907CB777FD",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "menu",
+                "description": "Menu",
+                "rank": 50
+        },
+        {
+                "id": "96A83B43-1EAE-42D9-90D9-42B5C0F4104F",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "setting",
+                "description": "Setting",
+                "rank": 60
+        },
+        {
+                "id": "67792384-850C-4FD4-A71B-2433E9A9E93B",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "text",
+                "description": "Text",
+                "rank": 70
+        },
+        {
+                "id": "85989528-B29D-4781-9D34-9B3BDF5EF7E3",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "title",
+                "description": "Title",
+                "rank": 80
+        },
+        {
+                "id": "242DDE18-4C04-4E03-A80D-3F11346804A4",
+                "parentId": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2840-1DC7-E053-8B010A803CD3",
+                        "name": "TERMS_CATEGORY"
+                },
+                "name": "tooltip",
+                "description": "Tooltip",
+                "rank": 90
+        },
+        {
+                "id": "3DCB8B43-CDBD-4A0A-AFC1-E2DF6420A908",
+                "parentId": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                        "name": "TRACE_TYPE"
+                },
+                "name": "trace_dead",
+                "description": "잃은 메시지",
+                "rank": 30
+        },
+        {
+                "id": "499306E0-6CDD-4ED3-B43F-DB99B56C49E9",
+                "parentId": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                        "name": "TRACE_TYPE"
+                },
+                "name": "trace_pub",
+                "description": "보낸 메시지",
+                "rank": 10
+        },
+        {
+                "id": "99A349AC-057A-42B3-A853-BEC330585958",
+                "parentId": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284A-1DC7-E053-8B010A803CD3",
+                        "name": "TRACE_TYPE"
+                },
+                "name": "trace_sub",
+                "description": "받은 메시지",
+                "rank": 20
+        },
+        {
+                "id": "91EE295E-97AC-422D-9F25-D98670DA3E8F",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "CUSTOM",
+                "description": "By User Input",
+                "rank": 10
+        },
+        {
+                "id": "301EDE8C-F537-4EB6-906B-E242C8F91510",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "DAY",
+                "description": "Day (/YYYY/MM/DD)",
+                "rank": 20
+        },
+        {
+                "id": "2425A116-ADEC-439C-9782-8BF8E51976AA",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "MONTH",
+                "description": "Month (/YYYY/MM)",
+                "rank": 30
+        },
+        {
+                "id": "1759E533-810B-49F3-BC6C-B490A448003E",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "RANDOM",
+                "description": "Random (UUID)",
+                "rank": 40
+        },
+        {
+                "id": "A5871131-5C65-418F-9483-EF2660B2D63F",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "USER",
+                "description": "By Login User",
+                "rank": 60
+        },
+        {
+                "id": "D9CE5DF7-7AFD-4640-BE87-1607E5F33316",
+                "parentId": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-284E-1DC7-E053-8B010A803CD3",
+                        "name": "UPLOAD_FOLDER_RULE"
+                },
+                "name": "YEAR",
+                "description": "Year (/YYYY)",
+                "rank": 50
+        },
+        {
+                "id": "0E0B81C6-2E47-4B2F-9304-625D162DD3D6",
+                "parentId": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                        "name": "USER_HISTORY_STATUS"
+                },
+                "name": "ACTIVE",
+                "description": "Active",
+                "rank": 30
+        },
+        {
+                "id": "80C17BE3-132A-4FA5-99EB-7A8E64503D68",
+                "parentId": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                        "name": "USER_HISTORY_STATUS"
+                },
+                "name": "CREATED",
+                "description": "Create",
+                "rank": 10
+        },
+        {
+                "id": "5DC7AD2B-3064-4EAD-A6D4-DCFED14CE803",
+                "parentId": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                        "name": "USER_HISTORY_STATUS"
+                },
+                "name": "DELETED",
+                "description": "Delete",
+                "rank": 20
+        },
+        {
+                "id": "8C5F53D5-FB12-42C9-9C6B-64F647797B4E",
+                "parentId": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                        "name": "USER_HISTORY_STATUS"
+                },
+                "name": "INACTIVE",
+                "description": "InActive",
+                "rank": 40
+        },
+        {
+                "id": "5F83A06B-32ED-48AF-9C0B-435FA871F87A",
+                "parentId": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2855-1DC7-E053-8B010A803CD3",
+                        "name": "USER_HISTORY_STATUS"
+                },
+                "name": "PASSWORD_LOCK",
+                "description": "Password Lock",
+                "rank": 50
+        },
+        {
+                "id": "9E451E6D-DCBC-4FF5-9E62-EFDFBD47F7FF",
+                "parentId": "7AAB0D8A-285B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-285B-1DC7-E053-8B010A803CD3",
+                        "name": "USER_ROLE_HISTORY_STATUS"
+                },
+                "name": "CREATED",
+                "description": "Create",
+                "rank": 20
+        },
+        {
+                "id": "E7C25475-EB0C-4FC6-B5D5-A411C818A187",
+                "parentId": "7AAB0D8A-285B-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-285B-1DC7-E053-8B010A803CD3",
+                        "name": "USER_ROLE_HISTORY_STATUS"
+                },
+                "name": "DELETED",
+                "description": "Delete",
+                "rank": 10
+        },
+        {
+                "id": "CAB652FE-8095-4129-9DC9-AFAF3A90A9D6",
+                "parentId": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                        "name": "VARIABLE_CATEGORY"
+                },
+                "name": "ITEM",
+                "description": "ITEM",
+                "rank": 10
+        },
+        {
+                "id": "D9335D4E-685A-4D8B-8B17-9B9B046C68CB",
+                "parentId": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                        "name": "VARIABLE_CATEGORY"
+                },
+                "name": "SESSION",
+                "description": "SESSION",
+                "rank": 20
+        },
+        {
+                "id": "80D4E370-CD6E-4E5C-8A8A-C8939883C467",
+                "parentId": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-285E-1DC7-E053-8B010A803CD3",
+                        "name": "VARIABLE_CATEGORY"
+                },
+                "name": "SYSTEM",
+                "description": "SYSTEM",
+                "rank": 30
+        },
+        {
+                "id": "CB829CD2-006C-473D-B560-949EEAEE7B0B",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2007",
+                "description": "2007",
+                "rank": 100
+        },
+        {
+                "id": "1052C336-DC7C-4CBB-BFAE-C82D8CE0EB76",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2008",
+                "description": "2008",
+                "rank": 90
+        },
+        {
+                "id": "EB29F3FC-D41A-48A3-8902-BAF033AB049F",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2009",
+                "description": "2009",
+                "rank": 80
+        },
+        {
+                "id": "F9621461-8541-4F9C-9374-2B725CADEB53",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2010",
+                "description": "2010",
+                "rank": 70
+        },
+        {
+                "id": "B957D45D-6970-4ED7-966E-5B2BD0AC8980",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2011",
+                "description": "2011",
+                "rank": 60
+        },
+        {
+                "id": "387DEE0D-9A6A-4284-A00D-92575A16BB0F",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2012",
+                "description": "2012",
+                "rank": 50
+        },
+        {
+                "id": "324403EA-D9FE-4979-A6C3-4815A74306A5",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2013",
+                "description": "2013",
+                "rank": 40
+        },
+        {
+                "id": "47B1808A-7CB5-43E0-B840-6339B91C7BFD",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2014",
+                "description": "2014",
+                "rank": 30
+        },
+        {
+                "id": "C06B6182-F5E7-47C3-AB24-442C1C2A11A7",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2015",
+                "description": "2015",
+                "rank": 20
+        },
+        {
+                "id": "A8FFC637-1E46-4B32-8AAD-C6A103AB9D9A",
+                "parentId": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-2862-1DC7-E053-8B010A803CD3",
+                        "name": "YEAR"
+                },
+                "name": "2016",
+                "description": "2016",
+                "rank": 10
+        },
+        {
+                "id": "178351BC-F1C6-463F-922F-EBD94B077C12",
+                "parentId": "7AAB0D8A-286D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-286D-1DC7-E053-8B010A803CD3",
+                        "name": "ZONE"
+                },
+                "name": "EQUIP_ZONE",
+                "description": "장비 존",
+                "rank": 20
+        },
+        {
+                "id": "E54B73EF-4396-4550-A1E8-254FB0921305",
+                "parentId": "7AAB0D8A-286D-1DC7-E053-8B010A803CD3",
+                "parent": {
+                        "id": "7AAB0D8A-286D-1DC7-E053-8B010A803CD3",
+                        "name": "ZONE"
+                },
+                "name": "JOB_ZONE",
+                "description": "작업 존",
+                "rank": 10
+        },
+        {
+                "id": "f09ec780-63de-4bbd-a35e-593ee422b6a5",
+                "parentId": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "parent": {
+                        "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                        "name": "BATCH_RECEIPT_STATUS"
+                },
+                "name": "E",
+                "description": "에러 (Error)",
+                "rank": 40
+        },
+        {
+                "id": "ee526d47-ad8b-4445-95c6-1ed45664db2c",
+                "parentId": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "parent": {
+                        "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                        "name": "BATCH_RECEIPT_STATUS"
+                },
+                "name": "F",
+                "description": "완료 (Finished)",
+                "rank": 30
+        },
+        {
+                "id": "1fe83d43-354a-4290-a9b2-91157880becd",
+                "parentId": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "parent": {
+                        "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                        "name": "BATCH_RECEIPT_STATUS"
+                },
+                "name": "R",
+                "description": "진행 (Running)",
+                "rank": 20
+        },
+        {
+                "id": "c65d43be-eba6-4220-9afe-1d751e3e99aa",
+                "parentId": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "parent": {
+                        "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                        "name": "BATCH_RECEIPT_STATUS"
+                },
+                "name": "S",
+                "description": "스킵 (Skipped)",
+                "rank": 50
+        },
+        {
+                "id": "2b715678-d632-4e45-96d5-c5161a11764c",
+                "parentId": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                "parent": {
+                        "id": "7fe939e6-610a-4087-9fbb-8d5a8f6e31d3",
+                        "name": "BATCH_RECEIPT_STATUS"
+                },
+                "name": "W",
+                "description": "대기 (Waiting)",
+                "rank": 10
+        },
+        {
+                "id": "9745566e-7ae6-4243-ad2f-11c97b7cc58c",
+                "parentId": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                "parent": {
+                        "id": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                        "name": "INDICATOR_TYPE"
+                },
+                "name": "mqbase",
+                "description": "기본 타입",
+                "rank": 10
+        },
+        {
+                "id": "8f1bb08c-db9c-490d-ba1a-191369c97481",
+                "parentId": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                "parent": {
+                        "id": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                        "name": "INDICATOR_TYPE"
+                },
+                "name": "type2",
+                "description": "제2 타입",
+                "rank": 20
+        },
+        {
+                "id": "b9d9378e-a755-4753-97ff-5e019a6277b2",
+                "parentId": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                "parent": {
+                        "id": "a181be85-2a16-48d9-8c08-6aafbbda3b8c",
+                        "name": "INDICATOR_TYPE"
+                },
+                "name": "type3",
+                "description": "제3 타입",
+                "rank": 30
+        },
+        {
+                "id": "f2f8c3b3-9413-4263-8fdf-13168e544b79",
+                "parentId": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "parent": {
+                        "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                        "name": "BRAND_CODE"
+                },
+                "name": "A",
+                "description": "STRETCH ANGELS",
+                "rank": 40
+        },
+        {
+                "id": "081bea06-d694-4566-af29-8dfa247184a8",
+                "parentId": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "parent": {
+                        "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                        "name": "BRAND_CODE"
+                },
+                "name": "I",
+                "description": "MLB Kids",
+                "rank": 20
+        },
+        {
+                "id": "5a2c826c-6074-4035-99e1-51ce5d0a93e3",
+                "parentId": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "parent": {
+                        "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                        "name": "BRAND_CODE"
+                },
+                "name": "M",
+                "description": "MLB",
+                "rank": 30
+        },
+        {
+                "id": "99d58942-4ed8-4bb7-95bd-a26a11879f74",
+                "parentId": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "parent": {
+                        "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                        "name": "BRAND_CODE"
+                },
+                "name": "V",
+                "description": "Duvetica",
+                "rank": 50
+        },
+        {
+                "id": "9d9a49bd-d94b-4bf0-bd54-2e69feec71b4",
+                "parentId": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                "parent": {
+                        "id": "b7cbef9d-45e5-443a-891d-176e21dfa19b",
+                        "name": "BRAND_CODE"
+                },
+                "name": "X",
+                "description": "Discovery",
+                "rank": 10
+        },
+        {
+                "id": "9eaae4af-e173-4518-8fe3-7ac5d38eff6c",
+                "parentId": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "parent": {
+                        "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                        "name": "IND_CONFIG_CATEGORY"
+                },
+                "name": "action",
+                "description": "액션 설정",
+                "rank": 10
+        },
+        {
+                "id": "3d54958b-8f8d-47f6-b871-68f00814a0d6",
+                "parentId": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "parent": {
+                        "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                        "name": "IND_CONFIG_CATEGORY"
+                },
+                "name": "etc",
+                "description": "기타 설정",
+                "rank": 50
+        },
+        {
+                "id": "7a9c6eb1-3a95-4385-9968-0c721f3f9bed",
+                "parentId": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "parent": {
+                        "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                        "name": "IND_CONFIG_CATEGORY"
+                },
+                "name": "job",
+                "description": "작업 설정",
+                "rank": 30
+        },
+        {
+                "id": "b1f4ccf9-db96-4b0d-b873-29fc27729657",
+                "parentId": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "parent": {
+                        "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                        "name": "IND_CONFIG_CATEGORY"
+                },
+                "name": "led",
+                "description": "LED 설정",
+                "rank": 40
+        },
+        {
+                "id": "f31903d0-a6cd-4d1a-b4a3-ac2b69063b23",
+                "parentId": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                "parent": {
+                        "id": "b8666427-6680-4b94-b821-74bb4cfe3090",
+                        "name": "IND_CONFIG_CATEGORY"
+                },
+                "name": "show",
+                "description": "표시 설정",
+                "rank": 20
+        },
+        {
+                "id": "120b6446-c8ac-40b3-839c-c4bf030509ac",
+                "parentId": "bae6ac4b-6942-4462-9750-d164014feecf",
+                "parent": {
+                        "id": "bae6ac4b-6942-4462-9750-d164014feecf",
+                        "name": "TRUE_OR_FALSE"
+                },
+                "name": "false",
+                "description": "No",
+                "rank": 20
+        },
+        {
+                "id": "9adbdc2a-be44-488d-a854-6d7906e18d6e",
+                "parentId": "bae6ac4b-6942-4462-9750-d164014feecf",
+                "parent": {
+                        "id": "bae6ac4b-6942-4462-9750-d164014feecf",
+                        "name": "TRUE_OR_FALSE"
+                },
+                "name": "true",
+                "description": "Yes",
+                "rank": 10
+        },
+        {
+                "id": "97fc795b-fc35-4d6f-a06b-ac1551769556",
+                "parentId": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                "parent": {
+                        "id": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                        "name": "ASSORT_STRATEGY"
+                },
+                "name": "BALANCE",
+                "description": "균등 분류",
+                "rank": 10
+        },
+        {
+                "id": "5df74b39-a70a-4cf8-8e13-4afd567b45a9",
+                "parentId": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                "parent": {
+                        "id": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                        "name": "ASSORT_STRATEGY"
+                },
+                "name": "FRONT_FIRST",
+                "description": "앞쪽 먼저",
+                "rank": 20
+        },
+        {
+                "id": "dd197965-0398-41f7-b943-4dafc3bc411b",
+                "parentId": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                "parent": {
+                        "id": "ca942bd6-a3e2-47b1-b75f-948d6eb673a2",
+                        "name": "ASSORT_STRATEGY"
+                },
+                "name": "REAR_FIRST",
+                "description": "뒤쪽 먼저",
+                "rank": 30
+        },
+        {
+                "id": "7454bf4a-6bc7-4640-a6af-50aa3dcff631",
+                "parentId": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                "parent": {
+                        "id": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                        "name": "AREA_TYPE"
+                },
+                "name": "FR",
+                "description": "2층",
+                "rank": 20
+        },
+        {
+                "id": "1df70a50-4507-4c2b-9f83-cb3fb6afcacc",
+                "parentId": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                "parent": {
+                        "id": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                        "name": "AREA_TYPE"
+                },
+                "name": "LT",
+                "description": "3층",
+                "rank": 10
+        },
+        {
+                "id": "c26349aa-19d4-4e86-b024-68fc05d5414a",
+                "parentId": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                "parent": {
+                        "id": "edc9fff3-b5eb-4ef7-a7cc-accbad04b15f",
+                        "name": "AREA_TYPE"
+                },
+                "name": "RT",
+                "description": "1층",
+                "rank": 30
+        },
+        {
+                "id": "1b8f5b7e-6a40-44c1-b9e8-80e1806e39fc",
+                "parentId": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                "parent": {
+                        "id": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                        "name": "DEVICE_TYPE"
+                },
+                "name": "kiosk",
+                "description": "KIOSK",
+                "rank": 30
+        },
+        {
+                "id": "ab56fad3-554d-413a-a763-e1d7e843ba02",
+                "parentId": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                "parent": {
+                        "id": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                        "name": "DEVICE_TYPE"
+                },
+                "name": "pda",
+                "description": "PDA",
+                "rank": 10
+        },
+        {
+                "id": "49f725ca-3d94-408d-a7a7-e90021889487",
+                "parentId": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                "parent": {
+                        "id": "f2b7b7cc-3425-4136-99cc-24495d1040ac",
+                        "name": "DEVICE_TYPE"
+                },
+                "name": "tablet",
+                "description": "Tablet",
+                "rank": 20
+        }
+]

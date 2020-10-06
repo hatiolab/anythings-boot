@@ -1,0 +1,26 @@
+[
+        {
+                "id": "7AAB0D8A-121A-1DC7-E053-8B010A803CD3",
+                "name": "LABEL",
+                "description": "Things Label",
+                "brandName": "Things Label",
+                "brandImage": "c08a438f-4eb8-4b47-857d-54cbbaa55a1a",
+                "theme": "things-label-theme"
+        },
+        {
+                "id": "7AAB0D8A-121B-1DC7-E053-8B010A803CD3",
+                "name": "MES",
+                "description": "STD",
+                "brandName": "만재",
+                "brandImage": "ee63a63c-2454-45d6-af2f-067e7cea22c6",
+                "theme": "wcs-theme"
+        },
+        {
+                "id": "7AAB0D8A-121C-1DC7-E053-8B010A803CD3",
+                "name": "UNREAL",
+                "description": "Things Board",
+                "brandName": "Things Board",
+                "brandImage": "a28040d7-339d-49f9-80ed-7af2c4084995",
+                "theme": "things-point-theme"
+        }
+]

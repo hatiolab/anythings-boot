@@ -1,0 +1,153 @@
+[
+        {
+                "id": "9fb4ecab-f2c7-4a1f-8e70-68b4075c3bd4",
+                "description": "For Binary Files",
+                "name": "binary",
+                "dirRule": "DAY",
+                "path": "bin",
+                "defaultFlag": false,
+                "category": "binary",
+                "resourceFlag": false,
+                "publicFlag": true,
+                "tag": "bin"
+        },
+        {
+                "id": "7eb7380a-ae85-4620-b451-681fe9c43239",
+                "description": "For Common Files",
+                "name": "default",
+                "dirRule": "DAY",
+                "path": "default",
+                "defaultFlag": true,
+                "category": "default",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "default"
+        },
+        {
+                "id": "d7929d31-f95d-46a8-ba7e-a144d3bf290c",
+                "description": "For Font files",
+                "name": "font",
+                "path": "font",
+                "defaultFlag": false,
+                "category": "font",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "font"
+        },
+        {
+                "id": "51350fbd-d8ea-4969-ae6c-1452aaa1ddf1",
+                "description": "For Image files",
+                "name": "image",
+                "path": "image",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "image"
+        },
+        {
+                "id": "db3c3732-5429-4bb1-9b35-acec0bdd8a22",
+                "description": "For Label Resources",
+                "name": "label",
+                "dirRule": "MONTH",
+                "path": "label",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "label"
+        },
+        {
+                "id": "587307e4-0f69-4ece-8eff-9cce8ce622d9",
+                "description": "For Label Images",
+                "name": "label-image",
+                "dirRule": "MONTH",
+                "path": "label/image",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "label,image"
+        },
+        {
+                "id": "22ac0fc0-cf8f-4d50-9331-d090ced08db9",
+                "description": "For Menus Icons",
+                "name": "menu-icons",
+                "path": "menus",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "menu"
+        },
+        {
+                "id": "288327aa-f77c-4615-bc11-3d87b370a9bf",
+                "description": "For Scene Resources",
+                "name": "scene",
+                "dirRule": "MONTH",
+                "path": "scene",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "scene"
+        },
+        {
+                "id": "13b9eb7e-d220-4010-ac1c-4a7d9d99eeca",
+                "description": "For Scene Images",
+                "name": "scene-image",
+                "dirRule": "MONTH",
+                "path": "scene/image",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "scene,image"
+        },
+        {
+                "id": "d2b9ddad-5f46-4a1d-b9b6-748da2ba4cb7",
+                "description": "For Vendor",
+                "name": "vendor",
+                "path": "vendor",
+                "defaultFlag": false,
+                "category": "image",
+                "resourceFlag": false,
+                "publicFlag": false
+        },
+        {
+                "id": "608d7ef7-6561-4d08-92b7-285f70f1d6a7",
+                "description": "For Label Font",
+                "name": "label-font",
+                "dirRule": "MONTH",
+                "path": "label-font",
+                "defaultFlag": false,
+                "category": "resource",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "label,font"
+        },
+        {
+                "id": "45453b9f-bd2d-47db-a49a-134e59a761ed",
+                "description": "For Resources",
+                "name": "resources",
+                "dirRule": "MONTH",
+                "path": "resources",
+                "defaultFlag": false,
+                "category": "resource",
+                "resourceFlag": true,
+                "publicFlag": false,
+                "tag": "resource,entity"
+        },
+        {
+                "id": "8bb91a3e-b18c-4abe-8bd1-7b7a01daf7e0",
+                "description": "For Scene Videos",
+                "name": "scene-video",
+                "dirRule": "MONTH",
+                "path": "scene/video",
+                "defaultFlag": false,
+                "category": "video",
+                "resourceFlag": false,
+                "publicFlag": false,
+                "tag": "scene,video"
+        }
+]

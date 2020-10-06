@@ -1,0 +1,86 @@
+[
+        {
+                "id": "a6d27639-07cd-4992-b41c-7e083098f341",
+                "name": "/rest/domains/clear_cache",
+                "description": "Redis Clear Cache",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "bd2cd6fd-0ec3-4bf5-8264-971f7bf00c02",
+                "name": "/rest/wms_test",
+                "description": "WMS 테스트",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "c071abb3-69e4-4ac7-a0a9-86a4849d58e2",
+                "name": "/rest/deployments/download_file",
+                "description": "배포 파일 다운로드",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "fb0f91be-8329-47e3-82d4-df38f0b9fc4e",
+                "name": "/rest/request_auths/password/reset/request",
+                "description": "비밀번호 초기화 요청",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "59879792-7e23-485d-aa9d-4ab971f2c98e",
+                "name": "/rest/common_codes/show_by_name",
+                "description": "공통코드 조회",
+                "type": "READ_ONLY",
+                "active": true
+        },
+        {
+                "id": "3F8D8DEB-D4C2-4AC5-BA78-FF2E20900096",
+                "name": "/rest/rabbitmq/queue/addSystemQueue",
+                "description": "RabbitMQ 시스템 큐 추가 API",
+                "type": "READ_ONLY",
+                "active": true
+        },
+        {
+                "id": "0451277D-FE3E-45E2-B3C5-55543737A06D",
+                "name": "/rest/rabbitmq/queue/removeSystemQueue",
+                "description": "RabbitMQ 시스템 큐 삭제 API",
+                "type": "READ_ONLY",
+                "active": true
+        },
+        {
+                "id": "38a62ec8-de61-4d69-9666-a6bdbdd662b3",
+                "name": "/rest/rabbitmq/vhost/addListener",
+                "description": "RabbitMQ 사이트 추가 API",
+                "type": "READ_ONLY",
+                "active": true
+        },
+        {
+                "id": "4c6a38f1-473b-405b-b1cd-9e5d3c4471e7",
+                "name": "/rest/rabbitmq/vhost/removeListener",
+                "description": "RabbitMQ 사이트 삭제 API",
+                "type": "READ_ONLY",
+                "active": true
+        },
+        {
+                "id": "4e4551e5-e9c7-4cb1-bb05-b49daf2102f1",
+                "name": "/rest/request_auths/account/activate/request",
+                "description": "계정 활성화",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "ff9f9308-788c-4412-978a-26fba5af049b",
+                "name": "/rest/request_auths/account/register/request",
+                "description": "사용자 가입",
+                "type": "ALL",
+                "active": true
+        },
+        {
+                "id": "4b8d6520-acd0-4d91-ba68-fb5499eeaab8",
+                "name": "/rest/settings/show_by_name",
+                "description": "설정 정보 조회 API",
+                "type": "READ_ONLY",
+                "active": true
+        }
+]

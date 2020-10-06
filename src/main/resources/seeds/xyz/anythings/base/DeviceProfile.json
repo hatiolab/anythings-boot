@@ -1,0 +1,23 @@
+[
+        {
+                "id": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "stageCd": "A02",
+                "profileCd": "DPS-DEFAULT",
+                "profileNm": "DPS 디폴트",
+                "defaultFlag": true
+        },
+        {
+                "id": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "stageCd": "A03",
+                "profileCd": "DAS-DEFAULT",
+                "profileNm": "DAS 디폴트",
+                "defaultFlag": true
+        },
+        {
+                "id": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "stageCd": "AB1",
+                "profileCd": "ExPAS-DEFAULT",
+                "profileNm": "Ex-PAS 디폴트",
+                "defaultFlag": true
+        }
+]

@@ -1,0 +1,784 @@
+[
+        {
+                "id": "b7c1c333-18bf-482a-9c5f-74febe525254",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "display.sku.shorter.start.index",
+                "description": "상품 코드를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "9"
+        },
+        {
+                "id": "2e48c927-7074-48d7-a142-66099079d67c",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "display.sku.shorter.enabled",
+                "description": "상품 코드가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "f729e8ef-d785-461b-bfb9-3c1e25f4f78c",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "display.invoice.shorter.enabled",
+                "description": "송장 번호가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "1cc699a5-94f0-4ae9-bd5a-d902f50f7516",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.sku_cd.screen.enabled",
+                "description": "상품 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "6b1a7f05-0c10-4fe5-aa9c-0bc0db952f3f",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.sku_cd.rule",
+                "description": "상품 코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "ec9e31f8-a110-4ba9-88a2-f5d4533b9099",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.sku_barcd.screen.enabled",
+                "description": "상품 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "cd12af59-ca5a-4bd9-9426-d486f10e7b4b",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.sku_barcd.rule",
+                "description": "상품 바코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "f9a78846-23d4-4df5-b958-4097818daefe",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.rack_cd.screen.enabled",
+                "description": "랙 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "945c5bf7-e73a-49a7-9e33-2a7f78a8de94",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.rack_cd.rule",
+                "description": "랙 코드 Validation Rule - 랙 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "8be52627-8124-425c-b0f1-71cb6940048a",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.ind_cd.screen.enabled",
+                "description": "표시기 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "f9ccdfdf-c57a-4f9a-b04c-21f8df1654b0",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.ind_cd.rule",
+                "description": "표시기 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "16fc5d4b-a429-48cb-9061-9837a76aca57",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.chute_cd.screen.enabled",
+                "description": "슈트 번호 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "1760b7c2-d5a3-4c9b-a97f-0ba10c967aa9",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.chute_cd.rule",
+                "description": "슈트 번호 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "f56c7840-59ed-4373-ad6b-96bf8fe923e0",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.cell_cd.screen.enabled",
+                "description": "셀 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "0a110689-7958-4311-b3bf-6668feaacc65",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.cell_cd.rule",
+                "description": "셀 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[A-Z]{1}[0-9]{4}-[0-9]{4}$"
+        },
+        {
+                "id": "810c7a61-9240-40b1-b774-9281bac233c4",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.box_barcd.screen.enabled",
+                "description": "박스 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "b83ef711-e28a-4c03-831f-18e1ddb88e21",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "validation",
+                "name": "validation.box_barcd.rule",
+                "description": "박스 바코드 Validation Rule - 박스 바코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "d2335d03-aafc-4807-a148-f84da5a55aba",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "software.version",
+                "description": "장비 소프트웨어 버전",
+                "value": "1.0.0"
+        },
+        {
+                "id": "601116d3-9146-42dc-b7ae-5f2bcb1fc9b2",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "screen.refresh.interval",
+                "description": "화면 새로고침시 새로고침 주기 (초)",
+                "value": "30"
+        },
+        {
+                "id": "b5023344-c3f8-42bb-8142-f89b5170c037",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "scanner.continuous.scan.enabled",
+                "description": "연속 스캔 허용 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "6ffb6ae9-5c86-4ed6-9bca-7abb158fc100",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "scanner.bluetooth.enabled",
+                "description": "블루투스 스캐너 사용 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "76f0423a-3738-48c2-bd22-dce5b27c4cff",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "work.side.selection.enabled",
+                "description": "작업 위치 앞/뒤/전체 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "c5332246-cf21-465b-b317-17c8d71e7d4e",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "pagination.page.limit",
+                "description": "페이지네이션 기능 시 한 페이지에 보여줄 레코드 수",
+                "value": "50"
+        },
+        {
+                "id": "a262e071-e0a0-45a8-94b2-5aa34dc0bf48",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.transaction.functions",
+                "description": "작업 화면에서 분류 처리 할 수 있는 처리 옵션 [확정(P), 취소(C), 확정 취소(U), 수량 조절(S), Fullbox(F), Fullbox 취소(FC)",
+                "value": "P,U,S,F"
+        },
+        {
+                "id": "0a8f4f3f-367f-4c26-b778-7f0d5a340c3b",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.transaction.enabled",
+                "description": "작업 화면에서 작업 옵션 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "dff49870-6c30-48e1-98ed-74be8176c3a3",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.split.fullbox.enabled",
+                "description": "분할 Fullbox 기능 활성화 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "0f7f5a58-a984-4bf1-9cdc-3d3b25da6135",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.show.other.orders",
+                "description": "설정된 작업 스테이션에 작업이 없는 경우 화면에 박스를 보여줄 지 여부 (DPS)",
+                "value": "true"
+        },
+        {
+                "id": "e67ef821-325b-4987-82e1-3614ef810e1f",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.inputbox.type",
+                "description": "투입 박스 유형 - 박스(ID는 Unique) / 트레이 (재사용 박스, ID는 Non-Unique) (DPS)",
+                "value": "box"
+        },
+        {
+                "id": "80726fa3-b389-460a-a602-c4d37e129653",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "ind",
+                "name": "indicator.reright.enabled",
+                "description": "표시기 재점등 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "483b8d37-a018-4de9-87ed-daf5e3a67416",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "ind",
+                "name": "indicator.inspection.enabled",
+                "description": "표시기를 이용한 검수 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "706a772d-0e9a-4a5e-bdcc-14e966b78cb6",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "display.sku.shorter.start.index",
+                "description": "상품 코드를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "9"
+        },
+        {
+                "id": "46f84984-e125-4400-bf4c-d3007e613e91",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "display.sku.shorter.enabled",
+                "description": "상품 코드가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "050e6880-822c-43d5-8db1-aeb60f00304c",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "display.invoice.shorter.start.index",
+                "description": "송장 번호를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "8"
+        },
+        {
+                "id": "a6167412-77b3-4eef-ae54-dd31ea30360b",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "display.invoice.shorter.enabled",
+                "description": "송장 번호가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "efe0ca2a-bb97-4a4d-886e-2d0f3cd027f9",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.sku_cd.screen.enabled",
+                "description": "상품 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "c54a5826-9b66-499a-aa04-0bac660c14e1",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.sku_cd.rule",
+                "description": "상품 코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "40b877db-1bd2-4cc4-a606-9e0e06eba088",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.sku_barcd.screen.enabled",
+                "description": "상품 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "0af631d7-4f98-414a-ac7e-210baa1af0f6",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.sku_barcd.rule",
+                "description": "상품 바코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "351b483e-f2ce-4ae3-a07f-877392353d9e",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.rack_cd.screen.enabled",
+                "description": "랙 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "f0aeed70-e113-4c23-9652-7ca79d709d44",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.rack_cd.rule",
+                "description": "랙 코드 Validation Rule - 랙 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "d0d9ff8a-82e6-4c7c-aaba-1af166bd2621",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.ind_cd.screen.enabled",
+                "description": "표시기 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "43329e5d-abb3-48d8-915e-298408940ddf",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.ind_cd.rule",
+                "description": "표시기 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "4f101240-0e8c-4594-9e3e-ef9832d2d211",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.chute_cd.screen.enabled",
+                "description": "슈트 번호 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "32347060-080a-42d4-9fc4-9de13097061d",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.chute_cd.rule",
+                "description": "슈트 번호 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "8ad989ab-57eb-4c88-872e-1bb5cae44564",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.cell_cd.screen.enabled",
+                "description": "셀 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "d7a0f3ab-dfa8-4652-b34e-175ae8a720fb",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.cell_cd.rule",
+                "description": "셀 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[A-Z]{1}[0-9]{4}-[0-9]{4}$"
+        },
+        {
+                "id": "7cd2bef5-f272-4193-9c28-74b3d94274ef",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.box_barcd.screen.enabled",
+                "description": "박스 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "9df05a8f-0a96-432a-bdb3-c4f2de3d6c9b",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "validation",
+                "name": "validation.box_barcd.rule",
+                "description": "박스 바코드 Validation Rule - 박스 바코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "5530fb34-a01c-49b6-b8a9-ad3d58dea465",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "software.version",
+                "description": "장비 소프트웨어 버전",
+                "value": "1.0.0"
+        },
+        {
+                "id": "95e1d246-a432-495b-a891-ef5ea1df59fc",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "screen.refresh.interval",
+                "description": "화면 새로고침시 새로고침 주기 (초)",
+                "value": "30"
+        },
+        {
+                "id": "dfa61c2a-7757-4fb6-852a-2f566bf7442b",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "scanner.continuous.scan.enabled",
+                "description": "연속 스캔 허용 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "3b128d4a-e511-47de-aa57-81ac264dca38",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "scanner.bluetooth.enabled",
+                "description": "블루투스 스캐너 사용 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "bd7f6298-751b-467a-a4de-33861cf4310e",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "work.side.selection.enabled",
+                "description": "작업 위치 앞/뒤/전체 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "74122353-edbc-4d99-9c65-338eab2073f8",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "pagination.page.limit",
+                "description": "페이지네이션 기능 시 한 페이지에 보여줄 레코드 수",
+                "value": "50"
+        },
+        {
+                "id": "ae722328-fd08-4e23-8429-113a55762d4a",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.transaction.functions",
+                "description": "작업 화면에서 분류 처리 할 수 있는 처리 옵션 [확정(P), 취소(C), 확정 취소(U), 수량 조절(S), Fullbox(F), Fullbox 취소(FC)",
+                "value": "P,U,S,F"
+        },
+        {
+                "id": "908314af-7f10-46e4-9ad5-5f95aa9dbc94",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.transaction.enabled",
+                "description": "작업 화면에서 작업 옵션 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "15267fed-872a-463f-92f2-16fbbd846fb4",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.split.fullbox.enabled",
+                "description": "분할 Fullbox 기능 활성화 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "659ca17d-e928-4d7e-adf0-1982352b0994",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.show.other.orders",
+                "description": "설정된 작업 스테이션에 작업이 없는 경우 화면에 박스를 보여줄 지 여부 (DPS)",
+                "value": "true"
+        },
+        {
+                "id": "ae56389d-7eb9-4ee5-8896-dd2e1719ab2f",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.inputbox.type",
+                "description": "투입 박스 유형 - 박스(ID는 Unique) / 트레이 (재사용 박스, ID는 Non-Unique) (DPS)",
+                "value": "box"
+        },
+        {
+                "id": "4e477466-6f94-44b3-9519-780d26695571",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "ind",
+                "name": "indicator.reright.enabled",
+                "description": "표시기 재점등 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "cd274da6-3e53-41f1-a4ad-48cb27962153",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "ind",
+                "name": "indicator.inspection.enabled",
+                "description": "표시기를 이용한 검수 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "197c160a-b867-4e60-8179-be14fc4c219e",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "display.sku.shorter.start.index",
+                "description": "상품 코드를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "9"
+        },
+        {
+                "id": "e57c74d9-b883-4894-8a8f-96f45e4bab11",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "display.sku.shorter.enabled",
+                "description": "상품 코드가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "bda3345b-dd16-4f31-b452-23e60bbc1fbf",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "display.invoice.shorter.start.index",
+                "description": "송장 번호를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "8"
+        },
+        {
+                "id": "582f08e3-8db4-46dc-8a12-c62017196df1",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "etc",
+                "name": "qrcode.generate.source.type",
+                "description": "QR Code 생성을 위한 소스 유형 (barcode, qrcode)",
+                "value": "barcode"
+        },
+        {
+                "id": "d7f44caf-3c25-4f07-818e-d8cb0f7fe6a4",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "etc",
+                "name": "qrcode.generate.source.type",
+                "description": "QR Code 생성을 위한 소스 유형 (barcode, qrcode)",
+                "value": "barcode"
+        },
+        {
+                "id": "1ae2fadd-00a6-47f8-bc3e-fddc033a18ad",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "qrcode.generate.source.type",
+                "description": "QR Code 생성을 위한 소스 유형 (barcode, qrcode)",
+                "value": "barcode"
+        },
+        {
+                "id": "4f3737cb-c199-40cd-b8ae-dbc868e69ee9",
+                "deviceProfileId": "20a0cc9a-9cd4-47a8-9cd0-a12159bf336e",
+                "category": "job",
+                "name": "job.next.order.selection.mode",
+                "description": "태블릿에서 현재 주문을 처리하고 난 후 다음 주문에 대한 선택을 어떻게 할 지에 대한 모드 (auto: 자동 처리 모드, scan: 박스 ID를 스캔하여 다음 주문 처리, touch: 태블릿 터치하여 주문 처리)",
+                "value": "auto",
+                "remark": "auto, scan, touch"
+        },
+        {
+                "id": "21306e47-da76-4a0b-8bd8-8cb97cd3c40d",
+                "deviceProfileId": "162dce4b-07cf-4c9b-9144-b7c857f714a3",
+                "category": "job",
+                "name": "job.next.order.selection.mode",
+                "description": "태블릿에서 현재 주문을 처리하고 난 후 다음 주문에 대한 선택을 어떻게 할 지에 대한 모드 (auto: 자동 처리 모드, scan: 박스 ID를 스캔하여 다음 주문 처리, touch: 태블릿 터치하여 주문 처리)",
+                "value": "auto",
+                "remark": "auto, scan, touch"
+        },
+        {
+                "id": "461516c4-ef61-4bc2-ad04-8e52c553b17b",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.next.order.selection.mode",
+                "description": "태블릿에서 현재 주문을 처리하고 난 후 다음 주문에 대한 선택을 어떻게 할 지에 대한 모드 (auto: 자동 처리 모드, scan: 박스 ID를 스캔하여 다음 주문 처리, touch: 태블릿 터치하여 주문 처리)",
+                "value": "auto",
+                "remark": "auto, scan, touch"
+        },
+        {
+                "id": "2d601c4e-84ca-42f2-a96e-d79b1a9b306e",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.ind_cd.screen.enabled",
+                "description": "표시기 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "31c5ca52-64f7-4d54-8fc1-e2daad820aa8",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.ind_cd.rule",
+                "description": "표시기 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[A-Z0-9][A-Z0-9]{5}$"
+        },
+        {
+                "id": "af88aad9-d518-4373-a4f7-f1f9f59bde21",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "software.version",
+                "description": "장비 소프트웨어 버전",
+                "value": "1.0.0"
+        },
+        {
+                "id": "02827aa3-ec90-49e1-8515-d6959c621e23",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "screen.refresh.interval",
+                "description": "화면 새로고침시 새로고침 주기 (초)",
+                "value": "30"
+        },
+        {
+                "id": "9f9b39d9-ea31-43e1-b8cd-8e4be76f770a",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "pagination.page.limit",
+                "description": "페이지네이션 기능 시 한 페이지에 보여줄 레코드 수",
+                "value": "50"
+        },
+        {
+                "id": "9d3b4fe5-78a5-4a67-965d-9884434148bd",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "work.side.selection.enabled",
+                "description": "작업 위치 앞/뒤/전체 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "2a813400-c261-4a80-b6bb-5fcb93b75139",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.show.other.orders",
+                "description": "설정된 작업 스테이션에 작업이 없는 경우 화면에 박스를 보여줄 지 여부 (DPS)",
+                "value": "true"
+        },
+        {
+                "id": "98e6b49e-52c0-41e9-ab49-bbc28af4b972",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.inputbox.type",
+                "description": "투입 박스 유형 - 박스(ID는 Unique) / 트레이 (재사용 박스, ID는 Non-Unique) (DPS)",
+                "value": "box"
+        },
+        {
+                "id": "75f5e0c1-3348-4030-924b-1bf35893a65d",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.split.fullbox.enabled",
+                "description": "분할 Fullbox 기능 활성화 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "a55442d0-8d41-48b5-bad2-4fd84868787e",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.transaction.functions",
+                "description": "작업 화면에서 분류 처리 할 수 있는 처리 옵션 [확정(P), 취소(C), 확정 취소(U), 수량 조절(S), Fullbox(F), Fullbox 취소(FC)",
+                "value": "P,U,S,F"
+        },
+        {
+                "id": "6763b73f-2320-4af5-bc45-3e3e2a1ad0a4",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "job",
+                "name": "job.transaction.enabled",
+                "description": "작업 화면에서 작업 옵션 선택 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "8fdb600c-b1e6-490a-b01f-5f6ec4c960e8",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "ind",
+                "name": "indicator.reright.enabled",
+                "description": "표시기 재점등 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "1d4ddcd8-8633-428d-923b-4708835f59c9",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "ind",
+                "name": "indicator.inspection.enabled",
+                "description": "표시기를 이용한 검수 기능 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "7770f280-e3d7-469b-8c5f-95361708a624",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "scanner.continuous.scan.enabled",
+                "description": "연속 스캔 허용 여부 (반품)",
+                "value": "true"
+        },
+        {
+                "id": "a8fb9ae2-62d7-4e6b-8b42-83d5a0ccb78c",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "scanner.bluetooth.enabled",
+                "description": "블루투스 스캐너 사용 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "95c07989-2eb4-4d20-be68-7b0a240ed32a",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.chute_cd.rule",
+                "description": "슈트 번호 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[0-9]{3}$"
+        },
+        {
+                "id": "168569de-cb10-4c73-a0b9-07577d110142",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.chute_cd.screen.enabled",
+                "description": "슈트 번호 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "14ec5b8e-ae70-4d9b-88e4-76d366fc5cfb",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.cell_cd.rule",
+                "description": "셀 코드 Validation Rule - 셀 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[A-Z]{1}[0-9]{4}-[0-9]{4}$"
+        },
+        {
+                "id": "18c94953-a513-4d5d-9165-e43e3f5eb98d",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.cell_cd.screen.enabled",
+                "description": "셀 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "f7bd2cd1-7909-4ea8-b5a8-c7b955831902",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.rack_cd.rule",
+                "description": "랙 코드 Validation Rule - 랙 코드 Validation을 화면에서 처리하는 경우 Validation Rule"
+        },
+        {
+                "id": "1173ee22-2ea9-4950-8be0-c3858ea7c29b",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.rack_cd.screen.enabled",
+                "description": "랙 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "bfef33df-3264-4eae-af7e-134e45fd5eda",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.box_barcd.rule",
+                "description": "박스 바코드 Validation Rule - 박스 바코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[abcdefghiABCDEFGHI][0-9]{7}$"
+        },
+        {
+                "id": "032908f9-984c-441a-987e-f7e540832b03",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.box_barcd.screen.enabled",
+                "description": "박스 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "9837f665-95eb-4d01-91c5-76ecd30f0edc",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.sku_barcd.rule",
+                "description": "상품 바코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[0-9]{12}$"
+        },
+        {
+                "id": "4a18d4f1-0250-4cc3-bf5a-730144644452",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.sku_barcd.screen.enabled",
+                "description": "상품 바코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "d2add18d-798d-4240-b9fd-713f89b6c40f",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.sku_cd.rule",
+                "description": "상품 코드 Validation Rule - 상품 코드 Validation을 화면에서 처리하는 경우 Validation Rule",
+                "value": "^[0-9]{6}$"
+        },
+        {
+                "id": "88598a19-de50-4855-abf3-3a8ec4435132",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "validation",
+                "name": "validation.sku_cd.screen.enabled",
+                "description": "상품 코드 Validation을 화면에서 처리할 지 여부 - false인 경우 서버에서 Validation 처리",
+                "value": "true"
+        },
+        {
+                "id": "5d420e29-2c1d-442b-bb8c-d7e819a3e941",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "display.invoice.shorter.start.index",
+                "description": "송장 번호를 잘라서 표시하는 경우 앞 몇 자리를 스킵할지 (숫자)",
+                "value": "8"
+        },
+        {
+                "id": "ca1f5bd5-e8dc-40c7-b533-a3e640c89797",
+                "deviceProfileId": "c5318a4b-9bec-4cc2-ad1c-af12467f998b",
+                "category": "etc",
+                "name": "display.invoice.shorter.enabled",
+                "description": "송장 번호가 길어서 잘라서 표시할 지 여부",
+                "value": "true"
+        }
+]

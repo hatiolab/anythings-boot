@@ -1,0 +1,99 @@
+[
+        {
+                "id": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "stageCd": "A02",
+                "jobType": "DPS",
+                "confSetCd": "A2_DPS",
+                "confSetNm": "DPS 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "037b787e-914b-4350-9950-33349b654100",
+                "stageCd": "A02",
+                "jobType": "DPS",
+                "confSetCd": "A2_DPS_02",
+                "confSetNm": "DPS 설정 2",
+                "defaultFlag": false
+        },
+        {
+                "id": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "stageCd": "A02",
+                "jobType": "DPS",
+                "confSetCd": "A2_DPS_DEFAULT",
+                "confSetNm": "DPS 디폴트 설정",
+                "defaultFlag": true
+        },
+        {
+                "id": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "stageCd": "A02",
+                "jobType": "DPS",
+                "confSetCd": "A2_DPS_SKU",
+                "confSetNm": "DPS 상품 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "stageCd": "A03",
+                "confSetCd": "DAS_DEFAULT",
+                "confSetNm": "DAS 디폴트 설정",
+                "defaultFlag": true
+        },
+        {
+                "id": "dcade4a9-739a-4f1f-96af-e4e51c120ad4",
+                "comCd": "HTO",
+                "stageCd": "AB1",
+                "jobType": "DAS",
+                "equipType": "Rack",
+                "equipCd": "Z01-01",
+                "confSetCd": "AB1_DAS_01",
+                "confSetNm": "Ex-PAS DAS 1호기 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "stageCd": "AB1",
+                "jobType": "DAS",
+                "confSetCd": "AB1_DAS",
+                "confSetNm": "Ex-PAS DAS 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "stageCd": "AB1",
+                "jobType": "RTN",
+                "confSetCd": "AB1_RTN",
+                "confSetNm": "Ex-PAS 반품 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "stageCd": "AB1",
+                "confSetCd": "AB1_DEFAULT",
+                "confSetNm": "Ex-PAS 디폴트 설정",
+                "defaultFlag": true
+        },
+        {
+                "id": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "confSetCd": "_DAS_TEMPLATE_",
+                "confSetNm": "DAS 템플릿 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "confSetCd": "_DPS_TEMPLATE_",
+                "confSetNm": "DPS 템플릿 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "37a33e95-6e59-4857-9a47-0b80833f8c06",
+                "confSetCd": "_RTN_TEMPLATE_",
+                "confSetNm": "반품 템플릿 설정",
+                "defaultFlag": false
+        },
+        {
+                "id": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "confSetCd": "_TEMPLATE_",
+                "confSetNm": "템플릿 설정",
+                "defaultFlag": true
+        }
+]

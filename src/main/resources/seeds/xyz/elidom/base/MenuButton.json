@@ -1,0 +1,3843 @@
+[
+        {
+                "id": "7AAB0D8A-3856-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                        "name": "Entity"
+                },
+                "rank": 20,
+                "icon": "icons:assignment-returned",
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3855-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                        "name": "Entity"
+                },
+                "rank": 100,
+                "icon": "icons:cached",
+                "text": "clear-cache",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3854-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                        "name": "Entity"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3853-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                        "name": "Entity"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3852-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3851-1DC7-E053-8B010A803CD3",
+                        "name": "Entity"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3872-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                        "name": "IdRule"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3871-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                        "name": "IdRule"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3870-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-386F-1DC7-E053-8B010A803CD3",
+                        "name": "IdRule"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-387E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-387C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-387C-1DC7-E053-8B010A803CD3",
+                        "name": "JobTrace"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-387D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-387C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-387C-1DC7-E053-8B010A803CD3",
+                        "name": "JobTrace"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3894-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneFont"
+                },
+                "rank": 0,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3893-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneFont"
+                },
+                "rank": 0,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3892-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneFont"
+                },
+                "rank": 0,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3891-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneFont"
+                },
+                "rank": 0,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3890-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-388F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneFont"
+                },
+                "rank": 0,
+                "text": "import",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-38A2-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneUser"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-38A1-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneUser"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-38A0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-389F-1DC7-E053-8B010A803CD3",
+                        "name": "SceneUser"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-38BF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                        "name": "Publisher"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-38BE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                        "name": "Publisher"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-38BD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38BC-1DC7-E053-8B010A803CD3",
+                        "name": "Publisher"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-38DA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38D9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38D9-1DC7-E053-8B010A803CD3",
+                        "name": "Scene"
+                },
+                "rank": 10,
+                "icon": "icons:assignment-return",
+                "text": "open-import",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-38F0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                        "name": "SceneGroup"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-38EF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                        "name": "SceneGroup"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-38EE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38ED-1DC7-E053-8B010A803CD3",
+                        "name": "SceneGroup"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-38FD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                        "name": "UserSceneGroup"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-38FC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                        "name": "UserSceneGroup"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-38FB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-38FA-1DC7-E053-8B010A803CD3",
+                        "name": "UserSceneGroup"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3030-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                        "name": "StockTaking"
+                },
+                "rank": 20,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-302F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                        "name": "StockTaking"
+                },
+                "rank": 10,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-302E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-302D-1DC7-E053-8B010A803CD3",
+                        "name": "StockTaking"
+                },
+                "rank": 30,
+                "text": "stock-taking",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-305A-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3059-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3059-1DC7-E053-8B010A803CD3",
+                        "name": "Rest"
+                },
+                "rank": 20,
+                "icon": "icons:assignment-returned",
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3062-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                        "name": "Procedure"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3061-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                        "name": "Procedure"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3060-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-305F-1DC7-E053-8B010A803CD3",
+                        "name": "Procedure"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-307D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 20,
+                "text": "deploy-now",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-307C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 10,
+                "text": "reserve",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-307B-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 40,
+                "text": "to-indicator",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-307A-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 30,
+                "text": "to-gateway",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3079-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 50,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3078-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3077-1DC7-E053-8B010A803CD3",
+                        "name": "Deployment"
+                },
+                "rank": 60,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-309F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                        "name": "LogisCode"
+                },
+                "rank": 0,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-309E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                        "name": "LogisCode"
+                },
+                "rank": 0,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-309D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-309C-1DC7-E053-8B010A803CD3",
+                        "name": "LogisCode"
+                },
+                "rank": 0,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-30BF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30BC-1DC7-E053-8B010A803CD3",
+                        "name": "ErrorLog"
+                },
+                "rank": 20,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-30BE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30BC-1DC7-E053-8B010A803CD3",
+                        "name": "ErrorLog"
+                },
+                "rank": 30,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-30D4-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                        "name": "Setting"
+                },
+                "rank": 100,
+                "icon": "icons:cached",
+                "text": "clear-cache",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-30D3-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                        "name": "Setting"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-30D2-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                        "name": "Setting"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-30D1-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                        "name": "Setting"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-30E1-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30DF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30DF-1DC7-E053-8B010A803CD3",
+                        "name": "LogViewer"
+                },
+                "rank": 20,
+                "icon": "icons:file-download",
+                "text": "download",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-30E0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-30DF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30DF-1DC7-E053-8B010A803CD3",
+                        "name": "LogViewer"
+                },
+                "rank": 10,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3196-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 90,
+                "icon": "icons:swap",
+                "text": "swap",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3195-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 80,
+                "icon": "icons:undo",
+                "text": "reset_assign",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3194-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 70,
+                "icon": "icons:send",
+                "text": "end_preprocess",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3193-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 60,
+                "icon": "icons:attachment",
+                "text": "assign_region",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3192-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 50,
+                "icon": "icons:assignment",
+                "text": "auto_assign",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3191-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 40,
+                "icon": "icons:clear",
+                "text": "reset",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3190-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-318F-1DC7-E053-8B010A803CD3",
+                        "name": "RtnPreprocess"
+                },
+                "rank": 30,
+                "icon": "icons:arrow-back",
+                "text": "back",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-31AF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31AD-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31AD-1DC7-E053-8B010A803CD3",
+                        "name": "RtnCellAssignment"
+                },
+                "rank": 30,
+                "text": "swap",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31AE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31AD-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31AD-1DC7-E053-8B010A803CD3",
+                        "name": "RtnCellAssignment"
+                },
+                "rank": 10,
+                "text": "reset",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-31BD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 60,
+                "icon": "icons:cancel",
+                "text": "cancel_job_instruct",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-31BC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 70,
+                "icon": "icons:eject",
+                "text": "job_complete",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31BB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 10,
+                "icon": "icons:shopping-cart",
+                "text": "receive_order",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-31BA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 20,
+                "icon": "icons:build",
+                "text": "order_preprocess",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31B9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 40,
+                "icon": "icons:view-agenda",
+                "text": "merge_batch",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31B8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 50,
+                "icon": "icons:shop",
+                "text": "job_instruct",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-31DB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 50,
+                "icon": "icons:assignment",
+                "text": "auto_assign",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-31DA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 40,
+                "icon": "icons:clear",
+                "text": "reset",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-31D9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 90,
+                "icon": "icons:swap",
+                "text": "swap",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31D8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 80,
+                "icon": "icons:undo",
+                "text": "reset_assign",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31D7-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 30,
+                "icon": "icons:arrow-back",
+                "text": "back",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-31D6-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 60,
+                "icon": "icons:attachment",
+                "text": "assign_region",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-31D5-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31D4-1DC7-E053-8B010A803CD3",
+                        "name": "DasPreprocess"
+                },
+                "rank": 70,
+                "icon": "icons:send",
+                "text": "end_preprocess",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3209-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                        "name": "Printout"
+                },
+                "rank": 30,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3208-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                        "name": "Printout"
+                },
+                "rank": 20,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3207-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3206-1DC7-E053-8B010A803CD3",
+                        "name": "Printout"
+                },
+                "rank": 10,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3216-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3215-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3215-1DC7-E053-8B010A803CD3",
+                        "name": "DpsRackAssignment"
+                },
+                "rank": 0,
+                "text": "job_instruct",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-321D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-321C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-321C-1DC7-E053-8B010A803CD3",
+                        "name": "PdfViewer"
+                },
+                "rank": 0,
+                "icon": "icons:arrow-back",
+                "text": "back",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-32C9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "rank": 0,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-32C8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "rank": 0,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-32C7-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "rank": 0,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-32C6-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "rank": 0,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-32C5-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32C4-1DC7-E053-8B010A803CD3",
+                        "name": "DASSkuResult"
+                },
+                "rank": 0,
+                "text": "import",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-32EB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32E9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32E9-1DC7-E053-8B010A803CD3",
+                        "name": "ReceiveOrderPopup"
+                },
+                "rank": 20,
+                "text": "close",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-32EA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32E9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32E9-1DC7-E053-8B010A803CD3",
+                        "name": "ReceiveOrderPopup"
+                },
+                "rank": 10,
+                "text": "receive_order",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-32FA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32F8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32F8-1DC7-E053-8B010A803CD3",
+                        "name": "DasCellAssignment"
+                },
+                "rank": 10,
+                "text": "reset",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-32F9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-32F8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-32F8-1DC7-E053-8B010A803CD3",
+                        "name": "DasCellAssignment"
+                },
+                "rank": 30,
+                "text": "swap",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3308-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                        "name": "LabelInterface"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3307-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                        "name": "LabelInterface"
+                },
+                "rank": 20,
+                "icon": "icons:assignment-returned",
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3306-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                        "name": "LabelInterface"
+                },
+                "rank": 10,
+                "icon": "icons:assignment-return",
+                "text": "open-import",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3305-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                        "name": "LabelInterface"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3304-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3303-1DC7-E053-8B010A803CD3",
+                        "name": "LabelInterface"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3315-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                        "name": "LabelVar"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3314-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                        "name": "LabelVar"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3313-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3312-1DC7-E053-8B010A803CD3",
+                        "name": "LabelVar"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3321-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                        "name": "Font"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3320-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                        "name": "Font"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-331F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-331E-1DC7-E053-8B010A803CD3",
+                        "name": "Font"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-332F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                        "name": "LabelGroup"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-332E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                        "name": "LabelGroup"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-332D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-332C-1DC7-E053-8B010A803CD3",
+                        "name": "LabelGroup"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-333A-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3339-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3339-1DC7-E053-8B010A803CD3",
+                        "name": "Label"
+                },
+                "rank": 10,
+                "icon": "icons:assignment-return",
+                "text": "open-import",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3362-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                        "name": "MessageQueueManager"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3361-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                        "name": "MessageQueueManager"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3360-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-335F-1DC7-E053-8B010A803CD3",
+                        "name": "MessageQueueManager"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3382-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                        "name": "SiteManager"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3381-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                        "name": "SiteManager"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3380-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-337F-1DC7-E053-8B010A803CD3",
+                        "name": "SiteManager"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3391-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-338F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-338F-1DC7-E053-8B010A803CD3",
+                        "name": "LoginHistory"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3390-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-338F-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-338F-1DC7-E053-8B010A803CD3",
+                        "name": "LoginHistory"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-339F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-339D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-339D-1DC7-E053-8B010A803CD3",
+                        "name": "UserHistory"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-339E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-339D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-339D-1DC7-E053-8B010A803CD3",
+                        "name": "UserHistory"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33AA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33A8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33A8-1DC7-E053-8B010A803CD3",
+                        "name": "UserRoleHistory"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-33A9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33A8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33A8-1DC7-E053-8B010A803CD3",
+                        "name": "UserRoleHistory"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33B7-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                        "name": "Image"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33B6-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                        "name": "Image"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-33B5-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33B4-1DC7-E053-8B010A803CD3",
+                        "name": "Image"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-33CA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                        "name": "Domain"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-33C9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                        "name": "Domain"
+                },
+                "rank": 20,
+                "icon": "icons:assignment-returned",
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-33C8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33C7-1DC7-E053-8B010A803CD3",
+                        "name": "Domain"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-33E0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                        "name": "Code"
+                },
+                "rank": 100,
+                "icon": "icons:cached",
+                "text": "clear-cache",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33DF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                        "name": "Code"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-33DE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                        "name": "Code"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33DD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33DC-1DC7-E053-8B010A803CD3",
+                        "name": "Code"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-33ED-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                        "name": "Attachment"
+                },
+                "rank": 100,
+                "icon": "icons:file-upload",
+                "text": "upload",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-33EC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                        "name": "Attachment"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-33EB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33EA-1DC7-E053-8B010A803CD3",
+                        "name": "Attachment"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3400-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                        "name": "Video"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-33FF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                        "name": "Video"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-33FE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-33FD-1DC7-E053-8B010A803CD3",
+                        "name": "Video"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3413-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                        "name": "User"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3412-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                        "name": "User"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3411-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3410-1DC7-E053-8B010A803CD3",
+                        "name": "User"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3436-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                        "name": "Token"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3435-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                        "name": "Token"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3434-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3433-1DC7-E053-8B010A803CD3",
+                        "name": "Token"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "b3743f43-625d-4eca-975a-d5d7eb66581d",
+                "menuId": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                        "name": "Terminology"
+                },
+                "rank": 20,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3454-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                        "name": "Terminology"
+                },
+                "rank": 100,
+                "icon": "icons:cached",
+                "text": "clear-cache",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3453-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                        "name": "Terminology"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3452-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                        "name": "Terminology"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3451-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3450-1DC7-E053-8B010A803CD3",
+                        "name": "Terminology"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3464-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                        "name": "Storage"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3463-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                        "name": "Storage"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3462-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3461-1DC7-E053-8B010A803CD3",
+                        "name": "Storage"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3477-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                        "name": "Role"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3476-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                        "name": "Role"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3475-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3474-1DC7-E053-8B010A803CD3",
+                        "name": "Role"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3483-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                        "name": "RequestAuth"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3482-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                        "name": "RequestAuth"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3481-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3480-1DC7-E053-8B010A803CD3",
+                        "name": "RequestAuth"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3494-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                        "name": "Property"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3493-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                        "name": "Property"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3492-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3491-1DC7-E053-8B010A803CD3",
+                        "name": "Property"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-34A5-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                        "name": "Message"
+                },
+                "rank": 100,
+                "icon": "icons:cached",
+                "text": "clear-cache",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-34A4-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                        "name": "Message"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-34A3-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                        "name": "Message"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-34A2-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34A1-1DC7-E053-8B010A803CD3",
+                        "name": "Message"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-34B3-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                        "name": "Menu"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-34B2-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                        "name": "Menu"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-34B1-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                        "name": "Menu"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-34B0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34AF-1DC7-E053-8B010A803CD3",
+                        "name": "Menu"
+                },
+                "rank": 60,
+                "icon": "icons:description",
+                "text": "detail",
+                "auth": "create"
+        },
+        {
+                "id": "97ec1a9e-c456-4fb4-81ea-957b13a8f496",
+                "menuId": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                        "name": "PtlTest"
+                },
+                "rank": 40,
+                "text": "led_off",
+                "auth": "create"
+        },
+        {
+                "id": "1f84c6c8-83a2-4c9a-96f4-7afaee6ead75",
+                "menuId": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                        "name": "PtlTest"
+                },
+                "rank": 30,
+                "text": "led_on",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-34D5-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                        "name": "PtlTest"
+                },
+                "rank": 20,
+                "text": "off",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-34D4-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34D3-1DC7-E053-8B010A803CD3",
+                        "name": "PtlTest"
+                },
+                "rank": 10,
+                "text": "on",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-34EF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                        "name": "Gateway"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-34EE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                        "name": "Gateway"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-34ED-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-34EA-1DC7-E053-8B010A803CD3",
+                        "name": "Gateway"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3505-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                        "name": "Kiosk"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3504-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                        "name": "Kiosk"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3503-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3500-1DC7-E053-8B010A803CD3",
+                        "name": "Kiosk"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3519-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                        "name": "Indicator"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3518-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                        "name": "Indicator"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3517-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3514-1DC7-E053-8B010A803CD3",
+                        "name": "Indicator"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3531-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                        "name": "Printer"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3530-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                        "name": "Printer"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-352F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-352C-1DC7-E053-8B010A803CD3",
+                        "name": "Printer"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3544-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                        "name": "Invoice"
+                },
+                "rank": 10,
+                "text": "add_invoice",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3543-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                        "name": "Invoice"
+                },
+                "rank": 20,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3542-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3541-1DC7-E053-8B010A803CD3",
+                        "name": "Invoice"
+                },
+                "rank": 30,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-354F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                        "name": "RackCell"
+                },
+                "rank": 0,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-354E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                        "name": "RackCell"
+                },
+                "rank": 0,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-354D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-354A-1DC7-E053-8B010A803CD3",
+                        "name": "RackCell"
+                },
+                "rank": 0,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-357E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                        "name": "PDA"
+                },
+                "rank": 0,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-357D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                        "name": "PDA"
+                },
+                "rank": 0,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-357C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3579-1DC7-E053-8B010A803CD3",
+                        "name": "PDA"
+                },
+                "rank": 0,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-35BF-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                        "name": "Conveyor"
+                },
+                "rank": 30,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-35BE-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                        "name": "Conveyor"
+                },
+                "rank": 20,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-35BD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35BC-1DC7-E053-8B010A803CD3",
+                        "name": "Conveyor"
+                },
+                "rank": 10,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-35D4-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                        "name": "BoxType"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-35D3-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                        "name": "BoxType"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-35D0-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35CF-1DC7-E053-8B010A803CD3",
+                        "name": "BoxType"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "36eec2f0-5109-4095-a3d3-1de00ba8f31f",
+                "menuId": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                "menu": {
+                        "id": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                        "name": "TrayBox"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "657a2f74-0beb-4eaa-9e76-9367b8412b7f",
+                "menuId": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                "menu": {
+                        "id": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                        "name": "TrayBox"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "0d873b14-efae-4393-a66a-a8406542dae4",
+                "menuId": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                "menu": {
+                        "id": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                        "name": "TrayBox"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "4514bffb-9ab0-4cbf-ab94-88a3c4bc510b",
+                "menuId": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                "menu": {
+                        "id": "636e38c6-6227-4c3a-b4cb-1d18807766e3",
+                        "name": "TrayBox"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-35FD-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                        "name": "Tablet"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-35FC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                        "name": "Tablet"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-35FB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-35F8-1DC7-E053-8B010A803CD3",
+                        "name": "Tablet"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "52cd2f1b-5261-4d74-8bc5-ade8f25dcb2f",
+                "menuId": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                "menu": {
+                        "id": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                        "name": "Area"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "525ef79d-81f9-404b-bea4-0af9c3bfbe3d",
+                "menuId": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                "menu": {
+                        "id": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                        "name": "Area"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7b394765-6c82-49ba-9bcc-68543f119c21",
+                "menuId": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                "menu": {
+                        "id": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                        "name": "Area"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "ebcd1328-0958-4c9e-a496-c99452e83e62",
+                "menuId": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                "menu": {
+                        "id": "08676fda-01f7-482d-a788-fd5c7ae89322",
+                        "name": "Area"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "8b17106f-6927-486f-bdf8-99daca607f6a",
+                "menuId": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                "menu": {
+                        "id": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                        "name": "Stage"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "07e20be2-3c7d-4425-9009-186656819723",
+                "menuId": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                "menu": {
+                        "id": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                        "name": "Stage"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "1d5f918d-1a9a-4e7b-a42a-ff5ffdeb594b",
+                "menuId": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                "menu": {
+                        "id": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                        "name": "Stage"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "649b7702-27e2-4f29-967a-6c0d232d5104",
+                "menuId": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                "menu": {
+                        "id": "7caf80a0-d5bf-4bbe-a9e9-d9a3425e84ba",
+                        "name": "Stage"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "3951a8f7-05cf-4f03-94bf-72d2dba43a35",
+                "menuId": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                        "name": "Company"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "32269a9b-13a5-4501-bf01-b3474893d14b",
+                "menuId": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                        "name": "Company"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "dc7e45db-f433-46e2-98e0-4f2ef666aa9d",
+                "menuId": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                        "name": "Company"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "51bd2709-ae66-4cb6-8a7d-0a2bbf8eb0e5",
+                "menuId": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36EB-1DC7-E053-8B010A803CD3",
+                        "name": "Company"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "a1c12adf-0acb-4afb-a71e-ff4c0966c35c",
+                "menuId": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                "menu": {
+                        "id": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                        "name": "Shop"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "b3c102c1-c6d0-4ce3-b14a-7e71e93b82ed",
+                "menuId": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                "menu": {
+                        "id": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                        "name": "Shop"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "6c84e262-3057-41ca-92b5-cb6a8da591ce",
+                "menuId": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                "menu": {
+                        "id": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                        "name": "Shop"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "a87774e1-5071-4fcf-84f0-6ef50c402926",
+                "menuId": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                "menu": {
+                        "id": "68ded781-59db-483c-878e-8f8ce5ffe845",
+                        "name": "Shop"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "2143b313-ab2c-4ba0-beb2-b7fea338f94c",
+                "menuId": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                "menu": {
+                        "id": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                        "name": "Station"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "344f359d-8f20-4ee0-a202-8a03bfd2d7bf",
+                "menuId": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                "menu": {
+                        "id": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                        "name": "Station"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "47638a38-fb31-432f-8f94-f93d98b37b9f",
+                "menuId": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                "menu": {
+                        "id": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                        "name": "Station"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "11457d7b-bb4e-47d5-bc1c-a23a9dbf7dde",
+                "menuId": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                "menu": {
+                        "id": "dffb616b-687d-402c-91c6-5ace766b3d2e",
+                        "name": "Station"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "4503b63a-d050-4c46-bae7-99b5e2d3cc23",
+                "menuId": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                "menu": {
+                        "id": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                        "name": "IndConfigSet"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "eac14f2a-b534-4dbe-ba70-cfce6f689cbc",
+                "menuId": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                "menu": {
+                        "id": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                        "name": "IndConfigSet"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "e8031414-5226-4279-9ed2-f4dc9a0b58fb",
+                "menuId": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                "menu": {
+                        "id": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                        "name": "IndConfigSet"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "44e03cfb-76b0-4f4e-8e4a-fcad0a0e88a2",
+                "menuId": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                "menu": {
+                        "id": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                        "name": "DiyGrid"
+                },
+                "rank": 10,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "599209a6-3e06-4b43-a457-1d45538a4f96",
+                "menuId": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                "menu": {
+                        "id": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                        "name": "JobConfigSet"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "56d19203-97a5-4694-9ce7-a6f331096cd6",
+                "menuId": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                "menu": {
+                        "id": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                        "name": "JobConfigSet"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "d0bb2e52-090f-4ee2-9f23-3e21d321870f",
+                "menuId": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                "menu": {
+                        "id": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                        "name": "JobConfigSet"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "9a20a828-6ebd-432c-8a4f-b0a70d7542ae",
+                "menuId": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                "menu": {
+                        "id": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                        "name": "DiyGrid"
+                },
+                "rank": 20,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "15b60ceb-1eec-43bd-a478-b7be0f0a7e60",
+                "menuId": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                "menu": {
+                        "id": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                        "name": "Rack"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "6e0f7efc-1f7b-4dce-a8b3-a6bd9bf89614",
+                "menuId": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                "menu": {
+                        "id": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                        "name": "Rack"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "67ad19b5-84e7-4f75-80ed-0b7d24accc01",
+                "menuId": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                "menu": {
+                        "id": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                        "name": "Rack"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "576c0e77-459f-41e4-9ba7-cfbe0b7319a3",
+                "menuId": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                "menu": {
+                        "id": "46c4e451-a3b8-4197-b2ec-cb1d783090cf",
+                        "name": "Rack"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7bca19bf-2fe9-4c85-8c13-7d78a45f4925",
+                "menuId": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                "menu": {
+                        "id": "79BB033A-0612-4E3D-E053-020011AC6B99",
+                        "name": "DiyGrid"
+                },
+                "rank": 30,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "60e62fea-68e8-415c-ba67-683644aed687",
+                "menuId": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                "menu": {
+                        "id": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                        "name": "Cell"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "5af3868a-0708-40b5-9f51-f0c8e8f4225a",
+                "menuId": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                "menu": {
+                        "id": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                        "name": "Cell"
+                },
+                "rank": 30,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "e3578ac1-f977-4334-8206-bf17d8a7bcfb",
+                "menuId": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                "menu": {
+                        "id": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                        "name": "Cell"
+                },
+                "rank": 40,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "48e456ee-2af0-4409-9e9d-0fa3ebf35a72",
+                "menuId": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                "menu": {
+                        "id": "e67753d3-77c5-4492-86ba-759c5ca329e0",
+                        "name": "Cell"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-360D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-360C-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-360C-1DC7-E053-8B010A803CD3",
+                        "name": "Home"
+                },
+                "rank": 10,
+                "icon": "icons:search",
+                "text": "search",
+                "auth": "show"
+        },
+        {
+                "id": "9b6bf2f5-fd65-4def-8e95-b2e91c11392d",
+                "menuId": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                "menu": {
+                        "id": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                        "name": "WorkerActual"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "f5b0113d-b28b-41e4-ad4f-2915136f0d78",
+                "menuId": "7AAB0D8A-3224-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3224-1DC7-E053-8B010A803CD3",
+                        "name": "B2CJobInstance"
+                },
+                "rank": 20,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "912f045a-3ff3-425a-a1f8-58fb76040323",
+                "menuId": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                "menu": {
+                        "id": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                        "name": "WorkerActual"
+                },
+                "rank": 20,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "67303436-900f-4146-8f14-eb905a02b939",
+                "menuId": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                "menu": {
+                        "id": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                        "name": "WorkerActual"
+                },
+                "rank": 30,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "2a4aa0eb-e263-4b81-9ba6-f1e6c2019130",
+                "menuId": "f390162c-7195-4656-961f-86988c0cc051",
+                "menu": {
+                        "id": "f390162c-7195-4656-961f-86988c0cc051",
+                        "name": "Stock"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "8c0f34fb-825d-4362-ae3f-69f997f75c1c",
+                "menuId": "7AAB0D8A-325A-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-325A-1DC7-E053-8B010A803CD3",
+                        "name": "B2CJobInput"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "353132b3-f8d1-46ba-86a7-03a086ddbe95",
+                "menuId": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                "menu": {
+                        "id": "7e12a16e-d075-4f95-b442-fa5b830cb957",
+                        "name": "IndConfigSet"
+                },
+                "rank": 20,
+                "text": "copy",
+                "auth": "show"
+        },
+        {
+                "id": "d6a58929-52d1-4763-9e56-38321bd54d2a",
+                "menuId": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                "menu": {
+                        "id": "3bf2f7c6-eeba-405f-959e-dd6d2342dd52",
+                        "name": "WorkerActual"
+                },
+                "rank": 40,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "a693170c-77bf-436c-927c-3f54d2844c6c",
+                "menuId": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                        "name": "SKU"
+                },
+                "rank": 60,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "75830e53-0e52-4204-b282-3eafa2b13f62",
+                "menuId": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                        "name": "SKU"
+                },
+                "rank": 70,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "5f1c731e-8af9-4d56-8fd3-213cf1c6d7d8",
+                "menuId": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                        "name": "SKU"
+                },
+                "rank": 80,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "3fa40ee4-7873-4f4d-9122-97c112f16d1c",
+                "menuId": "b7170361-95c7-4ca2-bdaf-77d942f2d3f9",
+                "menu": {
+                        "id": "b7170361-95c7-4ca2-bdaf-77d942f2d3f9",
+                        "name": "StockHist"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "9707ae71-7c43-4e9d-ab76-ab99314e83d4",
+                "menuId": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-31B7-1DC7-E053-8B010A803CD3",
+                        "name": "B2CBatch"
+                },
+                "rank": 90,
+                "icon": "icon:save",
+                "text": "save",
+                "auth": "create"
+        },
+        {
+                "id": "16dacb04-fd1e-4ded-a36b-8f44afad2064",
+                "menuId": "7AAB0D8A-3224-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3224-1DC7-E053-8B010A803CD3",
+                        "name": "B2CJobInstance"
+                },
+                "rank": 10,
+                "text": "show-sku-barcd",
+                "auth": "show"
+        },
+        {
+                "id": "a16fe289-cd16-4792-9a4c-12ad58faf1fe",
+                "menuId": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                "menu": {
+                        "id": "521e1e17-b5ba-4610-86a4-5dfce1a7fdc4",
+                        "name": "JobConfigSet"
+                },
+                "rank": 20,
+                "text": "copy",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-374F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                        "name": "Job"
+                },
+                "rank": 60,
+                "icon": "icons:donut-small",
+                "text": "legend",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-374E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                        "name": "Job"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-374D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                        "name": "Job"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-374C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-374B-1DC7-E053-8B010A803CD3",
+                        "name": "Job"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-377E-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                        "name": "RangedSeq"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-377D-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                        "name": "RangedSeq"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-377C-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-377B-1DC7-E053-8B010A803CD3",
+                        "name": "RangedSeq"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-37DC-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                        "name": "PermitUrl"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-37DB-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                        "name": "PermitUrl"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-37DA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37D9-1DC7-E053-8B010A803CD3",
+                        "name": "PermitUrl"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-37EA-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                        "name": "DataSrc"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-37E9-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                        "name": "DataSrc"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-37E8-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-37E7-1DC7-E053-8B010A803CD3",
+                        "name": "DataSrc"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3819-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3818-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3818-1DC7-E053-8B010A803CD3",
+                        "name": "EntityManager"
+                },
+                "rank": 100,
+                "icon": "icons:restore",
+                "text": "sync",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3831-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                        "name": "DiyService"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3830-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                        "name": "DiyService"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-382F-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-382E-1DC7-E053-8B010A803CD3",
+                        "name": "DiyService"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "7AAB0D8A-3846-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                        "name": "DiyTemplate"
+                },
+                "rank": 30,
+                "icon": "icons:add",
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "7AAB0D8A-3845-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                        "name": "DiyTemplate"
+                },
+                "rank": 20,
+                "icon": "icons:assignment-returned",
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "7AAB0D8A-3844-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                        "name": "DiyTemplate"
+                },
+                "rank": 40,
+                "icon": "icons:delete",
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "7AAB0D8A-3843-1DC7-E053-8B010A803CD3",
+                "menuId": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-3842-1DC7-E053-8B010A803CD3",
+                        "name": "DiyTemplate"
+                },
+                "rank": 50,
+                "icon": "icons:save",
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "79830371-bd09-45ca-bb2d-cb2befe76d01",
+                "menuId": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                "menu": {
+                        "id": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                        "name": "PopularRank"
+                },
+                "rank": 50,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "a91a2214-84a0-4ed5-a3db-4aac2ecf2eac",
+                "menuId": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                "menu": {
+                        "id": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                        "name": "PopularRank"
+                },
+                "rank": 10,
+                "text": "calculate",
+                "auth": "create"
+        },
+        {
+                "id": "effdf831-7e68-4855-8db9-fe3a27948ae9",
+                "menuId": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                "menu": {
+                        "id": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                        "name": "PopularRank"
+                },
+                "rank": 20,
+                "text": "assign_cell",
+                "auth": "update"
+        },
+        {
+                "id": "c6612df3-d95e-4351-9d27-c0d697c16624",
+                "menuId": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                "menu": {
+                        "id": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                        "name": "PopularRank"
+                },
+                "rank": 30,
+                "text": "apply_cell",
+                "auth": "update"
+        },
+        {
+                "id": "c8683e47-57ce-4924-9805-6dc6f231106d",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 10,
+                "icon": "icons:shopping-cart",
+                "text": "receive_order",
+                "auth": "create"
+        },
+        {
+                "id": "b5574fd2-86a8-4ae4-a731-e7eb2b8849bd",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 80,
+                "text": "cancel_order",
+                "auth": "delete"
+        },
+        {
+                "id": "1c93ff25-b91d-4d31-85d5-ef1eed95bc48",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 70,
+                "icon": "icons:eject",
+                "text": "job_complete",
+                "auth": "update"
+        },
+        {
+                "id": "3722c28f-c0e8-4f9f-b28a-2bf3ae821c08",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 60,
+                "icon": "icons:cancel",
+                "text": "cancel_job_instruct",
+                "auth": "delete"
+        },
+        {
+                "id": "204b2540-84c3-40c8-b155-71b7b3df14ca",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 50,
+                "icon": "icons:shop",
+                "text": "job_instruct",
+                "auth": "create"
+        },
+        {
+                "id": "9434eec0-8fcb-4f83-88bb-63822a6c0b0c",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 40,
+                "icon": "icons:view-agenda",
+                "text": "merge_batch",
+                "auth": "update"
+        },
+        {
+                "id": "5d5c74d0-8cd7-46ed-8dd0-f9e12dd02537",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 30,
+                "icon": "icons:content-copy",
+                "text": "copy_region",
+                "auth": "create"
+        },
+        {
+                "id": "418a7ca2-0820-495e-856b-e7aedde0fd50",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 20,
+                "icon": "icons:build",
+                "text": "order_preprocess",
+                "auth": "update"
+        },
+        {
+                "id": "987a9bc8-f8b3-42e9-80fc-0e8c3bfef264",
+                "menuId": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-30D0-1DC7-E053-8B010A803CD3",
+                        "name": "Setting"
+                },
+                "rank": 20,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "6b805eb2-304e-4898-bd24-7875a67900b4",
+                "menuId": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                        "name": "SKU"
+                },
+                "rank": 40,
+                "text": "export",
+                "auth": "create"
+        },
+        {
+                "id": "937e33d0-64eb-4fc2-9264-c403867f6325",
+                "menuId": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-36AB-1DC7-E053-8B010A803CD3",
+                        "name": "SKU"
+                },
+                "rank": 20,
+                "text": "show-sku-barcd",
+                "auth": "show"
+        },
+        {
+                "id": "891b5a18-8dfe-4785-bfa1-c2c0eb35f87a",
+                "menuId": "a93d2c98-1435-4b81-acda-50415bb69014",
+                "menu": {
+                        "id": "a93d2c98-1435-4b81-acda-50415bb69014",
+                        "name": "B2BBatch"
+                },
+                "rank": 90,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "4c3abcc4-f2e1-425b-a23e-7a508867a147",
+                "menuId": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                "menu": {
+                        "id": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                        "name": "DeviceProfile"
+                },
+                "rank": 10,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "99b1232a-4ceb-4e5b-a430-f20d448c4411",
+                "menuId": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                "menu": {
+                        "id": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                        "name": "DeviceProfile"
+                },
+                "rank": 20,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "940e757d-a7ab-428e-94ae-7aa1794d1a4f",
+                "menuId": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                "menu": {
+                        "id": "85192970-44ef-4d56-a6d9-2fca157d378d",
+                        "name": "DeviceProfile"
+                },
+                "rank": 30,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "46f9195b-e013-4c6c-9548-cb2c31bc95f8",
+                "menuId": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                "menu": {
+                        "id": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                        "name": "Sorter"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "a4668c4c-8486-462a-87d2-ad1ee26527e7",
+                "menuId": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                "menu": {
+                        "id": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                        "name": "Sorter"
+                },
+                "rank": 20,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "13f3b8f9-1842-4993-8b51-d9db05ce71c6",
+                "menuId": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                "menu": {
+                        "id": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                        "name": "Sorter"
+                },
+                "rank": 30,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "93493cc3-ed6a-45ae-b9f2-c4789b39f4c1",
+                "menuId": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                "menu": {
+                        "id": "e7730de1-60bf-4477-9cf9-7e8bf11b81f0",
+                        "name": "Sorter"
+                },
+                "rank": 40,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "fb74e5d3-598e-4178-9fba-a28ec47f666e",
+                "menuId": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                "menu": {
+                        "id": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                        "name": "Induction"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "4892bba3-8ab9-4a66-958e-e4874b21a521",
+                "menuId": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                "menu": {
+                        "id": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                        "name": "Induction"
+                },
+                "rank": 20,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "f293a9c4-b71e-4e17-a2c3-195036cef8ea",
+                "menuId": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                "menu": {
+                        "id": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                        "name": "Induction"
+                },
+                "rank": 30,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "ce15643d-24d2-414b-aea7-5a46e097afa8",
+                "menuId": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                "menu": {
+                        "id": "69d4caa7-2b31-410f-bcfc-6e45405ae949",
+                        "name": "Induction"
+                },
+                "rank": 40,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "9e69248c-cc6d-4f78-9375-815cb61ea825",
+                "menuId": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                "menu": {
+                        "id": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                        "name": "Chute"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "a287cd43-3b0b-406a-b9ef-c434383754a1",
+                "menuId": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                "menu": {
+                        "id": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                        "name": "Chute"
+                },
+                "rank": 20,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "e81c72d6-3ab4-498c-9ea0-ecd7e9dbbc13",
+                "menuId": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                "menu": {
+                        "id": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                        "name": "Chute"
+                },
+                "rank": 30,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "0d82aafb-5e81-4ac8-9734-73288659dc6c",
+                "menuId": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                "menu": {
+                        "id": "3390269a-531e-44d6-b630-bdf8f4bb4a15",
+                        "name": "Chute"
+                },
+                "rank": 40,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "80556a5b-6090-48fb-aeb0-f0a12c524e87",
+                "menuId": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                "menu": {
+                        "id": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                        "name": "DailyProdSummary"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "87d2b2a3-140e-460c-80a9-3a9d99017b48",
+                "menuId": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                "menu": {
+                        "id": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                        "name": "ChuteClassCode"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "60e67ab2-4b8e-410b-8035-244cac8c6ea5",
+                "menuId": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                "menu": {
+                        "id": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                        "name": "ChuteClassCode"
+                },
+                "rank": 20,
+                "text": "add",
+                "auth": "create"
+        },
+        {
+                "id": "a18ce56b-f7f8-45e9-9519-7655cac6fbc5",
+                "menuId": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                "menu": {
+                        "id": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                        "name": "ChuteClassCode"
+                },
+                "rank": 30,
+                "text": "delete",
+                "auth": "delete"
+        },
+        {
+                "id": "32178088-529f-49c5-93b0-d622815d4e8f",
+                "menuId": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                "menu": {
+                        "id": "47f0eb0c-2ac6-445e-9e30-a0598761ef27",
+                        "name": "ChuteClassCode"
+                },
+                "rank": 40,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "238c8c40-c60f-47b1-a462-6d77faa91f04",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 10,
+                "icon": "icons:shopping-cart",
+                "text": "receive_order",
+                "auth": "create"
+        },
+        {
+                "id": "989cdd40-654a-4809-8511-20aaa916f97e",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 20,
+                "icon": "icons:build",
+                "text": "order_preprocess",
+                "auth": "update"
+        },
+        {
+                "id": "72d8f8de-ae48-45e6-abb2-66cd78944ed1",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 30,
+                "icon": "icons:content-copy",
+                "text": "copy_region",
+                "auth": "create"
+        },
+        {
+                "id": "726ca0be-f64b-4ba7-bbb6-09e3737b9749",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 40,
+                "icon": "icons:view-agenda",
+                "text": "merge_batch",
+                "auth": "update"
+        },
+        {
+                "id": "e89f887e-eebf-4204-8689-ad641d85f86d",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 50,
+                "icon": "icons:shop",
+                "text": "job_instruct",
+                "auth": "create"
+        },
+        {
+                "id": "47af6794-2be2-4459-9691-e1c4bd5fff50",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 60,
+                "icon": "icons:cancel",
+                "text": "cancel_job_instruct",
+                "auth": "delete"
+        },
+        {
+                "id": "3fefa23a-8b4b-4ba4-8207-7a68f92aa5c1",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 70,
+                "icon": "icons:eject",
+                "text": "job_complete",
+                "auth": "update"
+        },
+        {
+                "id": "03a33e36-0391-44b9-974b-65ac7c42407f",
+                "menuId": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                "menu": {
+                        "id": "e58b87f3-2014-469f-91a3-34d2b687e824",
+                        "name": "SmsBatch"
+                },
+                "rank": 80,
+                "text": "cancel_order",
+                "auth": "delete"
+        },
+        {
+                "id": "8cbd41ba-7987-4c4b-b6a1-819405a78f12",
+                "menuId": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                "menu": {
+                        "id": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                        "name": "SmsPreprocess"
+                },
+                "rank": 10,
+                "icon": "icons:arrow-back",
+                "text": "back",
+                "auth": "show"
+        },
+        {
+                "id": "73e24641-e15c-41f8-9d20-235425c67154",
+                "menuId": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                "menu": {
+                        "id": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                        "name": "SmsPreprocess"
+                },
+                "rank": 30,
+                "icon": "icons:assignment",
+                "text": "auto_assign",
+                "auth": "create"
+        },
+        {
+                "id": "b11f156d-1518-4743-8357-466d1563108b",
+                "menuId": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                "menu": {
+                        "id": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                        "name": "SmsPreprocess"
+                },
+                "rank": 50,
+                "icon": "icons:send",
+                "text": "end_preprocess",
+                "auth": "create"
+        },
+        {
+                "id": "e6cb51d0-85f9-4018-b4d7-ba9364407b24",
+                "menuId": "9716636e-706a-4cd4-baf6-7545dc338893",
+                "menu": {
+                        "id": "9716636e-706a-4cd4-baf6-7545dc338893",
+                        "name": "Productivity"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "78aebe55-9b00-45fa-8781-5ab792fd5a7c",
+                "menuId": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                "menu": {
+                        "id": "90b28449-ad31-4b83-9798-e0f28c548fd3",
+                        "name": "SmsPreprocess"
+                },
+                "rank": 70,
+                "icon": "icons:swap",
+                "text": "swap",
+                "auth": "update"
+        },
+        {
+                "id": "013a1bf8-ee7c-4eb0-a7fd-956cccf4cdf0",
+                "menuId": "2cb97996-98ef-4793-bf44-fda47ce82c5b",
+                "menu": {
+                        "id": "2cb97996-98ef-4793-bf44-fda47ce82c5b",
+                        "name": "B2BJobInstance"
+                },
+                "rank": 10,
+                "text": "show-sku-barcd",
+                "auth": "show"
+        },
+        {
+                "id": "c522f37d-6f62-405e-be26-ff1d3b2fd2d6",
+                "menuId": "2cb97996-98ef-4793-bf44-fda47ce82c5b",
+                "menu": {
+                        "id": "2cb97996-98ef-4793-bf44-fda47ce82c5b",
+                        "name": "B2BJobInstance"
+                },
+                "rank": 20,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "b6741701-0b0c-40e6-be96-ca740b8938b8",
+                "menuId": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                "menu": {
+                        "id": "f61071d8-1d01-45b8-9098-f2daf4059fde",
+                        "name": "PopularRank"
+                },
+                "rank": 40,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "77af13a4-349e-4428-b0a2-2409f51f80ed",
+                "menuId": "7AAB0D8A-310D-1DC7-E053-8B010A803CD3",
+                "menu": {
+                        "id": "7AAB0D8A-310D-1DC7-E053-8B010A803CD3",
+                        "name": "B2COrder"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "046eaac7-80e4-41f8-9ad7-f58e42381b97",
+                "menuId": "9e944b41-464a-472c-a1d6-85d6644273c4",
+                "menu": {
+                        "id": "9e944b41-464a-472c-a1d6-85d6644273c4",
+                        "name": "B2BOrder"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "d8c90f84-95de-4853-b3a0-586483cd40ce",
+                "menuId": "e4c3beb6-b29e-4125-a0ee-19409f7d91f4",
+                "menu": {
+                        "id": "e4c3beb6-b29e-4125-a0ee-19409f7d91f4",
+                        "name": "B2BJobInput"
+                },
+                "rank": 20,
+                "text": "export",
+                "auth": "show"
+        },
+        {
+                "id": "b1639b9d-531e-4103-ad1f-78356d4963fa",
+                "menuId": "e4c3beb6-b29e-4125-a0ee-19409f7d91f4",
+                "menu": {
+                        "id": "e4c3beb6-b29e-4125-a0ee-19409f7d91f4",
+                        "name": "B2BJobInput"
+                },
+                "rank": 10,
+                "text": "save",
+                "auth": "update"
+        },
+        {
+                "id": "ada499c0-103e-4c7f-ab16-1a2df8a7a542",
+                "menuId": "8c44dc1e-3abf-4638-9972-c95d99668e6c",
+                "menu": {
+                        "id": "8c44dc1e-3abf-4638-9972-c95d99668e6c",
+                        "name": "WorkCell"
+                },
+                "rank": 10,
+                "text": "export",
+                "auth": "show"
+        }
+]

@@ -1,0 +1,392 @@
+[
+        {
+                "id": "deee1551-b28c-490f-af42-60eed1774ef8",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-background-color",
+                "value": "rgba(153,102,255,0.2)"
+        },
+        {
+                "id": "2d361c16-ced7-4dc6-9b98-a56ad3be7386",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "y-value-field",
+                "value": "result_qty"
+        },
+        {
+                "id": "efd4fea9-a527-466b-9d45-96a676b0d407",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "x-value-field",
+                "value": "hour"
+        },
+        {
+                "id": "588b3175-87c1-4959-af5d-0a1967ea7fb9",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-type",
+                "value": "line"
+        },
+        {
+                "id": "293875cc-e1ef-4c69-ba99-471fae7f2401",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-title",
+                "value": "시간대별 실적"
+        },
+        {
+                "id": "6590a5d1-921a-4e0a-b207-b2d73bf64e75",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-legend-position",
+                "value": "top"
+        },
+        {
+                "id": "09547e47-8b05-4690-83d6-10f22530cb17",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-label",
+                "value": "실적"
+        },
+        {
+                "id": "0b23c498-eca3-4eb8-86f6-1054ccc40afb",
+                "menuId": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                "menu": {
+                        "id": "0600fb93-ad3c-4678-9c9b-9fa0c46087e2",
+                        "name": "HourlyResult"
+                },
+                "name": "chart-color",
+                "value": "rgba(153,102,255,1)"
+        },
+        {
+                "id": "b6678912-9421-4515-b1ce-df06b748c379",
+                "menuId": "492eaa32-a69e-4941-8159-6a339495ec77",
+                "menu": {
+                        "id": "492eaa32-a69e-4941-8159-6a339495ec77",
+                        "name": "YearlyResult"
+                },
+                "name": "chart-options",
+                "value": "{   \"type\": \"bar\",   \"data\": [],   \"options\": {     \"maintainAspectRatio\": false,     \"responsive\": true,     \"legend\": {       \"display\": true,       \"position\": \"right\"     },     \"title\": {       \"display\": true,       \"fontSize\": 13,       \"text\": \"\"     },     \"layout\": {       \"margin\": {         \"bottom\": 10       }     },     \"scales\": {       \"xAxes\": [{         \"ticks\": {           \"beginAtZero\": true         }       }]     }   } }"
+        },
+        {
+                "id": "770d3828-d6b5-456e-9dbc-862162cf7bd4",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-background-color",
+                "value": "rgba(54,162,235,0.2);rgba(255,99,132,0.2)"
+        },
+        {
+                "id": "58845845-f9e4-466a-8526-9d66c9d0a348",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "y-value-field",
+                "value": "plan_qty;result_qty"
+        },
+        {
+                "id": "32d41b02-e43d-455e-ad93-fb41de9fbf05",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "x-value-field",
+                "value": "month"
+        },
+        {
+                "id": "99bb6141-7647-4813-b79f-01b0fd8ce8e8",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-type",
+                "value": "bar"
+        },
+        {
+                "id": "7a82156e-fc84-4ccd-8de9-1a648c88213b",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-title",
+                "value": "월별 실적"
+        },
+        {
+                "id": "4e098388-a464-4f71-901d-3d558287c328",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-legend-position",
+                "value": "top"
+        },
+        {
+                "id": "dd99fd2e-e287-4c67-a563-ac32e5fee41d",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-label",
+                "value": "계획;실적"
+        },
+        {
+                "id": "80de552a-f431-4d90-b8fb-f053f51a1e2c",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "chart-color",
+                "value": "rgba(54,162,235,1);rgba(255,99,132,1)"
+        },
+        {
+                "id": "0a7add90-2a94-4186-9ddc-1c1738c488a9",
+                "menuId": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                "menu": {
+                        "id": "65076d80-71d0-4a3b-bc91-3715e3de2eb8",
+                        "name": "MonthlyResult"
+                },
+                "name": "dataset-count",
+                "value": "2"
+        },
+        {
+                "id": "52c38bdd-c7bb-4d5a-9a11-ecfc50b0f5e2",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-background-color",
+                "value": "rgba(54,162,235,0.2)"
+        },
+        {
+                "id": "21b5b69b-86b8-4602-85a6-389690fa4633",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "y-value-field",
+                "value": "result_qty"
+        },
+        {
+                "id": "12786a7d-2747-4c66-aec0-7d525c6f69c0",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "x-value-field",
+                "value": "minutes"
+        },
+        {
+                "id": "06e0e312-521f-4ea6-84cf-74b47e719e69",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "dataset-count",
+                "value": "1"
+        },
+        {
+                "id": "1cc1c5f0-601b-4020-875b-6493a5b3953a",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-type",
+                "value": "bar"
+        },
+        {
+                "id": "9c801876-2c9d-43cd-bb06-6ccc07464b46",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-title",
+                "value": "분별 실적"
+        },
+        {
+                "id": "5154ef50-b1aa-44dd-b8e8-2c8c18ac7ae5",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-legend-position",
+                "value": "top"
+        },
+        {
+                "id": "49661b3c-cabb-4247-904d-cd641efa2996",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-label",
+                "value": "실적"
+        },
+        {
+                "id": "789a6661-858b-48eb-a4fd-1c4b79d2cf71",
+                "menuId": "8df73bcd-8670-425d-a559-78d12b961825",
+                "menu": {
+                        "id": "8df73bcd-8670-425d-a559-78d12b961825",
+                        "name": "MinutelyResult"
+                },
+                "name": "chart-color",
+                "value": "rgba(54,162,235,1)"
+        },
+        {
+                "id": "2d879596-b6d5-4c73-9c0c-f4330da94475",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-title",
+                "value": "일별 실적"
+        },
+        {
+                "id": "6df86098-0364-4506-bc10-3066edb43497",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-type",
+                "value": "bar"
+        },
+        {
+                "id": "f3bbacf3-be79-4ecd-971e-792931c3ab7f",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-label",
+                "value": "계획;실적"
+        },
+        {
+                "id": "ae9804cf-eed7-43f0-b0f9-28c4f01a5fd3",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "dataset-count",
+                "value": "2"
+        },
+        {
+                "id": "3f270861-599a-4eee-be6e-14b1765d0ba9",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-background-color",
+                "value": "rgba(54,162,235,0.2);rgba(255,99,132,0.2)"
+        },
+        {
+                "id": "fa46798a-d6f9-47ce-8ddb-0de712a07361",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-color",
+                "value": "rgba(54,162,235,1);rgba(255,99,132,1)"
+        },
+        {
+                "id": "5fbbad39-d99d-4650-b550-541a9a0ee163",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "y-value-field",
+                "value": "plan_qty;result_qty"
+        },
+        {
+                "id": "8a57afd7-0eb9-4745-8f4d-e11a75af3d7a",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "x-value-field",
+                "value": "job_date"
+        },
+        {
+                "id": "dae95980-a5b0-4728-bd7b-181915f983bd",
+                "menuId": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                "menu": {
+                        "id": "a8696335-aa62-49ef-ab53-cae8a959ef41",
+                        "name": "DailyResult"
+                },
+                "name": "chart-legend-position",
+                "value": "top"
+        },
+        {
+                "id": "194a12e7-ffd5-44d8-924d-7a8b92cc7f47",
+                "menuId": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                "menu": {
+                        "id": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                        "name": "DailyProdSummary"
+                },
+                "name": "chart_grid_columns",
+                "value": "{}"
+        },
+        {
+                "id": "55671646-92ef-4e1a-9124-e68b1f23aab3",
+                "menuId": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                "menu": {
+                        "id": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                        "name": "DailyProdSummary"
+                },
+                "name": "chart_grid_model",
+                "value": "{}"
+        },
+        {
+                "id": "fd519086-92ea-481a-be25-9bab520e6ff0",
+                "menuId": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                "menu": {
+                        "id": "c5d127e7-ba1f-47f3-8e74-b4f2586b0cd4",
+                        "name": "DailyProdSummary"
+                },
+                "name": "chart_grid_config",
+                "value": "{}"
+        }
+]

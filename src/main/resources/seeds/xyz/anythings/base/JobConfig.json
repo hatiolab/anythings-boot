@@ -1,0 +1,4139 @@
+[
+        {
+                "id": "7fb84de9-62e4-4c83-bf26-c04a0f2e8066",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "2f4fe63d-32fe-4571-8aa0-153c86029820",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "1b30cc12-12d0-48b5-af86-a3355bf7f04a",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "ee93d665-f225-40aa-9775-64a127cf2d75",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "30b912a9-7e47-4c6c-8fe5-3e1227f460e9",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "d2c966b5-aa68-4a90-aa7a-39220f5a07a1",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "b729c53b-7d48-4eff-92be-5686279403ea",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "inspection",
+                "name": "cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "a87c1271-33f7-485a-8e97-5d15408532e5",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "inspection",
+                "name": "cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "c5f3ff72-1f35-4de3-8185-8910ee0e7623",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "inspection",
+                "name": "cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "455ff2ee-3f1e-469e-84e0-9b17dbb8c9a7",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "label",
+                "name": "cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "75e94cac-8c67-44ef-9d08-799af7d48e40",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "label",
+                "name": "cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "411c22c0-fe62-4106-b268-1c453e9d9e4d",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "label",
+                "name": "cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "DPS_INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "112a4f10-8276-48b4-bf14-8dca7a05b7ab",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "order",
+                "name": "cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "ff7beb98-a832-4805-9e80-7f564f6d99cf",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "adbebcb2-52bc-4629-8107-58d0e180c370",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "ae745265-1d14-4605-96d2-28249bf28a76",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "a606b5c1-dee0-44ce-871c-1687632bc951",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "534e0415-8a14-4f20-9250-a4805816ba8b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "0b73dc1d-76f1-4808-aaf2-a198270eeccf",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "a7c188ef-8c41-4fae-b997-dc0ed8b5797f",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "454562fe-96e5-4aee-b8df-46988ab44a2f",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "d9f5b2e5-2613-4fe2-b53d-a014af67b48f",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "18f78e5e-9c73-4b05-9d19-8685cce81c77",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "validation",
+                "name": "cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "6bf29676-3543-4ee2-95bc-66c169ac799f",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "4b280fac-c70c-45dd-b579-8167fb12175b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "ad52749d-9255-482b-9ed9-a533b05b2130",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,com_cd,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "28a2fdf6-cf41-45d8-b445-a28f0486dab9",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "39b93301-0836-4ff6-9f84-fe4ca1390a9a",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "4d3783df-f420-497c-a06e-aadb3c0eebfc",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "etc",
+                "name": "cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "65a72d4b-b2eb-4da5-aaf2-7306e2820858",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "5cf5fc49-2602-4f88-b952-dc8c2cf1e78c",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "f61caaee-e248-4cbc-a6f1-2a4ff1a8d86a",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "4df6071b-2294-4b8f-9b57-31cbf95c2043",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "a7b17d37-3b8f-4ad2-b12f-0857157ccdcc",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "sku",
+                "name": "job.cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "d58a1142-f1b4-44fa-a72f-90e61664fc2f",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.shop.procedure",
+                "description": "상위 시스템 매장 I/F 프로시져 명"
+        },
+        {
+                "id": "01b567e7-d5dc-4a5b-a99d-22053756a626",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "46b74b11-67cf-4e1e-8504-44afaae57745",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "ef94c136-0cf4-41e3-a871-5e2a75cf2642",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "f6617e36-b00e-4c5c-8b3c-2974a827c590",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "e73a7924-1699-4ce0-b730-bc7e6790bbfa",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "076fb56f-d999-4fc0-a1cb-05138b80d128",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "validation",
+                "name": "job.cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "749b07b8-f1bd-4398-bcc3-17b89e7dd0e4",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "sku",
+                "name": "job.cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "87257a5c-243e-4889-ab0c-cf30a223d897",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "68bb9e72-58fc-4802-b390-2c577a209fa8",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "32dc07e1-89db-4e4d-9279-492695eafcea",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "b7eac5ab-075f-4e6c-a4c1-a417f4300444",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.action",
+                "description": "박스 처리 후 액션",
+                "value": "P"
+        },
+        {
+                "id": "90b78b20-71f6-4914-ade5-37851ab4461b",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "895a155a-8a42-4fb6-be6e-10deae803719",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "f582bf3e-653b-4af9-bee2-2fdca889fa89",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "e7d823f5-0e2e-48ba-bcc8-e792f0e6c351",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "pick",
+                "name": "job.cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "87baa626-524b-484f-96a5-336e2f06e6b6",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "72946b70-87bd-4320-b43e-0247c94ee872",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "pick",
+                "name": "job.cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "3d30b7e9-9146-43c4-9090-d8736f95f52c",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "device",
+                "name": "job.cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "db564339-5eba-4991-9b23-2e7e65079f5a",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "device",
+                "name": "job.cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "cd4e9570-07a2-46f2-ad51-3763f447c505",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "device",
+                "name": "job.cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "e639b46b-5b63-49a5-8b5a-a5ec634d26b2",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "inspection",
+                "name": "job.cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "e80ba765-d987-451a-954b-192fcd9e5234",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "inspection",
+                "name": "job.cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "8bee84e1-0e45-406a-a50e-893a3d1ef290",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "9aea980f-68a2-48e9-93c2-9c3d0ded7454",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "a360d78c-0c40-4f32-8332-be586929543a",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "0e06098a-db5c-40f2-8f59-4d692e80f5f5",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "28262d1c-1d9c-46c2-9f2d-0bf34e5a0dbc",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "861379bc-d40b-4566-bd8d-a840fdc973d8",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "2026db62-d0d1-475c-acc7-310d7f8ebaaf",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "order",
+                "name": "job.cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "fef9b13f-46f6-449d-a44e-ca3495716c94",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "etc",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "442cbe77-045f-49ea-9c58-ab7551ffab8c",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "etc",
+                "name": "job.cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "008b7b85-f552-4a3b-b525-9d339c7ea106",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "09e98ff8-f6ab-4126-9287-1238d8f31088",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.display.qty.mode",
+                "description": "DAS KIOSK 중분류 화면에서 표시 수량 (fix/filter)",
+                "value": "filter"
+        },
+        {
+                "id": "19728c35-05eb-4e13-9570-4f824c5bbbf5",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.rack.sort.ascending",
+                "description": "DAS KIOSK 중분류 화면에서 호기 정렬 옵션 ",
+                "value": "false"
+        },
+        {
+                "id": "6624c205-cc63-467c-8a63-100ff03cac57",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "job",
+                "name": "job.das.next-job.event.method",
+                "description": "다음 작업 처리 방식 (relay / event)",
+                "value": "relay"
+        },
+        {
+                "id": "97e7e1d3-e2ea-4009-86a7-5ea16149c87d",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "box",
+                "name": "job.das.cell-boxid.mapping.point",
+                "description": "로케이션과 박스 ID를 매핑하는 시점 - 선 매핑이냐 후 매핑이냐 여부",
+                "value": "S"
+        },
+        {
+                "id": "0e01feaf-ccfb-4d8d-955e-b26aafa93193",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "input",
+                "name": "job.das.input.check.weight.enabled",
+                "description": "키오스크에서 상품 투입시에 상품 중량 체크 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "e5481056-7c4a-4f1f-9ce2-c73ea9efa40a",
+                "jobConfigSetId": "37a33e95-6e59-4857-9a47-0b80833f8c06",
+                "category": "preprocess",
+                "name": "job.rtn.cell-boxid.mapping.point",
+                "description": "셀 - SKU 매핑 시점 (P:주문가공시, A:분류 시)",
+                "value": "A"
+        },
+        {
+                "id": "a876e255-fab2-41ee-a0ff-3163f1cba110",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "label",
+                "name": "job.cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "c12bb6cb-6044-4c0f-8d0d-47727990c671",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "label",
+                "name": "job.cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "83b3fb64-a9c8-4440-95be-3494ef9fa27c",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "3225c470-fafe-44ab-9db4-5ba8bbf154ea",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "box",
+                "name": "job.cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "e012b255-cba0-4dfe-bf09-af8d1436d5b5",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "order",
+                "name": "job.cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "f5f23d47-9a3c-4747-96b6-baaa9c71d550",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "preprocess",
+                "name": "job.das.preprocess.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "shop_cd"
+        },
+        {
+                "id": "061de32a-2b59-4361-a9f8-8ce6854bfa4a",
+                "jobConfigSetId": "00db573e-33b1-447d-8fb0-4dc2a0ecf839",
+                "category": "pick",
+                "name": "job.das.pick.relay.max.no",
+                "description": "표시기에 표시할 릴레이 번호 최대 번호 (최대 번호 이후 다시 1로)",
+                "value": "99"
+        },
+        {
+                "id": "d2a98cac-8403-4e50-b7f4-2c29163de291",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "etc",
+                "name": "job.dps.supple.recommend-cell.enabled",
+                "description": "추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "854c10bf-e4bc-4db7-a92f-65cdb242e58c",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "pick",
+                "name": "job.dps.pick.with-inspection.enabled",
+                "description": "피킹과 동시에 검수 처리할 것인지 여부",
+                "value": "true"
+        },
+        {
+                "id": "7815987c-08c1-4a33-9093-923a7155771f",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "input",
+                "name": "job.dps.input.box.type",
+                "description": "투입 박스 유형 (box / tray)",
+                "value": "box"
+        },
+        {
+                "id": "addb2457-cc2e-4a82-ac77-e4404d22ab6f",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "preprocess",
+                "name": "job.dps.preproces.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "order_no"
+        },
+        {
+                "id": "ee26f047-3227-4a26-894f-af176342b831",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "station",
+                "name": "job.dps.station.wait-pool.count",
+                "description": "작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "2"
+        },
+        {
+                "id": "bbb06318-cece-452c-8be8-3e0721831a74",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "batch",
+                "name": "job.dps.batch.split-by-rack.enabled",
+                "description": "호기별로 배치 분리 처리 여부",
+                "value": "false"
+        },
+        {
+                "id": "c5e2f373-8ff7-49bf-b562-7ee9fc87a98a",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "sku",
+                "name": "job.dps.sku.popula.rank.calc.days",
+                "description": "SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "3a33b440-b1ac-4cc5-95c9-b50ad46d6fa3",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "pick",
+                "name": "job.dps.pick.1box.enabled",
+                "description": "완박스 바로 출고 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "9380f9a3-13d4-4609-a75b-28f45dba5c27",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "pick",
+                "name": "job.dps.pick.1sku.1pcs.enabled",
+                "description": "단수 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "a3725a1a-c51e-4423-a7b7-94bdfd010a6e",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "pick",
+                "name": "job.dps.pick.1sku.npcs.enabled",
+                "description": "단포 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "772e560a-84b0-4357-ad71-e617c982786e",
+                "jobConfigSetId": "37a33e95-6e59-4857-9a47-0b80833f8c06",
+                "category": "preprocess",
+                "name": "job.rtn.preproces.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "sku_cd"
+        },
+        {
+                "id": "7390202c-4665-471d-b7e7-e814b04df66b",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "label",
+                "name": "job.cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "a392fd5a-d6c8-475d-9c9a-80b37bde5665",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "inspection",
+                "name": "job.cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "94ac27af-570e-4548-a2fe-48cce26eb1f9",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "8504dc70-7cf0-4381-a37e-6ba319150635",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.action",
+                "description": "박스 처리 후 액션 (P: 라벨인쇄)",
+                "value": "P"
+        },
+        {
+                "id": "cb7d755f-5646-457d-8962-f7fabe16a1fa",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "964bed52-68dc-4229-8a5c-bbbceebaed0d",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "2e04f6bc-9c51-42e7-b70e-a29f86f36fd3",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "62af0ffe-6cfd-4e04-905b-b6978a3e0b17",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "007c0ef6-7970-4d9f-a92c-396d07604d5c",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "92419191-e997-4e74-93e5-203f4e022e1e",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "0b861866-3238-4fb0-8079-6b641949ee7d",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "23cf47fb-5d95-4025-961b-0ac929cedd50",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "sku",
+                "name": "job.cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "9b04ba78-e721-4ce3-841f-9061814edf2d",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "sku",
+                "name": "job.cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "33e9d94f-be08-4cfe-9c9d-047840ec12fd",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "sku",
+                "name": "job.cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "d75ce59f-8026-4556-a3de-2634776357d4",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "0e68ccb2-e27c-4cf6-bfb2-5001165fca6a",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "4029f3e1-e022-417d-b25d-ad0a31c10270",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "7f074e0b-332c-47f1-8e24-d8d6f750ea30",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "order",
+                "name": "job.cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "6e2ba2e3-b2f3-437d-b712-777e12938f40",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "device",
+                "name": "job.cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "4d9e4089-0247-4667-b8df-0d8dd270a201",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "device",
+                "name": "job.cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "c7cfbc27-6477-4b96-b409-957146db0da1",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "device",
+                "name": "job.cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "06508a05-e830-4ee1-befb-526dac5e8422",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "ca72cc40-3f2f-419c-b868-ff492c969e86",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "68eb44ba-73d1-4909-92ae-5abe2ddd0224",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "4bd06da7-9a4d-4c96-b6c8-7e375b2ea93b",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "8e874b7a-c549-4b31-b6a3-cf471d085506",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "2b96d60e-628d-416d-ad2f-8fe7b589be2a",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "d8ce10a2-b9c8-456e-a96e-6cb0dae115b8",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "inspection",
+                "name": "job.cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "4b9536d3-8016-4af9-91b0-75d44e90701a",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "inspection",
+                "name": "job.cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "99908bca-b75d-49b0-88ab-98a4bd5a3861",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "inspection",
+                "name": "job.cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "dc66bcad-cecf-4afe-841f-fc6fb47f6a00",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "label",
+                "name": "job.cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "b5101dcf-62ec-49f1-b977-2e7182e17ec0",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "label",
+                "name": "job.cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "60adf609-363e-45a9-a130-b9679b011c82",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "label",
+                "name": "job.cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "475d0f4a-308a-4f79-b31a-41621e579c11",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "order",
+                "name": "job.cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "10e462bc-8ffb-460c-a32c-609ba9698dcd",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "0b62cda4-b5ff-42c0-95da-df03bd77bfaf",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "5d43be17-a5e4-40b1-bdf8-edc5752deb5d",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "pick",
+                "name": "job.cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "9774fc37-88a2-434b-ba30-0987da9b2b14",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "pick",
+                "name": "job.cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "b05277ac-463b-4d63-9aee-a2a74bc45061",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "134bc6b5-b92e-4fd5-8fac-06199260c436",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "5988fdf0-86b7-4ef2-ab1d-b2361c274252",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "f43e80c5-e2ae-42b4-b573-be6ced4c2960",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "d851018e-ef4e-494f-9ef4-ea6935e17d72",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "76f16e9b-9d26-4ad4-a664-8a17209ede24",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "validation",
+                "name": "job.cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "665c9e94-baf9-449e-b82b-4518d626217c",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "sku",
+                "name": "job.cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "03074f60-b49a-4c00-b71f-8c631b58d25d",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "sku",
+                "name": "job.cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "cee753aa-3b82-4fd7-88c1-6f2657298a33",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "sku",
+                "name": "job.cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "3622dad2-3826-44d3-93cc-21278b3a6b5c",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "sku",
+                "name": "job.cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "81cc5d77-44c8-4919-b819-10446b26a8e7",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "sku",
+                "name": "job.cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "f0449928-7b78-49f3-8a98-5a7a95f7946f",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "etc",
+                "name": "job.cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "5bb09b52-b33f-4cf9-8188-e9be5c2b3f9e",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "a34a3854-c203-4e2c-b4f2-744b73301e3e",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "96b0e04d-1f50-409f-ae6b-24f9b8bcfd6f",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "45e2183f-c47d-4393-8dbc-893d9d80e3ec",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "0c2f5cc8-d098-4e10-9648-fd65ca4f6ef1",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "box",
+                "name": "job.das.cell-boxid.mapping.point",
+                "description": "로케이션과 박스 ID를 매핑하는 시점 - 선 매핑이냐 후 매핑이냐 여부",
+                "value": "S"
+        },
+        {
+                "id": "bfbc4977-f51e-42cf-bf58-388ca7097bdf",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "input",
+                "name": "job.das.input.check.weight.enabled",
+                "description": "키오스크에서 상품 투입시에 상품 중량 체크 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "0418225d-3fcd-48a0-b3e9-a9fcd82249b7",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "job",
+                "name": "job.das.next-job.event.method",
+                "description": "다음 작업 처리 방식 (relay / event)",
+                "value": "relay"
+        },
+        {
+                "id": "df74f182-a53a-4da0-9f9a-dbfa2a3b6e40",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.display.qty.mode",
+                "description": "DAS KIOSK 중분류 화면에서 표시 수량 (fix/filter)",
+                "value": "filter"
+        },
+        {
+                "id": "9375ce31-7127-490b-95ea-d00401549bd3",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.rack.sort.ascending",
+                "description": "DAS KIOSK 중분류 화면에서 호기 정렬 옵션 ",
+                "value": "false"
+        },
+        {
+                "id": "d0b73ab2-aaf5-4abb-8937-cceb9174f7d5",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "pick",
+                "name": "job.das.pick.relay.max.no",
+                "description": "표시기에 표시할 릴레이 번호 최대 번호 (최대 번호 이후 다시 1로)",
+                "value": "99"
+        },
+        {
+                "id": "cc6f2b8b-9843-4871-a706-151f5a193ea2",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "preprocess",
+                "name": "job.das.preprocess.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "shop_cd"
+        },
+        {
+                "id": "f05c908c-6a23-4d9c-ab99-1bbadb69528d",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "6904f638-2c30-410c-811f-6693df5f4da2",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.action",
+                "description": "박스 처리 후 액션",
+                "value": "P"
+        },
+        {
+                "id": "a1bd2358-7c64-4cfb-8023-08b3724cf68c",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "a6e703f7-7464-48ef-9682-04895118f1ca",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "2b87bd6f-9efb-472e-824c-c0cedcb04d58",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "0464cfe0-c4d3-410f-a747-7ba5f51903e2",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "9d2fd1c0-a8f6-400c-9a6a-159b27b5ce64",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "ebec1ed2-bce5-40eb-863b-aee79146c3bf",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "8b792431-1731-451e-81e5-2a6bdeee428f",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "box",
+                "name": "cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "62ef4ff4-f259-4f69-b92a-823901fc9dad",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "28ca5cc1-a70c-45ff-8029-81f64b454904",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "device",
+                "name": "cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "11c485f2-c8b8-4539-b375-7a43d822d951",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "device",
+                "name": "cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "2d7fc9e7-350a-47c4-8616-96ff6fc7fb29",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "device",
+                "name": "cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "37b804bd-3751-48a8-841e-7c1a4880987c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "스테이지 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "85463c08-ded4-4794-adaa-ac8b5e248620",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "cmm.cell.mapping.target.field",
+                "description": "스테이지 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "e5e46b1d-5a0e-426f-92dc-f37fe4db651d",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "cmm.equip.status.report.ignore.flag",
+                "description": "설비 이벤트 무시할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "f25c490a-c739-4543-b4ea-98fdf2410f9b",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "cmm.ind.button.default.color",
+                "description": "표시기 버튼 기본 색상",
+                "value": "R",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "c64a7c11-3353-40ff-8086-d21deb576434",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "cmm.ind.stock.adjustment.color",
+                "description": "재고 실사시 버튼 색상",
+                "value": "G",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "03cf3cff-46f6-4275-9942-ae9fa1cf515c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "cmm.indicator.type  ",
+                "description": "스테이지 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1",
+                "remark": "공통 코드 : INDICATOR_TYPE"
+        },
+        {
+                "id": "a77aedbe-dd68-499a-abe2-2efd657d94c7",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "스테이지 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "363dc1a3-ce59-4101-ac1f-9377e3a9052c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "cmm.order.ordergroup.field",
+                "description": "스테이지 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "f98bc120-8e10-4042-9565-3615e720758c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "log",
+                "name": "cmm.receive.logging.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "f86764ef-5b5e-4ed4-8b46-6ab2c5223722",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "스테이지 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "cbc5ac7d-068b-4ee3-8bda-4d880fac4db1",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "스테이지 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "47d12d60-7878-4273-97d8-7c69499ac994",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "box",
+                "name": "das.box.out.class.field",
+                "description": "DAS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "ac663562-3282-4429-bdc6-f23bd3f12c1f",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "das.cell.mapping.target.field",
+                "description": "DAS 기본 셀 매핑 대상 필드 명",
+                "value": "shopCd"
+        },
+        {
+                "id": "4be07ccd-530c-40ed-8729-bf16d7c74e3c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "das.indicator.type  ",
+                "description": "DAS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "4680633f-ab54-48ff-a104-8f61084ecf32",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "das.order.delete.when.order_cancel",
+                "description": "DAS 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "6172c241-37dc-4650-91d3-81d77c1aa0f9",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "das.order.ordergroup.field",
+                "description": "DAS 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "07099c1d-af16-4da7-b6ac-15f60334cd4c",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "das.sku.barcode.max.length",
+                "description": "DAS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "012adb68-5e92-4621-9f19-185643227eb8",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "das.sku.search.condition.fields",
+                "description": "DAS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "bb0342fe-ca7d-4c86-b8aa-6651c62cdc36",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "instruction",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "DPS 배치 분리 여부",
+                "value": "true"
+        },
+        {
+                "id": "18e3e696-bfde-4c2a-a057-6a278e9b1469",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "dps.box.out.class.field",
+                "description": "DPS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "45c48950-1d9f-4814-96b3-94dd6cb95e62",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "dps.preproces.cell.mapping.field",
+                "description": "DPS 기본 셀 매핑 대상 필드 명",
+                "value": "order_no"
+        },
+        {
+                "id": "274720f0-5263-47da-9bbc-85636425312f",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "dps.indicator.type  ",
+                "description": "DPS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "130ea48b-d7b7-42b5-9d49-7bbc5a736850",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "dps.order.delete.when.order_cancel",
+                "description": "DPS 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "b83570cd-c7d6-4867-9f88-fee42c7e0798",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "dps.order.ordergroup.field",
+                "description": "DPS 주문 그룹 필드로 사용할 주문 테이블의 필드명"
+        },
+        {
+                "id": "5a71edf4-b9b4-456b-a9a5-c4ca1265a6ec",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "dps.sku.barcode.max.length",
+                "description": "DPS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "b6d5deb4-1473-4a57-bc55-c0cc96a76e87",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "etc",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "DPS SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "9b19cfbf-c6c9-4fe6-8e86-d5453add80ee",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "dps.sku.search.condition.fields",
+                "description": "DPS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "84cb24e0-938a-4441-95bc-92e50272cd4f",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "job",
+                "name": "dps.station.wait-pool.count",
+                "description": "DPS 작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "-1"
+        },
+        {
+                "id": "ba73b4c6-6e59-4939-8e22-da0176eed4ed",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "DPS 추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "0f44e7a6-3489-4ed8-95ab-c8ad06089c23",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.box-result.procedure",
+                "description": "상위 시스템 박스 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "eda01fda-cac9-4413-ab02-5cf88176c53a",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.boxtype.procedure",
+                "description": "상위 시스템 박스 유형 I/F 프로시져 명"
+        },
+        {
+                "id": "e9a9a7f7-a3bc-41f5-91ed-68d08a380cbc",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.boxtype.table",
+                "description": "상위 시스템 박스 유형 I/F 테이블 명 "
+        },
+        {
+                "id": "6034269c-0554-41a6-829b-745265b0f333",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "DPS 추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "7d5818c4-2a6b-47c9-b681-6a4db5efadb0",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.company.procedure",
+                "description": "상위 시스템 고객사 I/F 프로시져 명"
+        },
+        {
+                "id": "5bbc9ad6-d090-48e6-8acc-2296c8469c08",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.company.table",
+                "description": "상위 시스템 고객사 I/F 테이블 명"
+        },
+        {
+                "id": "c72dae3a-4171-4372-ac50-b26a6272a713",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.datasource.name",
+                "description": "상위 시스템 데이터소스 명"
+        },
+        {
+                "id": "83423f3c-f656-4774-b262-568ba1088acd",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.dblink.name",
+                "description": "상위 시스템 I/F를 위한 DB Link 명",
+                "value": "wms"
+        },
+        {
+                "id": "a45dc6f2-db85-4d9e-aa8e-dfc6fe099588",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.iftype",
+                "description": "상위 시스템 인터페이스 유형",
+                "value": "if-table",
+                "remark": "datasource: 데이터소스, dblink: DB Linke, if-table: 인터페이스 테이블"
+        },
+        {
+                "id": "c37e01e2-0e07-4a37-94ec-e4757281b124",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.order.procedure",
+                "description": "상위 시스템 주문 I/F 프로시져 명"
+        },
+        {
+                "id": "b79a7e0c-3195-4bae-96a1-b69c2d884f32",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.order.table",
+                "description": "상위 시스템 주문 I/F 테이블 명"
+        },
+        {
+                "id": "fddc222d-dfe1-4f85-b85a-03ca08e56671",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.pick-result.procedure",
+                "description": "상위 시스템 피킹 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "a77628fa-f928-4cee-9f0a-79c04d764c11",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.pick-result.table",
+                "description": "상위 시스템 피킹 실적 I/F 테이블 명"
+        },
+        {
+                "id": "955c7329-40ae-4e20-bfbc-67c8c25ae5c7",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.shop.table",
+                "description": "상위 시스템 매장 I/F 테이블 명"
+        },
+        {
+                "id": "9a29ed1c-5fc4-4176-889f-d6ef6fd812f1",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.sku.procedure",
+                "description": "상위 시스템 SKU I/F 프로시져 명"
+        },
+        {
+                "id": "5464bc14-961e-4900-a47e-7952b4103ba2",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.sku.table",
+                "description": "상위 시스템 SKU I/F 테이블 명"
+        },
+        {
+                "id": "b667e74c-30b4-43a7-9dab-e490e22e8ddd",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.procedure",
+                "description": "상위 시스템 토털 피킹 I/F 프로시져 명"
+        },
+        {
+                "id": "36b3d069-0f4d-4ae6-83d5-8137f2948f78",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.table",
+                "description": "상위 시스템 토털 피킹 I/F 테이블 명"
+        },
+        {
+                "id": "afd1552b-c401-47f1-a8d5-438a8f65318b",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "box",
+                "name": "rtn.box.out.class.field",
+                "description": "반품 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "9ceb7ead-7016-4fe5-83b8-338731a73e58",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "rtn.cell.mapping.target.field",
+                "description": "반품 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "ea405a03-2339-47a4-9c6a-a1557d133ff6",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "ind",
+                "name": "rtn.indicator.type  ",
+                "description": "반품 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "82a93cf4-f8ca-425f-b3e7-68b2031b8c4c",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "log",
+                "name": "cmm.receive.logging.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "fd427bc4-27c0-430a-a286-a06c7905bc64",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "스테이지 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "e70f3a3a-527e-4910-9450-a28b13c1c9d9",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "스테이지 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "cfaa76e0-440b-4a92-a15a-1451c34ac343",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "box",
+                "name": "das.box.out.class.field",
+                "description": "DAS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "ea3e2dcf-fd70-43ac-aa29-c70ca3e57314",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "preprocess",
+                "name": "das.cell.mapping.target.field",
+                "description": "DAS 기본 셀 매핑 대상 필드 명",
+                "value": "shopCd"
+        },
+        {
+                "id": "4035b5c8-48e0-4a6b-9052-7593a4ad6767",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "das.indicator.type  ",
+                "description": "DAS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "5d96ddd4-e8af-464a-97e1-2aa18ba7580d",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "das.order.delete.when.order_cancel",
+                "description": "DAS 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "26c77b16-9fc2-438d-870c-d565a380a6fb",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "das.order.ordergroup.field",
+                "description": "DAS 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "e003998d-3f07-4dcd-88d6-a196adf243ee",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "das.sku.barcode.max.length",
+                "description": "DAS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "5f1bfc51-877b-456a-8dac-b50e65acd67c",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "das.sku.search.condition.fields",
+                "description": "DAS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "588e0670-625e-4222-be5a-33c67214999e",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "instruction",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "DPS 배치 분리 여부",
+                "value": "true"
+        },
+        {
+                "id": "95ebee6e-f177-42a4-9076-f71063780a7e",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "preprocess",
+                "name": "dps.box.out.class.field",
+                "description": "DPS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "daa71528-ed96-47cd-b020-8480501a60a4",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "preprocess",
+                "name": "dps.preproces.cell.mapping.field",
+                "description": "DPS 기본 셀 매핑 대상 필드 명",
+                "value": "order_no"
+        },
+        {
+                "id": "ab281557-87a8-4194-80cc-ec79c751f56a",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "dps.indicator.type  ",
+                "description": "DPS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "d0636d79-1577-4a8d-8a20-5c6e3b7bdae8",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "dps.order.delete.when.order_cancel",
+                "description": "DPS 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "a5e335fe-49af-45b3-b3dc-fd73c53c7a56",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "dps.order.ordergroup.field",
+                "description": "DPS 주문 그룹 필드로 사용할 주문 테이블의 필드명"
+        },
+        {
+                "id": "1530d0d4-788b-4b9e-a9fb-5663f4437c2f",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "dps.sku.barcode.max.length",
+                "description": "DPS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "9583fb9d-4bf6-4ddc-909b-326eb0b98216",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "etc",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "DPS SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "ae398e54-fe82-43ae-a655-c06a870baca9",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "dps.sku.search.condition.fields",
+                "description": "DPS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "878e4baf-5402-4b8c-9cb0-a073bda9054e",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "job",
+                "name": "dps.station.wait-pool.count",
+                "description": "DPS 작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "-1"
+        },
+        {
+                "id": "dc2758cd-b7f1-4240-98be-c10e4417b8fc",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "DPS 추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "1636415f-7edb-474b-aab8-da05b733ed61",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.box-result.procedure",
+                "description": "상위 시스템 박스 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "6c5e5633-1479-4a3c-90c6-f1828f1dac75",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.boxtype.procedure",
+                "description": "상위 시스템 박스 유형 I/F 프로시져 명"
+        },
+        {
+                "id": "62083afc-a93f-4324-966a-aead42b283ad",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.boxtype.table",
+                "description": "상위 시스템 박스 유형 I/F 테이블 명 "
+        },
+        {
+                "id": "0d926323-d670-45e7-bfa7-3cbff049a852",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.company.procedure",
+                "description": "상위 시스템 고객사 I/F 프로시져 명"
+        },
+        {
+                "id": "9184a409-fdea-4618-894b-77c963c4457b",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.company.table",
+                "description": "상위 시스템 고객사 I/F 테이블 명"
+        },
+        {
+                "id": "3f8c11e7-8bb3-4671-89ef-d4cf8eaca979",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.datasource.name",
+                "description": "상위 시스템 데이터소스 명"
+        },
+        {
+                "id": "836f0f37-39a9-46f6-897c-79f55a1a404c",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.dblink.name",
+                "description": "상위 시스템 I/F를 위한 DB Link 명",
+                "value": "wms"
+        },
+        {
+                "id": "658fdf5a-3430-42e0-9e77-0796e6a1c239",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.iftype",
+                "description": "상위 시스템 인터페이스 유형",
+                "value": "if-table",
+                "remark": "datasource: 데이터소스, dblink: DB Linke, if-table: 인터페이스 테이블"
+        },
+        {
+                "id": "186c1af7-111a-415b-af40-b1af1668aec7",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.order.procedure",
+                "description": "상위 시스템 주문 I/F 프로시져 명"
+        },
+        {
+                "id": "a78eb071-9175-49e8-82af-c53d2631bf65",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.order.table",
+                "description": "상위 시스템 주문 I/F 테이블 명"
+        },
+        {
+                "id": "e229b9b5-791c-4fec-b4e7-b4eda8a5f97d",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.pick-result.procedure",
+                "description": "상위 시스템 피킹 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "637d18e1-b99d-4998-964c-79476ae28fec",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.pick-result.table",
+                "description": "상위 시스템 피킹 실적 I/F 테이블 명"
+        },
+        {
+                "id": "1090a058-6d1c-41bd-a049-c61bee2512e6",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.shop.procedure",
+                "description": "상위 시스템 매장 I/F 프로시져 명"
+        },
+        {
+                "id": "53816c7c-c8ec-411a-bad7-a0e3cd32a4a6",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.shop.table",
+                "description": "상위 시스템 매장 I/F 테이블 명"
+        },
+        {
+                "id": "47458e5c-76c8-4d4d-a84d-29faa9421052",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.sku.procedure",
+                "description": "상위 시스템 SKU I/F 프로시져 명"
+        },
+        {
+                "id": "d2d81393-3a42-4c92-913b-505d5f979bf5",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.sku.table",
+                "description": "상위 시스템 SKU I/F 테이블 명"
+        },
+        {
+                "id": "270294de-65bd-4580-9b94-20d920a95d64",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.procedure",
+                "description": "상위 시스템 토털 피킹 I/F 프로시져 명"
+        },
+        {
+                "id": "7dcd367d-e178-4ca0-9293-4ce2abe1af65",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.table",
+                "description": "상위 시스템 토털 피킹 I/F 테이블 명"
+        },
+        {
+                "id": "51eb7b60-fced-4159-9db8-bd8871ba7645",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "box",
+                "name": "rtn.box.out.class.field",
+                "description": "반품 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "8a15083c-9e28-48f8-b73c-a4d6aebd832a",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "preprocess",
+                "name": "rtn.cell.mapping.target.field",
+                "description": "반품 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "18ea0199-938f-46b6-8dfe-52764cb30bcf",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "rtn.indicator.type  ",
+                "description": "반품 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "cc5aa079-8bfb-4e60-b38d-a2009fbf790f",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "rtn.order.delete.when.order_cancel",
+                "description": "반품 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "86521e6b-aa2b-4c3f-9265-798e3d19fc94",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "rtn.order.ordergroup.field",
+                "description": "반품 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "072f24d1-fa23-40e1-b08c-831b33ccd057",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "rtn.sku.barcode.max.length",
+                "description": "반품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "c36a994b-85f5-4eb6-8980-41f5fece1be2",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "sku",
+                "name": "rtn.sku.search.condition.fields",
+                "description": "반품 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "b22b9eea-7222-432d-9a8f-e603e115989c",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.box-result.table",
+                "description": "상위 시스템 박스 실적 I/F 테이블 명"
+        },
+        {
+                "id": "ab5e9655-ffa8-44de-8098-33ea066e5824",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "parent.system.if.box-result.table",
+                "description": "상위 시스템 박스 실적 I/F 테이블 명"
+        },
+        {
+                "id": "29b48e3b-3256-4d37-badf-42cfa00cfe36",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "if",
+                "name": "parent.system.if.box-result.table",
+                "description": "상위 시스템 박스 실적 I/F 테이블 명"
+        },
+        {
+                "id": "aa2207a1-af09-4aea-afc4-7a5faa809f99",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "preprocess",
+                "name": "dps.job-assign.scheduling.enabled",
+                "description": "DPS 작업 할당 스케줄러 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "850156f8-2255-4db2-bc59-26ad61e87835",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "pick",
+                "name": "dps.pick.1sku.npcs.enabled",
+                "description": "단포 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "86cdcc48-0fdc-4fde-bc0a-5aad46d5cb08",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "pick",
+                "name": "dps.pick.with-inspection.enabled",
+                "description": "피킹과 동시에 검수 처리할 것인지 여부",
+                "value": "false"
+        },
+        {
+                "id": "63d6b6dc-495f-48be-aac7-6ad4bcc6bd6d",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "box",
+                "name": "dps.input.box.type",
+                "description": "투입 박스 유형",
+                "value": "box",
+                "remark": "box / tray"
+        },
+        {
+                "id": "2474976b-3241-4ad6-b5ff-e5f75bf88331",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "b12fd349-5ff9-4162-9874-381c8f1bcdfa",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "930fbf90-6680-4fd7-aac3-b3260a6c201d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.action",
+                "description": "박스 처리 후 액션",
+                "value": "P"
+        },
+        {
+                "id": "cedb687b-2a8e-4956-a7d6-7a0a445f4930",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "4bbf1967-5c95-4fd0-84b1-804e02313297",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "14b898fa-b473-4c4b-a0d8-9b1d45c7e449",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "bd6048dd-78a8-4b0c-86db-bed10482bbda",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "16f3283f-0663-42ed-abee-da9cf7126c5b",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "57ab9e3c-3298-4b0b-8e83-5fab074d6e34",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "cdcf2f2c-0ab8-4c9b-a63e-37ed992a192c",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "box",
+                "name": "cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "114df075-f1f8-4272-be9c-f201522174f5",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "device",
+                "name": "cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "928ff289-523c-4eb0-b182-95b37d7dd618",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "device",
+                "name": "cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "07c4b804-dc7c-4470-8a58-c5dc37c46af4",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "device",
+                "name": "cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "ccff08b1-ebbe-4875-8ab7-a4e949ddfaca",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "d547e3e6-f040-49cc-8e2c-0a862d3ce88d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "05c8f1b3-86bd-4d92-a67d-75d05418926d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "c7dd5987-5280-46b4-b49d-b0855ffa6f58",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "efc05d37-7264-412b-8c8a-71f294b80200",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "2292898a-3ea1-4fb6-ae5e-f501028a9d7d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "d1a54b48-29d6-4902-b910-3eb305f2fd7d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "inspection",
+                "name": "cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "0a61b969-1ec8-4f96-a747-7544d8355029",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "inspection",
+                "name": "cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "300a3b7f-2adb-4bf8-a180-f621bd1c8f64",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "inspection",
+                "name": "cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "f851bb64-ca0b-4090-a9f2-00289a5d95d5",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "label",
+                "name": "cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "9565e135-d0be-4594-8c8e-6a36dd0d2b3d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "label",
+                "name": "cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "87c5ad8d-0971-479d-82a0-77da77d84d5e",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "label",
+                "name": "cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "DPS_INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "b6811bda-f491-4dab-bf95-07865e506d7e",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "order",
+                "name": "cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "337accf0-5230-4e77-a732-9f1ed234d04b",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "2c37c6d0-42cd-48c4-90c3-13113d146a1f",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "7616495c-9b4b-40b5-8e15-45013e3e4f43",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "3dff7709-9c71-43dc-acff-25ce046876d4",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "f68cdfa8-4536-4595-84a7-51dbb658ed2a",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "95d53f02-da65-45fd-8c6d-d188189e6dc0",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "408b1c28-7a43-4801-9e09-4c93caf2a614",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.action",
+                "description": "박스 처리 후 액션 (P: 라벨인쇄)",
+                "value": "P"
+        },
+        {
+                "id": "dfab27c7-d778-46bd-9e0e-d4233a2a2498",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "ad78de1e-56b3-4330-bef6-749ee708716c",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "3df1301e-baf8-4229-8526-849c60e182a7",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "8383ba4c-0d13-46ef-879a-c393f737c4c0",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "87d30952-2441-4557-a3fe-6d016cd52a6d",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "173b76a2-26ba-49e7-9ab3-3c7d2f822737",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "99f88f99-b1f7-46a2-8553-e8f23150080e",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "7b1bbfad-9a2a-4e6f-bd20-61f7733fc786",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "device",
+                "name": "job.cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "5a341a5c-fe47-40dc-877f-44cc2aebffe8",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "device",
+                "name": "job.cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "7510fef3-8a30-439e-870b-4a529a74bad5",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "device",
+                "name": "job.cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "4ef4a521-11ac-4ad7-b4b7-2e47b755854e",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "f4ba3668-dde0-49d5-9229-507c7f41bdf3",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "953ec0ea-b560-436d-8ce1-0516b0e229ee",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "e4597ca9-049e-473e-82da-b7bde7038721",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "5f0fe13d-3b47-49af-bfea-693efc00c546",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "f7e6f928-d253-428b-9a29-bda48403cb6c",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "7d782b3e-041c-4e45-a6a7-ecb07443b033",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "inspection",
+                "name": "job.cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "2c8cf3a1-4dd0-43cd-8dd5-5334966eca72",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "inspection",
+                "name": "job.cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "615c87db-b7a6-405a-a0be-d892641effe2",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "inspection",
+                "name": "job.cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "6862d6e8-82e7-44e2-a597-5d978269d9d8",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "label",
+                "name": "job.cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "f2309e56-5f37-4962-9e38-748e30f7c7e6",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "label",
+                "name": "job.cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "699b16de-a554-47a3-b457-fb271e9c1f76",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "label",
+                "name": "job.cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "dcbe2c5d-db15-4e46-ae6d-6f6b74843ab5",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "order",
+                "name": "job.cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "3b785dd0-1d37-4df4-b4f8-73598461d211",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "order",
+                "name": "job.cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "568d72b1-0d52-42f4-894f-44c9d821c33f",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "48a3659f-fce9-469a-998f-b5fe978488bb",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "pick",
+                "name": "job.cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "6d3a6545-b713-4766-902a-f0718f611ee5",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "pick",
+                "name": "job.cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "b62f1275-b66a-4308-847b-4b864e66e030",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "pick",
+                "name": "job.cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "2dd43067-0256-45c4-9722-bdf81d44a526",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "239c8664-744f-4c19-8f3f-c1df3952dcf9",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "06594cd8-eaa1-4fdb-a8a4-3134c29433e6",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "69a06414-788d-4e9a-9a1f-c48b1ecfe8d0",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.display.qty.mode",
+                "description": "DAS KIOSK 중분류 화면에서 표시 수량 (fix/filter)",
+                "value": "filter"
+        },
+        {
+                "id": "c9ded7e6-a1d2-4b19-95dd-d5f1488b806b",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "mid-assort",
+                "name": "job.das.middleassort.rack.sort.ascending",
+                "description": "DAS KIOSK 중분류 화면에서 호기 정렬 옵션 ",
+                "value": "false"
+        },
+        {
+                "id": "6d800100-80a6-4ef2-ba49-b8720052efb4",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "job",
+                "name": "job.das.next-job.event.method",
+                "description": "다음 작업 처리 방식 (relay / event)",
+                "value": "relay"
+        },
+        {
+                "id": "4cacd4e7-c6fc-4e71-933b-0107a1c7e77d",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "pick",
+                "name": "job.das.pick.relay.max.no",
+                "description": "표시기에 표시할 릴레이 번호 최대 번호 (최대 번호 이후 다시 1로)",
+                "value": "99"
+        },
+        {
+                "id": "56237c61-3cfc-43f9-a762-338380902722",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "preprocess",
+                "name": "job.das.preprocess.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "shop_cd"
+        },
+        {
+                "id": "8f84f54a-7929-4cd5-b5c1-9c651935bac5",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "0736b22e-0814-4652-a8a7-49941b83a980",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "09b454e1-4eb9-4383-86e2-ab9e47816908",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "2a66c217-a1ee-41f1-b01d-17ff06da7385",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "04f99026-4bbb-41f4-8c42-2bd66effdbef",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "rtn.order.delete.when.order_cancel",
+                "description": "반품 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "004ce305-6a2b-4356-888f-74dec381fb7f",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "order",
+                "name": "rtn.order.ordergroup.field",
+                "description": "반품 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "shopCd"
+        },
+        {
+                "id": "1ea170de-161b-48e2-afc0-b14ea907b542",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "rtn.sku.barcode.max.length",
+                "description": "반품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "5ab2ccef-02c4-474b-9a97-ff0017569e69",
+                "jobConfigSetId": "6c91e935-d226-4b6a-8166-d5b2e141c437",
+                "category": "sku",
+                "name": "rtn.sku.search.condition.fields",
+                "description": "반품 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "a1b2eefc-7e80-4c95-b0a2-38144c58d465",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "스테이지 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "e92101da-fa7e-4ae6-86cb-8f037b274c10",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "preprocess",
+                "name": "cmm.cell.mapping.target.field",
+                "description": "스테이지 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "f8b8e502-fa4e-4b8b-980e-64aa66b5bc01",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "if",
+                "name": "cmm.equip.status.report.ignore.flag",
+                "description": "설비 이벤트 무시할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "9c20010c-9aea-4ad2-829a-58eb4a963518",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "cmm.ind.button.default.color",
+                "description": "표시기 버튼 기본 색상",
+                "value": "R",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "d7f68bbe-ad93-427a-b943-370c6b0c41fd",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "cmm.ind.stock.adjustment.color",
+                "description": "재고 실사시 버튼 색상",
+                "value": "G",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "2b622f97-522a-4d91-8542-28fed828a05e",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "ind",
+                "name": "cmm.indicator.type  ",
+                "description": "스테이지 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1",
+                "remark": "공통 코드 : INDICATOR_TYPE"
+        },
+        {
+                "id": "1dbc01a0-06a9-4e6a-8eaf-bb2377bd8e24",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "스테이지 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "afa0ac16-9485-4915-9c70-8971cf3e245a",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "5f463322-1e78-44ef-af83-754c28764702",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "6614ef72-c539-4add-80af-6b1ff0038dc2",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "validation",
+                "name": "job.cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "3846df80-7409-4919-8e63-ef292541f87b",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "sku",
+                "name": "job.cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "b5bfecca-aab9-4f3b-a3d9-a1775ed20ce5",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "sku",
+                "name": "job.cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "cc425d75-ac13-49f0-967a-dcfae935f7b1",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "sku",
+                "name": "job.cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "1b71afbf-2b03-4828-976d-87152d4712a9",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "sku",
+                "name": "job.cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "ace58bc0-f886-4798-a4ad-b4047f338e1a",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "sku",
+                "name": "job.cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "324ddccc-1919-4c60-9641-fba3a6f2499d",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "etc",
+                "name": "job.cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "b2c45050-8775-42ae-863a-4cbd5627b030",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "box",
+                "name": "job.das.cell-boxid.mapping.point",
+                "description": "로케이션과 박스 ID를 매핑하는 시점 - 선 매핑이냐 후 매핑이냐 여부",
+                "value": "S"
+        },
+        {
+                "id": "ea168f30-07fd-414d-9567-275c3404208f",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "input",
+                "name": "job.das.input.check.weight.enabled",
+                "description": "키오스크에서 상품 투입시에 상품 중량 체크 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "b0fbd798-43a2-44d2-83d7-81c4d2fcab71",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "order",
+                "name": "cmm.order.ordergroup.field",
+                "description": "스테이지 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "aa300de8-fcaa-4692-8d5c-d92c10108d02",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "input",
+                "name": "job.dps.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "6971c652-e895-4e37-9324-ca74012b3e95",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "box",
+                "name": "job.dps.batch.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "d56a2db6-e373-4536-b407-bd5ec452658b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "dps.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "68028de6-d395-4da9-8913-460e1d7b7f08",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "input",
+                "name": "job.dps.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "4f52fac7-1344-4558-b23c-93f9e5c52c55",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.shop.table",
+                "description": "상위 시스템 매장 I/F 테이블 명"
+        },
+        {
+                "id": "bf951969-d658-4cad-9174-4912d4d122b3",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.sku.table",
+                "description": "상위 시스템 SKU I/F 테이블 명"
+        },
+        {
+                "id": "f0e22398-5356-486c-a4af-768e810cb095",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.company.table",
+                "description": "상위 시스템 고객사 I/F 테이블 명"
+        },
+        {
+                "id": "cedc3316-ad99-48b2-8f6d-414d9b39db70",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.datasource.name",
+                "description": "상위 시스템 데이터소스 명"
+        },
+        {
+                "id": "7683457f-fdcc-4cc0-8d45-fdb3bbf0cf9f",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.dblink.name",
+                "description": "상위 시스템 I/F를 위한 DB Link 명",
+                "value": "wms"
+        },
+        {
+                "id": "2a88e9bd-bddf-4fa9-90b8-4a23a716fd8e",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.iftype",
+                "description": "상위 시스템 인터페이스 유형",
+                "value": "if-table",
+                "remark": "datasource: 데이터소스, dblink: DB Linke, if-table: 인터페이스 테이블"
+        },
+        {
+                "id": "361a1912-ff13-432f-9399-487cbd3ba3e7",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.boxtype.table",
+                "description": "상위 시스템 박스 유형 I/F 테이블 명 "
+        },
+        {
+                "id": "57df281d-586e-4ec1-a1fa-2e5e422f4814",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.order.table",
+                "description": "상위 시스템 주문 I/F 테이블 명"
+        },
+        {
+                "id": "544afb07-78c0-433c-a5dc-49a5a0a80fd8",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.pick-result.table",
+                "description": "상위 시스템 피킹 실적 I/F 테이블 명"
+        },
+        {
+                "id": "5b1d2c25-6fc7-4587-a346-ae8bae889c35",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.table",
+                "description": "상위 시스템 토털 피킹 I/F 테이블 명"
+        },
+        {
+                "id": "4abd8bde-9929-4d8c-8e37-407c129c73be",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.company.procedure",
+                "description": "상위 시스템 고객사 I/F 프로시져 명"
+        },
+        {
+                "id": "c29e05f4-0d29-48fd-8d8f-fb6b7fb1cd9c",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.sku.procedure",
+                "description": "상위 시스템 SKU I/F 프로시져 명"
+        },
+        {
+                "id": "0a471353-3990-4d5c-80f5-123b3dda1574",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.shop.procedure",
+                "description": "상위 시스템 매장 I/F 프로시져 명"
+        },
+        {
+                "id": "7fb87bc2-a461-4c40-b6e9-7a8c9b74b510",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.boxtype.procedure",
+                "description": "상위 시스템 박스 유형 I/F 프로시져 명"
+        },
+        {
+                "id": "9ed0ec35-3d8c-40c5-a3f7-27b7406717b2",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.order.procedure",
+                "description": "상위 시스템 주문 I/F 프로시져 명"
+        },
+        {
+                "id": "157cc24b-cca3-4ffb-a022-373ad85c7d35",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.pick-result.procedure",
+                "description": "상위 시스템 피킹 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "72f03a11-6710-4fc3-99f3-1eae79f85116",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.box-result.procedure",
+                "description": "상위 시스템 박스 실적 I/F 프로시져 명"
+        },
+        {
+                "id": "5c979d6e-f674-411d-afea-e084a0deefe3",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "parent.system.if.totalpicking.procedure",
+                "description": "상위 시스템 토털 피킹 I/F 프로시져 명"
+        },
+        {
+                "id": "64103b78-ea3f-4d89-ac1a-f1e50d57bced",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "log",
+                "name": "cmm.receive.logging.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "3dcb1c1f-95bf-499c-8318-0b5a2fffe4b3",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "cmm.ind.stock.adjustment.color",
+                "description": "재고 실사시 버튼 색상",
+                "value": "G",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "9110b5c3-abed-4494-bae8-b3191cd67cdd",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "cmm.ind.button.default.color",
+                "description": "표시기 버튼 기본 색상",
+                "value": "R",
+                "remark": "R: Red, G:Green, B:Blue, Y:Yellow"
+        },
+        {
+                "id": "720bc9d6-307a-4911-9386-a54d5f9e0585",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "if",
+                "name": "cmm.equip.status.report.ignore.flag",
+                "description": "설비 이벤트 무시할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "17fde626-0815-4d86-9186-8e9351265004",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "스테이지 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "eee74b5c-3c40-4b41-abbc-33ea8ca69a2a",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "스테이지 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "91972082-65fa-4398-b708-537d5d1ad180",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "preprocess",
+                "name": "cmm.cell.mapping.target.field",
+                "description": "스테이지 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "9e4cd160-b47e-4caf-a94a-3de474412e02",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "cmm.indicator.type  ",
+                "description": "스테이지 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1",
+                "remark": "공통 코드 : INDICATOR_TYPE"
+        },
+        {
+                "id": "a62aee9a-515d-4757-b163-b969bd3c05de",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "스테이지 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "7d0e7aa8-1210-4cbd-89df-9df89f0867e3",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "cmm.order.ordergroup.field",
+                "description": "스테이지 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "cc08e914-c2ee-4994-8eb3-9b0e7fcbbdc4",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "das.sku.barcode.max.length",
+                "description": "DAS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "25e6a3dd-7768-4e10-998f-57d76acc0898",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "batch",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "호기별로 배치 분리 처리 여부",
+                "value": "false"
+        },
+        {
+                "id": "782c1b7d-e833-426d-ab71-725c0b401d92",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "4a1b1097-ddba-4540-a366-5724b8e88a53",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "input",
+                "name": "dps.input.box.type",
+                "description": "투입 박스 유형 (box / tray)",
+                "value": "box"
+        },
+        {
+                "id": "0cb01acd-944e-4a48-b7a6-d403444721b7",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "dps.pick.1box.enabled",
+                "description": "완박스 바로 출고 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "5aa0557f-0306-4d44-a57f-381817305450",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "dps.pick.1sku.1pcs.enabled",
+                "description": "단수 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "e19a6eda-8e2a-480c-bbf0-7f384a41677b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "dps.pick.1sku.npcs.enabled",
+                "description": "단포 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "b846e7bf-0f1d-4981-a910-7dde91c1199b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "pick",
+                "name": "dps.pick.with-inspection.enabled",
+                "description": "피킹과 동시에 검수 처리할 것인지 여부",
+                "value": "true"
+        },
+        {
+                "id": "7b506122-d70d-43ee-b3a6-326db93d88ee",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "preprocess",
+                "name": "dps.preproces.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "order_no"
+        },
+        {
+                "id": "f68ca6f3-a781-4d62-953e-3af3590bea03",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "sku",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "f722f623-50b4-4fd0-9ad2-c55e2ad706cd",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "station",
+                "name": "dps.station.wait-pool.count",
+                "description": "작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "2"
+        },
+        {
+                "id": "c7e48e08-9d48-47be-8907-d878a3b52b6e",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "das.sku.search.condition.fields",
+                "description": "DAS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "acf6a79b-9174-4c6a-b5fa-01e9deb091f5",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "box",
+                "name": "das.box.out.class.field",
+                "description": "DAS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "5e055af6-1a26-4b10-9782-aca958a0cb07",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "preprocess",
+                "name": "das.cell.mapping.target.field",
+                "description": "DAS 기본 셀 매핑 대상 필드 명",
+                "value": "shopCd"
+        },
+        {
+                "id": "9fed8dc9-504e-42ca-8381-c4e80c0b759f",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "das.indicator.type  ",
+                "description": "DAS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "c869077e-cd53-45d0-9838-9da28379ce04",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "das.order.delete.when.order_cancel",
+                "description": "DAS 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "edc5e257-d142-4e70-8427-08dd6bcb9037",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "das.order.ordergroup.field",
+                "description": "DAS 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "858a5751-4074-4802-bb6e-2bb40cdfb114",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "rtn.sku.barcode.max.length",
+                "description": "반품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "08c6fdf9-56f9-47e8-ad53-b8304bb6f09c",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "rtn.sku.search.condition.fields",
+                "description": "반품 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "a5c8b916-9de5-4481-a004-2399f26e6f3f",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "box",
+                "name": "rtn.box.out.class.field",
+                "description": "반품 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "classCd"
+        },
+        {
+                "id": "d9c14f06-d4d9-4f63-b4bf-902368d77edb",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "preprocess",
+                "name": "rtn.cell.mapping.target.field",
+                "description": "반품 기본 셀 매핑 대상 필드 명",
+                "value": "skuCd"
+        },
+        {
+                "id": "bc21c8be-826a-49bb-9096-4f1fcf8fba7e",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "rtn.indicator.type  ",
+                "description": "반품 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "c1e176d6-3bf6-4f01-8b2c-39c2902df0f3",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "rtn.order.delete.when.order_cancel",
+                "description": "반품 주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "dea09fd6-2a5f-4ba2-9b3e-ae5e14fc6a01",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "rtn.order.ordergroup.field",
+                "description": "반품 주문 그룹 필드로 사용할 주문 테이블의 필드명",
+                "value": "shopCd"
+        },
+        {
+                "id": "a8622683-f117-42f5-894b-f865759afad2",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "dps.sku.barcode.max.length",
+                "description": "DPS 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "6551a182-d02a-49e1-b553-34624662a40a",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "sku",
+                "name": "dps.sku.search.condition.fields",
+                "description": "DPS 상품 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd"
+        },
+        {
+                "id": "121b289f-635d-4701-9ba4-4cb5a1765e5e",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "box",
+                "name": "dps.box.out.class.field",
+                "description": "DPS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "ee9e2648-f298-4680-963a-90389f8ea950",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "preprocess",
+                "name": "dps.cell.mapping.target.field",
+                "description": "DPS 기본 셀 매핑 대상 필드 명",
+                "value": "orderNo"
+        },
+        {
+                "id": "38dce71e-9027-4d16-b125-ee87488615ce",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "ind",
+                "name": "dps.indicator.type  ",
+                "description": "DPS 표시기 유형 (통신 프로토콜 기준)",
+                "value": "type1"
+        },
+        {
+                "id": "216b9b20-60d2-401c-b66f-b90c81efe73e",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "dps.order.delete.when.order_cancel",
+                "description": "DPS 주문 취소시 데이터 삭제 여부",
+                "value": "true"
+        },
+        {
+                "id": "1a91ce05-e791-41fd-9d53-5a0824c0c6da",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "order",
+                "name": "dps.order.ordergroup.field",
+                "description": "DPS 주문 그룹 필드로 사용할 주문 테이블의 필드명"
+        },
+        {
+                "id": "604b82f9-52bf-4210-bfc1-f9dc33f7d8a8",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "instruction",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "DPS 배치 분리 여부",
+                "value": "true"
+        },
+        {
+                "id": "c455c287-8eae-4999-8a6d-45efded2ec14",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "etc",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "DPS SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "d30ae463-35d6-46ed-b6d7-848598bd67e5",
+                "jobConfigSetId": "4a913889-2965-4b05-8a4e-afb81d3f495e",
+                "category": "job",
+                "name": "dps.station.wait-pool.count",
+                "description": "DPS 작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "-1"
+        },
+        {
+                "id": "f8e13638-95a9-4ae9-bc2e-bcfafeee2a9b",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "preprocess",
+                "name": "dps.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "911ca837-2094-49ee-9ecc-fa7e453373f8",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "preprocess",
+                "name": "dps.box.out.class.field",
+                "description": "DPS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "38603252-77cf-4ac2-9d16-61ab3f28f849",
+                "jobConfigSetId": "71a23c64-730d-4247-af31-e5d8d0a713a8",
+                "category": "preprocess",
+                "name": "job.dps.box.out.class.field",
+                "description": "DPS 주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "F57A35ED-1357-4C90-89AB-99055B4D13DA",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        },
+        {
+                "id": "2b8c8a90-b9f7-4104-863a-8e4d4d5248b3",
+                "jobConfigSetId": "cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad",
+                "category": "etc",
+                "name": "das.device.list",
+                "description": "DAS 작업용 장비 리스트",
+                "value": "KIOSK"
+        },
+        {
+                "id": "dc9a078a-1ae8-4e44-ac16-0581d481f1c6",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.indicator.enabled.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "68c9cf22-2e91-42fe-8b4b-d46421fc4818",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.action",
+                "description": "박스 처리 후 액션",
+                "value": "P"
+        },
+        {
+                "id": "b06c54b5-b24e-4c2a-a1e6-206425ce1380",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.box_id.unique.scope",
+                "description": "박스 ID 유일성 보장 범위 (G: 도메인 전체 유일, D: 날자별 유일, B: 배치 내 유일)",
+                "value": "G"
+        },
+        {
+                "id": "d5ea40c8-abbb-471b-bb57-f3b3f5693981",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.cancel.enabled",
+                "description": "박스 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "0a83b49e-485a-43bf-a756-091016616dd0",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.invoice-no.rule",
+                "description": "옵션에 따라 송장 번호를 다르게 부여 ",
+                "value": "BOX_ID"
+        },
+        {
+                "id": "806e39bc-f9dc-4d9e-9213-3e6ade5d35cb",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "fee33d2b-4f73-4051-a056-1af60011c44a",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.result.report.enabled",
+                "description": "박스 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "49d6c777-5ec0-4c0d-a33f-17cd662bc33e",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.result.report.point",
+                "description": "박스 실적 전송 시점",
+                "value": "F"
+        },
+        {
+                "id": "ffd7dc2e-d88f-4a62-8602-55b5d7ba2354",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "box",
+                "name": "cmm.box.weight.enabled",
+                "description": "박스 중량 관리 여부",
+                "value": "true"
+        },
+        {
+                "id": "eb063281-746c-4723-8147-b1b4c7f8e0c4",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "device",
+                "name": "cmm.device.list",
+                "description": "사용 디바이스 리스트",
+                "value": "KIOSK,PDA,TABLET"
+        },
+        {
+                "id": "537c4352-198a-46c6-ad47-7fa8e130c4a7",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "device",
+                "name": "cmm.device.side.enabled",
+                "description": "장비의 작업 위치 (앞,뒤,앞/뒤,전체 등) 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "5f6d9c0c-fac8-4b60-960e-b5f2aa798680",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "device",
+                "name": "cmm.device.station.enabled",
+                "description": "장비의 작업 존 정보를 사용할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "0117949f-cdab-4adb-8a8d-5120360f29bc",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.box.ind_on.mode",
+                "description": "완박스 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "bef99263-cc19-4e81-ac0e-f411677fdf41",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.mode.box.enabled",
+                "description": "완박스 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "888f7aaf-c63a-4d7f-b5e7-11f1d8395491",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.mode.bundle.enabled",
+                "description": "번들 투입 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "7ebfdb91-d2f2-48e5-ae87-5b1745f3d81c",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.mode.single.enabled",
+                "description": "단품 투입 활성화 여부",
+                "value": "true"
+        },
+        {
+                "id": "8653da7b-e62c-416f-b9d1-6c1ec0f1cb88",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.single.ind_on.mode",
+                "description": "단품 투입시 표시기 점등 모드 - 하나씩 점등 / 전체 점등",
+                "value": "all"
+        },
+        {
+                "id": "40d4bc7b-2c95-4e18-9165-e118a712e98a",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "cmm.input.work_scope",
+                "description": "투입시 투입 범위",
+                "value": "rack"
+        },
+        {
+                "id": "5fed4ea6-fece-445e-9e03-65eb86205d0e",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "inspection",
+                "name": "cmm.insepction.weight.enabled",
+                "description": "중량 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "f7762a1e-2ed0-42ba-9ddb-14cf437df29a",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "inspection",
+                "name": "cmm.inspection.action",
+                "description": "출고 검수 후 액션",
+                "value": "L"
+        },
+        {
+                "id": "b92e5ad6-188e-416b-b6c2-d675f1245983",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "inspection",
+                "name": "cmm.inspection.enabled",
+                "description": "출고 검수 활성화 여부",
+                "value": "false"
+        },
+        {
+                "id": "0993c1a6-86f3-47bb-80e8-c1f0963a89aa",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "label",
+                "name": "cmm.label.print.count",
+                "description": "라벨 발행시 한 번에 동일 라벨을 몇 장 발행할 지 설정 ",
+                "value": "1"
+        },
+        {
+                "id": "9960911a-3992-4d82-99b1-5ff8178b2035",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "label",
+                "name": "cmm.label.print.method",
+                "description": "송장 라벨 발행 방법 (S: 라벨 자체 발행, I: 인터페이스)",
+                "value": "S"
+        },
+        {
+                "id": "8eb17ccb-2729-4a5a-87aa-46b117b40c72",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "label",
+                "name": "cmm.label.template",
+                "description": "송장 라벨을 자체 출력시 출력 템플릿 명",
+                "value": "DPS_INVOICE_LABEL",
+                "config": "'"
+        },
+        {
+                "id": "f0958f0b-7f43-4308-807e-3f343cdf4fa6",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "order",
+                "name": "cmm.order.class_cd.field",
+                "description": "주문 테이블의 분류 코드(class_cd)와 매핑할 주문 필드명",
+                "value": "vehicle_no"
+        },
+        {
+                "id": "56893987-6d1b-443a-a008-c4909ef3360c",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "order",
+                "name": "cmm.order.delete.when.order_cancel",
+                "description": "주문 취소시 데이터 삭제 여부",
+                "value": "false"
+        },
+        {
+                "id": "d99a788b-319d-4034-b419-b50bae47a478",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "cmm.pick.cancel.enabled",
+                "description": "확정 취소 기능 활성화 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "c0fac5f8-bdcc-41f4-b484-f7b1e47d4006",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "cmm.pick.cancel.status.enabled",
+                "description": "표시기에서 분류 작업 취소시에 '취소' 상태로 관리할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "26d3cd4a-011d-46d1-8841-6a13ef48739b",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "cmm.pick.include.cancelled.enabled",
+                "description": "상품 투입시 취소된 상품을 조회할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "83731c5d-7926-424c-bf68-c955b401ba6d",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "cmm.pick.result.report.enabled",
+                "description": "확정 실적 보고 여부 ",
+                "value": "true"
+        },
+        {
+                "id": "d579b4a7-e6e8-4eb0-bf50-a5fb77bad329",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "295078d0-59cf-49b8-bddd-4f113b2019b1",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "dd64a3af-32d4-4037-b1c5-baf0754df45b",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "18921955-4e62-43cb-aa67-39e0f09135cc",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "934f2ac5-201d-4cdd-b610-26444e020133",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "0d3f1b83-9e2f-403c-968d-fbdc66e2a3bb",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "validation",
+                "name": "cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "a8e86a27-c12e-4fb8-9522-668c3c860e53",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "3abeb47c-42fe-46d4-bbf0-e7b541626170",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "eff79bfc-c039-40f8-8cfc-1969e6745877",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,com_cd,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "8d6f9ddc-4367-42dc-8f14-dc33f1e0d6a1",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "22878a9d-507f-4b4f-828a-12a0e6beef87",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "da677f1a-a52e-41bd-a6b1-90adff592911",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "etc",
+                "name": "cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "29360358-cfc1-4601-8c53-ed2f84938726",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "batch",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "호기별로 배치 분리 처리 여부",
+                "value": "false"
+        },
+        {
+                "id": "b950ad0e-7d1a-41e6-9ed2-115bd84f5e92",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "preprocess",
+                "name": "dps.box.out.class.field",
+                "description": "주문 필드 중에 박스 처리시에 출고 분류 코드로 사용할 필드 명"
+        },
+        {
+                "id": "542328dd-66de-431c-95c4-a8ee972ef646",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "dps.input.box.type",
+                "description": "투입 박스 유형 (box / tray)",
+                "value": "box"
+        },
+        {
+                "id": "576ec591-07f3-4ccc-a97b-6ba7a939c0c1",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "input",
+                "name": "dps.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "f32eb2a0-9dcc-46bb-94c2-0b143c1be997",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "dps.pick.1box.enabled",
+                "description": "완박스 바로 출고 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "75ee3791-e95e-47e2-9d72-e87cfcee4fba",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "dps.pick.1sku.1pcs.enabled",
+                "description": "단수 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "c1285f3c-6971-4e04-8579-762b40beb138",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "dps.pick.1sku.npcs.enabled",
+                "description": "단포 대상 분류 여부",
+                "value": "false"
+        },
+        {
+                "id": "b00e529c-c110-41b8-917b-66bf136b925e",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "pick",
+                "name": "dps.pick.with-inspection.enabled",
+                "description": "피킹과 동시에 검수 처리할 것인지 여부",
+                "value": "true"
+        },
+        {
+                "id": "5b3ce1df-2318-4b64-ae29-cdd0892db755",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "preprocess",
+                "name": "dps.preproces.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "sku_cd"
+        },
+        {
+                "id": "67b13185-463d-4a60-87c5-7f73728f77e2",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "sku",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "459b299c-03d6-4dbb-ad47-58c999c42b08",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "station",
+                "name": "dps.station.wait-pool.count",
+                "description": "작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "2"
+        },
+        {
+                "id": "5489a5c1-1cea-472a-b1f9-586dc6adffb2",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "02ba8e4c-42f5-4ec0-9518-a009b1cbf22a",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "07334da7-8c8b-4d16-a039-472440b6dd01",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "4885e810-27c0-4c66-91bd-0ee8416a372a",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "27d343e3-fae2-4bad-883f-c16716c43d89",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "db0a17ad-cb42-4c13-b6bd-4f8ae64cb459",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "preprocess",
+                "name": "dps.preprocess.box-request.enabled",
+                "description": "박스 요청 프로세스 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "674559b6-3c70-46d5-9ba0-7305a9a606f0",
+                "jobConfigSetId": "6793d612-9600-4856-9fb6-92c55a0367e8",
+                "category": "preprocess",
+                "name": "dps.preprocess.box-request.enabled",
+                "description": "박스 요청 프로세스 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "93b9f9af-356f-4162-9bed-372cec1ac691",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.box_id.rule",
+                "description": "서버 사이드에서 박스 ID 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "564fad98-3481-49dd-af72-b4d44ae1704f",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.cell_cd.rule",
+                "description": "서버 사이드에서 로케이션 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "09ff4f92-0e2f-404b-ad2e-f9f60d56c686",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.ind_cd.rule",
+                "description": "서버 사이드에서 표시기 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "18815cff-3a81-44fc-bf14-1ff2fe581a59",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.invoice_no.rule",
+                "description": "서버 사이드에서 송장번호 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "da7b7323-742c-40d6-9e02-591d991765c5",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.rack_cd.rule",
+                "description": "서버 사이드에서 랙 코드 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "a4e56e1b-27d6-4618-9010-2e350e722ef9",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "validation",
+                "name": "cmm.server.validate.sku_cd.rule",
+                "description": "서버 사이드에서 상품 유효성 체크를 위한 룰"
+        },
+        {
+                "id": "de7e93bb-134c-4355-9ee3-cf5327711091",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "cmm.sku.barcode.max.length",
+                "description": "상품 바코드 최대 길이",
+                "value": "13"
+        },
+        {
+                "id": "37b4a7e9-7285-4f1f-afdc-872c92107953",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "cmm.sku.search.condition.fields",
+                "description": "SKU 조회를 위한 코드 필드명 리스트",
+                "value": "skuCd,skuBarcd,boxBarcd"
+        },
+        {
+                "id": "4e32da8f-7389-4599-9d8c-7d89350dc05d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "cmm.sku.search.select.fields",
+                "description": "SKU 조회를 위한 조회 필드명 리스트",
+                "value": "id,com_cd,sku_cd,sku_nm,sku_barcd,box_barcd,box_in_qty,sku_wt"
+        },
+        {
+                "id": "3f5fc931-dc98-496b-b355-5628296fb699",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "cmm.sku.skucd.validation.enabled",
+                "description": "서버 사이드에서 상품 유효성 체크 여부",
+                "value": "true"
+        },
+        {
+                "id": "87bf0d3c-b052-4b14-a84d-2eb84d67b7d4",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "cmm.sku.weight.unit",
+                "description": "상품 중량 정보를 g으로 사용할 지 kg으로 사용할 지 여부",
+                "value": "kg"
+        },
+        {
+                "id": "bbd1c074-2201-4d67-97fb-86b108eb35bd",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "etc",
+                "name": "cmm.trade-statement.template",
+                "description": "거래명세서 템플릿 이름을 설정",
+                "value": "BOX_LABEL"
+        },
+        {
+                "id": "f1b82b8d-d5c4-46e0-bc6a-e4000b566123",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "batch",
+                "name": "dps.batch.split-by-rack.enabled",
+                "description": "호기별로 배치 분리 처리 여부",
+                "value": "false"
+        },
+        {
+                "id": "728d3a38-f52b-4052-9a17-5f1557dc1e52",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "dps.input.box.type",
+                "description": "투입 박스 유형 (box / tray)",
+                "value": "box"
+        },
+        {
+                "id": "1c3aca69-5176-4e40-b584-290a51df01b7",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "input",
+                "name": "dps.input.box.type.split.index",
+                "description": "박스 투입시 박스 타입 split 기준 ( 1,2 )",
+                "value": "0,1"
+        },
+        {
+                "id": "4dcb3cdb-7869-4acc-8d0e-b87c0e200d6c",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "dps.pick.1box.enabled",
+                "description": "완박스 바로 출고 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "4d7b992b-230c-44ba-9f0b-c73375e16aec",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "dps.pick.1sku.1pcs.enabled",
+                "description": "단수 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "0ae714a3-302b-4f49-a39b-a796588dc842",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "dps.pick.1sku.npcs.enabled",
+                "description": "단포 대상 분류 여부",
+                "value": "true"
+        },
+        {
+                "id": "45ebe91e-893e-42da-842e-c26043e2edc2",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "pick",
+                "name": "dps.pick.with-inspection.enabled",
+                "description": "피킹과 동시에 검수 처리할 것인지 여부",
+                "value": "true"
+        },
+        {
+                "id": "e2d06e1b-33e5-4ccd-99ad-416511042b85",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "preprocess",
+                "name": "dps.preproces.cell.mapping.field",
+                "description": "셀에 할당할 대상 필드 (매장, 상품, 주문번호…) ",
+                "value": "order_no"
+        },
+        {
+                "id": "adfa670e-b26a-45cb-ba54-36a6b79f7d79",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "sku",
+                "name": "dps.sku.popula.rank.calc.days",
+                "description": "SKU 물량 Rank 선정 기준 데이터 범위 (일자)",
+                "value": "90"
+        },
+        {
+                "id": "ae6b3183-c5bd-4fa7-ad94-f615e9173565",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "station",
+                "name": "dps.station.wait-pool.count",
+                "description": "작업 스테이션에 대기할 박스 최대 개수 (-1이면 무한대)",
+                "value": "2"
+        },
+        {
+                "id": "37179210-5419-4741-bc01-e6529f2b187d",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "etc",
+                "name": "dps.supple.recommend-cell.enabled",
+                "description": "추천 로케이션 사용 여부",
+                "value": "false"
+        },
+        {
+                "id": "033877e0-53e5-44d5-8e80-249ddee94f60",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "log",
+                "name": "log.validation.error.enabled",
+                "description": "Validation Error를 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "10a76cde-149e-4510-aa00-4a499f0980ee",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "log",
+                "name": "mw.log.equip.status.enabled",
+                "description": "미들웨어 설비 이벤트 로깅할 지 여부",
+                "value": "false"
+        },
+        {
+                "id": "4fe608e6-4496-4f43-8bab-eca6f173fa29",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "log",
+                "name": "mw.log.receive.msg.enabled",
+                "description": "미들웨어 접수 메시지를 로깅할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "15620da2-ca8c-468e-b6ba-fe81c45d7526",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "mw",
+                "name": "job.cmm.reboot.enabled.when.batch.start",
+                "description": "작업배치 시에 게이트웨이 리부팅 할 지 여부",
+                "value": "true"
+        },
+        {
+                "id": "47D7209B-3474-495D-B1C5-310CB6AC4CC6",
+                "jobConfigSetId": "e3e24e1d-a4b6-4096-91ec-6b7b75af76af",
+                "category": "etc",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        },
+        {
+                "id": "FD500125-A442-4D2F-9444-C0696CE4B14A",
+                "jobConfigSetId": "f9e375c8-bd12-4ec7-a256-dd00ce13c3bf",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        },
+        {
+                "id": "C0753416-4326-4311-8730-C10D4E706D14",
+                "jobConfigSetId": "7f1f17e7-55a8-4635-acc2-405af756e9ef",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        },
+        {
+                "id": "4FFDE060-C046-4651-919F-13A45FF39F05",
+                "jobConfigSetId": "037b787e-914b-4350-9950-33349b654100",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        },
+        {
+                "id": "D283356B-57BE-405C-88B0-A6E54A93FC72",
+                "jobConfigSetId": "49aa078f-0b66-40f3-afb4-49969ef70573",
+                "category": "instruction",
+                "name": "job.cmm.assigned-cell.wait.duration.when.batch.start",
+                "description": "작업지시 시점에 표시기에 할당 셀 표시시 대기시간 (초)",
+                "value": "60"
+        }
+]

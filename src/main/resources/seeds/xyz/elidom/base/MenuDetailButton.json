@@ -1,0 +1,155 @@
+[
+        {
+                "id": "9f117340-48b2-4b86-ab87-8c5ed875aa74",
+                "menuDetailId": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                "menuDetail": {
+                        "id": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                        "name": "장비 설정 항목"
+                },
+                "name": "save"
+        },
+        {
+                "id": "356002ea-bf6c-4822-8b2f-22c24acb552d",
+                "menuDetailId": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                "menuDetail": {
+                        "id": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                        "name": "장비 설정 항목"
+                },
+                "name": "delete"
+        },
+        {
+                "id": "743b8ebf-3b10-43f8-8896-1da0c4326dd9",
+                "menuDetailId": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                "menuDetail": {
+                        "id": "54131a8d-7aa4-4d9b-9ee9-da91a694470c",
+                        "name": "장비 설정 항목"
+                },
+                "name": "add"
+        },
+        {
+                "id": "7AAB0D8A-303D-1DC7-E053-8B010A803CD3",
+                "menuDetailId": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                "menuDetail": {
+                        "id": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                        "name": "재고 실사 상세"
+                },
+                "name": "add"
+        },
+        {
+                "id": "7AAB0D8A-303E-1DC7-E053-8B010A803CD3",
+                "menuDetailId": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                "menuDetail": {
+                        "id": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                        "name": "재고 실사 상세"
+                },
+                "name": "delete"
+        },
+        {
+                "id": "7AAB0D8A-303F-1DC7-E053-8B010A803CD3",
+                "menuDetailId": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                "menuDetail": {
+                        "id": "7AAB0D8A-303C-1DC7-E053-8B010A803CD3",
+                        "name": "재고 실사 상세"
+                },
+                "name": "save"
+        },
+        {
+                "id": "518c54ec-de49-4a82-8b79-e165d71a8084",
+                "menuDetailId": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                "menuDetail": {
+                        "id": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                        "name": "작업 설정 상세"
+                },
+                "name": "add"
+        },
+        {
+                "id": "0294c90e-2012-4d75-96d9-0b70c90157bc",
+                "menuDetailId": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                "menuDetail": {
+                        "id": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                        "name": "작업 설정 상세"
+                },
+                "name": "delete"
+        },
+        {
+                "id": "899c0c77-d7ee-4240-90ca-4ed3dab2d86b",
+                "menuDetailId": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                "menuDetail": {
+                        "id": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                        "name": "작업 설정 상세"
+                },
+                "name": "save"
+        },
+        {
+                "id": "768f228d-f931-444c-8bf6-d49f39bf4c19",
+                "menuDetailId": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                "menuDetail": {
+                        "id": "899b0b8c-fa88-4a4c-9b9c-375dd047e859",
+                        "name": "작업 설정 상세"
+                },
+                "name": "export"
+        },
+        {
+                "id": "370f6a9c-0661-47eb-a651-126e5c0cc34b",
+                "menuDetailId": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                "menuDetail": {
+                        "id": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                        "name": "지시기 설정 상세"
+                },
+                "name": "add"
+        },
+        {
+                "id": "51c1960c-9daa-4316-b352-3aef6a3efcdf",
+                "menuDetailId": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                "menuDetail": {
+                        "id": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                        "name": "지시기 설정 상세"
+                },
+                "name": "delete"
+        },
+        {
+                "id": "fd6b0ba5-b55b-4e28-acc1-10544493c16d",
+                "menuDetailId": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                "menuDetail": {
+                        "id": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                        "name": "지시기 설정 상세"
+                },
+                "name": "save"
+        },
+        {
+                "id": "b2c54dc4-4175-4ee7-ad37-1e70a33b8e5d",
+                "menuDetailId": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                "menuDetail": {
+                        "id": "92b81c16-0a22-41ad-bb39-d800cd027fcc",
+                        "name": "지시기 설정 상세"
+                },
+                "name": "export"
+        },
+        {
+                "id": "c4cb32dc-857d-4be0-9341-a2c64caaa13d",
+                "menuDetailId": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                "menuDetail": {
+                        "id": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                        "name": "스테이션 작업자"
+                },
+                "name": "add"
+        },
+        {
+                "id": "e2fa559d-9e29-4baa-ab1f-c3ea7c0081fb",
+                "menuDetailId": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                "menuDetail": {
+                        "id": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                        "name": "스테이션 작업자"
+                },
+                "name": "delete"
+        },
+        {
+                "id": "387485f9-71e2-4d56-a8af-25bf5eb69ad8",
+                "menuDetailId": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                "menuDetail": {
+                        "id": "caff2c58-7e47-4281-aee6-e48c8688bc63",
+                        "name": "스테이션 작업자"
+                },
+                "name": "save"
+        }
+]

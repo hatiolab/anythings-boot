@@ -1,0 +1,33 @@
+[
+        {
+                "id": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "stageCd": "A01",
+                "indType": "mqbase",
+                "confSetCd": "A1_DAS_TYPE1",
+                "confSetNm": "수출 DAS 표시기 템플릿",
+                "defaultFlag": true
+        },
+        {
+                "id": "d500b124-e744-43a0-9050-e681ece63a15",
+                "stageCd": "A02",
+                "indType": "mqbase",
+                "confSetCd": "DPS_TYPE1",
+                "confSetNm": "DPS 표시기 템플릿",
+                "defaultFlag": true
+        },
+        {
+                "id": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "stageCd": "AB1",
+                "indType": "mqbase",
+                "confSetCd": "ExPAS_TYPE1",
+                "confSetNm": "Ex-PAS 표시기 템플릿",
+                "defaultFlag": true
+        },
+        {
+                "id": "29965db0-4e17-44ce-8101-645b309405f9",
+                "indType": "mqbase",
+                "confSetCd": "_TYPE1_TEMPLATE_",
+                "confSetNm": "기본 타입 표시기 기본 템플릿",
+                "defaultFlag": false
+        }
+]

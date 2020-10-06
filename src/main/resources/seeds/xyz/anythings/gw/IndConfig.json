@@ -1,0 +1,815 @@
+[
+        {
+                "id": "8a6f6c1f-5014-42c3-81fc-553334f721bd",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "job",
+                "name": "ind.job.color.rotation.seq",
+                "description": "표시기 버튼 색상의 로테이션 순서입니다.",
+                "value": "G,B,Y"
+        },
+        {
+                "id": "24cf5f9a-c604-492d-b058-3af88e0e0bfb",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "job",
+                "name": "ind.job.color.stocktaking",
+                "description": "재고 실사 작업에서 표시기 버튼의 기본 색상입니다.",
+                "value": "G"
+        },
+        {
+                "id": "5f55db14-0eea-4f5b-8c28-93672ce876b9",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "job",
+                "name": "ind.job.segment.roles.on",
+                "description": "작업 점등 시 각 세그먼트가 나타낼 정보입니다.",
+                "value": "B,P"
+        },
+        {
+                "id": "0ad981aa-2f8f-46a9-9879-3bcb1f778dea",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.button.blink.interval",
+                "description": "표시기의 버튼이 깜빡이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "f27fe02c-8afd-49e3-ba32-d60a6e98a5d8",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.button.on.mode",
+                "description": "표시기의 버튼이 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "B"
+        },
+        {
+                "id": "dd8ff899-265d-4a78-8891-30dddc4fe76e",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.fullbox.button.blink",
+                "description": "Full Box 처리 후, 표시기가 Full Box 상태로 점등됐을 때 버튼이 깜빡일지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "d8a95e8c-95cc-4c55-bc6a-bd15d7972453",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.view-type",
+                "description": "표시기 자체적으로 표시 형식을 변경하는 모드",
+                "value": "0"
+        },
+        {
+                "id": "0ecdd530-8069-4b88-9cdd-6a76148f5bdd",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.number.alignment",
+                "description": "표시기 숫자의 정렬 방향입니다. (R / L)",
+                "value": "R"
+        },
+        {
+                "id": "7b957255-72b8-4546-8e15-73b1a8b88210",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "led",
+                "name": "ind.led.blink.interval",
+                "description": "LED 바가 깜박이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "3e91ee59-99f7-4c9b-87fb-3cda0b6d33fa",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "led",
+                "name": "ind.led.brightness",
+                "description": "LED 바의 밝기입니다. (1~10)",
+                "value": "10"
+        },
+        {
+                "id": "88dcab21-3d8c-4486-b82b-37daa0f5e655",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "led",
+                "name": "ind.led.on.mode",
+                "description": "LED 바가 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "S"
+        },
+        {
+                "id": "38ab8116-3f4f-4bf6-b9cb-a333156eb3a4",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "led",
+                "name": "ind.led.use.enabled",
+                "description": "LED 바를 사용할지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "d427bccb-7b08-46d6-b48f-ea9357814a7d",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "led",
+                "name": "ind.led.use.enabled.racks",
+                "description": "LED 바를 사용할 호기 리스트 (콤마로 구분)"
+        },
+        {
+                "id": "8fd3d311-0343-4f0b-b0c1-79745feed503",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.delay.before.on",
+                "description": "표시기가 점등되기 전 지연되는 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "976e7076-7777-4280-a2f9-7ba566c8d538",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.delay.cancel.button.off",
+                "description": "표시기의 취소 버튼을 눌렀을 때 표시기가 소등까지 지연시간입니다. (100ms)",
+                "value": "20"
+        },
+        {
+                "id": "5bac7913-259b-43ab-beee-001160134f71",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.send.off.ack.already.off",
+                "description": "표시기가 이미 소등된 상태에서 소등 요청을 받았을 때 응답 메시지를 보낼 지 여부입니다.",
+                "value": "false"
+        },
+        {
+                "id": "101ffd50-1c44-4ba5-bcad-a2ae9deb1571",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.show.string.before.on",
+                "description": "다음 작업을 점등하기 전에 표시될 문자열입니다."
+        },
+        {
+                "id": "7d879d4b-dba9-433e-ae11-e061ac36ad72",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.show.string.delay.before.on",
+                "description": "점등 전에 문자를 표시할 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "88cd558f-1bed-48e4-b0f3-3ffce2a173fe",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "action",
+                "name": "ind.action.status.report.interval",
+                "description": "표시기의 상태 보고 주기입니다. (초 단위)",
+                "value": "0"
+        },
+        {
+                "id": "a6625638-7714-4be2-9a4f-c90b9ae9fe65",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "etc",
+                "name": "ind.buttons.enable",
+                "description": "표시기 버튼 사용 여부",
+                "value": "true"
+        },
+        {
+                "id": "f883b7e6-4073-482d-b42a-42b0fcc6eee3",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "etc",
+                "name": "ind.gw.latest.release.version",
+                "description": "Gateway 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "fffa8843-25ea-40f6-b346-e70d8cb9f5c3",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "job",
+                "name": "ind.job.color.rotation.seq",
+                "description": "표시기 버튼 색상의 로테이션 순서입니다.",
+                "value": "G,B,Y"
+        },
+        {
+                "id": "cc2e5c71-4d05-4286-8ea3-3a7b01e1aed1",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "job",
+                "name": "ind.job.color.stocktaking",
+                "description": "재고 실사 작업에서 표시기 버튼의 기본 색상입니다.",
+                "value": "G"
+        },
+        {
+                "id": "3fdac19f-bd14-4490-9212-7dc6157e31a8",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "job",
+                "name": "ind.job.segment.roles.on",
+                "description": "작업 점등 시 각 세그먼트가 나타낼 정보입니다.",
+                "value": ",P"
+        },
+        {
+                "id": "e572af13-d39e-4772-af8f-b94d7d1e5f5d",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "etc",
+                "name": "ind.latest.release.version",
+                "description": "표시기 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "a931e5e9-d4c6-4f95-964a-d40e2ec96c28",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "led",
+                "name": "ind.led.blink.interval",
+                "description": "LED 바가 깜박이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "b9f84e3e-ef74-4b86-a40f-9f88d0009e55",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "led",
+                "name": "ind.led.brightness",
+                "description": "LED 바의 밝기입니다. (1~10)",
+                "value": "10"
+        },
+        {
+                "id": "33b7235f-33b0-4588-a67e-ea4ce16b8f7b",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "led",
+                "name": "ind.led.on.mode",
+                "description": "LED 바가 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "S"
+        },
+        {
+                "id": "dd41e6a4-34d3-4a05-8670-77743ed68aef",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "led",
+                "name": "ind.led.use.enabled",
+                "description": "LED 바를 사용할지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "7fb6a9e5-391a-4420-8235-606a12fdb1b4",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "led",
+                "name": "ind.led.use.enabled.racks",
+                "description": "LED 바를 사용할 호기 리스트 (콤마로 구분)"
+        },
+        {
+                "id": "b2806d59-6b11-456c-87b8-98ca53a3e74c",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.button.blink.interval",
+                "description": "표시기의 버튼이 깜빡이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "42c93e9b-5160-4535-8a7e-1634f41ce3fb",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.button.on.mode",
+                "description": "표시기의 버튼이 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "B"
+        },
+        {
+                "id": "20496e98-9212-4bd4-b34b-de0b9d0c83f3",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.fullbox.button.blink",
+                "description": "Full Box 처리 후, 표시기가 Full Box 상태로 점등됐을 때 버튼이 깜빡일지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "32675f29-0ce4-4460-95ce-28aa16b76be0",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.relay.max.no",
+                "description": "표시기 최대 릴레이 번호",
+                "value": "99"
+        },
+        {
+                "id": "05cf90e0-1f93-4d64-b02d-cc5be4d2f284",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.relay.max.no",
+                "description": "표시기 최대 릴레이 번호",
+                "value": "99"
+        },
+        {
+                "id": "4cceafb1-830b-4967-84eb-8d23881046f9",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "etc",
+                "name": "ind.buttons.enable",
+                "description": "표시기 버튼 사용 여부",
+                "value": "true"
+        },
+        {
+                "id": "78ce13f3-badf-4095-b802-0ca8323b0708",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "etc",
+                "name": "ind.latest.release.version",
+                "description": "표시기 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "0ce88daa-94d5-435d-8199-2f6fc3f1fb04",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "etc",
+                "name": "ind.gw.latest.release.version",
+                "description": "Gateway 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "efc437f0-c4bf-4c5e-b797-1290d8a2253c",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "etc",
+                "name": "ind.buttons.enable",
+                "description": "표시기 버튼 사용 여부",
+                "value": "true"
+        },
+        {
+                "id": "af820419-c6d7-4e86-bb76-879906d19b75",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "etc",
+                "name": "ind.latest.release.version",
+                "description": "표시기 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "78d7676b-d656-4a29-a492-0ccfe65ccedf",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "etc",
+                "name": "ind.gw.latest.release.version",
+                "description": "Gateway 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "53452e4c-0cb0-4c94-8e56-d249104e8325",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.number.alignment",
+                "description": "표시기 숫자의 정렬 방향입니다. (R / L)",
+                "value": "R"
+        },
+        {
+                "id": "841978b9-00fb-4b4e-a595-780d86dbff58",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.relay.max.no",
+                "description": "표시기 최대 릴레이 번호",
+                "value": "99"
+        },
+        {
+                "id": "08ea87b5-d21a-4f8b-a859-4dde4adfcd9b",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.segment1.mapping.role",
+                "description": "표시 세그먼트의 첫번째 숫자와 매핑되는 역할 (T: 총 수량, R: 총 남은 수량, F: 총 처리한 수량, P: 방금 전 처리한 낱개 수량, B: 방금 전 처리한 박스 수량)"
+        },
+        {
+                "id": "c88c49d0-c644-4d7a-958a-d039b1555861",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.segment2.mapping.role",
+                "description": "표시 세그먼트의 두번째 숫자와 매핑되는 역할",
+                "value": "P"
+        },
+        {
+                "id": "5d18adb3-11c4-415d-854b-1698a58c15db",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.segment3.mapping.role",
+                "description": "표시 세그먼트의 세번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "9778b170-7b5c-4a29-a899-c38eeaf81f28",
+                "indConfigSetId": "0ade4f69-b066-48e8-94a5-3e18897cb481",
+                "category": "show",
+                "name": "ind.show.view-type",
+                "description": "표시기 자체적으로 표시 형식을 변경하는 모드 (기본:0, 박스/낱개:1, 누적수량/낱개:2)",
+                "value": "2"
+        },
+        {
+                "id": "0527dfd7-3e0a-471d-80ec-052a6e43be17",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.delay.before.on",
+                "description": "표시기가 점등되기 전 지연되는 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "4df2f447-68e8-4e0d-aafa-2506b73881dd",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.delay.cancel.button.off",
+                "description": "표시기의 취소 버튼을 눌렀을 때 표시기가 소등까지 지연시간입니다. (100ms)",
+                "value": "20"
+        },
+        {
+                "id": "374cf8a3-c1e5-4a8a-908d-f61ee816cdde",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.show.string.before.on",
+                "description": "다음 작업을 점등하기 전에 표시될 문자열입니다."
+        },
+        {
+                "id": "5d6fec1b-03d8-4170-9d81-189b8dcd9c2c",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.show.string.delay.before.on",
+                "description": "점등 전에 문자를 표시할 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "9209ebe7-9043-4f76-a581-6ae531b91ece",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.status.report.interval",
+                "description": "표시기의 상태 보고 주기입니다. (초 단위)",
+                "value": "0"
+        },
+        {
+                "id": "1f24a890-e0d0-4f08-8834-e477624feda1",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "action",
+                "name": "ind.action.send.off.ack.already.off",
+                "description": "표시기가 이미 소등된 상태에서 소등 요청을 받았을 때 응답 메시지를 보낼 지 여부입니다.",
+                "value": "false"
+        },
+        {
+                "id": "644538c7-4642-4567-8707-b32b172a60bd",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.delay.before.on",
+                "description": "표시기가 점등되기 전 지연되는 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "800cd230-02fd-4888-b2fb-b225b8d78f32",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.delay.cancel.button.off",
+                "description": "표시기의 취소 버튼을 눌렀을 때 표시기가 소등까지 지연시간입니다. (100ms)",
+                "value": "20"
+        },
+        {
+                "id": "2d1e3ed6-5179-4f4d-a3bd-81c79f7a3b40",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.send.off.ack.already.off",
+                "description": "표시기가 이미 소등된 상태에서 소등 요청을 받았을 때 응답 메시지를 보낼 지 여부입니다.",
+                "value": "false"
+        },
+        {
+                "id": "c810a145-8515-4bc6-b7f5-6a0040a192e3",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.show.string.before.on",
+                "description": "다음 작업을 점등하기 전에 표시될 문자열입니다."
+        },
+        {
+                "id": "782b27c4-e24f-47ea-ac9d-a223462d6980",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.show.string.delay.before.on",
+                "description": "점등 전에 문자를 표시할 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "4b477597-e257-4ec3-abeb-9ee8bed4214e",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "action",
+                "name": "ind.action.status.report.interval",
+                "description": "표시기의 상태 보고 주기입니다. (초 단위)",
+                "value": "0"
+        },
+        {
+                "id": "d5e8ff4e-9295-4631-9511-4bef217db977",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "job",
+                "name": "ind.job.color.rotation.seq",
+                "description": "표시기 버튼 색상의 로테이션 순서입니다.",
+                "value": "G,B,Y"
+        },
+        {
+                "id": "3b00cb26-3a89-4604-a09f-cd13fee74ee9",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "job",
+                "name": "ind.job.color.stocktaking",
+                "description": "재고 실사 작업에서 표시기 버튼의 기본 색상입니다.",
+                "value": "G"
+        },
+        {
+                "id": "840437d8-27ec-475d-a6fe-b559911f26f4",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "job",
+                "name": "ind.job.segment.roles.on",
+                "description": "작업 점등 시 각 세그먼트가 나타낼 정보입니다.",
+                "value": "B,P"
+        },
+        {
+                "id": "fa544afc-ae3b-49c3-ae85-006ab79df894",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "led",
+                "name": "ind.led.blink.interval",
+                "description": "LED 바가 깜박이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "842dc550-0f6f-4b00-b8f0-c98394008ff2",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "led",
+                "name": "ind.led.brightness",
+                "description": "LED 바의 밝기입니다. (1~10)",
+                "value": "10"
+        },
+        {
+                "id": "72d49375-bc9d-4687-96ec-f8a4d3b206cb",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "led",
+                "name": "ind.led.on.mode",
+                "description": "LED 바가 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "S"
+        },
+        {
+                "id": "14c5214b-fdd4-4dbf-a7bf-a5e2c16de1cd",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "led",
+                "name": "ind.led.use.enabled",
+                "description": "LED 바를 사용할지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "3d71e651-765e-4e59-8701-77aa3d09e2c2",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "led",
+                "name": "ind.led.use.enabled.racks",
+                "description": "LED 바를 사용할 호기 리스트 (콤마로 구분)"
+        },
+        {
+                "id": "c4bd0b4a-1645-4ca2-950b-f463e9a3e9f6",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.button.blink.interval",
+                "description": "표시기의 버튼이 깜빡이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "979939ab-7b58-4d51-bde9-08439312239d",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.button.on.mode",
+                "description": "표시기의 버튼이 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "B"
+        },
+        {
+                "id": "825ccdf7-c31e-4a01-af4e-a6eb46245a73",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.fullbox.button.blink",
+                "description": "Full Box 처리 후, 표시기가 Full Box 상태로 점등됐을 때 버튼이 깜빡일지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "598e5637-5ec8-482f-9c06-9b9688aa3c87",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.number.alignment",
+                "description": "표시기 숫자의 정렬 방향입니다. (R / L)",
+                "value": "R"
+        },
+        {
+                "id": "f887f7c7-8331-4d8b-8b0b-bcdc158039c4",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.view-type",
+                "description": "표시기 자체적으로 표시 형식을 변경하는 모드",
+                "value": "0"
+        },
+        {
+                "id": "65c39fb5-d89e-4c7e-8542-ec749b5d8d72",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.segment1.mapping.role",
+                "description": "표시 세그먼트의 첫번째 숫자와 매핑되는 역할 (T: 총 수량, R: 총 남은 수량, F: 총 처리한 수량, P: 방금 전 처리한 낱개 수량, B: 방금 전 처리한 박스 수량)"
+        },
+        {
+                "id": "8848116a-5739-4a97-a1ec-9793bef6d2a0",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.segment2.mapping.role",
+                "description": "표시 세그먼트의 두번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "d2f63cf2-ae4b-4c8c-98c0-f18768070a77",
+                "indConfigSetId": "29965db0-4e17-44ce-8101-645b309405f9",
+                "category": "show",
+                "name": "ind.show.segment3.mapping.role",
+                "description": "표시 세그먼트의 세번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "07493376-4a44-4922-befa-cf5a2071aca7",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.segment1.mapping.role",
+                "description": "표시 세그먼트의 첫번째 숫자와 매핑되는 역할 (T: 총 수량, R: 총 남은 수량, F: 총 처리한 수량, P: 방금 전 처리한 낱개 수량, B: 방금 전 처리한 박스 수량)"
+        },
+        {
+                "id": "8bc333a8-a9c9-43d3-b75d-ddcc4531b10e",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.segment2.mapping.role",
+                "description": "표시 세그먼트의 두번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "a83ce271-fb77-427d-a6d0-53cd131b139d",
+                "indConfigSetId": "d500b124-e744-43a0-9050-e681ece63a15",
+                "category": "show",
+                "name": "ind.show.segment3.mapping.role",
+                "description": "표시 세그먼트의 세번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "9f749361-5cea-4468-bae1-ed042a7e4abc",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.show.string.delay.before.on",
+                "description": "점등 전에 문자를 표시할 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "25b7b500-2589-4c56-9f16-cb5440bb8b2a",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.status.report.interval",
+                "description": "표시기의 상태 보고 주기입니다. (초 단위)",
+                "value": "0"
+        },
+        {
+                "id": "2508fce9-48b4-4b46-bff8-d172113592da",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "etc",
+                "name": "ind.buttons.enable",
+                "description": "표시기 버튼 사용 여부",
+                "value": "true"
+        },
+        {
+                "id": "85fae6bf-2efc-4592-8cd4-8de5fe7f553e",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "etc",
+                "name": "ind.gw.latest.release.version",
+                "description": "Gateway 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "fca09fd5-e59e-4c48-bee6-fcc4c3a65931",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "job",
+                "name": "ind.job.color.rotation.seq",
+                "description": "표시기 버튼 색상의 로테이션 순서입니다.",
+                "value": "G,B,Y"
+        },
+        {
+                "id": "fa7e2c32-faa3-44a7-a720-4ebcb10b963e",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "job",
+                "name": "ind.job.color.stocktaking",
+                "description": "재고 실사 작업에서 표시기 버튼의 기본 색상입니다.",
+                "value": "G"
+        },
+        {
+                "id": "67dc9c9d-b2e8-4d40-9dae-44e4bfa1f69b",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "job",
+                "name": "ind.job.segment.roles.on",
+                "description": "작업 점등 시 각 세그먼트가 나타낼 정보입니다.",
+                "value": "P"
+        },
+        {
+                "id": "709d6c64-fb9f-4e88-adaa-6f3dc7ad69de",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "etc",
+                "name": "ind.latest.release.version",
+                "description": "표시기 최신 버전 정보 설정",
+                "value": "1.0.0"
+        },
+        {
+                "id": "3d599f0a-ae08-4046-9c86-270a0bfc77eb",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "led",
+                "name": "ind.led.blink.interval",
+                "description": "LED 바가 깜박이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "c332d50e-99b4-4ec5-8cdd-3d59b1b09adc",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "led",
+                "name": "ind.led.brightness",
+                "description": "LED 바의 밝기입니다. (1~10)",
+                "value": "10"
+        },
+        {
+                "id": "de2b618d-4233-4e3d-b2ca-7d2591269247",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "led",
+                "name": "ind.led.on.mode",
+                "description": "LED 바가 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "S"
+        },
+        {
+                "id": "f312b61c-ad67-4731-989b-5fd6615cab7d",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "led",
+                "name": "ind.led.use.enabled",
+                "description": "LED 바를 사용할지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "d5bccdba-0f0c-4049-ab9c-49f8e3d3c2d9",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "led",
+                "name": "ind.led.use.enabled.racks",
+                "description": "LED 바를 사용할 호기 리스트 (콤마로 구분)"
+        },
+        {
+                "id": "6a45c31d-dabf-4586-aa89-ff236792ab09",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.button.blink.interval",
+                "description": "표시기의 버튼이 깜빡이는 주기입니다. (100ms 단위)",
+                "value": "3"
+        },
+        {
+                "id": "8dbddfb9-1ccf-4f4d-99e6-5b29d6b10868",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.button.on.mode",
+                "description": "표시기의 버튼이 점등되는 방식입니다. (B: 깜빡임, S: 항상 켜짐)",
+                "value": "B"
+        },
+        {
+                "id": "fe2d036a-9697-46e1-8e08-50fa15a3aa3a",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.fullbox.button.blink",
+                "description": "Full Box 처리 후, 표시기가 Full Box 상태로 점등됐을 때 버튼이 깜빡일지 여부입니다.",
+                "value": "true"
+        },
+        {
+                "id": "fea14b49-08ed-4135-b8f7-e5b0c23f07d1",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.number.alignment",
+                "description": "표시기 숫자의 정렬 방향입니다. (R / L)",
+                "value": "R"
+        },
+        {
+                "id": "a69cf3c1-f7dd-4319-9a76-81507ef789a6",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.relay.max.no",
+                "description": "표시기 최대 릴레이 번호",
+                "value": "99"
+        },
+        {
+                "id": "f8929d1f-cd75-40b1-8063-4700c3530fad",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.segment1.mapping.role",
+                "description": "표시 세그먼트의 첫번째 숫자와 매핑되는 역할 (T: 총 수량, R: 총 남은 수량, F: 총 처리한 수량, P: 방금 전 처리한 낱개 수량, B: 방금 전 처리한 박스 수량)"
+        },
+        {
+                "id": "380598dc-939a-4824-beb7-4df3f9d8b512",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.segment2.mapping.role",
+                "description": "표시 세그먼트의 두번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "e7db2935-7bc0-4f14-99fe-3c1fb0d3d4ea",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.segment3.mapping.role",
+                "description": "표시 세그먼트의 세번째 숫자와 매핑되는 역할"
+        },
+        {
+                "id": "6d70d43a-5ff7-45ce-ba59-239c332bfb8f",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "show",
+                "name": "ind.show.view-type",
+                "description": "표시기 자체적으로 표시 형식을 변경하는 모드",
+                "value": "0"
+        },
+        {
+                "id": "4cc75a16-dcc7-41b5-aeea-b3e8d31982f8",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.delay.before.on",
+                "description": "표시기가 점등되기 전 지연되는 시간입니다. (100ms 단위)",
+                "value": "0"
+        },
+        {
+                "id": "1fbe1db4-64a3-4c9d-9820-d559c4a5c3d1",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.delay.cancel.button.off",
+                "description": "표시기의 취소 버튼을 눌렀을 때 표시기가 소등까지 지연시간입니다. (100ms)",
+                "value": "20"
+        },
+        {
+                "id": "a720f9ce-16d8-4d45-bff4-225b7b35c87b",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.send.off.ack.already.off",
+                "description": "표시기가 이미 소등된 상태에서 소등 요청을 받았을 때 응답 메시지를 보낼 지 여부입니다.",
+                "value": "false"
+        },
+        {
+                "id": "983ae661-b2bf-4189-a98b-add7f5193a99",
+                "indConfigSetId": "647f3018-867a-4d80-a7d1-fe86fa3ed866",
+                "category": "action",
+                "name": "ind.action.show.string.before.on",
+                "description": "다음 작업을 점등하기 전에 표시될 문자열입니다."
+        }
+]
