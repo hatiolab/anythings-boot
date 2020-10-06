@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import xyz.anythings.boot.config.ModuleProperties;
 import xyz.elidom.sys.config.ModuleConfigSet;
+import xyz.elidom.sys.system.config.module.IModuleProperties;
 import xyz.elidom.sys.system.service.api.IEntityFieldCache;
 import xyz.elidom.sys.system.service.api.IServiceFinder;
 
@@ -45,6 +46,8 @@ public class AnythingsBootInitializer {
 	public void refresh(ContextRefreshedEvent event) {
 		this.logger.info("Anythings Boot module refreshing...");
 		
+		this.setupApplicationModule();
+		
 		this.logger.info("Anythings Boot module refreshed!");
 	}
 
@@ -52,11 +55,21 @@ public class AnythingsBootInitializer {
 	void ready(ApplicationReadyEvent event) {
 		this.logger.info("Anythings Boot module initializing...");
 		
-		this.configSet.addConfig(this.module.getName(), this.module);
-		this.configSet.setApplicationModule(this.module.getName());
+		this.setupApplicationModule();
 		this.scanServices();
 		
 		this.logger.info("Anythings Boot module initialized!");
+	}
+	
+	/**
+	 * 애플리케이션 메인 모듈 셋업
+	 */
+	private void setupApplicationModule() {
+		IModuleProperties mainModule = this.configSet.getApplicationModule();
+		if(mainModule == null) {
+			this.configSet.addConfig(this.module.getName(), this.module);
+			this.configSet.setApplicationModule(this.module.getName());
+		}
 	}
 
 	/**
