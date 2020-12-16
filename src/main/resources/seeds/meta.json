@@ -22,6 +22,7 @@
 	{"bundle" : "base", "entity": "xyz.elidom.base.entity.MenuDetailButton"},
 	{"bundle" : "dev", "entity": "xyz.elidom.dev.entity.DiyService"},
 	{"bundle" : "dev", "entity": "xyz.elidom.dev.entity.DiyTemplate"},
+	{"bundle" : "job", "entity": "xyz.elidom.job.entity.Job"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceProfile"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.DeviceConf"},
 	{"bundle" : "logis", "entity": "xyz.anythings.base.entity.JobConfigSet"},
