@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs', '../operato-logis-wcs/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs'
 	}
 }
 
@@ -62,7 +62,8 @@ if (!project.hasProperty('buildDep')) {
 		compile project(':operato-logis-sms')
 		compile project(':operato-logis-dps')
 		compile project(':operato-logis-das')
-		compile project(':operato-gw-mqbase')
+//		compile project(':operato-gw-mqbase')
+		compile project(':operato-gw-lightbase')
 		compile project(':anythings-logis-base')
 		compile project(':anythings-gw')
 		compile project(':anythings-comm-rabbitmq')
@@ -78,7 +79,8 @@ if (!project.hasProperty('buildDep')) {
 		implementation project(':operato-logis-sms')
 		implementation project(':operato-logis-dps')
 		implementation project(':operato-logis-das')
-		implementation project(':operato-gw-mqbase')
+//		implementation project(':operato-gw-mqbase')
+		implementation project(':operato-gw-lightbase')
 		implementation project(':anythings-logis-base')
 		implementation project(':anythings-gw')
 		implementation project(':anythings-comm-rabbitmq')
@@ -88,7 +90,8 @@ if (!project.hasProperty('buildDep')) {
 		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-das-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
-		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
+//		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
+		compile(name:'operato-gw-lightbase-0.0.0.1',ext:'jar')
 		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
 		compile(name:'anythings-gw-0.0.0.1',ext:'jar')
 		compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
