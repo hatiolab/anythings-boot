@@ -1,0 +1,331 @@
+-- PROCEDURE: public.sp_order_optimization_das(bigint, character varying)
+
+-- DROP PROCEDURE public.sp_order_optimization_das(bigint, character varying);
+
+CREATE OR REPLACE PROCEDURE public.sp_order_optimization_das(
+	p_in_domain_id bigint,
+	p_in_batch_id character varying)
+LANGUAGE 'plpgsql'
+AS $BODY$
+DECLARE
+
+	-- 배치 
+	V_BATCH_ROW JOB_BATCHES%ROWTYPE;
+
+	-- 회차에 남은 호기 체크 
+	V_EMPTY_RACK_CNT integer;
+	
+	-- 현재 할당 대상 Rack 의 cellCnt 
+	V_EMPTY_CELL_CNT integer;
+	
+	-- 회차를 생성할 배치 ID 
+	V_SEQ_BATCH_ID character varying(40) ;
+	
+	-- 회차 배치 ID + Rack 
+	V_SEQ_RACK_BATCH_ID character varying(40);
+	
+	-- 회차 SEQ
+	V_BATCH_SEQ integer;
+		
+	-- 현재 할당 주문 수 
+	V_ASSIGN_ORD_CNT integer;
+
+	-- Cursor Rack 별 배치 분할을 위한 데이터 
+	C_RACK_CELL_CNT RECORD;
+
+	-- Cursor 주문 최적화 대상 패턴 
+	C_ORDER_PATTERN RECORD;
+	
+	
+BEGIN
+
+	-- 1. 배치 조회
+	SELECT *
+	  INTO V_BATCH_ROW
+	  FROM JOB_BATCHES
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND ID = P_IN_BATCH_ID;
+	   
+	-- 2. 현재 회차분할 대상 SEQ 구하기 
+    -- 2.1 회차 최대 값 구하기
+	SELECT MAX(JOB_SEQ)::integer
+	  INTO V_BATCH_SEQ
+	  FROM JOB_BATCHES
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND WMS_BATCH_NO = V_BATCH_ROW.WMS_BATCH_NO
+	   AND BATCH_GROUP_ID NOT LIKE (P_IN_BATCH_ID || '-V-%')
+	   AND JOB_TYPE = 'DAS';
+	
+	-- 2.2 회차에 남은 호기가 있는지 확인
+	SELECT COUNT(1) 
+	  INTO V_EMPTY_RACK_CNT
+	  FROM RACKS
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND RACK_TYPE = 'S' 
+	   AND JOB_TYPE = 'DAS' 
+	   AND RACK_CD not in (
+							SELECT EQUIP_CD 
+		                      FROM JOB_BATCHES 
+							 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+							   AND BATCH_GROUP_ID = V_BATCH_ROW.ID || '-' || V_BATCH_SEQ
+	                      );
+						  
+	IF V_EMPTY_RACK_CNT = 0 THEN
+		-- 2.2.1 남은 호기가 없으면 신규 회차 분할 진행 
+		-- 배치 시퀀스 증가 
+		V_BATCH_SEQ := V_BATCH_SEQ + 1;
+	ELSEIF V_BATCH_SEQ = 0 THEN
+		V_BATCH_SEQ := 1;
+	END IF;
+	
+	-- 3. 배치 ID 생성
+	V_SEQ_BATCH_ID := V_BATCH_ROW.ID || '-' || V_BATCH_SEQ;
+	   
+	-- 4. Rack 을 대상으로 loop
+	FOR C_RACK_CELL_CNT IN
+		SELECT X.RACK_CD, X.RACK_NM, COALESCE(Y.CELL_CNT, 0) AS CELL_CNT
+		  FROM (
+				SELECT RACK_CD, RACK_NM
+				  FROM RACKS
+				 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+				   AND RACK_TYPE = 'S' 
+				   AND JOB_TYPE = 'DAS' 
+				   AND ACTIVE_FLAG = true
+				   AND RACK_CD not in (
+										SELECT EQUIP_CD 
+										  FROM JOB_BATCHES 
+										 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+										   AND BATCH_GROUP_ID = V_BATCH_ROW.ID || '-' || V_BATCH_SEQ
+									  )
+		       ) X LEFT OUTER JOIN
+			   (
+				SELECT EQUIP_CD AS RACK_CD, COUNT(1) AS CELL_CNT
+				  FROM CELLS
+				 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+				   AND EQUIP_TYPE = 'Rack'
+				   AND ACTIVE_FLAG = true
+				 GROUP BY EQUIP_CD
+			   ) Y
+			ON X.RACK_CD = Y.RACK_CD
+		 ORDER BY X.RACK_CD
+	LOOP
+		V_EMPTY_CELL_CNT := C_RACK_CELL_CNT.CELL_CNT;
+		V_SEQ_RACK_BATCH_ID := V_SEQ_BATCH_ID || '-' || C_RACK_CELL_CNT.RACK_CD;
+		
+		-- 5. 전체 주문을 대상으로 Loop....
+		FOR C_ORDER_PATTERN IN
+			WITH V_ORDERS AS (
+				SELECT ORDER_NO
+					 , COM_CD ||':'|| SKU_CD AS ORD_SKU
+					 , SUM(ORDER_QTY) AS ORDER_QTY 
+				  FROM ORDERS 
+				 WHERE ORDER_TYPE = 'MT' -- 합포 대상 
+				   AND DOMAIN_ID = P_IN_DOMAIN_ID
+				   AND BATCH_ID = P_IN_BATCH_ID
+				 GROUP BY ORDER_NO, COM_CD, SKU_CD 
+			),
+			V_PATTERN AS (
+				SELECT ORDER_NO
+					 , COUNT(1) AS SKU_CNT
+					 , ARRAY_TO_STRING(ARRAY_AGG(ORD_SKU ORDER BY ORD_SKU) ,'|') AS ORD_PATTERN
+				  FROM V_ORDERS
+				 GROUP BY ORDER_NO
+			),
+			V_PATTERN_SUM AS (
+				SELECT ORD_PATTERN
+					 , MAX(ORDER_NO) AS ORDER_NO
+					 , MIN(SKU_CNT) AS SKU_CNT
+					 , SUM(1) AS ORD_CNT
+				  FROM V_PATTERN
+				GROUP BY ORD_PATTERN
+			)
+			SELECT * FROM V_PATTERN_SUM
+			 ORDER BY ORD_CNT DESC, SKU_CNT ASC
+		LOOP
+			-- 5.1. 해당 패턴의 상품이 포함되는 주문 update 
+			WITH V_RACK_LOC AS (
+				SELECT C_RACK_CELL_CNT.RACK_CD AS RACK_CD
+					 , C_RACK_CELL_CNT.RACK_NM AS RACK_NM
+					 , X.CELL_CD
+					 , X.CELL_SEQ
+				  FROM ( SELECT EQUIP_CD, CELL_CD, CELL_SEQ
+						   FROM CELLS
+						  WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+							AND EQUIP_TYPE = 'Rack'
+							AND EQUIP_CD = C_RACK_CELL_CNT.RACK_CD
+							AND ACTIVE_FLAG = true
+					   ) X
+			)
+			, V_UPDATE_ORD AS (
+				UPDATE ORDERS 
+				   SET BATCH_ID = V_SEQ_RACK_BATCH_ID
+					 , JOB_SEQ = V_BATCH_SEQ
+					 , EQUIP_CD = C_RACK_CELL_CNT.RACK_CD
+				     , EQUIP_NM = C_RACK_CELL_CNT.RACK_NM
+				 WHERE (DOMAIN_ID, BATCH_ID, ORDER_NO)
+				         in ( SELECT P_IN_DOMAIN_ID, P_IN_BATCH_ID, X.ORDER_NO
+									   FROM (
+											SELECT ORDER_NO
+											  FROM (
+													SELECT ORDER_NO
+														 , SKU_CNT
+														 , SUM(1) OVER (PARTITION BY ORD_PATTERN) AS PATTERN_CNT	
+													  FROM (
+															SELECT ORDER_NO
+																 , COUNT(1) AS SKU_CNT
+																 , ARRAY_TO_STRING(ARRAY_AGG(ORD_SKU ORDER BY ORD_SKU) ,'|') AS ORD_PATTERN
+															  FROM (
+																  	SELECT *
+																      FROM (
+																		  	WITH V_ORDER AS (   -- 대상 주문 
+																				SELECT ORDER_NO, COM_CD, SKU_CD
+																				  FROM ORDERS
+																			     WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+																				   AND BATCH_ID = P_IN_BATCH_ID
+																				   AND ORDER_TYPE = 'MT'
+																			),
+																		  	V_RACK_ASSIGNED_SKU AS ( -- 선정된 패턴의 대표 주문 번호와 기 할당된 주문 번호에서 현재 할당된 상품 리스트를 추출 
+																				SELECT DISTINCT COM_CD, SKU_CD
+																				  FROM V_ORDER
+																			     WHERE ORDER_NO = C_ORDER_PATTERN.ORDER_NO
+																				 UNION ALL
+																				SELECT DISTINCT COM_CD, SKU_CD
+																				  FROM ORDERS
+																			     WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+																				   AND BATCH_ID = V_SEQ_RACK_BATCH_ID
+																				   AND ORDER_NO in (SELECT CELL_ASSGN_CD FROM ORDER_PREPROCESSES
+																								     WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+																								       AND BATCH_ID = V_SEQ_RACK_BATCH_ID)
+																			),
+																		  	V_ASSIGN_ORDERS AS ( -- 상품 리스트 내에서 할당 가능한 주문을 추출 
+																				SELECT ORDER_NO
+																				  FROM (
+																						SELECT ORDER_NO, SUM(EXCEPT_SKU) AS EXCEPT_SKU
+																						  FROM (
+																								SELECT X.ORDER_NO, X.COM_CD, X.SKU_CD
+																									 , CASE WHEN Y.SKU_CD IS NULL THEN 1000000000
+																											ELSE 0
+																										END AS EXCEPT_SKU
+																								  FROM V_ORDER X
+																									   LEFT OUTER JOIN V_RACK_ASSIGNED_SKU Y
+																									   ON X.COM_CD = Y.COM_CD AND X.SKU_CD = Y.SKU_CD
+																							   ) X
+																						 GROUP BY ORDER_NO
+																					   ) X
+																				 WHERE EXCEPT_SKU = 0
+																			)
+																		  	SELECT ORDER_NO
+																		         , COM_CD ||':'|| SKU_CD AS ORD_SKU
+																		      FROM V_ORDER
+																		     WHERE ORDER_NO in (SELECT ORDER_NO FROM V_ASSIGN_ORDERS)																		  
+																		   ) X
+																   ) X
+															 GROUP BY ORDER_NO
+														   ) X
+												   ) X
+											 ORDER BY PATTERN_CNT DESC, SKU_CNT ASC
+											) X
+									  LIMIT V_EMPTY_CELL_CNT -- 남은 셀 수 보다 적은 주문 가져오기
+									)
+			 RETURNING ID
+			),
+			V_INSERT_PREPROCESS AS (
+			-- 5.2. 업데이트한 주문을 대상으로 주문 가공 정보 생성 
+				INSERT INTO ORDER_PREPROCESSES(ID, BATCH_ID, JOB_TYPE
+											 , COM_CD, EQUIP_TYPE, CELL_ASSGN_TYPE, CELL_ASSGN_CD, CLASS_CD
+											 , SKU_QTY, TOTAL_PCS
+											 , DOMAIN_ID, CREATOR_ID, UPDATER_ID, CREATED_AT, UPDATED_AT
+											 , EQUIP_CD, EQUIP_NM, SUB_EQUIP_CD)
+				SELECT uuid_generate_v4()::text, V_SEQ_RACK_BATCH_ID, X.JOB_TYPE
+					 , V_BATCH_ROW.COM_CD, V_BATCH_ROW.EQUIP_TYPE, 'ORDER_NO', X.ORDER_NO, Y.RACK_CD
+					 , X.SKU_QTY, X.TOTAL_PCS
+					 , X.DOMAIN_ID, 'SYSTEM', 'SYSTEM', now(), now()
+					 , Y.RACK_CD, Y.RACK_NM, Y.CELL_CD
+				  FROM (
+						SELECT JOB_TYPE, ORDER_NO, DOMAIN_ID
+							 , COUNT(DISTINCT COM_CD||SKU_CD) AS SKU_QTY, SUM(ORDER_QTY) AS TOTAL_PCS
+							 , RANK() OVER (ORDER BY SUM(ORDER_QTY) DESC, ORDER_NO) AS LOC_KEY
+						  FROM ORDERS
+						 WHERE ID in (SELECT ID FROM V_UPDATE_ORD)
+						 GROUP BY DOMAIN_ID, BATCH_ID, JOB_TYPE, ORDER_NO
+					   ) X INNER JOIN
+					   ( SELECT RACK_CD, RACK_NM, CELL_CD
+							  , RANK() OVER (ORDER BY RACK_CD, CELL_SEQ) AS LOC_KEY
+						   FROM V_RACK_LOC
+						  WHERE (RACK_CD, CELL_CD) not in (SELECT EQUIP_CD, SUB_EQUIP_CD 
+															 FROM ORDER_PREPROCESSES
+															WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+															  AND BATCH_ID = V_SEQ_RACK_BATCH_ID)
+					   ) Y
+					ON X.LOC_KEY = Y.LOC_KEY
+			 RETURNING ID
+			)
+			SELECT COUNT(1) 
+			  INTO V_ASSIGN_ORD_CNT
+			  FROM V_INSERT_PREPROCESS;
+
+			-- 5.4 남은 셀 카운트 계산 
+			V_EMPTY_CELL_CNT := V_EMPTY_CELL_CNT - V_ASSIGN_ORD_CNT;
+
+			-- 5.5 주문을 할당할 셀 수가 없으면 return
+			IF V_EMPTY_CELL_CNT = 0 THEN
+				EXIT;
+			END IF;
+		END LOOP;		
+		
+		-- 주문이 할당 된 숫자가 있으면 
+		IF C_RACK_CELL_CNT.CELL_CNT != V_EMPTY_CELL_CNT THEN
+			 -- 배치 insert 
+			 INSERT INTO JOB_BATCHES(ID, WMS_BATCH_NO, WCS_BATCH_NO, BATCH_GROUP_ID
+								  , COM_CD, JOB_DATE, JOB_SEQ
+								  , AREA_CD, STAGE_CD, EQUIP_TYPE
+								  , DOMAIN_ID, CREATOR_ID, UPDATER_ID, CREATED_AT, UPDATED_AT
+								  , JOB_TYPE, EQUIP_CD, EQUIP_NM
+								  , PARENT_ORDER_QTY, BATCH_ORDER_QTY, PARENT_PCS, BATCH_PCS, BATCH_SKU_QTY
+								  , STATUS, JOB_CONFIG_SET_ID, IND_CONFIG_SET_ID) 
+			 SELECT BATCH_ID, V_BATCH_ROW.WMS_BATCH_NO, V_BATCH_ROW.WCS_BATCH_NO, V_SEQ_BATCH_ID
+				  , V_BATCH_ROW.COM_CD, V_BATCH_ROW.JOB_DATE, V_BATCH_SEQ
+				  , V_BATCH_ROW.AREA_CD, V_BATCH_ROW.STAGE_CD, V_BATCH_ROW.EQUIP_TYPE
+				  , V_BATCH_ROW.DOMAIN_ID, 'SYSTEM', 'SYSTEM', now(), now()
+				  , MAX(JOB_TYPE), C_RACK_CELL_CNT.RACK_CD, C_RACK_CELL_CNT.RACK_NM
+				  , COUNT(DISTINCT ORDER_NO), COUNT(DISTINCT ORDER_NO), SUM(ORDER_QTY), SUM(ORDER_QTY), COUNT(DISTINCT COM_CD||SKU_CD)
+				  , 'READY', V_BATCH_ROW.JOB_CONFIG_SET_ID, V_BATCH_ROW.IND_CONFIG_SET_ID
+			   FROM ORDERS
+			  WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+				AND BATCH_ID = V_SEQ_RACK_BATCH_ID
+			  GROUP BY DOMAIN_ID, BATCH_ID;		
+			  
+			 -- 주문 정보에 CELL UPDATE
+   		     UPDATE ORDERS X SET SUB_EQUIP_CD = (SELECT Y.SUB_EQUIP_CD 
+  											       FROM ORDER_PREPROCESSES Y
+											      WHERE Y.DOMAIN_ID = X.DOMAIN_ID
+										            AND Y.BATCH_ID = X.BATCH_ID 
+										            AND Y.CELL_ASSGN_CD = X.ORDER_NO)
+              WHERE DOMAIN_ID = P_IN_DOMAIN_ID 
+			    AND BATCH_ID = V_SEQ_RACK_BATCH_ID;
+		END IF;
+		
+	END LOOP;
+	
+	UPDATE JOB_BATCHES SET (PARENT_ORDER_QTY, BATCH_ORDER_QTY, PARENT_PCS, BATCH_PCS, BATCH_SKU_QTY)
+			  = (SELECT SUM(ORDER_QTY), SUM(ORDER_QTY), SUM(ORDER_PCS), SUM(ORDER_PCS), SUM(SKU_QTY)
+				   FROM (
+						 SELECT COUNT(DISTINCT ORDER_NO) AS ORDER_QTY, SUM(ORDER_QTY) AS ORDER_PCS, COUNT(DISTINCT COM_CD||SKU_CD) AS SKU_QTY
+						   FROM ORDERS 
+						  WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+							AND BATCH_ID = V_BATCH_ROW.ID
+						  GROUP BY DOMAIN_ID, BATCH_ID
+						  UNION ALL
+						  SELECT 0, 0, 0
+						) X
+				 )
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND ID = V_BATCH_ROW.ID;
+
+exception when others then 
+	raise notice 'err time %', now();
+    raise notice 'The transaction is in an uncommittable state. '
+                 'Transaction was rolled back';
+    raise exception '% %', SQLERRM, SQLSTATE;
+END
+$BODY$;
