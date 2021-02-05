@@ -1,0 +1,25 @@
+-- View: public.box_items
+
+-- DROP VIEW public.box_items;
+
+CREATE OR REPLACE VIEW public.box_items AS
+ SELECT max(j.id::text) AS id,
+    (((j.batch_id::text || '_'::text) || j.class_cd::text) || '_'::text) || COALESCE(j.invoice_id, j.box_id)::text AS box_pack_id,
+    c.station_cd,
+    j.sub_equip_cd,
+    j.sku_cd,
+    max(j.sku_barcd::text) AS sku_barcd,
+    max(j.sku_nm::text) AS sku_nm,
+    max(j.pack_type::text) AS pack_type,
+    max(j.sku_wt) AS sku_wt,
+    sum(j.pick_qty) AS pick_qty,
+    sum(j.picked_qty) AS picked_qty,
+    sum(j.inspected_qty) AS inspected_qty
+   FROM job_instances j
+     LEFT JOIN cells c ON j.domain_id = c.domain_id AND j.sub_equip_cd::text = c.cell_cd::text
+  WHERE j.domain_id = 1000
+  GROUP BY j.domain_id, j.batch_id, j.class_cd, j.invoice_id, j.box_id, j.sku_cd, j.sub_equip_cd, c.station_cd;
+
+ALTER TABLE public.box_items
+    OWNER TO postgres;
+

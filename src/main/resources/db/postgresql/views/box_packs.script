@@ -1,0 +1,51 @@
+-- View: public.box_packs
+
+-- DROP VIEW public.box_packs;
+
+CREATE OR REPLACE VIEW public.box_packs AS
+ SELECT (((job_instances.batch_id::text || '_'::text) || job_instances.class_cd::text) || '_'::text) || COALESCE(job_instances.invoice_id, job_instances.box_id)::text AS id,
+    job_instances.domain_id,
+    job_instances.stage_cd,
+    job_instances.batch_id,
+    job_instances.job_date,
+    job_instances.job_seq,
+    max(job_instances.job_type::text) AS job_type,
+    job_instances.com_cd,
+    job_instances.equip_cd,
+    max(job_instances.sub_equip_cd::text) AS sub_equip_cd,
+    job_instances.order_type,
+    max(job_instances.cust_order_no::text) AS cust_order_no,
+    max(job_instances.order_no::text) AS order_no,
+    max(job_instances.shop_cd::text) AS shop_cd,
+    max(job_instances.shop_nm::text) AS shop_nm,
+    job_instances.invoice_id,
+    max(job_instances.box_type_cd::text) AS box_type_cd,
+    job_instances.box_id,
+    job_instances.class_cd,
+    job_instances.box_class_cd,
+    max(job_instances.status::text) AS status,
+    max(job_instances.input_seq) AS input_seq,
+    max(job_instances.box_net_wt) AS box_net_wt,
+    max(job_instances.box_expect_wt) AS box_expect_wt,
+    max(job_instances.box_real_wt) AS box_real_wt,
+    max(job_instances.auto_insp_status::text) AS auto_insp_status,
+    max(job_instances.manual_insp_status::text) AS manual_insp_status,
+    max(job_instances.report_status::text) AS report_status,
+    max(job_instances.input_at::text) AS input_at,
+    min(job_instances.pick_started_at::text) AS pick_started_at,
+    max(job_instances.boxed_at::text) AS boxed_at,
+    max(job_instances.auto_inspected_at::text) AS auto_inspected_at,
+    max(job_instances.manual_inspected_at::text) AS manual_inspected_at,
+    max(job_instances.final_out_at::text) AS final_out_at,
+    max(job_instances.reported_at::text) AS reported_at,
+    sum(job_instances.pick_qty) AS pick_qty,
+    sum(job_instances.picked_qty) AS picked_qty,
+    sum(job_instances.inspected_qty) AS inspected_qty
+   FROM job_instances
+  WHERE job_instances.domain_id = 1000 AND job_instances.status IS NOT NULL AND (job_instances.status::text = ANY (ARRAY['I'::character varying, 'P'::character varying, 'F'::character varying, 'B'::character varying, 'E'::character varying, 'O'::character varying]::text[])) AND (job_instances.invoice_id IS NOT NULL OR job_instances.box_id IS NOT NULL)
+  GROUP BY job_instances.domain_id, job_instances.stage_cd, job_instances.batch_id, job_instances.job_date, job_instances.job_seq, job_instances.com_cd, job_instances.equip_cd, job_instances.order_type, job_instances.invoice_id, job_instances.box_id, job_instances.class_cd, job_instances.box_class_cd
+  ORDER BY job_instances.job_date DESC, job_instances.job_seq DESC, (max(job_instances.input_seq)) DESC;
+
+ALTER TABLE public.box_packs
+    OWNER TO postgres;
+
