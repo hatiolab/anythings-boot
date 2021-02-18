@@ -45,13 +45,17 @@ import xyz.elidom.util.ValueUtil;
 public class NosNosReceiveBatch {
 	
 	/**
-	 * 주문 수신 서머리 커스텀 서비스
+	 * 주문 수신 서머리 수신 후 커스텀 서비스
 	 */
-	private static final String DIY_RECEIVE_SUMMARY_BY_NOSNOS = "diy-receive-summary-by-nosnos";
+	private static final String DIY_HANDLE_SUMMARY_BY_NOSNOS = "diy-handle-summary-by-nosnos";
 	/**
-	 * 주문 수신 커스텀 서비스
+	 * 주문 수신 처리 커스텀 서비스
 	 */
-	private static final String DIY_RECEIVE_ORDERS_BY_NOSNOS = "diy-receive-orders-by-nosnos";
+	private static final String DIY_HANDLE_ORDERS_BY_NOSNOS = "diy-handle-orders-by-nosnos";
+	/**
+	 * 주문 수신 완료 후 커스텀 서비스
+	 */
+	private static final String DIY_HANDLE_BATCHES_BY_NOSNOS = "diy-handle-batches-by-nosnos";
 	/**
 	 * NOSNOS 날짜포맷
 	 */
@@ -105,10 +109,13 @@ public class NosNosReceiveBatch {
 		
 		// 5. 커스텀 서비스 호출
 		Map<String, Object> parameters = ValueUtil.newMap("event", event);
-		this.customService.doCustomService(event.getDomainId(), DIY_RECEIVE_SUMMARY_BY_NOSNOS, parameters);
+		this.customService.doCustomService(event.getDomainId(), DIY_HANDLE_SUMMARY_BY_NOSNOS, parameters);
 		
 		// 6. 주문 수신
 		this.handleStartToReceive(event);
+		
+		// 7. 이벤트 처리
+		event.setExecuted(true);
 	}
 
 	/**
@@ -137,14 +144,24 @@ public class NosNosReceiveBatch {
 		}
 		
 		// 4. 새로운 회차에 대해서 주문 수신 시작
+		int totalOrders = 0;
 		for(String jobSeq : jobSeqList) {
-			Map<String, Object> response = this.receiveOrdersByJobSeq(event.getJobDate(), ValueUtil.toInteger(jobSeq), 1);
-			this.configureBatchByOrders(event, response);
+			int batchSeq = ValueUtil.toInteger(jobSeq);
+			Map<String, Object> response = this.receiveOrdersByJobSeq(event.getJobDate(), batchSeq, 1);
+			JobBatch batch = this.configureBatchByOrders(event, batchSeq, response);
+			
+			if(batch != null) {
+				totalOrders += batch.getBatchOrderQty();
+			}
+		}
+		
+		if(totalOrders == 0) {
+			throw ThrowUtil.newValidationErrorWithNoLog("수신할 주문 정보가 없습니다.");
 		}
 		
 		// 5. 커스텀 서비스 호출 
 		Map<String, Object> parameters = ValueUtil.newMap("event", event);
-		this.customService.doCustomService(event.getDomainId(), DIY_RECEIVE_ORDERS_BY_NOSNOS, parameters);
+		this.customService.doCustomService(event.getDomainId(), DIY_HANDLE_BATCHES_BY_NOSNOS, parameters);
 	}
 
 	/**
@@ -211,25 +228,36 @@ public class NosNosReceiveBatch {
 	 * 주문으로 배치 구성
 	 * 
 	 * @param event
-	 * @param response
+	 * @param batchSeq
+	 * @param result
 	 * @return
 	 */
-	private JobBatch configureBatchByOrders(BatchReceiveEvent event, Map<String, Object> response) {
+	@SuppressWarnings("unchecked")
+	private JobBatch configureBatchByOrders(BatchReceiveEvent event, int batchSeq, Map<String, Object> result) {
 		// 1. 주문 체크
-		if(response == null || !ValueUtil.toBoolean(response.get("status"))) {
-			throw ThrowUtil.newValidationErrorWithNoLog("수신할 주문 정보가 없습니다.");
+		if(result == null || !ValueUtil.toBoolean(result.get("status"))) {
+			return null;
 		}
 		
-		// 2. 작업 배치 생성
-		JobBatch batch = this.createNewBatch(event);
+		// 2. 총 주문 건수
+		Map<String, Object> response = (Map<String, Object>)result.get("response");
+		int totalOrders = ValueUtil.toInteger(response.get("release_cnt"));
+		if(totalOrders == 0) {
+			return null;
+		}
 		
-		// 3. 수신 데이터로 주문 생성
-		this.createOrdersByBatch(batch, response);
+		// 3. 작업 배치 생성
+		JobBatch batch = this.createNewBatch(event, batchSeq);
 		
-		// 4. 배치 생성
-		this.queryManager.insert(batch);
+		// 4. 수신 데이터로 주문 생성
+		this.createOrdersByBatch(batch, result);
 		
-		// 5. 배치 리턴 
+		// 5. 배치 생성
+		batch.setParentOrderQty(totalOrders);
+		batch.setBatchOrderQty(totalOrders);
+		//this.queryManager.insert(batch);
+		
+		// 6. 배치 리턴 
 		return batch;
 	}
 	
@@ -237,23 +265,28 @@ public class NosNosReceiveBatch {
 	 * 새로운 배치 생성
 	 * 
 	 * @param event
+	 * @param batchSeq
 	 * @return
 	 */
-	private JobBatch createNewBatch(BatchReceiveEvent event) {
+	private JobBatch createNewBatch(BatchReceiveEvent event, int batchSeq) {
 		String jobDate = event.getJobDate();
-		String jobSeq = event.getJobSeq();
-		String batchId = event.getJobDate().replace(LogisConstants.DASH, LogisConstants.EMPTY_STRING) + LogisConstants.DASH + jobSeq;
+		String batchId = event.getJobDate().replace(LogisConstants.DASH, LogisConstants.EMPTY_STRING) + LogisConstants.DASH + batchSeq;
 		String areaCd = event.getAreaCd();
 		String stageCd = event.getStageCd();
 		String comCd = event.getComCd();
 		
 		JobBatch batch = new JobBatch();
+		batch.setDomainId(event.getDomainId());
 		batch.setId(batchId);
 		batch.setAreaCd(areaCd);
 		batch.setStageCd(stageCd);
 		batch.setComCd(comCd);
 		batch.setJobDate(jobDate);
-		batch.setJobSeq(jobSeq);
+		batch.setJobSeq(ValueUtil.toString(batchSeq));
+		batch.setResultBoxQty(0);
+		batch.setResultOrderQty(0);
+		batch.setResultPcs(0);
+		batch.setResultSkuQty(0);
 		return batch;
 	}
 	
@@ -261,10 +294,27 @@ public class NosNosReceiveBatch {
 	 * 작업 배치로 주문 생성
 	 * 
 	 * @param batch
-	 * @param response
+	 * @param result
 	 */
-	private void createOrdersByBatch(JobBatch batch, Map<String, Object> response) {
-		response.get("re");
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	private void createOrdersByBatch(JobBatch batch, Map<String, Object> result) {
+		Map<String, Object> response = (Map<String, Object>)result.get("response");
+		// 응답 데이터 중에 총 페이지, 현재 페이지, 주문 전체 정보 추출
+		int currentPage = ValueUtil.toInteger(response.get("current_page"));
+		int totalPage = ValueUtil.toInteger(response.get("total_page"));
+		List<Map> orderList = (List<Map>)response.get("release_info");
+		
+		if(ValueUtil.isNotEmpty(orderList)) {
+			// 주문 매핑 처리 - 커스텀 서비스 호출
+			Map<String, Object> parameters = ValueUtil.newMap("batch,orders", batch, orderList);
+			this.customService.doCustomService(batch.getDomainId(), DIY_HANDLE_ORDERS_BY_NOSNOS, parameters);
+			
+			// 현재 페이지가 마지막 페이지가 아니면 ...
+			if(totalPage > currentPage) {
+				result = this.receiveOrdersByJobSeq(batch.getJobDate(), ValueUtil.toInteger(batch.getJobSeq()), currentPage + 1);
+				this.createOrdersByBatch(batch, result);
+			}
+		}
 	}
 	
 	/**
