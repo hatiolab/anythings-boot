@@ -1,0 +1,55 @@
+-- PROCEDURE: public.sp_regenerate_box_type(bigint, character varying)
+
+-- DROP PROCEDURE public.sp_regenerate_box_type(bigint, character varying);
+
+CREATE OR REPLACE PROCEDURE public.sp_regenerate_box_type(
+	p_in_domain_id bigint,
+	p_in_batch_id character varying)
+LANGUAGE 'plpgsql'
+AS $BODY$
+DECLARE
+
+	-- 배치 
+	V_BATCH_ROW JOB_BATCHES%ROWTYPE;
+	
+	-- 박스 타입 재산정할 주문 레코드 
+	C_ORDER RECORD;
+	
+	-- 주문에 산정된 박스 타입 
+	V_ORDER_BOX_TYPE character varying(50);
+
+BEGIN
+	-- 1. 배치 조회
+	SELECT *
+	  INTO V_BATCH_ROW
+	  FROM JOB_BATCHES
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND ID = P_IN_BATCH_ID;
+
+	-- 2. 박스 타입 재산정 대상 loop (domain/batch_id/order_no)
+	FOR C_ORDER IN 
+		SELECT DISTINCT DOMAIN_ID, BATCH_ID, ORDER_NO
+		  FROM ORDERS
+		 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+		   AND BATCH_ID = V_BATCH_ROW.ID
+	LOOP
+		-- 2.1 박스 타입 재산정 
+		SELECT F_GET_ORDER_BOX_TYPE(C_ORDER.DOMAIN_ID, C_ORDER.BATCH_ID, C_ORDER.ORDER_NO)
+		  INTO V_ORDER_BOX_TYPE ;
+		  
+		-- 2.2. 주문에 업데이트 
+		UPDATE ORDERS SET BOX_TYPE_CD = V_ORDER_BOX_TYPE
+		 WHERE DOMAIN_ID = C_ORDER.DOMAIN_ID
+		   AND BATCH_ID = C_ORDER.BATCH_ID
+		   AND ORDER_NO = C_ORDER.ORDER_NO;
+		   
+		-- 2.3. 작업 데이터 업데이트
+		UPDATE JOB_INSTANCES SET BOX_TYPE_CD = V_ORDER_BOX_TYPE
+		 WHERE DOMAIN_ID = C_ORDER.DOMAIN_ID
+		   AND BATCH_ID = C_ORDER.BATCH_ID
+		   AND ORDER_NO = C_ORDER.ORDER_NO;
+		   
+	END LOOP;
+
+END
+$BODY$;

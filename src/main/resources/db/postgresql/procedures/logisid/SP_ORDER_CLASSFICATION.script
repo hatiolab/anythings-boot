@@ -1,0 +1,168 @@
+-- PROCEDURE: public.sp_order_classification(bigint, character varying)
+
+-- DROP PROCEDURE public.sp_order_classification(bigint, character varying);
+
+CREATE OR REPLACE PROCEDURE public.sp_order_classification(
+	p_in_domain_id bigint,
+	p_in_batch_id character varying)
+LANGUAGE 'plpgsql'
+AS $BODY$
+DECLARE
+
+	-- 배치 
+	V_BATCH_ROW JOB_BATCHES%ROWTYPE;
+	
+	-- 대상분류 주문 레코드 
+	C_ORDER RECORD;
+	
+	-- 단포 주문 레코드 
+	C_OT_ORDER RECORD;
+	
+	-- 단포 배치 ID
+	V_OT_BATCH_ID character varying(40) ;
+	
+	-- 단포 배치 SEQ 
+	V_OT_BATCH_SEQ integer;
+
+BEGIN
+	-- 1. 배치 조회
+	SELECT *
+	  INTO V_BATCH_ROW
+	  FROM JOB_BATCHES
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND ID = P_IN_BATCH_ID;
+	   
+	CALL sp_regenerate_box_type(P_IN_DOMAIN_ID, P_IN_BATCH_ID);
+	   
+	-- 단포 배치 회차 구하기 
+	SELECT COALESCE(MAX(JOB_SEQ),'0')::integer + 1
+	  INTO V_OT_BATCH_SEQ
+	  FROM JOB_BATCHES
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND WMS_BATCH_NO = V_BATCH_ROW.WMS_BATCH_NO
+	   AND JOB_TYPE = 'DPS';
+
+	-- 단포 배치 
+	V_OT_BATCH_ID := V_BATCH_ROW.ID || '-OT-' || V_OT_BATCH_SEQ;
+	
+	-- 주문에 from location update
+	UPDATE ORDERS X
+	   SET FROM_CELL_CD = (SELECT Y.CELL_CD
+ 						     FROM SKU Y
+					        WHERE Y.DOMAIN_ID = X.DOMAIN_ID
+						      AND Y.COM_CD= X.COM_CD
+						      AND Y.SKU_CD = X.SKU_CD) 
+     WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+       AND BATCH_ID = P_IN_BATCH_ID
+       AND FROM_CELL_CD is null;
+        
+	   
+	-- 대상분류 후 데이터를 기준으로 loop (update)
+	FOR C_ORDER IN 
+		SELECT DOMAIN_ID, BATCH_ID, ORDER_NO
+			 , CASE WHEN SKU_CNT = 1 THEN 'OT'  -- 단포 
+					ELSE 'MT' -- 합포 
+				END AS ORDER_TYPE
+		  FROM (
+				SELECT DOMAIN_ID, BATCH_ID, ORDER_NO, SUM(SKU_CNT) AS SKU_CNT
+			      FROM (
+					  	SELECT X.DOMAIN_ID, X.BATCH_ID, X.ORDER_NO
+					         , 1 SKU_CNT
+					      FROM (
+					      		-- 일반 부자재가 포함 된 주문 
+								SELECT DOMAIN_ID, BATCH_ID, ORDER_NO, COM_CD, SKU_CD, INVOICE_ID, SHOP_CD, SHOP_NM
+								  FROM ORDERS
+								 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+								   AND BATCH_ID = P_IN_BATCH_ID
+								   AND (ORDER_TYPE IS NULL OR ORDER_TYPE = '') -- 대상분류가 되지 않은 주문만. 
+								 GROUP BY DOMAIN_ID, BATCH_ID, ORDER_NO, COM_CD, SKU_CD, INVOICE_ID, SHOP_CD, SHOP_NM
+						       ) X
+					  	       LEFT OUTER JOIN
+					  		   (SELECT DOMAIN_ID, COM_CD, SKU_CD FROM SKU WHERE DOMAIN_ID = P_IN_DOMAIN_ID) Y
+					  	       ON X.DOMAIN_ID = Y.DOMAIN_ID AND X.COM_CD = Y.COM_CD AND X.SKU_CD = Y.SKU_CD
+				       ) X
+				 GROUP BY DOMAIN_ID, BATCH_ID, ORDER_NO
+			   ) X
+    LOOP
+	
+		-- 대상분류 정보 Update 
+		UPDATE ORDERS 
+		   SET ORDER_TYPE = C_ORDER.ORDER_TYPE
+		     , CLASS_CD = ORDER_NO
+  		     , BOX_TYPE_CD = F_GET_ORDER_BOX_TYPE(C_ORDER.DOMAIN_ID, C_ORDER.BATCH_ID, C_ORDER.ORDER_NO)
+		 WHERE DOMAIN_ID = C_ORDER.DOMAIN_ID
+		   AND BATCH_ID = C_ORDER.BATCH_ID
+		   AND ORDER_NO = C_ORDER.ORDER_NO;
+		   
+    END LOOP;
+	
+	-- 단포 주문은 단포 배치로 이동
+	FOR C_OT_ORDER IN 
+		SELECT x.*
+		     , SUM(ORDER_QTY) OVER (PARTITION BY ORDER_NO, SKU_CD) AS SUM_ORDER
+			 , RANK() OVER (PARTITION BY ORDER_NO, SKU_CD ORDER BY LOT_NO, ID) AS LOT_SEQ
+		  FROM ORDERS x
+		 WHERE DOMAIN_ID = C_ORDER.DOMAIN_ID
+		   AND BATCH_ID = C_ORDER.BATCH_ID
+		   AND ORDER_TYPE = 'OT'
+	LOOP 
+		IF C_OT_ORDER.LOT_SEQ = 1 THEN 
+			UPDATE ORDERS
+			   SET BATCH_ID = V_OT_BATCH_ID
+				 , JOB_TYPE = 'DPS'
+				 , EQUIP_CD= 'L6'
+				 , EQUIP_NM = '6호기'
+				 , JOB_SEQ = V_OT_BATCH_SEQ
+--				 , STATUS = 'W'
+				 , ORDER_QTY = C_OT_ORDER.SUM_ORDER
+			 WHERE ID = C_OT_ORDER.ID;
+		ELSE 
+			UPDATE ORDERS
+			   SET BATCH_ID = V_OT_BATCH_ID || '-TRASH'
+			     , ORDER_QTY = 0
+				 , ORDER_TYPE = 'OT-TRASH'
+			 WHERE ID = C_OT_ORDER.ID;
+		END IF;
+	END LOOP;
+	
+	-- 현재 분할에 단포 주문이 존재 하면 
+	IF (SELECT COUNT(1) FROM ORDERS WHERE BATCH_ID = V_OT_BATCH_ID) > 0 THEN
+		 -- 단포 배치 insert 
+		 INSERT INTO JOB_BATCHES(ID, WMS_BATCH_NO, WCS_BATCH_NO, BATCH_GROUP_ID
+							  , COM_CD, JOB_DATE, JOB_SEQ
+							  , AREA_CD, STAGE_CD, EQUIP_TYPE
+							  , DOMAIN_ID, CREATOR_ID, UPDATER_ID, CREATED_AT, UPDATED_AT
+							  , JOB_TYPE, EQUIP_CD, EQUIP_NM
+							  , PARENT_ORDER_QTY, BATCH_ORDER_QTY, PARENT_PCS, BATCH_PCS, STATUS
+							  , JOB_CONFIG_SET_ID, IND_CONFIG_SET_ID ) 
+		 SELECT BATCH_ID, V_BATCH_ROW.WMS_BATCH_NO, V_BATCH_ROW.WCS_BATCH_NO, BATCH_ID
+			  , V_BATCH_ROW.COM_CD, V_BATCH_ROW.JOB_DATE, V_OT_BATCH_SEQ
+			  , V_BATCH_ROW.AREA_CD, V_BATCH_ROW.STAGE_CD, V_BATCH_ROW.EQUIP_TYPE
+			  , V_BATCH_ROW.DOMAIN_ID, 'SYSTEM', 'SYSTEM', now(), now()
+			  , MAX(JOB_TYPE), 'L6', '6호기'
+			  , COUNT(DISTINCT ORDER_NO), COUNT(DISTINCT ORDER_NO), SUM(ORDER_QTY), SUM(ORDER_QTY), 'READY'
+			  , 'cb42f1d3-4ebf-4c44-8ae8-0ad8f9a149ad','647f3018-867a-4d80-a7d1-fe86fa3ed866'
+		   FROM ORDERS
+		  WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+			AND BATCH_ID = V_OT_BATCH_ID
+		  GROUP BY DOMAIN_ID, BATCH_ID;
+	
+	END IF;
+
+	UPDATE JOB_BATCHES SET (PARENT_ORDER_QTY, BATCH_ORDER_QTY, PARENT_PCS, BATCH_PCS)
+			  = (SELECT SUM(ORDER_QTY), SUM(ORDER_QTY), SUM(ORDER_PCS), SUM(ORDER_PCS)
+				   FROM (
+						 SELECT COUNT(DISTINCT ORDER_NO) AS ORDER_QTY, SUM(ORDER_QTY) AS ORDER_PCS
+						   FROM ORDERS 
+						  WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+							AND BATCH_ID = V_BATCH_ROW.ID
+						  GROUP BY DOMAIN_ID, BATCH_ID
+						  UNION ALL
+						  SELECT 0, 0 
+				        ) X
+			     )
+	 WHERE DOMAIN_ID = P_IN_DOMAIN_ID
+	   AND ID = V_BATCH_ROW.ID;
+	   
+END
+$BODY$;
