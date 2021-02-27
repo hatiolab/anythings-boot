@@ -10,7 +10,7 @@ buildscript {
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-		classpath("org.springframework.build.gradle:propdeps-plugin:0.0.7")		 
+		classpath("org.springframework.build.gradle:propdeps-plugin:0.0.7")
 	}
 }
 
@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-sms/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-sps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-pdas/build/libs', '../operato-logis-insp/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs','../anythings-printing/build/libs'
 	}
 }
 
@@ -59,11 +59,16 @@ if (!project.hasProperty('buildDep')) {
 	
 	dependencies {
 		compile project(':operato-logis-wcs')
-		compile project(':operato-logis-sms')
-		compile project(':operato-logis-dps')
+//		compile project(':operato-logis-sms')
+		compile project(':operato-logis-insp')
+//		compile project(':operato-logis-dps')
 		compile project(':operato-logis-das')
-//		compile project(':operato-gw-mqbase')
+		compile project(':operato-logis-sps')
+		compile project(':operato-logis-pdas')
+		compile project(':operato-logis-ops')
 		compile project(':operato-gw-lightbase')
+		compile project(':operato-gw-mqbase')
+		compile project(':anythings-printing')
 		compile project(':anythings-logis-base')
 		compile project(':anythings-gw')
 		compile project(':anythings-comm-rabbitmq')
@@ -76,27 +81,37 @@ if (!project.hasProperty('buildDep')) {
 
 	dependencies {
 		implementation project(':operato-logis-wcs')
-		implementation project(':operato-logis-sms')
-		implementation project(':operato-logis-dps')
+//		implementation project(':operato-logis-sms')
+		implementation project(':operato-logis-insp')
+//		implementation project(':operato-logis-dps')
 		implementation project(':operato-logis-das')
-//		implementation project(':operato-gw-mqbase')
+		implementation project(':operato-logis-sps')
+		implementation project(':operato-logis-pdas')
+		implementation project(':operato-logis-ops')
 		implementation project(':operato-gw-lightbase')
+		implementation project(':operato-gw-mqbase')
+		implementation project(':anythings-printing')
 		implementation project(':anythings-logis-base')
 		implementation project(':anythings-gw')
 		implementation project(':anythings-comm-rabbitmq')
-		implementation project(':anythings-sys')	
-	
+		implementation project(':anythings-sys')
+		
 		compile(name:'operato-logis-wcs-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
+//		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-insp-0.0.0.1',ext:'jar')
+//		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-das-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
-//		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-sps-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-pdas-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-ops-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-lightbase-0.0.0.1',ext:'jar')
+		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
+		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
 		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
 		compile(name:'anythings-gw-0.0.0.1',ext:'jar')
 		compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
 		compile(name:'anythings-sys-0.0.0.1',ext:'jar')
-	
+		
 		compile("com.hatiolab:elings-job:2.1.0.8") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-dev:2.1.0.4") {exclude group:'com.hatiolab'}
 		compile("com.hatiolab:elings-screen:2.1.0.3") {exclude group:'com.hatiolab'}
