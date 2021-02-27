@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-sps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-pdas/build/libs', '../operato-logis-insp/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs','../anythings-printing/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-sps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-pdas/build/libs', '../operato-logis-insp/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs','../anythings-printing/build/libs','../operato-logis-ops/build/libs'
 	}
 }
 
