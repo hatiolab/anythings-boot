@@ -17,7 +17,7 @@ include 'services:webservice'
 
 rootProject.name = 'anythings-boot'
 
-include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base','anythings-printing',':operato-gw-mqbase',':operato-logis-ops',':operato-logis-das',':operato-logis-dps',':operato-logis-pdas',':operato-logis-sps',':operato-logis-insp',':operato-logis-wcs',':operato-gw-lightbase'
+include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base','anythings-printing',':operato-gw-mqbase',':operato-logis-ops',':operato-logis-das',':operato-logis-pdas',':operato-logis-sps',':operato-logis-insp',':operato-logis-wcs',':operato-gw-lightbase'
 
 project(':anythings-sys').projectDir = new File(settingsDir, '../anythings-sys')
 project(':anythings-comm-rabbitmq').projectDir = new File(settingsDir, '../anythings-comm-rabbitmq')
