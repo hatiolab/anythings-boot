@@ -106,7 +106,7 @@ if (!project.hasProperty('buildDep')) {
 		compile(name:'operato-logis-ops-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-lightbase-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
-		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
+		compile(name:'anythings-printing-0.0.0.1',ext:'jar')
 		compile(name:'anythings-logis-base-0.0.0.1',ext:'jar')
 		compile(name:'anythings-gw-0.0.0.1',ext:'jar')
 		compile(name:'anythings-comm-rabbitmq-0.0.0.1',ext:'jar')
