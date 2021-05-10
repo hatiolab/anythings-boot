@@ -17,7 +17,7 @@ include 'services:webservice'
 
 rootProject.name = 'anythings-boot'
 
-include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base','anythings-printing',':operato-gw-mqbase',':operato-logis-ops',':operato-logis-das',':operato-logis-pdas',':operato-logis-sps',':operato-logis-insp',':operato-logis-wcs',':operato-gw-lightbase'
+include ':anythings-sys',':anythings-comm-rabbitmq',':anythings-gw',':anythings-logis-base','anythings-printing',':operato-gw-mqbase',':operato-logis-ops',':operato-logis-das',':operato-logis-pdas',':operato-logis-sps',':operato-logis-insp',':operato-logis-wcs',':operato-gw-lightbase',':operato-logis-sms',':operato-logis-dps',':operato-gw-epost',':operato-logis-bms'
 
 project(':anythings-sys').projectDir = new File(settingsDir, '../anythings-sys')
 project(':anythings-comm-rabbitmq').projectDir = new File(settingsDir, '../anythings-comm-rabbitmq')
@@ -26,11 +26,13 @@ project(':anythings-logis-base').projectDir = new File(settingsDir, '../anything
 project(':anythings-printing').projectDir = new File(settingsDir, '../anythings-printing')
 project(':operato-gw-mqbase').projectDir = new File(settingsDir, '../operato-gw-mqbase')
 project(':operato-gw-lightbase').projectDir = new File(settingsDir, '../operato-gw-lightbase')
+project(':operato-gw-epost').projectDir = new File(settingsDir, '../operato-gw-epost')
 project(':operato-logis-ops').projectDir = new File(settingsDir, '../operato-logis-ops')
 project(':operato-logis-das').projectDir = new File(settingsDir, '../operato-logis-das')
-//project(':operato-logis-dps').projectDir = new File(settingsDir, '../operato-logis-dps')
+project(':operato-logis-dps').projectDir = new File(settingsDir, '../operato-logis-dps')
 project(':operato-logis-pdas').projectDir = new File(settingsDir, '../operato-logis-pdas')
 project(':operato-logis-sps').projectDir = new File(settingsDir, '../operato-logis-sps')
 project(':operato-logis-insp').projectDir = new File(settingsDir, '../operato-logis-insp')
-//project(':operato-logis-sms').projectDir = new File(settingsDir, '../operato-logis-sms')
+project(':operato-logis-sms').projectDir = new File(settingsDir, '../operato-logis-sms')
 project(':operato-logis-wcs').projectDir = new File(settingsDir, '../operato-logis-wcs')
+project(':operato-logis-bms').projectDir = new File(settingsDir, '../operato-logis-bms')

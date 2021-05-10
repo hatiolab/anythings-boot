@@ -40,7 +40,7 @@ repositories {
 		url baseUrl + '/groups/elidom-repository/'
 	}
 	flatDir {
-		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-sps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-pdas/build/libs', '../operato-logis-insp/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs','../anythings-printing/build/libs','../operato-logis-ops/build/libs'
+		dirs '../anythings-sys/build/libs', '../anythings-comm-rabbitmq/build/libs', '../anythings-gw/build/libs', '../anythings-logis-base/build/libs', '../operato-gw-mqbase/build/libs', '../operato-logis-dps/build/libs', '../operato-logis-sps/build/libs', '../operato-logis-das/build/libs', '../operato-logis-pdas/build/libs', '../operato-logis-insp/build/libs', '../operato-logis-wcs/build/libs', '../operato-gw-lightbase/build/libs','../anythings-printing/build/libs','../operato-logis-ops/build/libs','../operato-logis-sms/build/libs','../operato-gw-epost/build/libs','../operato-logis-bms/build/libs'
 	}
 }
 
@@ -59,13 +59,15 @@ if (!project.hasProperty('buildDep')) {
 	
 	dependencies {
 		compile project(':operato-logis-wcs')
-//		compile project(':operato-logis-sms')
-		compile project(':operato-logis-insp')
-//		compile project(':operato-logis-dps')
+		compile project(':operato-logis-sms')
+//		compile project(':operato-logis-insp')
+		compile project(':operato-logis-dps')
 		compile project(':operato-logis-das')
-		compile project(':operato-logis-sps')
-		compile project(':operato-logis-pdas')
+//		compile project(':operato-logis-sps')
+//		compile project(':operato-logis-pdas')
 		compile project(':operato-logis-ops')
+		compile project(':operato-logis-bms')
+		compile project(':operato-gw-epost')
 		compile project(':operato-gw-lightbase')
 		compile project(':operato-gw-mqbase')
 		compile project(':anythings-printing')
@@ -81,13 +83,15 @@ if (!project.hasProperty('buildDep')) {
 
 	dependencies {
 		implementation project(':operato-logis-wcs')
-//		implementation project(':operato-logis-sms')
-		implementation project(':operato-logis-insp')
-//		implementation project(':operato-logis-dps')
+		implementation project(':operato-logis-sms')
+//		implementation project(':operato-logis-insp')
+		implementation project(':operato-logis-dps')
 		implementation project(':operato-logis-das')
-		implementation project(':operato-logis-sps')
-		implementation project(':operato-logis-pdas')
+//		implementation project(':operato-logis-sps')
+//		implementation project(':operato-logis-pdas')
 		implementation project(':operato-logis-ops')
+		implementation project(':operato-logis-bms')
+		implementation project(':operato-gw-epost')
 		implementation project(':operato-gw-lightbase')
 		implementation project(':operato-gw-mqbase')
 		implementation project(':anythings-printing')
@@ -97,13 +101,15 @@ if (!project.hasProperty('buildDep')) {
 		implementation project(':anythings-sys')
 		
 		compile(name:'operato-logis-wcs-0.0.0.1',ext:'jar')
-//		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-insp-0.0.0.1',ext:'jar')
-//		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-sms-0.0.0.1',ext:'jar')
+//		compile(name:'operato-logis-insp-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-dps-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-das-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-sps-0.0.0.1',ext:'jar')
-		compile(name:'operato-logis-pdas-0.0.0.1',ext:'jar')
+//		compile(name:'operato-logis-sps-0.0.0.1',ext:'jar')
+//		compile(name:'operato-logis-pdas-0.0.0.1',ext:'jar')
 		compile(name:'operato-logis-ops-0.0.0.1',ext:'jar')
+		compile(name:'operato-logis-bms-0.0.0.1',ext:'jar')
+		compile(name:'operato-gw-epost-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-lightbase-0.0.0.1',ext:'jar')
 		compile(name:'operato-gw-mqbase-0.0.0.1',ext:'jar')
 		compile(name:'anythings-printing-0.0.0.1',ext:'jar')
